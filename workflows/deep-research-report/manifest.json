@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "type": "workflow",
+  "id": "deep-research-report",
+  "name": "Deep Research Report",
+  "version": "1.0.0",
+  "description": "Research a question across arXiv and the web, then write a cited report.",
+  "author": { "name": "Hermes Registry", "url": "https://github.com/" },
+  "license": "MIT",
+  "tags": ["research", "report", "writing"],
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "entry": "workflow.json",
+  "requires": ["skill/arxiv", "mcp/fetch", "agent/doc-writer"]
+}

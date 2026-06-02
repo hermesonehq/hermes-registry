@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1",
+  "type": "mcp",
+  "id": "fetch",
+  "name": "Fetch",
+  "version": "1.0.0",
+  "description": "Fetch a URL and return its content as markdown for the model.",
+  "author": { "name": "Model Context Protocol", "url": "https://github.com/modelcontextprotocol/servers" },
+  "license": "MIT",
+  "tags": ["web", "http", "fetch"],
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "permissions": ["network"],
+  "transport": "stdio",
+  "command": "uvx",
+  "args": ["mcp-server-fetch"]
+}

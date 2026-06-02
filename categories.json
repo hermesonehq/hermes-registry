@@ -2,7 +2,10 @@
   "schemaVersion": "1",
   "generated": "2026-06-02T00:00:00+00:00",
   "types": {
-    "skill": 90
+    "agent": 3,
+    "mcp": 4,
+    "skill": 90,
+    "workflow": 2
   },
   "categories": [
     {

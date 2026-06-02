@@ -1,0 +1,26 @@
+{
+  "name": "Deep Research Report",
+  "description": "Gather sources on a question, then synthesize a cited report.",
+  "inputs": {
+    "question": { "type": "string", "description": "The research question" },
+    "max_sources": { "type": "integer", "default": 10 }
+  },
+  "steps": [
+    {
+      "id": "papers",
+      "uses": "skill/arxiv",
+      "input": "Find the most relevant papers for: ${inputs.question}"
+    },
+    {
+      "id": "web",
+      "uses": "mcp/fetch",
+      "tool": "fetch",
+      "with": { "query": "${inputs.question}", "limit": "${inputs.max_sources}" }
+    },
+    {
+      "id": "report",
+      "uses": "agent/doc-writer",
+      "input": "Write a cited research report answering '${inputs.question}'. Sources:\nPapers: ${papers}\nWeb: ${web}"
+    }
+  ]
+}

@@ -123,8 +123,9 @@ def main() -> int:
         "entries": entries,
     }
 
-    # categories.json — taxonomy + counts for the desktop gallery
-    cat_counter = Counter(e["category"] for e in entries)
+    # categories.json — taxonomy + counts for the desktop gallery.
+    # "categories" is a skills-only taxonomy; non-skill types browse via "types".
+    cat_counter = Counter(e["category"] for e in entries if e["type"] == "skill")
     type_counter = Counter(e["type"] for e in entries)
     categories = {
         "schemaVersion": SCHEMA_VERSION,

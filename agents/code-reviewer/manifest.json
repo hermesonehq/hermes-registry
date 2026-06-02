@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1",
+  "type": "agent",
+  "id": "code-reviewer",
+  "name": "Code Reviewer",
+  "version": "1.0.0",
+  "description": "Reviews a diff for correctness bugs and suggests minimal fixes.",
+  "author": { "name": "Hermes Registry", "url": "https://github.com/" },
+  "license": "MIT",
+  "tags": ["code", "review", "quality"],
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "entry": "AGENT.md",
+  "model": "claude-opus-4-8",
+  "tools": ["Read", "Grep", "Bash"]
+}

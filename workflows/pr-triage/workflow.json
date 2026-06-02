@@ -1,0 +1,33 @@
+{
+  "name": "PR Triage",
+  "description": "Triage a pull request: review the diff, label it, and comment.",
+  "inputs": {
+    "repo": { "type": "string", "description": "owner/name" },
+    "pr_number": { "type": "integer" }
+  },
+  "steps": [
+    {
+      "id": "fetch",
+      "uses": "mcp/github",
+      "tool": "get_pull_request_diff",
+      "with": { "repo": "${inputs.repo}", "pullNumber": "${inputs.pr_number}" }
+    },
+    {
+      "id": "review",
+      "uses": "agent/code-reviewer",
+      "input": "Review this diff and return findings plus suggested labels:\n${fetch.diff}"
+    },
+    {
+      "id": "label",
+      "uses": "mcp/github",
+      "tool": "add_labels",
+      "with": { "repo": "${inputs.repo}", "pullNumber": "${inputs.pr_number}", "labels": "${review.labels}" }
+    },
+    {
+      "id": "comment",
+      "uses": "mcp/github",
+      "tool": "add_issue_comment",
+      "with": { "repo": "${inputs.repo}", "pullNumber": "${inputs.pr_number}", "body": "${review.summary}" }
+    }
+  ]
+}

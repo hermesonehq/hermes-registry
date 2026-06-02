@@ -1,8 +1,169 @@
 {
   "schemaVersion": "1",
   "generated": "2026-06-02T00:00:00+00:00",
-  "count": 90,
+  "count": 99,
   "entries": [
+    {
+      "id": "code-reviewer",
+      "type": "agent",
+      "category": "agent",
+      "name": "Code Reviewer",
+      "version": "1.0.0",
+      "description": "Reviews a diff for correctness bugs and suggests minimal fixes.",
+      "tags": [
+        "code",
+        "review",
+        "quality"
+      ],
+      "author": "Hermes Registry",
+      "license": "MIT",
+      "path": "agents/code-reviewer",
+      "icon": null,
+      "checksum": "sha256:9cb307096caa7151f06bf33bfe5661b1826b2698681d85b8335947c824e786a9",
+      "compatibility": {
+        "hermes": ">=0.3.0",
+        "desktop": ">=1.2.0"
+      },
+      "acceptsFunding": false
+    },
+    {
+      "id": "doc-writer",
+      "type": "agent",
+      "category": "agent",
+      "name": "Doc Writer",
+      "version": "1.0.0",
+      "description": "Writes and updates clear technical documentation from code and context.",
+      "tags": [
+        "documentation",
+        "writing"
+      ],
+      "author": "Hermes Registry",
+      "license": "MIT",
+      "path": "agents/doc-writer",
+      "icon": null,
+      "checksum": "sha256:52dccde62958ebcf644db7415f2ae64729a4be46524096e2258f83ec93a4f8f1",
+      "compatibility": {
+        "hermes": ">=0.3.0",
+        "desktop": ">=1.2.0"
+      },
+      "acceptsFunding": false
+    },
+    {
+      "id": "security-auditor",
+      "type": "agent",
+      "category": "agent",
+      "name": "Security Auditor",
+      "version": "1.0.0",
+      "description": "Audits code changes for security vulnerabilities and unsafe patterns.",
+      "tags": [
+        "security",
+        "audit",
+        "review"
+      ],
+      "author": "Hermes Registry",
+      "license": "MIT",
+      "path": "agents/security-auditor",
+      "icon": null,
+      "checksum": "sha256:b6532e24a1737fe9e4d292fa0788e0f763fbc97b00f854f42f40f63bf7cd1d46",
+      "compatibility": {
+        "hermes": ">=0.3.0",
+        "desktop": ">=1.2.0"
+      },
+      "acceptsFunding": false
+    },
+    {
+      "id": "fetch",
+      "type": "mcp",
+      "category": "mcp",
+      "name": "Fetch",
+      "version": "1.0.0",
+      "description": "Fetch a URL and return its content as markdown for the model.",
+      "tags": [
+        "web",
+        "http",
+        "fetch"
+      ],
+      "author": "Model Context Protocol",
+      "license": "MIT",
+      "path": "mcp/fetch",
+      "icon": null,
+      "checksum": "sha256:2dbc490a10b355cb8b956a46320ac7b5ccbedfdfbe1cda342f0409af7aeae0e7",
+      "compatibility": {
+        "hermes": ">=0.3.0",
+        "desktop": ">=1.2.0"
+      },
+      "acceptsFunding": false
+    },
+    {
+      "id": "filesystem",
+      "type": "mcp",
+      "category": "mcp",
+      "name": "Filesystem",
+      "version": "1.0.0",
+      "description": "Read, write, and search files within allowed directories.",
+      "tags": [
+        "files",
+        "filesystem",
+        "io"
+      ],
+      "author": "Model Context Protocol",
+      "license": "MIT",
+      "path": "mcp/filesystem",
+      "icon": null,
+      "checksum": "sha256:34a4817775aa0f34cbc6f4642c995aa076c08cb8476f27002601af5b42c1628d",
+      "compatibility": {
+        "hermes": ">=0.3.0",
+        "desktop": ">=1.2.0"
+      },
+      "acceptsFunding": false
+    },
+    {
+      "id": "github",
+      "type": "mcp",
+      "category": "mcp",
+      "name": "GitHub",
+      "version": "1.0.0",
+      "description": "Manage repos, issues, and pull requests via the GitHub API.",
+      "tags": [
+        "github",
+        "git",
+        "issues",
+        "pull-requests"
+      ],
+      "author": "GitHub",
+      "license": "MIT",
+      "path": "mcp/github",
+      "icon": null,
+      "checksum": "sha256:e579d9e24242b533546046bea5e82689fb003049e5e3c36c7fff1c130d56f53e",
+      "compatibility": {
+        "hermes": ">=0.3.0",
+        "desktop": ">=1.2.0"
+      },
+      "acceptsFunding": false
+    },
+    {
+      "id": "postgres",
+      "type": "mcp",
+      "category": "mcp",
+      "name": "Postgres",
+      "version": "1.0.0",
+      "description": "Query and inspect PostgreSQL databases (read-only).",
+      "tags": [
+        "database",
+        "sql",
+        "postgres"
+      ],
+      "author": "Model Context Protocol",
+      "license": "MIT",
+      "path": "mcp/postgres",
+      "icon": null,
+      "checksum": "sha256:62b3ae30cf9cecdb58a61f6bbae95abaad72dab6e2a89a51bdc949bc2c49bb0a",
+      "compatibility": {
+        "hermes": ">=0.3.0",
+        "desktop": ">=1.2.0"
+      },
+      "acceptsFunding": false
+    },
     {
       "id": "apple-notes",
       "type": "skill",
@@ -2461,6 +2622,52 @@
       "icon": null,
       "checksum": "sha256:c37225ede6d75a92f2536f5779516eb811ce48a0cdd1b0b1888bd48225908225",
       "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "deep-research-report",
+      "type": "workflow",
+      "category": "workflow",
+      "name": "Deep Research Report",
+      "version": "1.0.0",
+      "description": "Research a question across arXiv and the web, then write a cited report.",
+      "tags": [
+        "research",
+        "report",
+        "writing"
+      ],
+      "author": "Hermes Registry",
+      "license": "MIT",
+      "path": "workflows/deep-research-report",
+      "icon": null,
+      "checksum": "sha256:9978a1804682c598aba55bc7ad45d93490c32b0a4d085ad2dca19a83d8186124",
+      "compatibility": {
+        "hermes": ">=0.3.0",
+        "desktop": ">=1.2.0"
+      },
+      "acceptsFunding": false
+    },
+    {
+      "id": "pr-triage",
+      "type": "workflow",
+      "category": "workflow",
+      "name": "PR Triage",
+      "version": "1.0.0",
+      "description": "Fetch an incoming PR, review it, and post labels + a summary comment.",
+      "tags": [
+        "github",
+        "automation",
+        "review"
+      ],
+      "author": "Hermes Registry",
+      "license": "MIT",
+      "path": "workflows/pr-triage",
+      "icon": null,
+      "checksum": "sha256:54b660e3b8a11b03a2fdd6346a71259ef10a07bd447ed06c116477a8abe8a969",
+      "compatibility": {
+        "hermes": ">=0.3.0",
+        "desktop": ">=1.2.0"
+      },
       "acceptsFunding": false
     }
   ]

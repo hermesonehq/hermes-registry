@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1",
+  "type": "mcp",
+  "id": "filesystem",
+  "name": "Filesystem",
+  "version": "1.0.0",
+  "description": "Read, write, and search files within allowed directories.",
+  "author": { "name": "Model Context Protocol", "url": "https://github.com/modelcontextprotocol/servers" },
+  "license": "MIT",
+  "tags": ["files", "filesystem", "io"],
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "permissions": ["filesystem:read", "filesystem:write"],
+  "transport": "stdio",
+  "command": "npx",
+  "args": ["-y", "@modelcontextprotocol/server-filesystem"],
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "allowedDirectories": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Absolute paths the server may access. Appended to args at launch.",
+        "minItems": 1
+      }
+    },
+    "required": ["allowedDirectories"]
+  }
+}

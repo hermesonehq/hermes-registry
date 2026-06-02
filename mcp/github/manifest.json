@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1",
+  "type": "mcp",
+  "id": "github",
+  "name": "GitHub",
+  "version": "1.0.0",
+  "description": "Manage repos, issues, and pull requests via the GitHub API.",
+  "author": { "name": "GitHub", "url": "https://github.com/github/github-mcp-server" },
+  "license": "MIT",
+  "tags": ["github", "git", "issues", "pull-requests"],
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "permissions": ["network"],
+  "transport": "stdio",
+  "command": "docker",
+  "args": ["run", "-i", "--rm", "-e", "GITHUB_PERSONAL_ACCESS_TOKEN", "ghcr.io/github/github-mcp-server"],
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "GITHUB_PERSONAL_ACCESS_TOKEN": {
+        "type": "string",
+        "description": "A GitHub PAT with the scopes your workflows need (repo, read:org, …)."
+      }
+    },
+    "required": ["GITHUB_PERSONAL_ACCESS_TOKEN"]
+  }
+}
