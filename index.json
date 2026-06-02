@@ -6,7 +6,7 @@
     {
       "id": "code-reviewer",
       "type": "agent",
-      "category": "agent",
+      "category": null,
       "name": "Code Reviewer",
       "version": "1.0.0",
       "description": "Reviews a diff for correctness bugs and suggests minimal fixes.",
@@ -29,7 +29,7 @@
     {
       "id": "doc-writer",
       "type": "agent",
-      "category": "agent",
+      "category": null,
       "name": "Doc Writer",
       "version": "1.0.0",
       "description": "Writes and updates clear technical documentation from code and context.",
@@ -51,7 +51,7 @@
     {
       "id": "security-auditor",
       "type": "agent",
-      "category": "agent",
+      "category": null,
       "name": "Security Auditor",
       "version": "1.0.0",
       "description": "Audits code changes for security vulnerabilities and unsafe patterns.",
@@ -74,7 +74,7 @@
     {
       "id": "fetch",
       "type": "mcp",
-      "category": "mcp",
+      "category": null,
       "name": "Fetch",
       "version": "1.0.0",
       "description": "Fetch a URL and return its content as markdown for the model.",
@@ -97,7 +97,7 @@
     {
       "id": "filesystem",
       "type": "mcp",
-      "category": "mcp",
+      "category": null,
       "name": "Filesystem",
       "version": "1.0.0",
       "description": "Read, write, and search files within allowed directories.",
@@ -120,7 +120,7 @@
     {
       "id": "github",
       "type": "mcp",
-      "category": "mcp",
+      "category": null,
       "name": "GitHub",
       "version": "1.0.0",
       "description": "Manage repos, issues, and pull requests via the GitHub API.",
@@ -144,7 +144,7 @@
     {
       "id": "postgres",
       "type": "mcp",
-      "category": "mcp",
+      "category": null,
       "name": "Postgres",
       "version": "1.0.0",
       "description": "Query and inspect PostgreSQL databases (read-only).",
@@ -2627,7 +2627,7 @@
     {
       "id": "deep-research-report",
       "type": "workflow",
-      "category": "workflow",
+      "category": null,
       "name": "Deep Research Report",
       "version": "1.0.0",
       "description": "Research a question across arXiv and the web, then write a cited report.",
@@ -2650,7 +2650,7 @@
     {
       "id": "pr-triage",
       "type": "workflow",
-      "category": "workflow",
+      "category": null,
       "name": "PR Triage",
       "version": "1.0.0",
       "description": "Fetch an incoming PR, review it, and post labels + a summary comment.",

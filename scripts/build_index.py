@@ -85,7 +85,7 @@ def manifest_entry(type_name: str, manifest_path: Path) -> dict | None:
     return {
         "id": data.get("id") or folder.name,
         "type": type_name,
-        "category": type_name,
+        "category": None,
         "name": data.get("name") or folder.name,
         "version": data.get("version"),
         "description": data.get("description", ""),
@@ -123,18 +123,27 @@ def main() -> int:
         "entries": entries,
     }
 
-    # categories.json — taxonomy + counts for the desktop gallery.
-    # "categories" is a skills-only taxonomy; non-skill types browse via "types".
-    cat_counter = Counter(e["category"] for e in entries if e["type"] == "skill")
+    # categories.json — taxonomy for the desktop gallery, grouped BY TYPE so a
+    # count is never ambiguous. Only skills have sub-categories (their folder);
+    # mcp/agent/workflow are flat (categories: []).
     type_counter = Counter(e["type"] for e in entries)
+    types_block = []
+    for type_name in sorted(type_counter):
+        cats = Counter(
+            e["category"] for e in entries if e["type"] == type_name and e.get("category")
+        ) if type_name == "skill" else Counter()
+        types_block.append({
+            "type": type_name,
+            "count": type_counter[type_name],
+            "categories": [
+                {"name": name, "count": count}
+                for name, count in sorted(cats.items())
+            ],
+        })
     categories = {
         "schemaVersion": SCHEMA_VERSION,
         "generated": generated,
-        "types": dict(sorted(type_counter.items())),
-        "categories": [
-            {"name": name, "count": count}
-            for name, count in sorted(cat_counter.items())
-        ],
+        "types": types_block,
     }
 
     (REPO_ROOT / "index.json").write_text(
@@ -145,8 +154,9 @@ def main() -> int:
     )
 
     by_type = ", ".join(f"{t}={n}" for t, n in sorted(type_counter.items()))
+    n_skill_cats = sum(len(b["categories"]) for b in types_block)
     print(f"Wrote index.json ({len(entries)} entries: {by_type or 'none'})")
-    print(f"Wrote categories.json ({len(cat_counter)} categories)")
+    print(f"Wrote categories.json ({n_skill_cats} skill categories)")
     return 0
 
 
