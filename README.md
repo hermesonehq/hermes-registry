@@ -11,23 +11,30 @@ code live together), so you can browse, clone, and inspect any artifact directly
 
 ## What's in the registry
 
-| Type | Folder | What it is | Entry file |
-|------|--------|------------|------------|
-| **Skill** | `skills/` | A task procedure Hermes can follow | `SKILL.md` |
+| Type | Folder | What it is | Format |
+|------|--------|------------|--------|
+| **Skill** | `skills/` | A task procedure Hermes can follow | `SKILL.md` + frontmatter ([agentskills.io](https://agentskills.io)) |
 | **MCP** | `mcp/` | A Model Context Protocol server (tools/resources) | `manifest.json` |
-| **Agent** | `agents/` | A named subagent persona (system prompt + tools + model) | `AGENT.md` |
-| **Workflow** | `workflows/` | A multi-step recipe chaining skills / agents / MCPs | `workflow.json` |
+| **Agent** | `agents/` | A named subagent persona (system prompt + tools + model) | `manifest.json` + `AGENT.md` |
+| **Workflow** | `workflows/` | A multi-step recipe chaining skills / agents / MCPs | `manifest.json` + `workflow.json` |
 
-Each entry is a single folder containing a `manifest.json`, an icon, and its
-entry file (plus any supporting code).
+Two formats by design:
+
+- **Skills** follow the [agentskills.io](https://agentskills.io) open standard —
+  a single `SKILL.md` with YAML frontmatter, **no separate manifest** — nested by
+  `category/skill-name/`. This lets them drop into Hermes unchanged. Registry
+  extras (`compatibility`, `funding`) live under `metadata.hermes` in the
+  frontmatter. See [skills/README.md](skills/README.md).
+- **MCPs, agents, and workflows** use the registry's `manifest.json` schema (in
+  `schemas/`), folder = `{type}/{name}`.
 
 ```
 hermes-registry/
-├── skills/
-│   └── web-scraper/
-│       ├── manifest.json
-│       ├── SKILL.md
-│       └── icon.svg
+├── skills/                        # agentskills.io format, nested by category
+│   └── software-development/
+│       └── plan/
+│           ├── SKILL.md           # frontmatter holds all metadata
+│           └── scripts/           # optional references/ scripts/ templates/
 ├── mcp/
 │   └── postgres/
 │       ├── manifest.json
@@ -57,7 +64,8 @@ hermes-registry/
 ## `index.json` — the catalog
 
 Clients never crawl folders. A build step (`scripts/build_index.py`) scans every
-`manifest.json` and emits a single `index.json`. The desktop gallery and the
+entry — reading skill `SKILL.md` frontmatter and the `manifest.json` of MCPs /
+agents / workflows — and emits a single `index.json`. The desktop gallery and the
 Python agent both fetch this one file to discover everything available.
 
 ```json
@@ -66,18 +74,19 @@ Python agent both fetch this one file to discover everything available.
   "generated": "2026-06-02T00:00:00Z",
   "entries": [
     {
-      "id": "ziqx/web-scraper",
+      "id": "plan",
       "type": "skill",
-      "name": "Web Scraper",
-      "version": "1.2.0",
-      "description": "Scrape and structure web pages",
-      "tags": ["web", "data"],
-      "author": "ziqx",
-      "path": "skills/web-scraper",
-      "icon": "skills/web-scraper/icon.svg",
+      "category": "software-development",
+      "name": "plan",
+      "version": "1.0.0",
+      "description": "Plan mode: write markdown plan to .hermes/plans/, no exec.",
+      "tags": ["planning", "workflow"],
+      "author": "Hermes Agent",
+      "path": "skills/software-development/plan",
+      "icon": null,
       "checksum": "sha256:…",
       "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
-      "acceptsFunding": true
+      "acceptsFunding": false
     }
   ]
 }

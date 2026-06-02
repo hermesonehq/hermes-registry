@@ -1,59 +1,98 @@
 # Skills
 
-A **skill** is a task procedure Hermes can follow — a set of instructions, plus
-any supporting files, that teach the agent how to do something.
+A **skill** is a task procedure Hermes can follow. Skills use the
+[agentskills.io](https://agentskills.io) open standard — a single `SKILL.md`
+with YAML frontmatter — so they drop into Hermes unchanged.
+
+> Skills use the agentskills.io format (no separate `manifest.json`). MCPs,
+> agents, and workflows use the registry's `manifest.json` schema.
 
 ## Folder layout
 
-```
-skills/<name>/
-├── manifest.json     # metadata (validated against schemas/skill.schema.json)
-├── SKILL.md          # the skill instructions (entry file)
-└── icon.svg          # or icon.png (512×512)
-```
+Skills nest by **category**, then skill name:
 
-## manifest.json
-
-```json
-{
-  "schemaVersion": "1",
-  "type": "skill",
-  "id": "ziqx/web-scraper",
-  "name": "Web Scraper",
-  "version": "1.0.0",
-  "description": "Scrape and structure web pages into clean JSON",
-  "author": { "name": "ziqx", "url": "https://github.com/ziqx" },
-  "license": "MIT",
-  "tags": ["web", "data"],
-  "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
-  "permissions": ["network"],
-  "entry": "SKILL.md",
-  "funding": { "address": "0x…", "token": "HERMES", "chain": "base" }
-}
+```
+skills/<category>/<name>/
+├── SKILL.md          # required — frontmatter + instructions
+├── references/       # optional — supporting docs
+├── scripts/          # optional — executable helpers
+├── templates/        # optional — output examples
+├── assets/           # optional — other files
+└── icon.svg          # optional — SVG or 512×512 PNG
 ```
 
-## SKILL.md
+Categories in this registry: `software-development`, `github`, `research`,
+`productivity`, … (create a new category folder if yours doesn't fit).
 
-The entry file holds the actual procedure. Start with a short description of
-what the skill does and when to use it, then the step-by-step instructions.
+## SKILL.md frontmatter
 
-```markdown
-# Web Scraper
+```yaml
+---
+name: plan
+description: "Plan mode: write markdown plan to .hermes/plans/, no exec."
+version: 1.0.0
+author: Your Name
+license: MIT
+platforms: [linux, macos, windows]
+prerequisites:                       # optional
+  env_vars: [SOME_API_KEY]
+  commands: [curl]
+metadata:
+  hermes:
+    tags: [planning, workflow]
+    category: software-development
+    related_skills: [writing-plans]
+    # --- registry extensions (optional) ---
+    compatibility: { hermes: ">=0.3.0", desktop: ">=1.2.0" }
+    funding: { address: "0x…", token: "HERMES", chain: "base" }
+---
 
-Scrape a URL and return structured JSON. Use when the user wants data extracted
-from a web page.
+# Plan Mode
 
-## Steps
-1. Fetch the page.
-2. Identify the main content region.
-3. Extract fields into JSON …
+Use this skill when the user wants a plan instead of execution.
+
+## Core behavior
+…
 ```
+
+### Fields
+
+| Field | Required | Notes |
+|-------|----------|-------|
+| `name` | ✅ | Unique within its category |
+| `description` | ✅ | One line; when/what the skill does |
+| `version` | ✅ | Semver |
+| `author` | ✅ | Name or org |
+| `license` | ✅ | SPDX id (e.g. `MIT`) |
+| `platforms` | ✅ | Any of `linux`, `macos`, `windows` |
+| `prerequisites` | optional | `env_vars`, `commands` the skill needs |
+| `metadata.hermes.tags` | recommended | For search/browse |
+| `metadata.hermes.category` | recommended | Matches the folder |
+| `metadata.hermes.related_skills` | optional | Cross-links |
+| `metadata.hermes.compatibility` | optional | Registry extension — `{ hermes, desktop }` semver ranges |
+| `metadata.hermes.funding` | optional | Registry extension — tip-jar wallet `{ address, token, chain }` |
+
+The registry's `compatibility` and `funding` live under `metadata.hermes` so the
+file stays a valid agentskills.io skill. `build_index.py` reads the frontmatter
+(not a manifest) to build `index.json`.
+
+## Body
+
+After the frontmatter, write the actual procedure — what the skill does, when to
+use it, and the step-by-step instructions. Reference files in `references/`,
+`scripts/`, or `templates/` as needed.
 
 ## Checklist
 
-- [ ] Folder name is the skill name (e.g. `web-scraper`), matching the name part of `id`
-- [ ] `manifest.json` validates (`python scripts/validate.py`)
-- [ ] `SKILL.md` present and referenced by `entry`
-- [ ] Icon present (SVG, or 512×512 PNG)
-- [ ] `version` bumped (semver) and `compatibility` honest
+- [ ] Under the right `category/` folder; folder name is the skill `name`
+- [ ] `SKILL.md` has valid frontmatter (`python scripts/validate.py`)
+- [ ] `prerequisites` honest — no secrets committed
+- [ ] `version` bumped (semver)
+- [ ] Icon optional, but if present: SVG or 512×512 PNG
+
+## Attribution
+
+The skills currently in this registry were imported from
+[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+(MIT, © 2025 Nous Research). Each `SKILL.md` retains its original `author` and
+`license` frontmatter.
