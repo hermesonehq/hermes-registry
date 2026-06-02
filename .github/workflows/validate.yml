@@ -1,12 +1,13 @@
 name: Validate
 
-# Validate every entry on PRs and pushes (except the release branch, which has
-# its own build workflow). Fails the check on any ERROR; warnings are allowed.
+# Validate every entry on PRs and on pushes to feature branches. Pushes to main
+# are validated by the Build Index workflow instead, so we skip main here to
+# avoid a duplicate run. Fails the check on any ERROR; warnings are allowed.
 on:
   pull_request:
   push:
     branches-ignore:
-      - release
+      - main
 
 jobs:
   validate:

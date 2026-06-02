@@ -1,11 +1,12 @@
 name: Build Index
 
-# On push to the release branch: validate, regenerate index.json +
-# categories.json from the folders, and commit them back to the branch.
+# On push to main: validate, regenerate index.json + categories.json from the
+# folders, and commit them back to main. The commit carries [skip ci] so it
+# does not re-trigger this workflow.
 on:
   push:
     branches:
-      - release
+      - main
   workflow_dispatch:
 
 permissions:

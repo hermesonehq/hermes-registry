@@ -198,7 +198,8 @@ address so users and agents can send a tip in the Hermes token on Base.
 
 The catalog (`index.json` + `categories.json`) is **generated, never
 hand-edited**. The **Build Index** workflow regenerates and commits it on every
-push to the `release` branch — so `release` always carries a fresh catalog.
+push to `main` (the commit carries `[skip ci]` so it doesn't loop) — so `main`
+always carries a fresh catalog.
 
 ### Guidelines
 
