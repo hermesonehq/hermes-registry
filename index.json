@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-03T08:56:57+05:30",
+  "generated": "2026-06-04T12:37:24.015562+00:00",
   "count": 125,
   "entries": [
     {
@@ -16,6 +16,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/api-designer",
       "icon": null,
       "checksum": "sha256:4888f110f1dce7ddd850530e8d67e28448f27781d2bb75eb30892d678da2fdf9",
@@ -39,6 +40,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/architect",
       "icon": null,
       "checksum": "sha256:e297c8f610d9575543cb76ec8cb491d33a88670f083c8bcbb93c6fd7a5d8ad06",
@@ -62,6 +64,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/code-reviewer",
       "icon": null,
       "checksum": "sha256:9cb307096caa7151f06bf33bfe5661b1826b2698681d85b8335947c824e786a9",
@@ -84,6 +87,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/data-analyst",
       "icon": null,
       "checksum": "sha256:0dd19e30e66b51069c36077c5392da0ce3a34265079970358c334db508bec873",
@@ -106,6 +110,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/debugger",
       "icon": null,
       "checksum": "sha256:44f0b81845b2ae3867dc4e65c36eed63a40dcec8dfd459240835bcd9147c709b",
@@ -129,6 +134,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/devops-engineer",
       "icon": null,
       "checksum": "sha256:30b7b62dcfb9ba50281cdc381684efa8746714998ade4bd9dbd9d398c4fab0f4",
@@ -151,6 +157,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/doc-writer",
       "icon": null,
       "checksum": "sha256:52dccde62958ebcf644db7415f2ae64729a4be46524096e2258f83ec93a4f8f1",
@@ -173,6 +180,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/prompt-engineer",
       "icon": null,
       "checksum": "sha256:712ab2c23ba787ce62ed04ca348fffa655a1ddf7de9d08e549dec8466fb93a46",
@@ -195,6 +203,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/refactorer",
       "icon": null,
       "checksum": "sha256:02e3f9944363b15be1dbeeaf3f37c8e1516c37dbcd94e8600bc66208b91f746b",
@@ -218,6 +227,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/security-auditor",
       "icon": null,
       "checksum": "sha256:b6532e24a1737fe9e4d292fa0788e0f763fbc97b00f854f42f40f63bf7cd1d46",
@@ -240,6 +250,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/sql-expert",
       "icon": null,
       "checksum": "sha256:4a758a0ff48d27f306873b185647c64a50b598c05c2945f1915d863f03bd9e60",
@@ -262,6 +273,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "agents/test-writer",
       "icon": null,
       "checksum": "sha256:4ff4bf2d7c6e4dc5b75177ad3829ebece6d6c644d6552cace32fed633d426f74",
@@ -276,7 +288,7 @@
       "type": "mcp",
       "category": null,
       "name": "Brave Search",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Web and local search via the Brave Search API.",
       "tags": [
         "web",
@@ -284,9 +296,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
       "path": "mcp/brave-search",
       "icon": null,
-      "checksum": "sha256:5db3d5e6fc8b80663be96c2ab58d4522d6574a4df9b7e9b4b3b715482157f024",
+      "checksum": "sha256:c2602e8c25dd38096bedeed2dda2a9e2f920f92d84795e070b23b87703ad3ef1",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -298,7 +311,7 @@
       "type": "mcp",
       "category": null,
       "name": "Fetch",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Fetch a URL and return its content as markdown for the model.",
       "tags": [
         "web",
@@ -307,9 +320,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
       "path": "mcp/fetch",
       "icon": null,
-      "checksum": "sha256:2dbc490a10b355cb8b956a46320ac7b5ccbedfdfbe1cda342f0409af7aeae0e7",
+      "checksum": "sha256:d0ee2747e75c55204a48ea6dcc5ef1e1a4beea998d64d386e617a41c540d0cc1",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -321,7 +335,7 @@
       "type": "mcp",
       "category": null,
       "name": "Filesystem",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Read, write, and search files within allowed directories.",
       "tags": [
         "files",
@@ -330,9 +344,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
       "path": "mcp/filesystem",
       "icon": null,
-      "checksum": "sha256:34a4817775aa0f34cbc6f4642c995aa076c08cb8476f27002601af5b42c1628d",
+      "checksum": "sha256:8c7489378cd7415432828c4c5098b1c85785caa0a843e3a4640e7c3465e6fda3",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -344,7 +359,7 @@
       "type": "mcp",
       "category": null,
       "name": "Git",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Read, search, and manipulate local Git repositories.",
       "tags": [
         "git",
@@ -352,9 +367,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
       "path": "mcp/git",
       "icon": null,
-      "checksum": "sha256:47ee8696535d57120ec3c5b741e72b19d25356e4b318f5626cd25b64cb43edae",
+      "checksum": "sha256:866576092d40f1d0b72549e24886818eca99ab9446830ae8def9c6b66f139b40",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -366,7 +382,7 @@
       "type": "mcp",
       "category": null,
       "name": "GitHub",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Manage repos, issues, and pull requests via the GitHub API.",
       "tags": [
         "github",
@@ -376,9 +392,10 @@
       ],
       "author": "GitHub",
       "license": "MIT",
+      "source": "https://github.com/github/github-mcp-server",
       "path": "mcp/github",
       "icon": null,
-      "checksum": "sha256:e579d9e24242b533546046bea5e82689fb003049e5e3c36c7fff1c130d56f53e",
+      "checksum": "sha256:c36572f641fcf3c97f481141b4214f1e8981b553c682e11c286ad0871ee1a496",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -390,7 +407,7 @@
       "type": "mcp",
       "category": null,
       "name": "Memory",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Persistent knowledge-graph memory across sessions.",
       "tags": [
         "memory",
@@ -398,9 +415,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
       "path": "mcp/memory",
       "icon": null,
-      "checksum": "sha256:87e8ca2ee447780d2c8087eac74ae75e6acd186ca41bf89e6e56d10b5f2277b1",
+      "checksum": "sha256:0b30a64c5ce25d9ec5e733c7e0dfa3a9e3b099623a186ab4c6ddd9b85eb8e381",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -412,7 +430,7 @@
       "type": "mcp",
       "category": null,
       "name": "Notion",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Read and update Notion pages and databases.",
       "tags": [
         "notion",
@@ -421,9 +439,10 @@
       ],
       "author": "Notion",
       "license": "MIT",
+      "source": "https://github.com/makenotion/notion-mcp-server",
       "path": "mcp/notion",
       "icon": null,
-      "checksum": "sha256:627789e82ea1b3c73a61b92f9c5cd7108d35135ba0788ad3249131e5e03fbbfb",
+      "checksum": "sha256:30c6ebaa5b66dc9a04454bb0aae46f529f038a9c4cdd87b1e7bf92c30a871118",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -435,7 +454,7 @@
       "type": "mcp",
       "category": null,
       "name": "Postgres",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Query and inspect PostgreSQL databases (read-only).",
       "tags": [
         "database",
@@ -444,9 +463,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres",
       "path": "mcp/postgres",
       "icon": null,
-      "checksum": "sha256:62b3ae30cf9cecdb58a61f6bbae95abaad72dab6e2a89a51bdc949bc2c49bb0a",
+      "checksum": "sha256:5b19b1594eaca1c6eb9cba1ac36f33127d50e5703b6188dfa02abfdf15a8ad96",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -458,7 +478,7 @@
       "type": "mcp",
       "category": null,
       "name": "Puppeteer",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Drive a headless browser to navigate, scrape, and screenshot.",
       "tags": [
         "browser",
@@ -467,9 +487,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
       "path": "mcp/puppeteer",
       "icon": null,
-      "checksum": "sha256:bdde11b29976cbb650f839acf2d183ca1cc73c9f42c147b9bd963d0a2baa8f1a",
+      "checksum": "sha256:3d3b888d00b8133345b85098e4cf97dd063831c540e14345249f174c74cb8185",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -481,7 +502,7 @@
       "type": "mcp",
       "category": null,
       "name": "Sequential Thinking",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Structured step-by-step reasoning scratchpad for hard problems.",
       "tags": [
         "reasoning",
@@ -489,9 +510,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
       "path": "mcp/sequential-thinking",
       "icon": null,
-      "checksum": "sha256:362e6fa0b70ab7c2d20df9e907b98ae1e26d0bb1e8dd006c74ae109bd4566112",
+      "checksum": "sha256:50718d0906b699fdae8715bf0ac36241c578deba528312f20b198f5b40604b97",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -503,7 +525,7 @@
       "type": "mcp",
       "category": null,
       "name": "Slack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Read and post messages across Slack channels.",
       "tags": [
         "slack",
@@ -512,9 +534,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
       "path": "mcp/slack",
       "icon": null,
-      "checksum": "sha256:bdca1bc1bffa4a888b585efdfa8cfcebfd2efe9be46ebb8431a52fe620b5f1bf",
+      "checksum": "sha256:b689ea23af1d39d2818591958e8c6975d8491321114e79d16d5cbe728fad254a",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -526,7 +549,7 @@
       "type": "mcp",
       "category": null,
       "name": "SQLite",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Query and inspect a local SQLite database.",
       "tags": [
         "database",
@@ -535,9 +558,10 @@
       ],
       "author": "Model Context Protocol",
       "license": "MIT",
+      "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite",
       "path": "mcp/sqlite",
       "icon": null,
-      "checksum": "sha256:ebbbe1682064ea0f711d9918ca3e31fccc5d6ac7e58fa71e5f82e3518a1d3b87",
+      "checksum": "sha256:64c5b9084d39093db85a30d90336c6b12f383bc827d1ff01ccf4a7ef5e334978",
       "compatibility": {
         "hermes": ">=0.3.0",
         "desktop": ">=1.2.0"
@@ -559,6 +583,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "macos"
       ],
@@ -584,6 +609,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "macos"
       ],
@@ -610,6 +636,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "macos"
       ],
@@ -635,6 +662,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "macos"
       ],
@@ -660,6 +688,7 @@
       ],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "macos"
       ],
@@ -687,6 +716,7 @@
       ],
       "author": "Hermes Agent + Teknium",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -714,6 +744,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -744,6 +775,7 @@
       ],
       "author": "Hermes Agent + Teknium",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -771,6 +803,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [],
       "path": "skills/autonomous-ai-agents/kanban-codex-lane",
       "icon": null,
@@ -794,6 +827,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -823,6 +857,7 @@
       ],
       "author": "Cocoon AI (hello@cocoon-ai.com), ported by Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -855,6 +890,7 @@
       ],
       "author": "0xbyt4, Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -876,6 +912,7 @@
       "tags": [],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -901,6 +938,7 @@
       ],
       "author": "宝玉 (JimLiu)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -927,6 +965,7 @@
       ],
       "author": "宝玉 (JimLiu)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -953,6 +992,7 @@
       ],
       "author": "宝玉 (JimLiu)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -985,6 +1025,7 @@
       ],
       "author": "BadTechBandit",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1021,6 +1062,7 @@
         "purzbeats"
       ],
       "license": "MIT",
+      "source": null,
       "platforms": [
         "macos",
         "linux",
@@ -1052,6 +1094,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1080,6 +1123,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1109,6 +1153,7 @@
       ],
       "author": "Siqi Chen (@blader, https://github.com/blader/humanizer), ported by Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1136,6 +1181,7 @@
       ],
       "author": "SHL0MS",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1157,6 +1203,7 @@
       "tags": [],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1188,6 +1235,7 @@
       ],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1219,6 +1267,7 @@
       ],
       "author": "dodo-reach",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1240,6 +1289,7 @@
       "tags": [],
       "author": "Hermes Agent + Teknium (design systems sourced from VoltAgent/awesome-design-md)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1270,6 +1320,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1302,6 +1353,7 @@
       ],
       "author": "Hermes Agent (adapted from gsd-build/get-shit-done)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1323,6 +1375,7 @@
       "tags": [],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1355,6 +1408,7 @@
       ],
       "author": "kshitijk4poor",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1383,6 +1437,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1409,6 +1464,7 @@
       ],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1436,6 +1492,7 @@
       ],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1464,6 +1521,7 @@
       ],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1491,6 +1549,7 @@
       ],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1518,6 +1577,7 @@
       ],
       "author": "community",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1539,6 +1599,7 @@
       "tags": [],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos"
@@ -1559,6 +1620,7 @@
       "tags": [],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1587,6 +1649,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1615,6 +1678,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1642,6 +1706,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1669,6 +1734,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1697,6 +1763,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1725,6 +1792,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1750,6 +1818,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1777,6 +1846,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1807,6 +1877,7 @@
       ],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1834,6 +1905,7 @@
       ],
       "author": "community",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1861,6 +1933,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1882,6 +1955,7 @@
       "tags": [],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1909,6 +1983,7 @@
       ],
       "author": "Orchestra Research",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos"
@@ -1940,6 +2015,7 @@
       ],
       "author": "Orchestra Research",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -1972,6 +2048,7 @@
       ],
       "author": "Orchestra Research",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos"
@@ -1992,6 +2069,7 @@
       "tags": [],
       "author": "Hugging Face",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2025,6 +2103,7 @@
       ],
       "author": "Orchestra Research",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2056,6 +2135,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos"
@@ -2082,6 +2162,7 @@
       ],
       "author": "Orchestra Research",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2113,6 +2194,7 @@
       ],
       "author": "Orchestra Research",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos"
@@ -2145,6 +2227,7 @@
       ],
       "author": "Orchestra Research",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2166,6 +2249,7 @@
       "tags": [],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2192,6 +2276,7 @@
       ],
       "author": "community",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2223,6 +2308,7 @@
       ],
       "author": "Nous Research",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2251,6 +2337,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2285,6 +2372,7 @@
       ],
       "author": "Mibayy",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2312,6 +2400,7 @@
       ],
       "author": "community",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2341,6 +2430,7 @@
       ],
       "author": "community",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2369,6 +2459,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2390,6 +2481,7 @@
       "tags": [],
       "author": null,
       "license": "Proprietary. LICENSE.txt has complete terms",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2417,6 +2509,7 @@
       ],
       "author": "Hermes Agent + Teknium",
       "license": "MIT",
+      "source": null,
       "platforms": [],
       "path": "skills/productivity/teams-meeting-pipeline",
       "icon": null,
@@ -2444,6 +2537,7 @@
       ],
       "author": "Hermes Agent + Teknium",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2472,6 +2566,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2498,6 +2593,7 @@
       ],
       "author": "JulienTant (fork of Hyaxia/blogwatcher)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2526,6 +2622,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2547,6 +2644,7 @@
       "tags": [],
       "author": "Hermes Agent + Teknium",
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2583,6 +2681,7 @@
       ],
       "author": "Orchestra Research",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos"
@@ -2609,6 +2708,7 @@
       ],
       "author": "community",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2636,6 +2736,7 @@
       ],
       "author": "xdevplatform + openclaw + Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos"
@@ -2663,6 +2764,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2690,6 +2792,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2717,6 +2820,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [],
       "path": "skills/software-development/hermes-s6-container-supervision",
       "icon": null,
@@ -2741,6 +2845,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2767,6 +2872,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2796,6 +2902,7 @@
       ],
       "author": "Hermes Agent",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos"
@@ -2823,6 +2930,7 @@
       ],
       "author": "Hermes Agent (adapted from obra/superpowers + MorAlekss)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2855,6 +2963,7 @@
       ],
       "author": "Hermes Agent (adapted from gsd-build/get-shit-done)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2882,6 +2991,7 @@
       ],
       "author": "Hermes Agent (adapted from obra/superpowers)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2909,6 +3019,7 @@
       ],
       "author": "Hermes Agent (adapted from obra/superpowers)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2936,6 +3047,7 @@
       ],
       "author": "Hermes Agent (adapted from obra/superpowers)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2963,6 +3075,7 @@
       ],
       "author": "Hermes Agent (adapted from obra/superpowers)",
       "license": "MIT",
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -2993,6 +3106,7 @@
       ],
       "author": null,
       "license": null,
+      "source": null,
       "platforms": [
         "linux",
         "macos",
@@ -3017,6 +3131,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/bug-fix",
       "icon": null,
       "checksum": "sha256:ee31af5b4f6a9252620d60c207ae0553602fca75376acbfcd2c11a4266a3adc6",
@@ -3039,6 +3154,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/changelog-update",
       "icon": null,
       "checksum": "sha256:453436bfdd6c40c3fdb76e74eb614d04613b96bde8561baf968b8fe36ae483ef",
@@ -3062,6 +3178,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/deep-research-report",
       "icon": null,
       "checksum": "sha256:9978a1804682c598aba55bc7ad45d93490c32b0a4d085ad2dca19a83d8186124",
@@ -3084,6 +3201,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/dependency-upgrade",
       "icon": null,
       "checksum": "sha256:95c712f51dad7ab95e83bedf1306e8ea07b4ec7eb1e82b86770a34442d1a430d",
@@ -3106,6 +3224,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/feature-implementation",
       "icon": null,
       "checksum": "sha256:51a2c6bae468177eb69e9d66dc33b0373c17c9a8909d781ffadefc320cd7ec3d",
@@ -3129,6 +3248,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/issue-triage",
       "icon": null,
       "checksum": "sha256:0d0089b947ad3e1a3d14d3588f0e90326cb6f77f72d34f2806e6ab6f3c142e88",
@@ -3152,6 +3272,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/pr-triage",
       "icon": null,
       "checksum": "sha256:54b660e3b8a11b03a2fdd6346a71259ef10a07bd447ed06c116477a8abe8a969",
@@ -3174,6 +3295,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/refactor-module",
       "icon": null,
       "checksum": "sha256:658b4cdc955fb19ca2e80e1f8b69eb8c8d08dda6b1fe8d0872ef6512d6a399dc",
@@ -3197,6 +3319,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/release-notes",
       "icon": null,
       "checksum": "sha256:09dbc7348ac15144f2d6b28550bd99696f335a0bf621dddebeeca4a339c4d60b",
@@ -3219,6 +3342,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/security-audit",
       "icon": null,
       "checksum": "sha256:c9d136ac34caf56222b04715cd951fefbd37e85c8c48860cb302da5c8dd317cf",
@@ -3241,6 +3365,7 @@
       ],
       "author": "Hermes Registry",
       "license": "MIT",
+      "source": null,
       "path": "workflows/test-coverage-boost",
       "icon": null,
       "checksum": "sha256:5b17b350689fd4d46081b448c146857563614bd4904afd0c537815bf1423cba4",

@@ -3,13 +3,14 @@
   "type": "mcp",
   "id": "sqlite",
   "name": "SQLite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Query and inspect a local SQLite database.",
   "author": {
     "name": "Model Context Protocol",
     "url": "https://github.com/modelcontextprotocol/servers"
   },
   "license": "MIT",
+  "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite",
   "tags": [
     "database",
     "sql",
@@ -26,7 +27,7 @@
   "transport": "stdio",
   "command": "uvx",
   "args": [
-    "mcp-server-sqlite"
+    "mcp-server-sqlite@2025.4.25"
   ],
   "configSchema": {
     "type": "object",

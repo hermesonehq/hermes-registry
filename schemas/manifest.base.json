@@ -32,6 +32,10 @@
       ]
     },
     "license": { "type": "string" },
+    "source": {
+      "type": "string",
+      "description": "URL to the upstream source / repository for this entry (e.g. the MCP server's code). Surfaced as a 'View source' link in the gallery."
+    },
     "tags": { "type": "array", "items": { "type": "string" } },
     "icon": {
       "type": "string",

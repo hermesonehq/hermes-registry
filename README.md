@@ -6,8 +6,11 @@ A community package registry for the **Hermes** agent. It indexes installable
 extensions — skills, MCP servers, agents, and workflows — that the Hermes Python
 agent and its Electron desktop companion can discover and install.
 
-Everything here is **free and open**. Each entry is self-contained (metadata +
-code live together), so you can browse, clone, and inspect any artifact directly.
+Everything here is **free and open**. Skills, agents, and workflows are
+self-contained (metadata + code live together). MCP entries are a catalog layer:
+the manifest points at a pinned, already-published server (and a `source` link),
+which the client installs at run time — so you can still browse and inspect any
+artifact directly.
 
 ---
 
@@ -39,9 +42,9 @@ hermes-registry/
 │           └── scripts/           # optional references/ scripts/ templates/
 ├── mcp/
 │   └── postgres/
-│       ├── manifest.json
+│       ├── manifest.json      # delegates to a pinned published server (npx/uvx/docker)
 │       ├── icon.png
-│       └── server/            # MCP server source
+│       └── server/            # OPTIONAL — only when the source is first-party
 ├── agents/
 │   └── code-reviewer/
 │       ├── manifest.json
@@ -116,6 +119,7 @@ fields. All manifests are validated in CI against the schemas in `schemas/`.
   "description": "Scrape and structure web pages",
   "author": { "name": "ziqx", "url": "https://…" },
   "license": "MIT",
+  "source": "https://github.com/…",
   "tags": ["web", "data"],
   "icon": "icon.svg",
   "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },

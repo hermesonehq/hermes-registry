@@ -3,13 +3,14 @@
   "type": "mcp",
   "id": "memory",
   "name": "Memory",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Persistent knowledge-graph memory across sessions.",
   "author": {
     "name": "Model Context Protocol",
     "url": "https://github.com/modelcontextprotocol/servers"
   },
   "license": "MIT",
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
   "tags": [
     "memory",
     "knowledge-graph"
@@ -26,6 +27,6 @@
   "command": "npx",
   "args": [
     "-y",
-    "@modelcontextprotocol/server-memory"
+    "@modelcontextprotocol/server-memory@2026.1.26"
   ]
 }

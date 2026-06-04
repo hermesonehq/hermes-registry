@@ -3,14 +3,15 @@
   "type": "mcp",
   "id": "fetch",
   "name": "Fetch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Fetch a URL and return its content as markdown for the model.",
   "author": { "name": "Model Context Protocol", "url": "https://github.com/modelcontextprotocol/servers" },
   "license": "MIT",
+  "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
   "tags": ["web", "http", "fetch"],
   "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
   "permissions": ["network"],
   "transport": "stdio",
   "command": "uvx",
-  "args": ["mcp-server-fetch"]
+  "args": ["mcp-server-fetch@2026.6.4"]
 }

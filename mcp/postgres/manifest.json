@@ -3,23 +3,24 @@
   "type": "mcp",
   "id": "postgres",
   "name": "Postgres",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Query and inspect PostgreSQL databases (read-only).",
   "author": { "name": "Model Context Protocol", "url": "https://github.com/modelcontextprotocol/servers" },
   "license": "MIT",
+  "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres",
   "tags": ["database", "sql", "postgres"],
   "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
   "permissions": ["network"],
   "transport": "stdio",
   "command": "npx",
-  "args": ["-y", "@modelcontextprotocol/server-postgres"],
+  "args": ["-y", "@modelcontextprotocol/server-postgres@0.6.2"],
   "env": { "PGCONNECT_TIMEOUT": "10" },
   "configSchema": {
     "type": "object",
     "properties": {
       "DATABASE_URL": {
         "type": "string",
-        "description": "PostgreSQL connection string, e.g. postgresql://user:pass@host:5432/db"
+        "description": "PostgreSQL connection string, appended to args as the first positional argument, e.g. postgresql://user:pass@host:5432/db"
       }
     },
     "required": ["DATABASE_URL"]

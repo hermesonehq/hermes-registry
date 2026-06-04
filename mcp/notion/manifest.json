@@ -3,13 +3,14 @@
   "type": "mcp",
   "id": "notion",
   "name": "Notion",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Read and update Notion pages and databases.",
   "author": {
     "name": "Notion",
     "url": "https://github.com/makenotion/notion-mcp-server"
   },
   "license": "MIT",
+  "source": "https://github.com/makenotion/notion-mcp-server",
   "tags": [
     "notion",
     "docs",
@@ -26,7 +27,7 @@
   "command": "npx",
   "args": [
     "-y",
-    "@notionhq/notion-mcp-server"
+    "@notionhq/notion-mcp-server@2.2.1"
   ],
   "configSchema": {
     "type": "object",

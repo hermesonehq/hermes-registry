@@ -3,13 +3,14 @@
   "type": "mcp",
   "id": "brave-search",
   "name": "Brave Search",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Web and local search via the Brave Search API.",
   "author": {
     "name": "Model Context Protocol",
     "url": "https://github.com/modelcontextprotocol/servers"
   },
   "license": "MIT",
+  "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
   "tags": [
     "web",
     "search"
@@ -25,7 +26,7 @@
   "command": "npx",
   "args": [
     "-y",
-    "@modelcontextprotocol/server-brave-search"
+    "@modelcontextprotocol/server-brave-search@0.6.2"
   ],
   "configSchema": {
     "type": "object",

@@ -3,13 +3,14 @@
   "type": "mcp",
   "id": "puppeteer",
   "name": "Puppeteer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Drive a headless browser to navigate, scrape, and screenshot.",
   "author": {
     "name": "Model Context Protocol",
     "url": "https://github.com/modelcontextprotocol/servers"
   },
   "license": "MIT",
+  "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
   "tags": [
     "browser",
     "automation",
@@ -26,6 +27,6 @@
   "command": "npx",
   "args": [
     "-y",
-    "@modelcontextprotocol/server-puppeteer"
+    "@modelcontextprotocol/server-puppeteer@2025.5.12"
   ]
 }
