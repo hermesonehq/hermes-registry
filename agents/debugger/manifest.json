@@ -3,7 +3,7 @@
   "type": "agent",
   "id": "debugger",
   "name": "Debugger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Root-causes a failing test or bug and proposes a minimal fix.",
   "author": {
     "name": "Hermes Registry",

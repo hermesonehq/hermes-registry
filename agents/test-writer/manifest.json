@@ -3,7 +3,7 @@
   "type": "agent",
   "id": "test-writer",
   "name": "Test Writer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Writes focused unit and integration tests for existing code.",
   "author": {
     "name": "Hermes Registry",

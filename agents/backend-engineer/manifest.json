@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1",
+  "type": "agent",
+  "id": "backend-engineer",
+  "name": "Backend Engineer",
+  "version": "1.0.0",
+  "description": "Implements robust, secure server-side services, data access, and business logic.",
+  "author": { "name": "Hermes Registry", "url": "https://github.com/" },
+  "license": "MIT",
+  "tags": ["backend", "server", "api", "services"],
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "entry": "AGENT.md",
+  "model": "claude-sonnet-4-6",
+  "tools": ["Read", "Grep", "Write", "Edit", "Bash"]
+}

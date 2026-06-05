@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1",
+  "type": "agent",
+  "id": "accessibility-auditor",
+  "name": "Accessibility Auditor",
+  "version": "1.0.0",
+  "description": "Audits UI against WCAG for accessibility issues and gives concrete fixes.",
+  "author": { "name": "Hermes Registry", "url": "https://github.com/" },
+  "license": "MIT",
+  "tags": ["accessibility", "a11y", "wcag", "ui"],
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "entry": "AGENT.md",
+  "model": "claude-sonnet-4-6",
+  "tools": ["Read", "Grep", "Bash"]
+}

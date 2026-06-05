@@ -3,7 +3,7 @@
   "type": "agent",
   "id": "data-analyst",
   "name": "Data Analyst",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Explores datasets and answers questions with evidence and charts.",
   "author": {
     "name": "Hermes Registry",

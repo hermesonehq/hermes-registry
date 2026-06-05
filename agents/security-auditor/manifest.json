@@ -3,7 +3,7 @@
   "type": "agent",
   "id": "security-auditor",
   "name": "Security Auditor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Audits code changes for security vulnerabilities and unsafe patterns.",
   "author": { "name": "Hermes Registry", "url": "https://github.com/" },
   "license": "MIT",

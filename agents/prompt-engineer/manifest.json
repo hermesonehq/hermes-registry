@@ -3,7 +3,7 @@
   "type": "agent",
   "id": "prompt-engineer",
   "name": "Prompt Engineer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Designs, tests, and refines prompts for LLM features.",
   "author": {
     "name": "Hermes Registry",

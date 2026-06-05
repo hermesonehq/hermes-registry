@@ -3,7 +3,7 @@
   "type": "agent",
   "id": "architect",
   "name": "Architect",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Designs an implementation plan and weighs architectural trade-offs.",
   "author": {
     "name": "Hermes Registry",
