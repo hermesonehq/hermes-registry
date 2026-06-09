@@ -14,6 +14,10 @@ models/
 └── <provider>.json     # provider + model catalog (validated against schemas/models.schema.json)
 ```
 
+`scripts/build_index.py` rolls every `models/<provider>.json` up into a single
+**generated** `models.json` at the repo root (with `path` + `checksum` added per
+provider), so clients fetch one catalog file. Never hand-edit `models.json`.
+
 ## <provider>.json
 
 ```json

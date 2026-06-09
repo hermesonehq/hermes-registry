@@ -61,10 +61,11 @@ hermes-registry/
 │   └── anthropic.json
 ├── schemas/                   # JSON Schema per type (validation source of truth)
 ├── scripts/
-│   ├── build_index.py         # scans folders → generates index.json
+│   ├── build_index.py         # scans folders → generates index/categories/models json
 │   └── validate.py            # validates every manifest against its schema
 ├── index.json                 # GENERATED catalog — the registry endpoint
-├── categories.json            # taxonomy for the desktop gallery
+├── categories.json            # GENERATED taxonomy for the desktop gallery
+├── models.json                # GENERATED model catalog (providers + their models)
 └── README.md
 ```
 
@@ -107,7 +108,10 @@ user-supplied config injected at startup. See
 ```
 
 `index.json` is **generated, never hand-edited** — CI regenerates it on every
-change so it can't drift from the folders.
+change so it can't drift from the folders. The same build step also emits
+`models.json`, a dedicated catalog of model providers and the models they serve
+(see [models/README.md](models/README.md)), so clients fetch one file instead of
+crawling every `models/<provider>.json`.
 
 ---
 
@@ -211,8 +215,8 @@ address so users and agents can send a tip in the H1 (Hermes One) token on Base.
 5. Open a PR. The **Validate** workflow checks every entry on each PR (errors
    fail the check; warnings are allowed).
 
-The catalog (`index.json` + `categories.json`) is **generated, never
-hand-edited**. The **Build Index** workflow regenerates and commits it on every
+The catalog (`index.json` + `categories.json` + `models.json`) is **generated,
+never hand-edited**. The **Build Index** workflow regenerates and commits it on every
 push to `main` (the commit carries `[skip ci]` so it doesn't loop) — so `main`
 always carries a fresh catalog.
 

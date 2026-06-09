@@ -1,0 +1,1093 @@
+{
+  "schemaVersion": "1",
+  "generated": "2026-06-09T10:03:11.694318+00:00",
+  "providerCount": 9,
+  "modelCount": 46,
+  "providers": [
+    {
+      "schemaVersion": "1",
+      "type": "model-provider",
+      "id": "anthropic",
+      "name": "Anthropic",
+      "version": "1.0.0",
+      "homepage": "https://www.anthropic.com",
+      "description": "The Claude family of models from Anthropic.",
+      "docs": "https://docs.anthropic.com/en/docs/about-claude/models",
+      "apiBase": "https://api.anthropic.com/v1",
+      "envKey": "ANTHROPIC_API_KEY",
+      "models": [
+        {
+          "name": "claude-opus-4-20250514",
+          "label": "Claude Opus 4",
+          "description": "Most capable Claude model for complex reasoning and agentic coding.",
+          "context": 200000,
+          "maxOutput": 32000,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "reasoning",
+            "streaming",
+            "prompt_caching"
+          ]
+        },
+        {
+          "name": "claude-sonnet-4-20250514",
+          "label": "Claude Sonnet 4",
+          "description": "Balanced model with strong coding and reasoning at lower cost.",
+          "context": 200000,
+          "maxOutput": 64000,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "reasoning",
+            "streaming",
+            "prompt_caching"
+          ]
+        },
+        {
+          "name": "claude-3-7-sonnet-20250219",
+          "label": "Claude 3.7 Sonnet",
+          "description": "Hybrid model with optional extended thinking.",
+          "context": 200000,
+          "maxOutput": 64000,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "reasoning",
+            "streaming",
+            "prompt_caching"
+          ]
+        },
+        {
+          "name": "claude-3-5-sonnet-20241022",
+          "label": "Claude 3.5 Sonnet",
+          "context": 200000,
+          "maxOutput": 8192,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming",
+            "prompt_caching"
+          ]
+        },
+        {
+          "name": "claude-3-5-haiku-20241022",
+          "label": "Claude 3.5 Haiku",
+          "description": "Fastest, most cost-effective Claude model.",
+          "context": 200000,
+          "maxOutput": 8192,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming",
+            "prompt_caching"
+          ]
+        },
+        {
+          "name": "claude-3-opus-20240229",
+          "label": "Claude 3 Opus",
+          "context": 200000,
+          "maxOutput": 4096,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming"
+          ]
+        }
+      ],
+      "icon": null,
+      "path": "models/anthropic.json",
+      "checksum": "sha256:fb826ef6827d04742f0326951b45ef555463954725c43c36b868f146c96b3b1e"
+    },
+    {
+      "schemaVersion": "1",
+      "type": "model-provider",
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "version": "1.0.0",
+      "homepage": "https://www.deepseek.com",
+      "description": "Open-weight chat and reasoning models from DeepSeek.",
+      "docs": "https://api-docs.deepseek.com/",
+      "apiBase": "https://api.deepseek.com",
+      "envKey": "DEEPSEEK_API_KEY",
+      "models": [
+        {
+          "name": "deepseek-chat",
+          "label": "DeepSeek-V3",
+          "description": "General-purpose chat model.",
+          "context": 65536,
+          "maxOutput": 8192,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming",
+            "json_mode",
+            "prompt_caching"
+          ]
+        },
+        {
+          "name": "deepseek-reasoner",
+          "label": "DeepSeek-R1",
+          "description": "Reasoning model that emits a chain of thought before the answer.",
+          "context": 65536,
+          "maxOutput": 8192,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "reasoning",
+            "streaming",
+            "prompt_caching"
+          ]
+        }
+      ],
+      "icon": null,
+      "path": "models/deepseek.json",
+      "checksum": "sha256:94cd773254d081045ea3f1a6daa57c20ac1b49668ebc38bd4019311a575100ce"
+    },
+    {
+      "schemaVersion": "1",
+      "type": "model-provider",
+      "id": "google",
+      "name": "Google",
+      "version": "1.0.0",
+      "homepage": "https://ai.google.dev",
+      "description": "The Gemini family of multimodal models from Google.",
+      "docs": "https://ai.google.dev/gemini-api/docs/models",
+      "apiBase": "https://generativelanguage.googleapis.com/v1beta",
+      "envKey": "GEMINI_API_KEY",
+      "models": [
+        {
+          "name": "gemini-2.5-pro",
+          "label": "Gemini 2.5 Pro",
+          "description": "Most capable Gemini model with built-in thinking.",
+          "context": 1048576,
+          "maxOutput": 65536,
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "reasoning",
+            "streaming",
+            "structured_outputs",
+            "code_execution"
+          ]
+        },
+        {
+          "name": "gemini-2.5-flash",
+          "label": "Gemini 2.5 Flash",
+          "description": "Fast, cost-efficient model with thinking.",
+          "context": 1048576,
+          "maxOutput": 65536,
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "reasoning",
+            "streaming",
+            "structured_outputs",
+            "code_execution"
+          ]
+        },
+        {
+          "name": "gemini-2.0-flash",
+          "label": "Gemini 2.0 Flash",
+          "context": 1048576,
+          "maxOutput": 8192,
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "gemini-1.5-pro",
+          "label": "Gemini 1.5 Pro",
+          "description": "Long-context model with up to a 2M token window.",
+          "context": 2097152,
+          "maxOutput": 8192,
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming"
+          ]
+        },
+        {
+          "name": "gemini-1.5-flash",
+          "label": "Gemini 1.5 Flash",
+          "context": 1048576,
+          "maxOutput": 8192,
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming"
+          ]
+        }
+      ],
+      "icon": null,
+      "path": "models/google.json",
+      "checksum": "sha256:a1ba05783417db2088b4f04ba5634bdd75dda7c38e4e32c026340c523f0042d3"
+    },
+    {
+      "schemaVersion": "1",
+      "type": "model-provider",
+      "id": "groq",
+      "name": "Groq",
+      "version": "1.0.0",
+      "homepage": "https://groq.com",
+      "description": "Ultra-low-latency inference for open models on Groq's LPU hardware (OpenAI-compatible API).",
+      "docs": "https://console.groq.com/docs/models",
+      "apiBase": "https://api.groq.com/openai/v1",
+      "envKey": "GROQ_API_KEY",
+      "models": [
+        {
+          "name": "llama-3.3-70b-versatile",
+          "label": "Llama 3.3 70B Versatile",
+          "context": 131072,
+          "maxOutput": 32768,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming",
+            "json_mode"
+          ]
+        },
+        {
+          "name": "llama-3.1-8b-instant",
+          "label": "Llama 3.1 8B Instant",
+          "context": 131072,
+          "maxOutput": 8192,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming",
+            "json_mode"
+          ]
+        },
+        {
+          "name": "gemma2-9b-it",
+          "label": "Gemma 2 9B",
+          "context": 8192,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        },
+        {
+          "name": "deepseek-r1-distill-llama-70b",
+          "label": "DeepSeek R1 Distill Llama 70B",
+          "description": "Reasoning-distilled Llama 70B served on Groq.",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "reasoning",
+            "streaming"
+          ]
+        }
+      ],
+      "icon": null,
+      "path": "models/groq.json",
+      "checksum": "sha256:d3fd9aed548e8a2d8d500fe7dae9ad2fe3bf606fb5d41c86302a4383cb8464c2"
+    },
+    {
+      "schemaVersion": "1",
+      "type": "model-provider",
+      "id": "meta",
+      "name": "Meta Llama",
+      "version": "1.0.0",
+      "homepage": "https://www.llama.com",
+      "description": "Meta's open-weight Llama models, served by many inference providers.",
+      "docs": "https://www.llama.com/docs/",
+      "models": [
+        {
+          "name": "llama-3.3-70b-instruct",
+          "label": "Llama 3.3 70B Instruct",
+          "description": "70B instruction-tuned model with quality near Llama 3.1 405B.",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        },
+        {
+          "name": "llama-3.1-405b-instruct",
+          "label": "Llama 3.1 405B Instruct",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        },
+        {
+          "name": "llama-3.1-70b-instruct",
+          "label": "Llama 3.1 70B Instruct",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        },
+        {
+          "name": "llama-3.1-8b-instruct",
+          "label": "Llama 3.1 8B Instruct",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        },
+        {
+          "name": "llama-3.2-90b-vision-instruct",
+          "label": "Llama 3.2 90B Vision Instruct",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming"
+          ]
+        },
+        {
+          "name": "llama-3.2-11b-vision-instruct",
+          "label": "Llama 3.2 11B Vision Instruct",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming"
+          ]
+        }
+      ],
+      "icon": null,
+      "path": "models/meta.json",
+      "checksum": "sha256:5f299091e80aff95d7bd6c9ddba8e56bf27795fe66bc4ee4b828e81fe6f03b54"
+    },
+    {
+      "schemaVersion": "1",
+      "type": "model-provider",
+      "id": "mistral",
+      "name": "Mistral AI",
+      "version": "1.0.0",
+      "homepage": "https://mistral.ai",
+      "description": "Open and commercial models from Mistral AI.",
+      "docs": "https://docs.mistral.ai/getting-started/models/",
+      "apiBase": "https://api.mistral.ai/v1",
+      "envKey": "MISTRAL_API_KEY",
+      "models": [
+        {
+          "name": "mistral-large-latest",
+          "label": "Mistral Large",
+          "description": "Top-tier reasoning model for high-complexity tasks.",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming",
+            "json_mode",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "mistral-small-latest",
+          "label": "Mistral Small",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming",
+            "json_mode"
+          ]
+        },
+        {
+          "name": "codestral-latest",
+          "label": "Codestral",
+          "description": "Code-specialized model with a large context window.",
+          "context": 262144,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        },
+        {
+          "name": "pixtral-large-latest",
+          "label": "Pixtral Large",
+          "description": "Multimodal model with vision.",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming"
+          ]
+        },
+        {
+          "name": "ministral-8b-latest",
+          "label": "Ministral 8B",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        }
+      ],
+      "icon": null,
+      "path": "models/mistral.json",
+      "checksum": "sha256:31d805f5c0a4a1110e6664e1fd4db488699b150e4b05407d317ec949b4467c99"
+    },
+    {
+      "schemaVersion": "1",
+      "type": "model-provider",
+      "id": "openai",
+      "name": "OpenAI",
+      "version": "1.0.0",
+      "homepage": "https://openai.com",
+      "description": "GPT and o-series reasoning models from OpenAI.",
+      "docs": "https://platform.openai.com/docs/models",
+      "apiBase": "https://api.openai.com/v1",
+      "envKey": "OPENAI_API_KEY",
+      "models": [
+        {
+          "name": "gpt-4o",
+          "label": "GPT-4o",
+          "description": "Flagship multimodal model for everyday tasks.",
+          "context": 128000,
+          "maxOutput": 16384,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming",
+            "json_mode",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "gpt-4o-mini",
+          "label": "GPT-4o mini",
+          "description": "Small, fast, low-cost multimodal model.",
+          "context": 128000,
+          "maxOutput": 16384,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming",
+            "json_mode",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "gpt-4.1",
+          "label": "GPT-4.1",
+          "description": "Long-context model with strong coding and instruction following.",
+          "context": 1047576,
+          "maxOutput": 32768,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming",
+            "json_mode",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "gpt-4.1-mini",
+          "label": "GPT-4.1 mini",
+          "context": 1047576,
+          "maxOutput": 32768,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming",
+            "json_mode",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "gpt-4.1-nano",
+          "label": "GPT-4.1 nano",
+          "context": 1047576,
+          "maxOutput": 32768,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming",
+            "json_mode",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "o3",
+          "label": "o3",
+          "description": "Reasoning model for complex, multi-step problems.",
+          "context": 200000,
+          "maxOutput": 100000,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "reasoning",
+            "vision",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "o4-mini",
+          "label": "o4-mini",
+          "description": "Fast, cost-efficient reasoning model.",
+          "context": 200000,
+          "maxOutput": 100000,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "reasoning",
+            "vision",
+            "structured_outputs"
+          ]
+        }
+      ],
+      "icon": null,
+      "path": "models/openai.json",
+      "checksum": "sha256:22aa668b6e6d3dd1da18a4bb4f6c49ea71b37236797e88f6fa9ab6ac42d51a8d"
+    },
+    {
+      "schemaVersion": "1",
+      "type": "model-provider",
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "version": "1.0.0",
+      "homepage": "https://openrouter.ai",
+      "description": "A unified API that routes to hundreds of models from many providers behind a single OpenAI-compatible endpoint. Model ids are namespaced as 'vendor/model'.",
+      "docs": "https://openrouter.ai/docs",
+      "apiBase": "https://openrouter.ai/api/v1",
+      "envKey": "OPENROUTER_API_KEY",
+      "models": [
+        {
+          "name": "openai/gpt-4o",
+          "label": "GPT-4o (OpenAI)",
+          "context": 128000,
+          "maxOutput": 16384,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming"
+          ]
+        },
+        {
+          "name": "anthropic/claude-3.5-sonnet",
+          "label": "Claude 3.5 Sonnet (Anthropic)",
+          "context": 200000,
+          "maxOutput": 8192,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming"
+          ]
+        },
+        {
+          "name": "google/gemini-2.5-pro",
+          "label": "Gemini 2.5 Pro (Google)",
+          "context": 1048576,
+          "maxOutput": 65536,
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "reasoning",
+            "streaming"
+          ]
+        },
+        {
+          "name": "meta-llama/llama-3.1-405b-instruct",
+          "label": "Llama 3.1 405B Instruct (Meta)",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        },
+        {
+          "name": "deepseek/deepseek-r1",
+          "label": "DeepSeek R1",
+          "context": 65536,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "reasoning",
+            "streaming"
+          ]
+        },
+        {
+          "name": "mistralai/mistral-large",
+          "label": "Mistral Large",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        },
+        {
+          "name": "x-ai/grok-2",
+          "label": "Grok 2 (xAI)",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming"
+          ]
+        }
+      ],
+      "icon": null,
+      "path": "models/openrouter.json",
+      "checksum": "sha256:33fb34c6a953f5424dbee2ab33e62e9cb08f79db59d44b5ccb7771540d2f978d"
+    },
+    {
+      "schemaVersion": "1",
+      "type": "model-provider",
+      "id": "xai",
+      "name": "xAI",
+      "version": "1.0.0",
+      "homepage": "https://x.ai",
+      "description": "The Grok family of models from xAI.",
+      "docs": "https://docs.x.ai/docs/models",
+      "apiBase": "https://api.x.ai/v1",
+      "envKey": "XAI_API_KEY",
+      "models": [
+        {
+          "name": "grok-4",
+          "label": "Grok 4",
+          "description": "Flagship reasoning model from xAI.",
+          "context": 256000,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "reasoning",
+            "streaming",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "grok-3",
+          "label": "Grok 3",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "streaming",
+            "structured_outputs"
+          ]
+        },
+        {
+          "name": "grok-3-mini",
+          "label": "Grok 3 Mini",
+          "description": "Lightweight reasoning model.",
+          "context": 131072,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "reasoning",
+            "streaming"
+          ]
+        },
+        {
+          "name": "grok-2-vision-1212",
+          "label": "Grok 2 Vision",
+          "context": 32768,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "capabilities": [
+            "tools",
+            "vision",
+            "streaming"
+          ]
+        }
+      ],
+      "icon": null,
+      "path": "models/xai.json",
+      "checksum": "sha256:8870776b650c1d90de4602e4bb6b6be9ea643c843669a1dec44ded5e02ff674d"
+    }
+  ]
+}
