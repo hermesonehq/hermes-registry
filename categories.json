@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-10T10:54:40+05:30",
+  "generated": "2026-06-18T04:14:57.076702+00:00",
   "types": [
     {
       "type": "agent",
@@ -14,7 +14,7 @@
     },
     {
       "type": "skill",
-      "count": 97,
+      "count": 153,
       "categories": [
         {
           "name": "apple",
@@ -103,6 +103,10 @@
         {
           "name": "software-development",
           "count": 12
+        },
+        {
+          "name": "trading",
+          "count": 56
         },
         {
           "name": "yuanbao",

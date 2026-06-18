@@ -1,0 +1,48 @@
+skill_name: ibd-distribution-day-monitor
+rule_version: ibd_dd_v1.0
+
+indexes:
+  - symbol: QQQ
+    benchmark_name: Nasdaq Proxy
+  - symbol: SPY
+    benchmark_name: S&P500 Proxy
+
+lookback_days: 80
+
+data:
+  provider: fmp           # v1: FMP only. yfinance / alpaca / polygon are out of scope.
+  api_key: null           # Set via CLI --api-key or FMP_API_KEY env var.
+  allow_cached_data: false
+
+distribution_day_rule:
+  min_decline_pct: -0.002
+  expiration_sessions: 25
+  invalidation_gain_pct: 0.05
+  invalidation_price_source: high                          # "high" | "close"
+  invalidation_session_scope: after_distribution_day_only  # exclude DD's own intraday high
+
+risk_thresholds:
+  caution:
+    d25_count: 3
+  high:
+    d25_count: 5
+    d15_count: 3
+    d5_count: 2
+  severe:
+    d25_count: 6
+    d15_count: 4
+    severe_ma_d25: 5
+
+moving_average_filters:
+  enabled: true
+  ema_periods:
+    - 21
+  sma_periods:
+    - 50
+
+strategy_context:
+  instrument: TQQQ
+  current_exposure_pct: 100
+  base_trailing_stop_pct: 10
+  allow_switch_to_qqq: true
+  allow_hedge_recommendation: false

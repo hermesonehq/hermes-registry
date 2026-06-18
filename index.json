@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-10T10:54:40+05:30",
-  "count": 180,
+  "generated": "2026-06-18T04:14:57.076702+00:00",
+  "count": 236,
   "entries": [
     {
       "id": "accessibility-auditor",
@@ -4505,6 +4505,1482 @@
       "path": "skills/software-development/writing-plans",
       "icon": null,
       "checksum": "sha256:10f90617ee2ab1a78f157a48b9006d15a82761e2316bf6b360857c14a748a0d5",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "backtest-expert",
+      "type": "skill",
+      "category": "trading",
+      "name": "backtest-expert",
+      "version": "1.0.0",
+      "description": "Expert guidance for systematic backtesting of trading strategies. Use when developing, testing, stress-testing, or validating quantitative trading strategies. Covers \"beating ideas to death\" methodology, parameter robustness testing, slippage modeling, bias prevention, and interpreting backtest results. Applicable when user asks about backtesting, strategy validation, robustness testing, avoiding overfitting, or systematic trading development.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/backtest-expert",
+      "icon": null,
+      "checksum": "sha256:5284f6ca129a52c1cffb535c3982f17db3786bfb1ecd3ea2a06aca954e0c7b7f",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "breadth-chart-analyst",
+      "type": "skill",
+      "category": "trading",
+      "name": "breadth-chart-analyst",
+      "version": "1.0.0",
+      "description": "This skill should be used when analyzing market breadth charts, specifically the S&P 500 Breadth Index (200-Day MA based) and the US Stock Market Uptrend Stock Ratio charts. Use this skill when the user provides breadth chart images for analysis, requests market breadth assessment, positioning strategy recommendations, or wants to understand medium-term strategic and short-term tactical market outlook based on breadth indicators. Also works WITHOUT chart images by fetching CSV data directly from public sources. All analysis and output are conducted in English.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/breadth-chart-analyst",
+      "icon": null,
+      "checksum": "sha256:2f0f63d5df888a93fa37e9a77902b3b19fcfd949481036d77535391d6d02cbea",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "breakout-trade-planner",
+      "type": "skill",
+      "category": "trading",
+      "name": "breakout-trade-planner",
+      "version": "1.0.0",
+      "description": "Generate Minervini-style breakout trade plans from VCP screener output with worst-case risk calculation, portfolio heat management, and Alpaca-compatible order templates (stop-limit bracket for pre-placement, limit bracket for post-confirmation). Use when user has VCP screener results and wants actionable trade plans with entry/stop/target levels and position sizing.",
+      "tags": [
+        "trade-planning",
+        "execution",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/trade-planning/breakout-trade-planner",
+      "icon": null,
+      "checksum": "sha256:305313f868c31bd8fe164b85f01e9cd5074cbf3a92142b27ceab8666b487d3f0",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "canslim-screener",
+      "type": "skill",
+      "category": "trading",
+      "name": "canslim-screener",
+      "version": "1.0.0",
+      "description": "Screen US stocks using William O'Neil's CANSLIM growth stock methodology. Use when user requests CANSLIM stock screening, growth stock analysis, momentum stock identification, or wants to find stocks with strong earnings and price momentum following O'Neil's investment system.",
+      "tags": [
+        "screener",
+        "stock-screening",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/screeners/canslim-screener",
+      "icon": null,
+      "checksum": "sha256:006b31755fc514aaf1ce61d93ecfadd5cbe0ba9d7da35cd66c7adc574eb56513",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "data-quality-checker",
+      "type": "skill",
+      "category": "trading",
+      "name": "data-quality-checker",
+      "version": "1.0.0",
+      "description": "Validate data quality in market analysis documents and blog articles before publication. Use when checking for price scale inconsistencies (ETF vs futures), instrument notation errors, date/day-of-week mismatches, allocation total errors, and unit mismatches. Supports English and Japanese content. Advisory mode -- flags issues as warnings for human review, not as blockers.",
+      "tags": [
+        "calendar",
+        "earnings",
+        "data",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/data/data-quality-checker",
+      "icon": null,
+      "checksum": "sha256:8cd4acac1eb626ec9ecac59fb7c4a1b0a52f5fb7360502d7026dfec7ed7ed113",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "dividend-growth-pullback-screener",
+      "type": "skill",
+      "category": "trading",
+      "name": "dividend-growth-pullback-screener",
+      "version": "1.0.0",
+      "description": "Use this skill to find high-quality dividend growth stocks (12%+ annual dividend growth, 1.5%+ yield) that are experiencing temporary pullbacks, identified by RSI oversold conditions (RSI ≤40). This skill combines fundamental dividend analysis with technical timing indicators to identify buying opportunities in strong dividend growers during short-term weakness.",
+      "tags": [
+        "screener",
+        "stock-screening",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/screeners/dividend-growth-pullback-screener",
+      "icon": null,
+      "checksum": "sha256:b4a1c147dae5164230be7be1014ea6c2afcca3ac5c553f561244f8a0860d7e85",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "downtrend-duration-analyzer",
+      "type": "skill",
+      "category": "trading",
+      "name": "downtrend-duration-analyzer",
+      "version": "1.0.0",
+      "description": "Analyze historical downtrend durations and generate interactive HTML histograms showing typical correction lengths by sector and market cap.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/downtrend-duration-analyzer",
+      "icon": null,
+      "checksum": "sha256:78a85fbe34ec7db1bcc44ad40990930579593da8f6c830c902669859e5b479ea",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "dual-axis-skill-reviewer",
+      "type": "skill",
+      "category": "trading",
+      "name": "dual-axis-skill-reviewer",
+      "version": "1.0.0",
+      "description": "Review skills in any project using a dual-axis method: (1) deterministic code-based checks (structure, scripts, tests, execution safety) and (2) LLM deep review findings. Use when you need reproducible quality scoring for `skills/*/SKILL.md`, want to gate merges with a score threshold (for example 90+), or need concrete improvement items for low-scoring skills. Works across projects via --project-root.",
+      "tags": [
+        "skill-tooling",
+        "review",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/meta/dual-axis-skill-reviewer",
+      "icon": null,
+      "checksum": "sha256:b61b48e67729bbdb92a3260c9e1a81c897c4d2068c844335bb85c0552a461638",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "earnings-calendar",
+      "type": "skill",
+      "category": "trading",
+      "name": "earnings-calendar",
+      "version": "1.0.0",
+      "description": "This skill retrieves upcoming earnings announcements for US stocks using the Financial Modeling Prep (FMP) API. Use this when the user requests earnings calendar data, wants to know which companies are reporting earnings in the upcoming week, or needs a weekly earnings review. The skill focuses on mid-cap and above companies (over $2B market cap) that have significant market impact, organizing the data by date and timing in a clean markdown table format. Supports multiple environments (CLI, Desktop, Web) with flexible API key management.",
+      "tags": [
+        "calendar",
+        "earnings",
+        "data",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/data/earnings-calendar",
+      "icon": null,
+      "checksum": "sha256:4c831e40e0018c443fb0182f7f19db98fa314b7ab93957b06a43b882a1360029",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "earnings-trade-analyzer",
+      "type": "skill",
+      "category": "trading",
+      "name": "earnings-trade-analyzer",
+      "version": "1.0.0",
+      "description": "Analyze recent post-earnings stocks using a 5-factor scoring system (Gap Size, Pre-Earnings Trend, Volume Trend, MA200 Position, MA50 Position). Scores each stock 0-100 and assigns A/B/C/D grades. Use when user asks about earnings trade analysis, post-earnings momentum screening, earnings gap scoring, or finding best recent earnings reactions.",
+      "tags": [
+        "trade-planning",
+        "execution",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/trade-planning/earnings-trade-analyzer",
+      "icon": null,
+      "checksum": "sha256:13d111e55a1fc925944da486143d881751e86777a8dcbb519a6896574f7d70b3",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "economic-calendar-fetcher",
+      "type": "skill",
+      "category": "trading",
+      "name": "economic-calendar-fetcher",
+      "version": "1.0.0",
+      "description": "Fetch upcoming economic events and data releases using FMP API. Retrieve scheduled central bank decisions, employment reports, inflation data, GDP releases, and other market-moving economic indicators for specified date ranges (default: next 7 days). The script outputs raw JSON or text; the assistant filters, assesses impact, and generates the Markdown report.",
+      "tags": [
+        "calendar",
+        "earnings",
+        "data",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/data/economic-calendar-fetcher",
+      "icon": null,
+      "checksum": "sha256:057b1aea0281d119b7fd91b009711036968f6cae64315aabffe5f622a55155e1",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "edge-candidate-agent",
+      "type": "skill",
+      "category": "trading",
+      "name": "edge-candidate-agent",
+      "version": "1.0.0",
+      "description": "Generate and prioritize US equity long-side edge research tickets from EOD observations, then export pipeline-ready candidate specs for trade-strategy-pipeline Phase I. Use when users ask to turn hypotheses/anomalies into reproducible research tickets, convert validated ideas into `strategy.yaml` + `metadata.json`, or preflight-check interface compatibility (`edge-finder-candidate/v1`) before running pipeline backtests.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/edge-candidate-agent",
+      "icon": null,
+      "checksum": "sha256:2e170bc4c9b572b8052ae6c66f775945c3a8fa2003eecf0a8754990a351d514b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "edge-concept-synthesizer",
+      "type": "skill",
+      "category": "trading",
+      "name": "edge-concept-synthesizer",
+      "version": "1.0.0",
+      "description": "Abstract detector tickets and hints into reusable edge concepts with thesis, invalidation signals, and strategy playbooks before strategy design/export.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/edge-concept-synthesizer",
+      "icon": null,
+      "checksum": "sha256:7b9cf24d17eb9f877af1e47d3af8a9e981a45b8493ab200b32e3aa60030f4214",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "edge-hint-extractor",
+      "type": "skill",
+      "category": "trading",
+      "name": "edge-hint-extractor",
+      "version": "1.0.0",
+      "description": "Extract edge hints from daily market observations and news reactions, with optional LLM ideation, and output canonical hints.yaml for downstream concept synthesis and auto detection.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/edge-hint-extractor",
+      "icon": null,
+      "checksum": "sha256:fc7975a88f8a448f1803e8559edeed7fba59169aeac90314e5dc7fe6a64ed5a2",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "edge-pipeline-orchestrator",
+      "type": "skill",
+      "category": "trading",
+      "name": "edge-pipeline-orchestrator",
+      "version": "1.0.0",
+      "description": "Orchestrate the full edge research pipeline from candidate detection through strategy design, review, revision, and export. Use when coordinating multi-stage edge research workflows end-to-end.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/edge-pipeline-orchestrator",
+      "icon": null,
+      "checksum": "sha256:60a931871fcf6b4cfc0c0f995531ff2642bbd9fe713c1ec0fc4c0c9fe53ae5ba",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "edge-signal-aggregator",
+      "type": "skill",
+      "category": "trading",
+      "name": "edge-signal-aggregator",
+      "version": "1.0.0",
+      "description": "Aggregate and rank signals from multiple edge-finding skills (edge-candidate-agent, theme-detector, sector-analyst, institutional-flow-tracker) into a prioritized conviction dashboard with weighted scoring, deduplication, and contradiction detection.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/edge-signal-aggregator",
+      "icon": null,
+      "checksum": "sha256:70a4d35fb69684fb9ff8cda1d41fc6225c3cfde8dfa6fd56fa313d78ad4740fd",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "edge-strategy-designer",
+      "type": "skill",
+      "category": "trading",
+      "name": "edge-strategy-designer",
+      "version": "1.0.0",
+      "description": "Convert abstract edge concepts into strategy draft variants and optional exportable ticket YAMLs for edge-candidate-agent export/validation.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/edge-strategy-designer",
+      "icon": null,
+      "checksum": "sha256:87d49dd41a18d763e8982484593482682efb2640487363658d9366ac0a924a54",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "edge-strategy-reviewer",
+      "type": "skill",
+      "category": "trading",
+      "name": "edge-strategy-reviewer",
+      "version": "1.0.0",
+      "description": "Critically review strategy drafts from edge-strategy-designer for edge plausibility, overfitting risk, sample size adequacy, and execution realism. Use when strategy_drafts/*.yaml exists and needs quality gate before pipeline export. Outputs PASS/REVISE/REJECT verdicts with confidence scores.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/edge-strategy-reviewer",
+      "icon": null,
+      "checksum": "sha256:4de001cb59e4662dec3ba56575e2a896087cceaaa3886b0099247f6387df8a81",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "exposure-coach",
+      "type": "skill",
+      "category": "trading",
+      "name": "exposure-coach",
+      "version": "1.0.0",
+      "description": "Generate a one-page Market Posture summary with net exposure ceiling, growth-vs-value bias, participation breadth, and new-entry-allowed vs cash-priority recommendation by integrating signals from breadth, regime, and flow analysis skills.",
+      "tags": [
+        "portfolio",
+        "risk",
+        "position-sizing",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/portfolio/exposure-coach",
+      "icon": null,
+      "checksum": "sha256:56192aae554a402f39f85998c00c8361a244ba205a9a6c55e55d2538ac120d1b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "finviz-screener",
+      "type": "skill",
+      "category": "trading",
+      "name": "finviz-screener",
+      "version": "1.0.0",
+      "description": "Build and open FinViz screener URLs from natural language requests. Use when user wants to screen stocks, find stocks matching criteria, filter by fundamentals or technicals, or asks to open FinViz with specific conditions. Supports both Japanese and English input (e.g., \"高配当で成長している小型株を探したい\", \"Find oversold large caps with high ROE\").",
+      "tags": [
+        "screener",
+        "stock-screening",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/screeners/finviz-screener",
+      "icon": null,
+      "checksum": "sha256:4b43c613843eb704047378404ef9892b16a8f6dae78ad97f7adfe50ccd51d0da",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "ftd-detector",
+      "type": "skill",
+      "category": "trading",
+      "name": "ftd-detector",
+      "version": "1.0.0",
+      "description": "Detects Follow-Through Day (FTD) signals for market bottom confirmation using William O'Neil's methodology. Dual-index tracking (S&P 500 + NASDAQ) with state machine for rally attempt, FTD qualification, and post-FTD health monitoring. Use when user asks about market bottom signals, follow-through days, rally attempts, re-entry timing after corrections, or whether it's safe to increase equity exposure. Complementary to market-top-detector (defensive) - this skill is offensive (bottom confirmation).",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/ftd-detector",
+      "icon": null,
+      "checksum": "sha256:bc892d974274894484c4ca2eba2eceea86021c7f1e466d230e39eddee533bf50",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "ibd-distribution-day-monitor",
+      "type": "skill",
+      "category": "trading",
+      "name": "ibd-distribution-day-monitor",
+      "version": "1.0.0",
+      "description": "Detect IBD-style Distribution Days for QQQ/SPY (close down at least 0.2% on higher volume), track 25-session expiration and 5% invalidation, count d5/d15/d25 clusters, classify market risk (NORMAL/CAUTION/HIGH/SEVERE), and emit TQQQ/QQQ exposure recommendations. Use after market close, before TQQQ exposure changes, or as input to FTD/market-state frameworks. Does not execute trades.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/ibd-distribution-day-monitor",
+      "icon": null,
+      "checksum": "sha256:7c666af1f39947e9364a12efae971f12917298f761b7a6f6b3abe9c5d50c7d66",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "institutional-flow-tracker",
+      "type": "skill",
+      "category": "trading",
+      "name": "institutional-flow-tracker",
+      "version": "1.0.0",
+      "description": "Use this skill to track institutional investor ownership changes and portfolio flows using 13F filings data. Analyzes hedge funds, mutual funds, and other institutional holders to identify stocks with significant smart money accumulation or distribution. Helps discover stocks before major moves by following where sophisticated investors are deploying capital.",
+      "tags": [
+        "calendar",
+        "earnings",
+        "data",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/data/institutional-flow-tracker",
+      "icon": null,
+      "checksum": "sha256:80094f13564d67e9c890870d2d8f8b26cffd0926f594384c490034be82caa91e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "kanchi-dividend-review-monitor",
+      "type": "skill",
+      "category": "trading",
+      "name": "kanchi-dividend-review-monitor",
+      "version": "1.0.0",
+      "description": "Monitor dividend portfolios with Kanchi-style forced-review triggers (T1-T5) and convert anomalies into OK/WARN/REVIEW states without auto-selling. Use when users ask for 減配検知, 8-Kガバナンス監視, 配当安全性モニタリング, REVIEWキュー自動化, or periodic dividend risk checks.",
+      "tags": [
+        "dividend",
+        "kanchi",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/kanchi/kanchi-dividend-review-monitor",
+      "icon": null,
+      "checksum": "sha256:a1761dff180505b8adcdc2a731dfdcb3c1203d0d3820881842d01727321b0399",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "kanchi-dividend-sop",
+      "type": "skill",
+      "category": "trading",
+      "name": "kanchi-dividend-sop",
+      "version": "1.0.0",
+      "description": "Convert Kanchi-style dividend investing into a repeatable US-stock operating procedure. Use when users ask for かんち式配当投資, dividend screening, dividend growth quality checks, PERxPBR adaptation for US sectors, pullback limit-order planning, or one-page stock memo creation. Covers screening, deep dive, entry planning, and post-purchase monitoring cadence.",
+      "tags": [
+        "dividend",
+        "kanchi",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/kanchi/kanchi-dividend-sop",
+      "icon": null,
+      "checksum": "sha256:56cf457e73c22b2ecf4fd4eb3568b096e91fa02e40e29a068538f20e8a16989c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "kanchi-dividend-us-tax-accounting",
+      "type": "skill",
+      "category": "trading",
+      "name": "kanchi-dividend-us-tax-accounting",
+      "version": "1.0.0",
+      "description": "Provide US dividend tax and account-location workflow for Kanchi-style income portfolios. Use when users ask about qualified vs ordinary dividends, 1099-DIV interpretation, REIT/BDC distribution treatment, holding-period checks, or taxable-vs-IRA account placement decisions for dividend assets.",
+      "tags": [
+        "dividend",
+        "kanchi",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/kanchi/kanchi-dividend-us-tax-accounting",
+      "icon": null,
+      "checksum": "sha256:2a6303ec079ce7713822faa539b44ee784850fa6d141d7e123ec79fd16b65d4d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "macro-regime-detector",
+      "type": "skill",
+      "category": "trading",
+      "name": "macro-regime-detector",
+      "version": "1.0.0",
+      "description": "Detect structural macro regime transitions (1-2 year horizon) using cross-asset ratio analysis. Analyze RSP/SPY concentration, yield curve, credit conditions, size factor, equity-bond relationship, and sector rotation to identify regime shifts between Concentration, Broadening, Contraction, Inflationary, and Transitional states. Run when user asks about macro regime, market regime change, structural rotation, or long-term market positioning.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/macro-regime-detector",
+      "icon": null,
+      "checksum": "sha256:616b1a7a7af293939fca07469133c829d2ad1003aa057b0bb7cfeb8e7fc10b08",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "market-breadth-analyzer",
+      "type": "skill",
+      "category": "trading",
+      "name": "market-breadth-analyzer",
+      "version": "1.0.0",
+      "description": "Quantifies market breadth health using TraderMonty's public CSV data. Generates a 0-100 composite score across 6 components (100 = healthy). No API key required. Use when user asks about market breadth, participation rate, advance-decline health, whether the rally is broad-based, or general market health assessment.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/market-breadth-analyzer",
+      "icon": null,
+      "checksum": "sha256:5c9a7fa5cf050417bbcfe9e8f918cfd7b5569688a9050c93767da3941161273d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "market-environment-analysis",
+      "type": "skill",
+      "category": "trading",
+      "name": "market-environment-analysis",
+      "version": "1.0.0",
+      "description": "Comprehensive market environment analysis and reporting tool. Analyzes global markets including US, European, Asian markets, forex, commodities, and economic indicators. Provides risk-on/risk-off assessment, sector analysis, and technical indicator interpretation. Triggers on keywords like market analysis, market environment, global markets, trading environment, market conditions, investment climate, market sentiment, forex analysis, stock market analysis, 相場環境, 市場分析, マーケット状況, 投資環境.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/market-environment-analysis",
+      "icon": null,
+      "checksum": "sha256:96553a4de579f309aa4a79ae2efc78a1ecdffb0653d2594f92423d8b3dd44b63",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "market-news-analyst",
+      "type": "skill",
+      "category": "trading",
+      "name": "market-news-analyst",
+      "version": "1.0.0",
+      "description": "This skill should be used when analyzing recent market-moving news events and their impact on equity markets and commodities. Use this skill when the user requests analysis of major financial news from the past 10 days, wants to understand market reactions to monetary policy decisions (FOMC, ECB, BOJ), needs assessment of geopolitical events' impact on commodities, or requires comprehensive review of earnings announcements from mega-cap stocks. The skill automatically collects news using WebSearch/WebFetch tools and produces impact-ranked analysis reports. All analysis thinking and output are conducted in English.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/market-news-analyst",
+      "icon": null,
+      "checksum": "sha256:8cded4ab5f691b9064c47141e97ce6487dbfe9bfab52d93c17e6d1c60a30c52c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "market-top-detector",
+      "type": "skill",
+      "category": "trading",
+      "name": "market-top-detector",
+      "version": "1.0.0",
+      "description": "Detects market top probability using O'Neil Distribution Days, Minervini Leading Stock Deterioration, and Monty Defensive Sector Rotation. Generates a 0-100 composite score with risk zone classification. Use when user asks about market top risk, distribution days, defensive rotation, leadership breakdown, or whether to reduce equity exposure. Focuses on 2-8 week tactical timing signals for 10-20% corrections.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/market-top-detector",
+      "icon": null,
+      "checksum": "sha256:70bf77d3e506807c288f76615a7698d83409aae79084b627010dadca6890f2a6",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "options-strategy-advisor",
+      "type": "skill",
+      "category": "trading",
+      "name": "options-strategy-advisor",
+      "version": "1.0.0",
+      "description": "Options trading strategy analysis and simulation tool. Provides theoretical pricing using Black-Scholes model, Greeks calculation, strategy P/L simulation, and risk management guidance. Use when user requests options strategy analysis, covered calls, protective puts, spreads, iron condors, earnings plays, or options risk management. Includes volatility analysis, position sizing, and earnings-based strategy recommendations. Educational focus with practical trade simulation.",
+      "tags": [
+        "trade-planning",
+        "execution",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/trade-planning/options-strategy-advisor",
+      "icon": null,
+      "checksum": "sha256:7d6f910c551d729d749b4c1ddcfbbfc8d1fb092be035f450a0a89a7332f7cf67",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "pair-trade-screener",
+      "type": "skill",
+      "category": "trading",
+      "name": "pair-trade-screener",
+      "version": "1.0.0",
+      "description": "Statistical arbitrage tool for identifying and analyzing pair trading opportunities. Detects cointegrated stock pairs within sectors, analyzes spread behavior, calculates z-scores, and provides entry/exit recommendations for market-neutral strategies. Use when user requests pair trading opportunities, statistical arbitrage screening, mean-reversion strategies, or market-neutral portfolio construction. Supports correlation analysis, cointegration testing, and spread backtesting.",
+      "tags": [
+        "screener",
+        "stock-screening",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/screeners/pair-trade-screener",
+      "icon": null,
+      "checksum": "sha256:d2961d3af64963bacd8156d0b4434ed1f77ad606f7db597fa571e9843d78a644",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "parabolic-short-trade-planner",
+      "type": "skill",
+      "category": "trading",
+      "name": "parabolic-short-trade-planner",
+      "version": "1.0.0",
+      "description": "Screen US equities for parabolic exhaustion patterns and generate conditional pre-market short plans, then evaluate intraday trigger fires from live 5-min bars. Phase 1 daily 5-factor scorer (MA extension / acceleration / volume climax / range expansion / liquidity), Phase 2 per-candidate plans for ORL break / first-red 5-min / VWAP fail with explicit borrow / SSR / manual-confirmation gating, Phase 3 one-shot intraday FSM that detects trigger fires and resolves concrete share counts. Covers Phase 1 + Phase 2 + Phase 3.",
+      "tags": [
+        "trade-planning",
+        "execution",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/trade-planning/parabolic-short-trade-planner",
+      "icon": null,
+      "checksum": "sha256:e6ad328d21f16d0cb4b933c0977d3707b88c58e5ec56c4367e6c1a0044e5af86",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "pead-screener",
+      "type": "skill",
+      "category": "trading",
+      "name": "pead-screener",
+      "version": "1.0.0",
+      "description": "Screen post-earnings gap-up stocks for PEAD (Post-Earnings Announcement Drift) patterns. Analyzes weekly candle formation to detect red candle pullbacks and breakout signals. Supports two input modes - FMP earnings calendar (Mode A) or earnings-trade-analyzer JSON output (Mode B). Use when user asks about PEAD screening, post-earnings drift, earnings gap follow-through, red candle breakout patterns, or weekly earnings momentum setups.",
+      "tags": [
+        "screener",
+        "stock-screening",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/screeners/pead-screener",
+      "icon": null,
+      "checksum": "sha256:8d6979f936a0ec9f4b0183b3544d97b6c831f2b083bd7ae1bb8560d2cbc6109e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "portfolio-manager",
+      "type": "skill",
+      "category": "trading",
+      "name": "portfolio-manager",
+      "version": "1.0.0",
+      "description": "Comprehensive portfolio analysis using Alpaca MCP Server integration to fetch holdings and positions, then analyze asset allocation, risk metrics, individual stock positions, diversification, and generate rebalancing recommendations. Use when user requests portfolio review, position analysis, risk assessment, performance evaluation, or rebalancing suggestions for their brokerage account.",
+      "tags": [
+        "portfolio",
+        "risk",
+        "position-sizing",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/portfolio/portfolio-manager",
+      "icon": null,
+      "checksum": "sha256:df99581683e5fdbdad366c91645adffc5b81135bccacda2fbaf52a2ba7dc7777",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "position-sizer",
+      "type": "skill",
+      "category": "trading",
+      "name": "position-sizer",
+      "version": "1.0.0",
+      "description": "Calculate risk-based position sizes for long stock trades. Use when user asks about position sizing, how many shares to buy, risk per trade, Kelly criterion, ATR-based sizing, or portfolio risk allocation. Supports stop-loss distance calculation, volatility scaling, and sector concentration checks.",
+      "tags": [
+        "portfolio",
+        "risk",
+        "position-sizing",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/portfolio/position-sizer",
+      "icon": null,
+      "checksum": "sha256:aa9e356306b74cd123a89b653080e732000deb120587f86dc36fc03ef20d07e5",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "scenario-analyzer",
+      "type": "skill",
+      "category": "trading",
+      "name": "scenario-analyzer",
+      "version": "1.0.0",
+      "description": "Skill that analyzes 18-month scenarios from a news headline.\nRuns the primary analysis with the scenario-analyst agent and obtains a\nsecond opinion with the strategy-reviewer agent.\nGenerates a comprehensive English report covering 1st/2nd/3rd-order\nimpacts, recommended stocks, and a critical review.\nExample: /scenario-analyzer \"Fed raises rates by 50bp\"\nTriggers: news analysis, scenario analysis, 18-month outlook,\nmedium-to-long-term investment strategy",
+      "tags": [
+        "trade-planning",
+        "execution",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/trade-planning/scenario-analyzer",
+      "icon": null,
+      "checksum": "sha256:58ef4fd4b56b32f94d4c48254af894ecb42c64c529ae30071772c83f88daa742",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "sector-analyst",
+      "type": "skill",
+      "category": "trading",
+      "name": "sector-analyst",
+      "version": "1.0.0",
+      "description": "This skill should be used when analyzing sector rotation patterns and market cycle positioning. It fetches sector uptrend data from CSV (no API key required) and optionally accepts chart images for supplementary analysis. Use this skill when the user requests sector rotation analysis, cyclical vs defensive assessment, overbought/oversold identification, or market cycle phase estimation. All analysis and output are conducted in English.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/sector-analyst",
+      "icon": null,
+      "checksum": "sha256:0f04f573922a0341315ec4717e55ecb7cdbfef8c3027916a9f430ed17163fb00",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "signal-postmortem",
+      "type": "skill",
+      "category": "trading",
+      "name": "signal-postmortem",
+      "version": "1.0.0",
+      "description": "Record and analyze post-trade outcomes for signals generated by edge pipeline and other skills. Track false positives, missed opportunities, and regime mismatches. Feed results back to edge-signal-aggregator weights and skill improvement backlog.",
+      "tags": [
+        "performance",
+        "postmortem",
+        "memory",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/performance/signal-postmortem",
+      "icon": null,
+      "checksum": "sha256:b3833645dba6f7fc1a390554724f09790cbfaf84222cfe79cc27ae669a0f9205",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "skill-designer",
+      "type": "skill",
+      "category": "trading",
+      "name": "skill-designer",
+      "version": "1.0.0",
+      "description": "Design new Claude skills from structured idea specifications. Use when the skill auto-generation pipeline needs to produce a Claude CLI prompt that creates a complete skill directory (SKILL.md, references, scripts, tests) following repository conventions.",
+      "tags": [
+        "skill-tooling",
+        "review",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/meta/skill-designer",
+      "icon": null,
+      "checksum": "sha256:9f5cd60e2ae6898c0835f043c3b83fec6f70fd2aafc3f8c0df81ce90229c7c3c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "skill-idea-miner",
+      "type": "skill",
+      "category": "trading",
+      "name": "skill-idea-miner",
+      "version": "1.0.0",
+      "description": "Mine Claude Code session logs for skill idea candidates. Use when running the weekly skill generation pipeline to extract, score, and backlog new skill ideas from recent coding sessions.",
+      "tags": [
+        "skill-tooling",
+        "review",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/meta/skill-idea-miner",
+      "icon": null,
+      "checksum": "sha256:f070f3f4d8b913000eca088e123c2b46c6d1d9e2b0e34affacae1eff22b76fee",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "skill-integration-tester",
+      "type": "skill",
+      "category": "trading",
+      "name": "skill-integration-tester",
+      "version": "1.0.0",
+      "description": "Validate multi-skill workflows defined in CLAUDE.md by checking skill existence, inter-skill data contracts (JSON schema compatibility), file naming conventions, and handoff integrity. Use when adding new workflows, modifying skill outputs, or verifying pipeline health before release.",
+      "tags": [
+        "skill-tooling",
+        "review",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/meta/skill-integration-tester",
+      "icon": null,
+      "checksum": "sha256:28bceeee100405d0f9aa12945f20faef202c051bce6c91aac8f6e6f0db5b0269",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "stanley-druckenmiller-investment",
+      "type": "skill",
+      "category": "trading",
+      "name": "stanley-druckenmiller-investment",
+      "version": "1.0.0",
+      "description": "Druckenmiller Strategy Synthesizer - Integrates 8 upstream skill outputs (Market Breadth, Uptrend Analysis, Market Top, Macro Regime, FTD Detector, VCP Screener, Theme Detector, CANSLIM Screener) into a unified conviction score (0-100), pattern classification, and allocation recommendation. Use when user asks about overall market conviction, portfolio positioning, asset allocation, strategy synthesis, or Druckenmiller-style analysis. Triggers on queries like \"What is my conviction level?\", \"How should I position?\", \"Run the strategy synthesizer\", \"Druckenmiller analysis\", \"総合的な市場判断\", \"確信度スコア\", \"ポートフォリオ配分\", \"ドラッケンミラー分析\".",
+      "tags": [
+        "investor",
+        "investment",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/investor/stanley-druckenmiller-investment",
+      "icon": null,
+      "checksum": "sha256:41489ed7cbf4b99e25bc0513a40a814c741bd3f47374df4f336ecd4181757f46",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "strategy-pivot-designer",
+      "type": "skill",
+      "category": "trading",
+      "name": "strategy-pivot-designer",
+      "version": "1.0.0",
+      "description": "Detect backtest iteration stagnation and generate structurally different strategy pivot proposals when parameter tuning reaches a local optimum.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/strategy-pivot-designer",
+      "icon": null,
+      "checksum": "sha256:319c85e9a64833b3d479b502880b8d138ee68076c60e69e333e4b6f036e7585c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "technical-analyst",
+      "type": "skill",
+      "category": "trading",
+      "name": "technical-analyst",
+      "version": "1.0.0",
+      "description": "This skill should be used when analyzing weekly price charts for stocks, stock indices, cryptocurrencies, or forex pairs. Use this skill when the user provides chart images and requests technical analysis, trend identification, support/resistance levels, scenario planning, or probability assessments based purely on chart data without consideration of news or fundamental factors.",
+      "tags": [
+        "trade-planning",
+        "execution",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/trade-planning/technical-analyst",
+      "icon": null,
+      "checksum": "sha256:2cbfa5470c77934a6312dd433f8d73df892db2fb2d5bd4ab3fd5a4915e6c0106",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "theme-detector",
+      "type": "skill",
+      "category": "trading",
+      "name": "theme-detector",
+      "version": "1.0.0",
+      "description": "Detect and analyze trending market themes across sectors. Use when user asks about current market themes, trending sectors, sector rotation, thematic investing, what themes are hot or cold, or wants to identify bullish and bearish market narratives with lifecycle analysis.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/theme-detector",
+      "icon": null,
+      "checksum": "sha256:5fb95d0187db1e5afc1cf85759194acb94b0b9deecfd9de70887e322cd907489",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "trade-hypothesis-ideator",
+      "type": "skill",
+      "category": "trading",
+      "name": "trade-hypothesis-ideator",
+      "version": "1.0.0",
+      "description": "Generate falsifiable trade strategy hypotheses from market data, trade logs, and journal snippets. Use when you have a structured input bundle and want ranked hypothesis cards with experiment designs, kill criteria, and optional strategy.yaml export compatible with edge-finder-candidate/v1.",
+      "tags": [
+        "backtesting",
+        "strategy",
+        "edge",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/strategy/trade-hypothesis-ideator",
+      "icon": null,
+      "checksum": "sha256:e334bec9e895451c181d0096716c7b7b316aca91b164a69a49637239c022fdfa",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "trade-performance-coach",
+      "type": "skill",
+      "category": "trading",
+      "name": "trade-performance-coach",
+      "version": "1.0.0",
+      "description": "Review closed trades, partial exits, and monthly trade aggregates for process adherence, risk discipline, execution quality, and evidence-based trading behavior patterns. Use after trader-memory-core and signal-postmortem have produced records, or when the user asks for a post-trade coach, risk-manager style review, rule-adherence review, next-session operating rules, or psychology-aware trading behavior feedback. This skill does not provide buy/sell advice, therapy, or broker execution.",
+      "tags": [
+        "performance",
+        "postmortem",
+        "memory",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/performance/trade-performance-coach",
+      "icon": null,
+      "checksum": "sha256:a8c5c2a95cf6c75b25f686645d2949a43a39936162232efd9c507c30e07b8437",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "trader-memory-core",
+      "type": "skill",
+      "category": "trading",
+      "name": "trader-memory-core",
+      "version": "1.0.0",
+      "description": "Track investment theses across their lifecycle — from screening idea to closed position with postmortem. Register theses from screener outputs, manage state transitions, attach position sizing, review due dates, and generate postmortem reports with P&L and MAE/MFE analysis. Trigger when user says \"register thesis\", \"track this idea\", \"thesis status\", \"review due\", \"close position\", \"postmortem\", or \"trading journal\".",
+      "tags": [
+        "performance",
+        "postmortem",
+        "memory",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/performance/trader-memory-core",
+      "icon": null,
+      "checksum": "sha256:af5407eb6fdf0dc892aad7d878eeee5a0a2bd9eb67b3aa503af6cbcc4ab2eca6",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "trading-skills-navigator",
+      "type": "skill",
+      "category": "trading",
+      "name": "trading-skills-navigator",
+      "version": "1.0.0",
+      "description": "Recommend the right trading workflow, skillset, API profile, and setup path from a natural-language goal. Use this as the on-ramp when a user expresses a trading or investing goal and needs to know which skill/workflow to use, where to start, or whether something works without paid API keys — e.g. \"where do I start\", \"which skill should I use\", \"I want to swing trade only when the market is favorable\", \"what works without API keys\", \"どれを使えばいい\", \"API キー無しで 使えるものは\". Routes and explains only; it never executes trades or auto-runs other skills, and it is honest when no workflow has shipped yet.",
+      "tags": [
+        "skill-tooling",
+        "review",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/meta/trading-skills-navigator",
+      "icon": null,
+      "checksum": "sha256:a356fbb993f4b54ef4f863e77906d8e12cf7d30608f0f765f21566a433bda2d8",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "uptrend-analyzer",
+      "type": "skill",
+      "category": "trading",
+      "name": "uptrend-analyzer",
+      "version": "1.0.0",
+      "description": "Analyzes market breadth using Monty's Uptrend Ratio Dashboard data to diagnose the current market environment. Generates a 0-100 composite score from 5 components (breadth, sector participation, rotation, momentum, historical context). Use when asking about market breadth, uptrend ratios, or whether the market environment supports equity exposure. No API key required.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/uptrend-analyzer",
+      "icon": null,
+      "checksum": "sha256:37f4bf5b3442f4f706fbe1c18bad9d7a802d806e9d4a3c47727d94342a54f3f1",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "us-market-bubble-detector",
+      "type": "skill",
+      "category": "trading",
+      "name": "us-market-bubble-detector",
+      "version": "1.0.0",
+      "description": "Evaluates market bubble risk through quantitative data-driven analysis using the revised Minsky/Kindleberger framework v2.1. Prioritizes objective metrics (Put/Call, VIX, margin debt, breadth, IPO data) over subjective impressions. Features strict qualitative adjustment criteria with confirmation bias prevention. Supports practical investment decisions with mandatory data collection and mechanical scoring. Use when user asks about bubble risk, valuation concerns, or profit-taking timing.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/us-market-bubble-detector",
+      "icon": null,
+      "checksum": "sha256:18a7559dd951d830535e2432f382f934d4e8c4239fd189b3aac528544822a748",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "us-stock-analysis",
+      "type": "skill",
+      "category": "trading",
+      "name": "us-stock-analysis",
+      "version": "1.0.0",
+      "description": "Comprehensive US stock analysis including fundamental analysis (financial metrics, business quality, valuation), technical analysis (indicators, chart patterns, support/resistance), stock comparisons, and investment report generation. Use when user requests analysis of US stock tickers (e.g., \"analyze AAPL\", \"compare TSLA vs NVDA\", \"give me a report on Microsoft\"), evaluation of financial metrics, technical chart analysis, or investment recommendations for American stocks.",
+      "tags": [
+        "market-analysis",
+        "breadth",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/market-analysis/us-stock-analysis",
+      "icon": null,
+      "checksum": "sha256:6f5aeb2b269a400dff55842eae9ab34a18fb4ec730d391410b425d63f8b15504",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "value-dividend-screener",
+      "type": "skill",
+      "category": "trading",
+      "name": "value-dividend-screener",
+      "version": "1.0.0",
+      "description": "Screen US stocks for high-quality dividend opportunities combining value characteristics (P/E ratio under 20, P/B ratio under 2), attractive yields (3% or higher), and consistent growth (dividend/revenue/EPS trending up over 3 years). Supports two-stage screening using FINVIZ Elite API for efficient pre-filtering followed by FMP API for detailed analysis. Use when user requests dividend stock screening, income portfolio ideas, or quality value stocks with strong fundamentals.",
+      "tags": [
+        "screener",
+        "stock-screening",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/screeners/value-dividend-screener",
+      "icon": null,
+      "checksum": "sha256:799f4a3dfaebabfe8202976b5f2318c9e6a8a159de16ca2d564fc9b4361a2618",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "vcp-screener",
+      "type": "skill",
+      "category": "trading",
+      "name": "vcp-screener",
+      "version": "1.0.0",
+      "description": "Screen S&P 500 stocks for Mark Minervini's Volatility Contraction Pattern (VCP) and detect historical VCPs in a single ticker's price path. Identifies Stage 2 uptrend stocks forming tight bases with contracting volatility near breakout pivot points; in historical single-ticker mode walks a multi-year history and emits every VCP that formed with forward-outcome stats (breakout / stop-hit / timeout). Use when user requests VCP screening, Minervini-style setups, tight base patterns, volatility contraction breakout candidates, Stage 2 momentum stock scanning, or historical VCP pattern study on a specific ticker (e.g. FIX, TSLA).",
+      "tags": [
+        "screener",
+        "stock-screening",
+        "trading"
+      ],
+      "author": "TraderMonty",
+      "license": "MIT",
+      "source": "https://github.com/tradermonty/claude-trading-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/trading/screeners/vcp-screener",
+      "icon": null,
+      "checksum": "sha256:1e06453a7677a891cdb09383ffc2c501c1be50af546c9a8dd02c0d4afc0a43fc",
       "compatibility": null,
       "acceptsFunding": false
     },

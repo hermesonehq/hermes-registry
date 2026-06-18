@@ -1,0 +1,147 @@
+# Black-Scholes Methodology Reference
+
+## Overview
+
+The Black-Scholes model is the foundation for theoretical options pricing in this skill. This document provides the mathematical framework and interpretation guidance.
+
+## Black-Scholes Formula
+
+### Call Option Price
+```
+C = S × e^(-qT) × N(d₁) - K × e^(-rT) × N(d₂)
+```
+
+### Put Option Price
+```
+P = K × e^(-rT) × N(-d₂) - S × e^(-qT) × N(-d₁)
+```
+
+### Parameters
+| Symbol | Description | Typical Range |
+|--------|-------------|---------------|
+| S | Current stock price | Market price |
+| K | Strike price | User selected |
+| T | Time to expiration (years) | 0.01 - 2.0 |
+| r | Risk-free rate | 0.03 - 0.06 |
+| σ | Volatility | 0.10 - 1.00 |
+| q | Dividend yield | 0.00 - 0.05 |
+
+### d₁ and d₂ Calculations
+```
+d₁ = [ln(S/K) + (r - q + σ²/2) × T] / (σ × √T)
+d₂ = d₁ - σ × √T
+```
+
+## The Greeks
+
+### Delta (Δ)
+- **Definition**: Price change per $1 move in underlying
+- **Call**: 0 to +1 (positive, bullish)
+- **Put**: -1 to 0 (negative, bearish)
+- **ATM options**: ~0.50 (call) or ~-0.50 (put)
+
+### Gamma (Γ)
+- **Definition**: Rate of change of delta
+- **Always positive** for long options
+- **Highest at ATM**, decreases as option moves ITM/OTM
+- **Increases** as expiration approaches
+
+### Theta (Θ)
+- **Definition**: Daily time decay ($/day)
+- **Negative** for long options (lose value daily)
+- **Positive** for short options (collect decay)
+- **Accelerates** in final 30 days
+
+### Vega (ν)
+- **Definition**: Price change per 1% IV move
+- **Always positive** for long options
+- **Highest at ATM**
+- **Critical** for earnings plays
+
+### Rho (ρ)
+- **Definition**: Price change per 1% rate change
+- **Positive** for calls, **negative** for puts
+- **Small impact** in short-dated options
+
+## Historical vs Implied Volatility
+
+| Metric | Description | Source |
+|--------|-------------|--------|
+| HV (Historical) | Past price movement | Calculated from prices |
+| IV (Implied) | Market expectation | Derived from option prices |
+
+### IV-HV Relationship
+- **IV > HV**: Options expensive → consider selling premium
+- **IV < HV**: Options cheap → consider buying
+- **IV ≈ HV**: Fairly priced
+
+### IV Percentile Interpretation
+| Percentile | Interpretation | Strategy Bias |
+|------------|----------------|---------------|
+| >80% | Very high IV | Sell premium |
+| 50-80% | Elevated IV | Neutral/sell |
+| 20-50% | Normal IV | Direction-based |
+| <20% | Low IV | Buy premium |
+
+## Model Limitations
+
+### Assumptions (Not Always True)
+1. **Constant volatility** - IV changes constantly
+2. **European exercise** - American options can exercise early
+3. **No transaction costs** - Commissions and slippage exist
+4. **Continuous trading** - Gaps and halts occur
+5. **Log-normal distribution** - Fat tails exist in practice
+
+### When Model Underperforms
+- Deep ITM American puts (early exercise value)
+- Near expiration with high gamma
+- Earnings/events (IV regime change)
+- Low liquidity options (wide bid-ask)
+
+## Practical Adjustments
+
+### American Options
+- Calls: Black-Scholes accurate if no dividends
+- Puts: May undervalue ITM puts near expiration
+- Solution: Note "European pricing approximation"
+
+### Dividend Handling
+- Include dividend yield (q) in calculations
+- For discrete dividends: subtract PV from stock price
+- Ex-dividend dates affect early exercise decisions
+
+## Strategy Selection Framework
+
+### By Market Outlook
+| Outlook | Delta Target | Strategies |
+|---------|--------------|------------|
+| Bullish | +0.3 to +0.7 | Long call, bull spread, covered call |
+| Bearish | -0.3 to -0.7 | Long put, bear spread, protective put |
+| Neutral | -0.1 to +0.1 | Iron condor, straddle, butterfly |
+
+### By Volatility View
+| IV View | Vega Target | Strategies |
+|---------|-------------|------------|
+| IV rising | Positive | Long straddle, long strangle |
+| IV falling | Negative | Iron condor, short straddle |
+| IV neutral | Near zero | Spreads, collars |
+
+## Position Sizing Guidelines
+
+### Risk-Based Sizing
+```
+Max Contracts = (Account Risk $) / (Max Loss per Contract)
+```
+
+### Portfolio Greeks Limits
+| Greek | Conservative | Moderate | Aggressive |
+|-------|--------------|----------|------------|
+| Delta | ±10 | ±25 | ±50 |
+| Theta | +$50/day | +$150/day | +$300/day |
+| Vega | ±$200 | ±$500 | ±$1000 |
+
+## References
+
+- Black, F. & Scholes, M. (1973). "The Pricing of Options and Corporate Liabilities"
+- Hull, J.C. "Options, Futures, and Other Derivatives"
+- CBOE Education: https://www.cboe.com/education/
