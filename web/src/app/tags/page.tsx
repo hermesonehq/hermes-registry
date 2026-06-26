@@ -29,7 +29,7 @@ export default function TagsPage() {
         title="Tags"
         description={`${tags.length} tags used across the registry. Bigger means more entries.`}
         icon={
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-soft)] text-default">
             <Tags className="h-5 w-5" />
           </span>
         }

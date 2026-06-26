@@ -58,7 +58,7 @@ export function Header() {
             value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder="Search skills, MCPs, agents, workflows…"
-            className="w-full rounded-lg border border-default bg-subtle py-2 pl-10 pr-16 text-sm text-default placeholder:text-faint outline-none transition focus:border-brand-400 focus:bg-app focus:ring-2 focus:ring-brand-500/20"
+            className="w-full rounded-lg border border-default bg-subtle py-2 pl-10 pr-16 text-sm text-default placeholder:text-faint outline-none transition focus:border-strong focus:bg-app focus:ring-2 focus:ring-amber-500/20"
           />
           <kbd className="pointer-events-none absolute right-3 top-1/2 hidden -translate-y-1/2 rounded border border-default bg-app px-1.5 py-0.5 text-[10px] font-medium text-faint lg:block">
             ⌘K
@@ -102,7 +102,7 @@ export function Header() {
                 value={q}
                 onChange={(e) => setQ(e.target.value)}
                 placeholder="Search the registry…"
-                className="w-full rounded-lg border border-default bg-subtle py-2 pl-10 pr-3 text-sm outline-none focus:border-brand-400"
+                className="w-full rounded-lg border border-default bg-subtle py-2 pl-10 pr-3 text-sm outline-none focus:border-strong"
               />
             </form>
             {NAV.map((item) => (

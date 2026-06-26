@@ -4,47 +4,52 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, -apple-system,
     "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, "SF Mono", SFMono-Regular,
-    Menlo, Consolas, monospace;
+  --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas,
+    "Liberation Mono", monospace;
 
-  --color-brand-50: #eef2ff;
-  --color-brand-100: #e0e7ff;
-  --color-brand-200: #c7d2fe;
-  --color-brand-300: #a5b4fc;
-  --color-brand-400: #818cf8;
-  --color-brand-500: #6366f1;
-  --color-brand-600: #4f46e5;
-  --color-brand-700: #4338ca;
-  --color-brand-800: #3730a3;
-  --color-brand-900: #312e81;
+  /* The palette is intentionally monochrome. "brand" maps onto a neutral gray
+     ramp so any incidental brand-* utility renders gray, never colored. The
+     only chromatic accent allowed anywhere is amber-500 (Tailwind default),
+     used sparingly for focus rings, status, and success feedback. */
+  --color-brand-50: #fafafa;
+  --color-brand-100: #f5f5f5;
+  --color-brand-200: #e5e5e5;
+  --color-brand-300: #d4d4d4;
+  --color-brand-400: #a3a3a3;
+  --color-brand-500: #737373;
+  --color-brand-600: #525252;
+  --color-brand-700: #404040;
+  --color-brand-800: #262626;
+  --color-brand-900: #171717;
 }
 
 :root {
   --bg: #ffffff;
-  --bg-subtle: #f8fafc;
+  --bg-subtle: #fafafa;
   --bg-elevated: #ffffff;
-  --border: #e2e8f0;
-  --border-strong: #cbd5e1;
-  --text: #0f172a;
-  --text-muted: #64748b;
-  --text-faint: #94a3b8;
-  --accent: #4f46e5;
-  --accent-soft: #eef2ff;
+  --border: #e5e5e5;
+  --border-strong: #d4d4d4;
+  --text: #0a0a0a;
+  --text-muted: #525252;
+  --text-faint: #a3a3a3;
+  /* accent === foreground: links and "accents" stay monochrome */
+  --accent: #0a0a0a;
+  --accent-soft: #f5f5f5;
 }
 
 .dark {
-  --bg: #0a0a0f;
-  --bg-subtle: #11121a;
-  --bg-elevated: #15161f;
-  --border: #232533;
-  --border-strong: #313445;
-  --text: #f1f5f9;
-  --text-muted: #94a3b8;
-  --text-faint: #64748b;
-  --accent: #818cf8;
-  --accent-soft: #1e1b3a;
+  --bg: #0a0a0a;
+  --bg-subtle: #141414;
+  --bg-elevated: #171717;
+  --border: #262626;
+  --border-strong: #404040;
+  --text: #fafafa;
+  --text-muted: #a3a3a3;
+  --text-faint: #525252;
+  --accent: #fafafa;
+  --accent-soft: #1f1f1f;
 }
 
 @layer base {
@@ -75,14 +80,14 @@
   .bg-accent-soft { background-color: var(--accent-soft); }
 }
 
-/* highlight.js minimal theme that adapts to our palette */
+/* Monochrome highlight.js theme: weight and shade carry meaning, not hue.
+   amber-500 is the single accent, reserved for numbers/constants. */
 .hljs { color: var(--text); background: transparent; }
 .hljs-comment, .hljs-quote { color: var(--text-faint); font-style: italic; }
-.hljs-keyword, .hljs-selector-tag, .hljs-built_in, .hljs-name, .hljs-tag { color: #8b5cf6; }
-.hljs-string, .hljs-title, .hljs-section, .hljs-attribute, .hljs-literal,
-.hljs-template-tag, .hljs-template-variable, .hljs-type, .hljs-addition { color: #10b981; }
+.hljs-keyword, .hljs-selector-tag, .hljs-built_in, .hljs-name, .hljs-tag { color: var(--text); font-weight: 600; }
+.hljs-string, .hljs-title, .hljs-section, .hljs-attribute, .hljs-attr, .hljs-literal,
+.hljs-template-tag, .hljs-template-variable, .hljs-type, .hljs-addition { color: var(--text-muted); }
 .hljs-number, .hljs-symbol, .hljs-bullet, .hljs-link, .hljs-meta, .hljs-deletion { color: #f59e0b; }
-.hljs-attr { color: #38bdf8; }
 .hljs-emphasis { font-style: italic; }
 .hljs-strong { font-weight: 700; }
 

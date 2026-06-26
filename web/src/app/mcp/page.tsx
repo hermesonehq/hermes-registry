@@ -24,7 +24,7 @@ export default async function McpPage({
         title="MCP Servers"
         description="Model Context Protocol servers exposing tools and resources. Each manifest points at a pinned, published server the client launches on demand."
         icon={
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/10 text-sky-500">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-soft)] text-default">
             <Plug className="h-5 w-5" />
           </span>
         }

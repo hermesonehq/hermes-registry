@@ -46,22 +46,18 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-default">
-        <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(60%_60%_at_50%_0%,var(--accent-soft),transparent)]" />
+      <section className="relative overflow-hidden border-b border-default bg-subtle">
         <div className="mx-auto max-w-7xl px-4 py-20 text-center sm:px-6 lg:px-8 lg:py-28">
           <Link
             href="https://github.com/hermesonehq/hermes-registry"
             className="inline-flex items-center gap-2 rounded-full border border-default bg-elevated px-3 py-1 text-xs font-medium text-muted shadow-sm transition hover:text-default"
           >
-            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+            <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
             Free & open · community registry
           </Link>
           <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-bold tracking-tight text-default sm:text-5xl lg:text-6xl">
             The package registry for the{" "}
-            <span className="bg-gradient-to-r from-brand-500 to-violet-600 bg-clip-text text-transparent">
-              Hermes
-            </span>{" "}
-            agent
+            <span className="text-amber-500">Hermes</span> agent
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-muted">
             Discover and inspect installable skills, MCP servers, agents, and
@@ -73,7 +69,7 @@ export default function HomePage() {
             <SearchHero suggestions={topTags.slice(0, 5).map((t) => t.tag)} />
           </div>
 
-          <dl className="mx-auto mt-12 grid max-w-2xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-default bg-default sm:grid-cols-4">
+          <dl className="mx-auto mt-12 grid max-w-2xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-default bg-[var(--border)] sm:grid-cols-4">
             {[
               { label: "Total entries", value: stats.total },
               { label: "Skills", value: stats.byType.skill },
@@ -170,7 +166,7 @@ export default function HomePage() {
                 <Link
                   key={c.name}
                   href={`/skills?category=${encodeURIComponent(c.name)}`}
-                  className="inline-flex items-center gap-2 rounded-full border border-default bg-elevated px-3.5 py-1.5 text-sm text-muted transition hover:border-brand-400 hover:text-accent"
+                  className="inline-flex items-center gap-2 rounded-full border border-default bg-elevated px-3.5 py-1.5 text-sm text-muted transition hover:border-strong hover:text-default"
                 >
                   {c.name}
                   <span className="rounded-full bg-subtle px-1.5 text-xs text-faint">

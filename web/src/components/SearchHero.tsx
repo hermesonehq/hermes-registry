@@ -28,11 +28,11 @@ export function SearchHero({ suggestions = [] }: { suggestions?: string[] }) {
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Search 236+ skills, MCPs, agents & workflows…"
-          className="w-full rounded-2xl border border-default bg-elevated py-4 pl-12 pr-28 text-base shadow-sm outline-none transition focus:border-brand-400 focus:ring-4 focus:ring-brand-500/15"
+          className="w-full rounded-2xl border border-default bg-elevated py-4 pl-12 pr-28 text-base shadow-sm outline-none transition focus:border-strong focus:ring-4 focus:ring-amber-500/20"
         />
         <button
           type="submit"
-          className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-700"
+          className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl bg-[var(--accent)] px-4 py-2.5 text-sm font-semibold text-[var(--bg)] transition hover:opacity-90"
         >
           Search
         </button>
@@ -45,7 +45,7 @@ export function SearchHero({ suggestions = [] }: { suggestions?: string[] }) {
             <button
               key={s}
               onClick={() => go(s)}
-              className="rounded-full border border-default bg-elevated px-3 py-1 text-muted transition hover:border-brand-400 hover:text-accent"
+              className="rounded-full border border-default bg-elevated px-3 py-1 text-muted transition hover:border-strong hover:text-default"
             >
               {s}
             </button>

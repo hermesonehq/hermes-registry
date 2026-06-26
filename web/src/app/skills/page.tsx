@@ -28,7 +28,7 @@ export default async function SkillsPage({
         title="Skills"
         description="Self-contained task procedures the Hermes agent can follow — each a single SKILL.md following the agentskills.io open standard."
         icon={
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10 text-emerald-500">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-soft)] text-default">
             <Sparkles className="h-5 w-5" />
           </span>
         }

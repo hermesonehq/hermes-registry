@@ -24,7 +24,7 @@ export default async function AgentsPage({
         title="Agents"
         description="Named subagent personas — each a system prompt (AGENT.md) plus a declared model and tool set the Hermes agent can delegate to."
         icon={
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-violet-500/10 text-violet-500">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-soft)] text-default">
             <Bot className="h-5 w-5" />
           </span>
         }

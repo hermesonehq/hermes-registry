@@ -24,7 +24,7 @@ export default async function WorkflowsPage({
         title="Workflows"
         description="Multi-step recipes that chain skills, agents, and MCP servers into a repeatable pipeline with defined inputs and steps."
         icon={
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-amber-500/10 text-amber-500">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-soft)] text-default">
             <Workflow className="h-5 w-5" />
           </span>
         }

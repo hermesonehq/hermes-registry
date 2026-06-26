@@ -26,7 +26,7 @@ export function EntryCard({
   return (
     <Link
       href={entryHref(entry.type, entry.id)}
-      className="group flex flex-col rounded-xl border border-default bg-elevated p-4 transition-all hover:border-strong hover:shadow-md focus:outline-none focus:ring-2 focus:ring-brand-500/30"
+      className="group flex flex-col rounded-xl border border-default bg-elevated p-4 transition-all hover:border-strong hover:shadow-md focus:outline-none focus:ring-2 focus:ring-amber-500/40"
     >
       <div className="flex items-start gap-3">
         <EntryIcon

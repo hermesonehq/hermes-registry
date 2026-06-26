@@ -3,7 +3,11 @@ import path from "node:path";
 import { NextResponse } from "next/server";
 import { getAllEntries } from "@/lib/registry";
 
-const ROOT = process.cwd();
+// Registry data (and entry icons) live at the repo root, one level up from the
+// Next.js project in `web/`. Mirrors the resolution in src/lib/registry.ts.
+const ROOT = process.env.REGISTRY_ROOT
+  ? path.resolve(process.env.REGISTRY_ROOT)
+  : path.resolve(process.cwd(), "..");
 
 const CONTENT_TYPES: Record<string, string> = {
   ".svg": "image/svg+xml",

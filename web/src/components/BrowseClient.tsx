@@ -157,7 +157,7 @@ export function BrowseClient({
                     onClick={() => toggleTag(t.name)}
                     className={`rounded-md px-2 py-0.5 text-xs ring-1 ring-inset transition ${
                       activeTags.includes(t.name)
-                        ? "bg-accent-soft text-accent ring-brand-400"
+                        ? "bg-[var(--text)] text-[var(--bg)] ring-[var(--text)]"
                         : "bg-subtle text-muted ring-default hover:text-default"
                     }`}
                   >
@@ -179,7 +179,7 @@ export function BrowseClient({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Filter results…"
-              className="w-full rounded-lg border border-default bg-elevated py-2.5 pl-10 pr-3 text-sm outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-500/20"
+              className="w-full rounded-lg border border-default bg-elevated py-2.5 pl-10 pr-3 text-sm outline-none focus:border-strong focus:ring-2 focus:ring-amber-500/20"
             />
           </div>
           <div className="flex items-center gap-2">
@@ -193,7 +193,7 @@ export function BrowseClient({
             <select
               value={sort}
               onChange={(e) => setSort(e.target.value as SortKey)}
-              className="rounded-lg border border-default bg-elevated px-3 py-2.5 text-sm text-muted outline-none focus:border-brand-400"
+              className="rounded-lg border border-default bg-elevated px-3 py-2.5 text-sm text-muted outline-none focus:border-strong"
             >
               <option value="name">Sort: Name</option>
               <option value="type">Sort: Type</option>

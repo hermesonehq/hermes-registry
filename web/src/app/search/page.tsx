@@ -23,7 +23,7 @@ export default async function SearchPage({
         title="Search the registry"
         description="One search across every skill, MCP server, agent, and workflow."
         icon={
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-soft)] text-default">
             <Search className="h-5 w-5" />
           </span>
         }

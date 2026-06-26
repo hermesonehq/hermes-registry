@@ -19,7 +19,7 @@ export default function CategoriesPage() {
         title="Categories"
         description="Browse the skill library by category, plus a breakdown of every entry type."
         icon={
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-soft)] text-default">
             <Boxes className="h-5 w-5" />
           </span>
         }

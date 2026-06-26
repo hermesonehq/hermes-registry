@@ -15,6 +15,11 @@ export interface TypeMeta {
   dot: string;
 }
 
+// Monochrome by design: every type shares one neutral badge/dot treatment.
+// Types are distinguished by their label and icon, not by color.
+const MONO_BADGE = "bg-[var(--accent-soft)] text-muted ring-[var(--border)]";
+const MONO_DOT = "bg-[var(--text-faint)]";
+
 export const TYPE_META: Record<EntryType, TypeMeta> = {
   skill: {
     type: "skill",
@@ -22,9 +27,8 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     plural: "Skills",
     slug: "skills",
     blurb: "Task procedures Hermes can follow.",
-    badge:
-      "bg-emerald-50 text-emerald-700 ring-emerald-600/20 dark:bg-emerald-500/10 dark:text-emerald-300 dark:ring-emerald-400/20",
-    dot: "bg-emerald-500",
+    badge: MONO_BADGE,
+    dot: MONO_DOT,
   },
   mcp: {
     type: "mcp",
@@ -32,9 +36,8 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     plural: "MCP Servers",
     slug: "mcp",
     blurb: "Model Context Protocol servers exposing tools and resources.",
-    badge:
-      "bg-sky-50 text-sky-700 ring-sky-600/20 dark:bg-sky-500/10 dark:text-sky-300 dark:ring-sky-400/20",
-    dot: "bg-sky-500",
+    badge: MONO_BADGE,
+    dot: MONO_DOT,
   },
   agent: {
     type: "agent",
@@ -42,9 +45,8 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     plural: "Agents",
     slug: "agents",
     blurb: "Named subagent personas with their own prompt, tools, and model.",
-    badge:
-      "bg-violet-50 text-violet-700 ring-violet-600/20 dark:bg-violet-500/10 dark:text-violet-300 dark:ring-violet-400/20",
-    dot: "bg-violet-500",
+    badge: MONO_BADGE,
+    dot: MONO_DOT,
   },
   workflow: {
     type: "workflow",
@@ -52,9 +54,8 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     plural: "Workflows",
     slug: "workflows",
     blurb: "Multi-step recipes chaining skills, agents, and MCPs.",
-    badge:
-      "bg-amber-50 text-amber-700 ring-amber-600/20 dark:bg-amber-500/10 dark:text-amber-300 dark:ring-amber-400/20",
-    dot: "bg-amber-500",
+    badge: MONO_BADGE,
+    dot: MONO_DOT,
   },
 };
 
