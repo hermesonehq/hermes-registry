@@ -1,13 +1,10 @@
 name: Validate
 
-# Validate every entry on PRs and on pushes to feature branches. Pushes to main
-# are validated by the Build Index workflow instead, so we skip main here to
-# avoid a duplicate run. Fails the check on any ERROR; warnings are allowed.
+# Validate every registry entry on pull requests — the pre-merge safety net.
+# Branch pushes are not validated here; pushes to main run skill parsing via the
+# Build Index workflow. Fails the check on any ERROR; warnings are allowed.
 on:
   pull_request:
-  push:
-    branches-ignore:
-      - main
 
 jobs:
   validate:
