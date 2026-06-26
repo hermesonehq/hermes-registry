@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-18T09:46:56+05:30",
-  "count": 236,
+  "generated": "2026-06-26T09:58:02.490153+00:00",
+  "count": 237,
   "entries": [
     {
       "id": "accessibility-auditor",
@@ -2773,6 +2773,38 @@
       "path": "skills/design/open-design",
       "icon": null,
       "checksum": "sha256:0582e0fd591ac3a7e2290608389af3b61442214276be0e57253669489545bf70",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "hermesone",
+      "type": "skill",
+      "category": "devops",
+      "name": "hermesone",
+      "version": "0.2.0",
+      "description": "Install, update, and manage the Hermes One desktop app via the `hermesone` npm package. Use when a user wants to set up Hermes One, install or upgrade it from the command line, check the installed version, preview a release before installing, pin a specific version, or drive the installer programmatically from Node. Triggers on mentions of hermesone, Hermes One, Hermes Desktop (the former name), or installing/updating the Hermes app.",
+      "tags": [
+        "hermes",
+        "hermes-one",
+        "install",
+        "update",
+        "npm",
+        "desktop",
+        "cli",
+        "installer",
+        "bankr"
+      ],
+      "author": "fathah",
+      "license": "ISC",
+      "source": "https://github.com/BankrBot/skills/tree/main/hermesone",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/hermesone",
+      "icon": "skills/devops/hermesone/icon.svg",
+      "checksum": "sha256:5a536df53aaf73677c68a21db24ce538a28ff9d78401fd35033065d590ee8de3",
       "compatibility": null,
       "acceptsFunding": false
     },

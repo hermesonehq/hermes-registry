@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-18T09:46:56+05:30",
+  "generated": "2026-06-26T09:58:02.490153+00:00",
   "types": [
     {
       "type": "agent",
@@ -14,7 +14,7 @@
     },
     {
       "type": "skill",
-      "count": 153,
+      "count": 154,
       "categories": [
         {
           "name": "apple",
@@ -42,7 +42,7 @@
         },
         {
           "name": "devops",
-          "count": 3
+          "count": 4
         },
         {
           "name": "diagramming",
