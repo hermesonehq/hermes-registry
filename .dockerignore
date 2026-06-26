@@ -1,0 +1,13 @@
+.git
+**/.git
+web/node_modules
+web/.next
+web/out
+**/.DS_Store
+.DS_Store
+*.tar.gz
+.venv
+**/__pycache__
+.claude
+web/.env*
+.env
