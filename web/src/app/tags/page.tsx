@@ -4,13 +4,15 @@ import { PageHeader } from "@/components/PageHeader";
 import { getAllTags } from "@/lib/registry";
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Tags",
   description: "Browse every tag used across the registry.",
 };
 
-export default function TagsPage() {
-  const tags = getAllTags();
+export default async function TagsPage() {
+  const tags = await getAllTags();
   const max = tags[0]?.count ?? 1;
 
   // scale font size with usage for a simple tag cloud

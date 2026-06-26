@@ -23,6 +23,8 @@ export interface RegistryEntry {
   checksum?: string;
   compatibility: Compatibility | null;
   acceptsFunding?: boolean;
+  /** Live install counter (from Postgres). */
+  downloads?: number;
 }
 
 export interface CategoryCount {

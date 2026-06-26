@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { entryHref } from "@/lib/ui";
+import { Download } from "lucide-react";
+import { entryHref, formatNumber } from "@/lib/ui";
 import { EntryIcon } from "./EntryIcon";
 import { TypeBadge, Tag } from "./Badges";
 import type { EntryType } from "@/lib/types";
@@ -14,6 +15,7 @@ export interface EntryCardData {
   category: string | null;
   icon: string | null;
   version?: string;
+  downloads?: number;
 }
 
 export function EntryCard({
@@ -58,13 +60,24 @@ export function EntryCard({
         {entry.description}
       </p>
 
-      {entry.tags?.length > 0 && (
-        <div className="mt-3 flex flex-wrap gap-1.5">
-          {entry.tags.slice(0, 4).map((t) => (
-            <Tag key={t} tag={t} />
-          ))}
-        </div>
-      )}
+      <div className="mt-3 flex items-center justify-between gap-2">
+        {entry.tags?.length > 0 ? (
+          <div className="flex flex-wrap gap-1.5">
+            {entry.tags.slice(0, 3).map((t) => (
+              <Tag key={t} tag={t} />
+            ))}
+          </div>
+        ) : (
+          <span />
+        )}
+        <span
+          className="inline-flex shrink-0 items-center gap-1 text-xs text-faint"
+          title={`${formatNumber(entry.downloads ?? 0)} installs`}
+        >
+          <Download className="h-3 w-3" />
+          {formatNumber(entry.downloads ?? 0)}
+        </span>
+      </div>
     </Link>
   );
 }

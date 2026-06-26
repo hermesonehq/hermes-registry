@@ -40,7 +40,7 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body
-        className={`${manrope.variable} font-sans min-h-screen flex flex-col antialiased`}
+        className={`${manrope.className} min-h-screen flex flex-col antialiased`}
       >
         <Header />
         <main className="flex-1">{children}</main>

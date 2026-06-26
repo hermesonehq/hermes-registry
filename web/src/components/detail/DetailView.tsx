@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ChevronRight, ExternalLink, Github, Heart } from "lucide-react";
+import { ChevronRight, Download, ExternalLink, Github, Heart } from "lucide-react";
 import { EntryIcon } from "@/components/EntryIcon";
 import { TypeBadge, Tag, Pill } from "@/components/Badges";
 import { Markdown } from "@/components/Markdown";
@@ -8,7 +8,7 @@ import { MetaList } from "./MetaList";
 import { InstallCard } from "./InstallCard";
 import { McpDetails } from "./McpDetails";
 import { WorkflowDetails } from "./WorkflowDetails";
-import { typeMeta, entryHref, parseRef } from "@/lib/ui";
+import { typeMeta, entryHref, parseRef, formatNumber } from "@/lib/ui";
 import type { EntryDetail } from "@/lib/types";
 
 function get(obj: unknown, ...keys: string[]): unknown {
@@ -50,6 +50,15 @@ export function DetailView({ detail }: { detail: EntryDetail }) {
   const detailItems: { label: string; value: React.ReactNode }[] = [
     { label: "Version", value: <span className="font-mono">{entry.version}</span> },
     { label: "Type", value: <TypeBadge type={entry.type} /> },
+    {
+      label: "Installs",
+      value: (
+        <span className="inline-flex items-center gap-1">
+          <Download className="h-3.5 w-3.5 text-faint" />
+          {formatNumber(entry.downloads ?? 0)}
+        </span>
+      ),
+    },
   ];
   if (entry.category)
     detailItems.push({

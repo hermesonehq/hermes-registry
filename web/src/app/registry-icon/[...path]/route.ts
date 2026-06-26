@@ -1,27 +1,12 @@
-import fs from "node:fs";
-import path from "node:path";
 import { NextResponse } from "next/server";
-import { getAllEntries } from "@/lib/registry";
+import { getIcon } from "@/lib/registry";
 
-// Registry data (and entry icons) live at the repo root, one level up from the
-// Next.js project in `web/`. Mirrors the resolution in src/lib/registry.ts.
-const ROOT = process.env.REGISTRY_ROOT
-  ? path.resolve(process.env.REGISTRY_ROOT)
-  : path.resolve(process.cwd(), "..");
-
-const CONTENT_TYPES: Record<string, string> = {
-  ".svg": "image/svg+xml",
-  ".png": "image/png",
-  ".jpg": "image/jpeg",
-  ".jpeg": "image/jpeg",
-  ".webp": "image/webp",
-  ".gif": "image/gif",
-};
+export const dynamic = "force-dynamic";
 
 /**
- * Serves entry icons that live next to the registry data at the repo root
- * (e.g. `mcp/ableton/icon.svg`). Only paths referenced by a real entry's
- * `icon` field are served, which keeps this from being an arbitrary file read.
+ * Serves entry icons from Postgres (entry_content.icon_b64). `getIcon` only
+ * matches a path that is some entry's `icon` field, so this can't be used to
+ * read arbitrary data.
  */
 export async function GET(
   _req: Request,
@@ -30,39 +15,13 @@ export async function GET(
   const { path: segments } = await params;
   const rel = segments.join("/");
 
-  const allowed = new Set(
-    getAllEntries()
-      .map((e) => e.icon)
-      .filter((i): i is string => Boolean(i))
-  );
-  if (!allowed.has(rel)) {
-    return new NextResponse("Not found", { status: 404 });
-  }
+  const icon = await getIcon(rel);
+  if (!icon) return new NextResponse("Not found", { status: 404 });
 
-  const abs = path.join(ROOT, rel);
-  if (!abs.startsWith(ROOT)) {
-    return new NextResponse("Forbidden", { status: 403 });
-  }
-
-  let data: Buffer;
-  try {
-    data = fs.readFileSync(abs);
-  } catch {
-    return new NextResponse("Not found", { status: 404 });
-  }
-
-  const ext = path.extname(abs).toLowerCase();
-  return new NextResponse(new Uint8Array(data), {
+  return new NextResponse(new Uint8Array(icon.data), {
     headers: {
-      "Content-Type": CONTENT_TYPES[ext] ?? "application/octet-stream",
+      "Content-Type": icon.mime,
       "Cache-Control": "public, max-age=86400, immutable",
     },
   });
-}
-
-export function generateStaticParams() {
-  return getAllEntries()
-    .map((e) => e.icon)
-    .filter((i): i is string => Boolean(i))
-    .map((icon) => ({ path: icon.split("/") }));
 }

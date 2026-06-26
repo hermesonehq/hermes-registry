@@ -9,11 +9,13 @@ import {
   getAllTags,
 } from "@/lib/registry";
 import { TYPE_ORDER, TYPE_META, formatNumber } from "@/lib/ui";
+import type { EntryWithDownloads } from "@/lib/registry";
 
-function pickFeatured() {
-  const all = getAllEntries();
+export const dynamic = "force-dynamic";
+
+function pickFeatured(all: EntryWithDownloads[]) {
   // A stable, mixed selection: prefer entries that have icons & tags.
-  const featured: typeof all = [];
+  const featured: EntryWithDownloads[] = [];
   for (const type of TYPE_ORDER) {
     const ofType = all.filter((e) => e.type === type);
     const withIcon = ofType.filter((e) => e.icon);
@@ -23,11 +25,15 @@ function pickFeatured() {
   return featured.slice(0, 9);
 }
 
-export default function HomePage() {
-  const stats = getStats();
-  const cats = getCategories();
-  const topTags = getAllTags().slice(0, 8);
-  const featured = pickFeatured();
+export default async function HomePage() {
+  const [stats, allEntries, cats, allTags] = await Promise.all([
+    getStats(),
+    getAllEntries(),
+    getCategories(),
+    getAllTags(),
+  ]);
+  const topTags = allTags.slice(0, 8);
+  const featured = pickFeatured(allEntries);
 
   const skillCats = (cats.types.find((t) => t.type === "skill")?.categories ?? [])
     .slice()
@@ -48,12 +54,12 @@ export default function HomePage() {
           </Link>
           <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-bold tracking-tight text-default sm:text-5xl lg:text-6xl">
             The package registry for the{" "}
-            <span className="text-amber-500">Hermes</span> agent
+            <span className="text-amber-500">Hermes</span> ecosystem
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-muted">
             Discover and inspect installable skills, MCP servers, agents, and
-            workflows. One clean place to browse everything the Hermes agent can
-            run.
+            workflows. One clean place to browse everything the Hermes agent and
+            its desktop companion can run.
           </p>
 
           <div className="mt-9">

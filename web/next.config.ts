@@ -1,28 +1,10 @@
-import path from "node:path";
 import type { NextConfig } from "next";
 
-// The registry data lives at the repo root, one level up from this Next.js
-// project in `web/`.
-const repoRoot = path.resolve(process.cwd(), "..");
-
 const nextConfig: NextConfig = {
-  // The registry data (skills/, mcp/, agents/, workflows/, models/, *.json) is
-  // read at build time via the Node fs API in src/lib. Set the file-tracing root
-  // to the repo root and include those reads so they trace into a standalone
-  // build output.
-  outputFileTracingRoot: repoRoot,
-  outputFileTracingIncludes: {
-    "/**": [
-      "../index.json",
-      "../categories.json",
-      "../models.json",
-      "../skills/**/*",
-      "../mcp/**/*",
-      "../agents/**/*",
-      "../workflows/**/*",
-      "../models/**/*",
-    ],
-  },
+  // Standalone build for a small Docker runtime image. Registry data is read
+  // from Postgres at request time (pages are dynamic), so there are no repo
+  // files to trace into the build anymore.
+  output: "standalone",
 };
 
 export default nextConfig;

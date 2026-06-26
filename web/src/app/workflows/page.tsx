@@ -1,9 +1,10 @@
 import { Workflow } from "lucide-react";
 import { PageHeader } from "@/components/PageHeader";
 import { BrowseClient } from "@/components/BrowseClient";
-import { getEntriesByType } from "@/lib/registry";
-import { tagFacets } from "@/lib/facets";
+import { getEntriesPage, type SortKey } from "@/lib/registry";
 import type { Metadata } from "next";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Workflows",
@@ -11,13 +12,24 @@ export const metadata: Metadata = {
     "Browse multi-step recipes that chain skills, agents, and MCP servers.",
 };
 
-export default async function WorkflowsPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string }>;
-}) {
+type SP = Promise<{
+  q?: string;
+  tag?: string;
+  sort?: string;
+  page?: string;
+}>;
+
+export default async function WorkflowsPage({ searchParams }: { searchParams: SP }) {
   const sp = await searchParams;
-  const entries = getEntriesByType("workflow");
+  const query = {
+    type: "workflow" as const,
+    tag: sp.tag,
+    q: sp.q,
+    sort: sp.sort as SortKey | undefined,
+    page: Number(sp.page) || 1,
+  };
+  const data = await getEntriesPage(query);
+
   return (
     <div>
       <PageHeader
@@ -30,11 +42,7 @@ export default async function WorkflowsPage({
         }
       />
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <BrowseClient
-          entries={entries}
-          tags={tagFacets(entries)}
-          initialQuery={sp.q ?? ""}
-        />
+        <BrowseClient data={data} query={query} basePath="/workflows" />
       </div>
     </div>
   );

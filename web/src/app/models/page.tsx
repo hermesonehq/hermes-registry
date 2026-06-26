@@ -5,14 +5,16 @@ import { getModelsCatalog } from "@/lib/registry";
 import { formatNumber } from "@/lib/ui";
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Models",
   description:
     "Model providers and their catalogs — context windows, modalities, and capabilities.",
 };
 
-export default function ModelsPage() {
-  const catalog = getModelsCatalog();
+export default async function ModelsPage() {
+  const catalog = await getModelsCatalog();
   const providers = [...catalog.providers].sort((a, b) =>
     a.name.localeCompare(b.name)
   );
@@ -27,7 +29,7 @@ export default function ModelsPage() {
           catalog.providerCount ?? providers.length
         )} providers. The model catalog clients use to resolve context windows, modalities, and capabilities.`}
         icon={
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-rose-500/10 text-rose-500">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-soft)] text-default">
             <Cpu className="h-5 w-5" />
           </span>
         }

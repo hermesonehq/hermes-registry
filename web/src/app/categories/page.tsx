@@ -5,13 +5,15 @@ import { getCategories } from "@/lib/registry";
 import { TYPE_META, TYPE_ORDER } from "@/lib/ui";
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Categories",
   description: "Browse the registry by category.",
 };
 
-export default function CategoriesPage() {
-  const cats = getCategories();
+export default async function CategoriesPage() {
+  const cats = await getCategories();
 
   return (
     <div>

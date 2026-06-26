@@ -1,162 +1,131 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { Search, SlidersHorizontal, X } from "lucide-react";
-import { EntryCard, type EntryCardData } from "./EntryCard";
+import { useEffect, useState, useTransition } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import {
+  ChevronLeft,
+  ChevronRight,
+  Search,
+  SlidersHorizontal,
+  X,
+} from "lucide-react";
+import { EntryCard } from "./EntryCard";
 import { TypeBadge } from "./Badges";
 import { TYPE_ORDER, TYPE_META } from "@/lib/ui";
+import type { EntriesPage, BrowseQuery, BrowseFacet } from "@/lib/registry";
 import type { EntryType } from "@/lib/types";
 
-type SortKey = "relevance" | "name" | "type";
-
-export interface BrowseFacet {
-  name: string;
-  count: number;
-}
-
+/**
+ * URL-driven browse: all filtering/sorting/pagination lives in the query string,
+ * so the server fetches just one page of results (no whole-catalog payload).
+ * Controls update the URL; the server page re-queries and passes fresh `data`.
+ */
 export function BrowseClient({
-  entries,
-  categories,
-  tags,
+  data,
+  query,
+  basePath,
   enableTypeFilter = false,
-  initialQuery = "",
-  initialCategory = "",
-  initialType = "",
 }: {
-  entries: EntryCardData[];
-  categories?: BrowseFacet[];
-  tags?: BrowseFacet[];
+  data: EntriesPage;
+  query: BrowseQuery;
+  basePath: string;
   enableTypeFilter?: boolean;
-  initialQuery?: string;
-  initialCategory?: string;
-  initialType?: string;
 }) {
-  const [query, setQuery] = useState(initialQuery);
-  const [category, setCategory] = useState(initialCategory);
-  const [activeType, setActiveType] = useState<string>(initialType);
-  const [activeTags, setActiveTags] = useState<string[]>([]);
-  const [sort, setSort] = useState<SortKey>("name");
+  const router = useRouter();
+  const pathname = usePathname();
+  const params = useSearchParams();
+  const [pending, startTransition] = useTransition();
   const [showFilters, setShowFilters] = useState(false);
+  const [term, setTerm] = useState(query.q ?? "");
 
-  const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    let list = entries.filter((e) => {
-      if (activeType && e.type !== activeType) return false;
-      if (category && e.category !== category) return false;
-      if (activeTags.length && !activeTags.every((t) => e.tags?.includes(t)))
-        return false;
-      if (!q) return true;
-      const hay = `${e.name} ${e.description} ${e.author} ${(
-        e.tags ?? []
-      ).join(" ")} ${e.category ?? ""}`.toLowerCase();
-      return hay.includes(q);
-    });
+  // keep the input in sync when navigation changes the q param
+  useEffect(() => setTerm(query.q ?? ""), [query.q]);
 
-    if (sort === "name") {
-      list = [...list].sort((a, b) => a.name.localeCompare(b.name));
-    } else if (sort === "type") {
-      list = [...list].sort(
-        (a, b) =>
-          TYPE_ORDER.indexOf(a.type) - TYPE_ORDER.indexOf(b.type) ||
-          a.name.localeCompare(b.name)
-      );
-    } else if (q) {
-      // relevance: name matches first
-      list = [...list].sort((a, b) => {
-        const an = a.name.toLowerCase().includes(q) ? 0 : 1;
-        const bn = b.name.toLowerCase().includes(q) ? 0 : 1;
-        return an - bn || a.name.localeCompare(b.name);
-      });
+  function navigate(updates: Record<string, string | null>) {
+    const next = new URLSearchParams(params.toString());
+    for (const [k, v] of Object.entries(updates)) {
+      if (v === null || v === "") next.delete(k);
+      else next.set(k, v);
     }
-    return list;
-  }, [entries, query, category, activeType, activeTags, sort]);
-
-  function toggleTag(tag: string) {
-    setActiveTags((prev) =>
-      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
-    );
+    // any filter change resets to page 1 unless page itself is being set
+    if (!("page" in updates)) next.delete("page");
+    startTransition(() => router.push(`${basePath}?${next.toString()}`));
   }
 
-  const hasFilters =
-    Boolean(query || category || activeType || activeTags.length);
+  // debounce the search box → ?q
+  useEffect(() => {
+    const current = query.q ?? "";
+    if (term === current) return;
+    const id = setTimeout(() => navigate({ q: term || null }), 300);
+    return () => clearTimeout(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [term]);
 
-  function clearAll() {
-    setQuery("");
-    setCategory("");
-    setActiveType("");
-    setActiveTags([]);
-  }
+  const toggle = (key: string, value: string) =>
+    navigate({ [key]: query[key as keyof BrowseQuery] === value ? null : value });
+
+  const hasFilters = Boolean(
+    query.q || query.category || query.tag || query.type
+  );
+  const clearAll = () =>
+    startTransition(() => router.push(basePath));
+
+  const showType = enableTypeFilter;
 
   return (
-    <div className="flex flex-col gap-6 lg:flex-row">
+    <div className={`flex flex-col gap-6 lg:flex-row ${pending ? "opacity-70" : ""}`}>
       {/* Sidebar */}
-      <aside
-        className={`${
-          showFilters ? "block" : "hidden"
-        } shrink-0 lg:block lg:w-64`}
-      >
+      <aside className={`${showFilters ? "block" : "hidden"} shrink-0 lg:block lg:w-64`}>
         <div className="space-y-6 lg:sticky lg:top-24">
           {enableTypeFilter && (
             <FacetGroup title="Type">
-              <button
-                onClick={() => setActiveType("")}
-                className={facetBtn(!activeType)}
-              >
-                All types
-                <span className="text-faint">{entries.length}</span>
-              </button>
+              <FacetRow
+                active={!query.type}
+                label="All types"
+                count={data.typeFacets.reduce((a, f) => a + f.count, 0)}
+                onClick={() => navigate({ type: null })}
+              />
               {TYPE_ORDER.map((t) => {
-                const count = entries.filter((e) => e.type === t).length;
-                if (!count) return null;
+                const f = data.typeFacets.find((x) => x.type === t);
+                if (!f?.count) return null;
                 return (
-                  <button
+                  <FacetRow
                     key={t}
-                    onClick={() => setActiveType(activeType === t ? "" : t)}
-                    className={facetBtn(activeType === t)}
-                  >
-                    {TYPE_META[t].plural}
-                    <span className="text-faint">{count}</span>
-                  </button>
+                    active={query.type === t}
+                    label={TYPE_META[t].plural}
+                    count={f.count}
+                    onClick={() => toggle("type", t)}
+                  />
                 );
               })}
             </FacetGroup>
           )}
 
-          {categories && categories.length > 0 && (
+          {data.categoryFacets.length > 0 && (
             <FacetGroup title="Category">
-              <button
-                onClick={() => setCategory("")}
-                className={facetBtn(!category)}
-              >
-                All categories
-                <span className="text-faint">{entries.length}</span>
-              </button>
               <div className="max-h-72 overflow-y-auto pr-1">
-                {categories.map((c) => (
-                  <button
+                {data.categoryFacets.map((c) => (
+                  <FacetRow
                     key={c.name}
-                    onClick={() =>
-                      setCategory(category === c.name ? "" : c.name)
-                    }
-                    className={facetBtn(category === c.name)}
-                  >
-                    <span className="truncate">{c.name}</span>
-                    <span className="text-faint">{c.count}</span>
-                  </button>
+                    active={query.category === c.name}
+                    label={c.name}
+                    count={c.count}
+                    onClick={() => toggle("category", c.name)}
+                  />
                 ))}
               </div>
             </FacetGroup>
           )}
 
-          {tags && tags.length > 0 && (
+          {data.tagFacets.length > 0 && (
             <FacetGroup title="Popular tags">
               <div className="flex flex-wrap gap-1.5">
-                {tags.map((t) => (
+                {data.tagFacets.map((t) => (
                   <button
                     key={t.name}
-                    onClick={() => toggleTag(t.name)}
+                    onClick={() => toggle("tag", t.name)}
                     className={`rounded-md px-2 py-0.5 text-xs transition ${
-                      activeTags.includes(t.name)
+                      query.tag === t.name
                         ? "bg-[var(--text)] text-[var(--bg)]"
                         : "bg-[var(--chip)] text-muted hover:bg-[var(--chip-hover)] hover:text-default"
                     }`}
@@ -176,10 +145,10 @@ export function BrowseClient({
           <div className="relative flex-1">
             <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-faint" />
             <input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              value={term}
+              onChange={(e) => setTerm(e.target.value)}
               placeholder="Filter results…"
-              className="w-full rounded-lg border border-default bg-elevated py-2.5 pl-10 pr-3 text-sm outline-none focus:border-strong focus:ring-2 focus:ring-amber-500/20"
+              className="w-full rounded-lg border border-default bg-elevated py-2.5 pl-10 pr-3 text-sm outline-none focus:border-strong focus:ring-2 focus:ring-amber-500/30"
             />
           </div>
           <div className="flex items-center gap-2">
@@ -191,23 +160,22 @@ export function BrowseClient({
               Filters
             </button>
             <select
-              value={sort}
-              onChange={(e) => setSort(e.target.value as SortKey)}
+              value={query.sort ?? "name"}
+              onChange={(e) => navigate({ sort: e.target.value })}
               className="rounded-lg border border-default bg-elevated px-3 py-2.5 text-sm text-muted outline-none focus:border-strong"
             >
               <option value="name">Sort: Name</option>
+              <option value="downloads">Sort: Installs</option>
               <option value="type">Sort: Type</option>
-              {query && <option value="relevance">Sort: Relevance</option>}
+              {query.q && <option value="relevance">Sort: Relevance</option>}
             </select>
           </div>
         </div>
 
         <div className="mb-4 flex items-center justify-between text-sm">
           <p className="text-muted">
-            <span className="font-semibold text-default">
-              {results.length}
-            </span>{" "}
-            result{results.length === 1 ? "" : "s"}
+            <span className="font-semibold text-default">{data.total}</span>{" "}
+            result{data.total === 1 ? "" : "s"}
           </p>
           {hasFilters && (
             <button
@@ -219,29 +187,27 @@ export function BrowseClient({
           )}
         </div>
 
-        {(activeType || category || activeTags.length > 0) && (
+        {(query.type || query.category || query.tag) && (
           <div className="mb-4 flex flex-wrap items-center gap-2">
-            {activeType && (
-              <Chip onClear={() => setActiveType("")}>
-                <TypeBadge type={activeType as EntryType} />
+            {query.type && (
+              <Chip onClear={() => navigate({ type: null })}>
+                <TypeBadge type={query.type as EntryType} />
               </Chip>
             )}
-            {category && (
-              <Chip onClear={() => setCategory("")}>{category}</Chip>
-            )}
-            {activeTags.map((t) => (
-              <Chip key={t} onClear={() => toggleTag(t)}>
-                #{t}
+            {query.category && (
+              <Chip onClear={() => navigate({ category: null })}>
+                {query.category}
               </Chip>
-            ))}
+            )}
+            {query.tag && (
+              <Chip onClear={() => navigate({ tag: null })}>#{query.tag}</Chip>
+            )}
           </div>
         )}
 
-        {results.length === 0 ? (
+        {data.rows.length === 0 ? (
           <div className="rounded-xl border border-dashed border-default py-20 text-center">
-            <p className="text-sm text-muted">
-              No entries match your filters.
-            </p>
+            <p className="text-sm text-muted">No entries match your filters.</p>
             {hasFilters && (
               <button
                 onClick={clearAll}
@@ -252,27 +218,57 @@ export function BrowseClient({
             )}
           </div>
         ) : (
-          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {results.map((e) => (
-              <EntryCard
-                key={`${e.type}:${e.id}`}
-                entry={e}
-                showType={enableTypeFilter || !activeType}
+          <>
+            <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+              {data.rows.map((e) => (
+                <EntryCard key={`${e.type}:${e.id}`} entry={e} showType={showType} />
+              ))}
+            </div>
+            {data.pageCount > 1 && (
+              <Pagination
+                page={data.page}
+                pageCount={data.pageCount}
+                onPage={(p) => navigate({ page: String(p) })}
               />
-            ))}
-          </div>
+            )}
+          </>
         )}
       </div>
     </div>
   );
 }
 
-function facetBtn(active: boolean) {
-  return `flex w-full items-center justify-between gap-2 rounded-md px-2.5 py-1.5 text-left text-sm transition ${
-    active
-      ? "bg-accent-soft font-medium text-accent"
-      : "text-muted hover:bg-subtle hover:text-default"
-  }`;
+function Pagination({
+  page,
+  pageCount,
+  onPage,
+}: {
+  page: number;
+  pageCount: number;
+  onPage: (p: number) => void;
+}) {
+  return (
+    <div className="mt-8 flex items-center justify-center gap-3 text-sm">
+      <button
+        disabled={page <= 1}
+        onClick={() => onPage(page - 1)}
+        className="inline-flex items-center gap-1 rounded-lg border border-default px-3 py-1.5 text-muted transition hover:text-default disabled:cursor-not-allowed disabled:opacity-40"
+      >
+        <ChevronLeft className="h-4 w-4" /> Prev
+      </button>
+      <span className="text-muted">
+        Page <span className="font-semibold text-default">{page}</span> of{" "}
+        {pageCount}
+      </span>
+      <button
+        disabled={page >= pageCount}
+        onClick={() => onPage(page + 1)}
+        className="inline-flex items-center gap-1 rounded-lg border border-default px-3 py-1.5 text-muted transition hover:text-default disabled:cursor-not-allowed disabled:opacity-40"
+      >
+        Next <ChevronRight className="h-4 w-4" />
+      </button>
+    </div>
+  );
 }
 
 function FacetGroup({
@@ -292,6 +288,32 @@ function FacetGroup({
   );
 }
 
+function FacetRow({
+  active,
+  label,
+  count,
+  onClick,
+}: {
+  active: boolean;
+  label: string;
+  count: number;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      className={`flex w-full items-center justify-between gap-2 rounded-md px-2.5 py-1.5 text-left text-sm transition ${
+        active
+          ? "bg-accent-soft font-medium text-default"
+          : "text-muted hover:bg-subtle hover:text-default"
+      }`}
+    >
+      <span className="truncate">{label}</span>
+      <span className="text-faint">{count}</span>
+    </button>
+  );
+}
+
 function Chip({
   children,
   onClear,
@@ -308,3 +330,5 @@ function Chip({
     </span>
   );
 }
+
+export type { BrowseFacet };

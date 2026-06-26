@@ -3,19 +3,17 @@ import { notFound } from "next/navigation";
 import { ChevronRight, ExternalLink } from "lucide-react";
 import { Pill } from "@/components/Badges";
 import { CopyButton } from "@/components/CopyButton";
-import { getModelsCatalog, getProvider } from "@/lib/registry";
+import { getProvider } from "@/lib/registry";
 import { formatNumber } from "@/lib/ui";
 import type { Metadata } from "next";
 
-type Params = { params: Promise<{ provider: string }> };
+export const dynamic = "force-dynamic";
 
-export function generateStaticParams() {
-  return getModelsCatalog().providers.map((p) => ({ provider: p.id }));
-}
+type Params = { params: Promise<{ provider: string }> };
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { provider } = await params;
-  const p = getProvider(provider);
+  const p = await getProvider(provider);
   if (!p) return { title: "Not found" };
   return {
     title: `${p.name} — Models`,
@@ -31,7 +29,7 @@ function tokens(n?: number) {
 
 export default async function ProviderPage({ params }: Params) {
   const { provider } = await params;
-  const p = getProvider(provider);
+  const p = await getProvider(provider);
   if (!p) notFound();
 
   const meta: { label: string; value: React.ReactNode }[] = [];
