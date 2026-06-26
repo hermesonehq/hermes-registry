@@ -1,3 +1,4 @@
+import { Sparkles, Plug, Bot, Workflow, type LucideIcon } from "lucide-react";
 import type { EntryType } from "./types";
 
 export interface TypeMeta {
@@ -13,6 +14,8 @@ export interface TypeMeta {
   badge: string;
   /** accent dot / icon color */
   dot: string;
+  /** lucide icon representing the type */
+  icon: LucideIcon;
 }
 
 // Monochrome by design: every type shares one neutral badge/dot treatment.
@@ -29,6 +32,7 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     blurb: "Task procedures Hermes can follow.",
     badge: MONO_BADGE,
     dot: MONO_DOT,
+    icon: Sparkles,
   },
   mcp: {
     type: "mcp",
@@ -38,6 +42,7 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     blurb: "Model Context Protocol servers exposing tools and resources.",
     badge: MONO_BADGE,
     dot: MONO_DOT,
+    icon: Plug,
   },
   agent: {
     type: "agent",
@@ -47,6 +52,7 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     blurb: "Named subagent personas with their own prompt, tools, and model.",
     badge: MONO_BADGE,
     dot: MONO_DOT,
+    icon: Bot,
   },
   workflow: {
     type: "workflow",
@@ -56,6 +62,7 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     blurb: "Multi-step recipes chaining skills, agents, and MCPs.",
     badge: MONO_BADGE,
     dot: MONO_DOT,
+    icon: Workflow,
   },
 };
 

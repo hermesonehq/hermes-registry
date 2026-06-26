@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Bot, Boxes, Plug, Sparkles, Workflow } from "lucide-react";
+import { ArrowRight, Boxes } from "lucide-react";
 import { SearchHero } from "@/components/SearchHero";
 import { EntryCard } from "@/components/EntryCard";
 import {
@@ -9,15 +9,6 @@ import {
   getAllTags,
 } from "@/lib/registry";
 import { TYPE_ORDER, TYPE_META, formatNumber } from "@/lib/ui";
-import type { EntryType } from "@/lib/types";
-
-const TYPE_ICON: Record<EntryType, React.ComponentType<{ className?: string }>> =
-  {
-    skill: Sparkles,
-    mcp: Plug,
-    agent: Bot,
-    workflow: Workflow,
-  };
 
 function pickFeatured() {
   const all = getAllEntries();
@@ -52,7 +43,7 @@ export default function HomePage() {
             href="https://github.com/hermesonehq/hermes-registry"
             className="inline-flex items-center gap-2 rounded-full border border-default bg-elevated px-3 py-1 text-xs font-medium text-muted shadow-sm transition hover:text-default"
           >
-            <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
+            <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
             Free & open · community registry
           </Link>
           <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-bold tracking-tight text-default sm:text-5xl lg:text-6xl">
@@ -93,7 +84,7 @@ export default function HomePage() {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {TYPE_ORDER.map((type) => {
               const meta = TYPE_META[type];
-              const Icon = TYPE_ICON[type];
+              const Icon = meta.icon;
               return (
                 <Link
                   key={type}

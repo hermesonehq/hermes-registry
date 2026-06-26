@@ -37,6 +37,9 @@
   /* accent === foreground: links and "accents" stay monochrome */
   --accent: #0a0a0a;
   --accent-soft: #f5f5f5;
+  /* soft filled chips (tags): a light gray a step off white, no border */
+  --chip: #ededed;
+  --chip-hover: #e2e2e2;
 }
 
 .dark {
@@ -50,6 +53,9 @@
   --text-faint: #525252;
   --accent: #fafafa;
   --accent-soft: #1f1f1f;
+  /* soft filled chips (tags): a dark gray a step off black, no border */
+  --chip: #262626;
+  --chip-hover: #303030;
 }
 
 @layer base {

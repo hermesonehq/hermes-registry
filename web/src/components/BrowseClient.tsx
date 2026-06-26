@@ -155,10 +155,10 @@ export function BrowseClient({
                   <button
                     key={t.name}
                     onClick={() => toggleTag(t.name)}
-                    className={`rounded-md px-2 py-0.5 text-xs ring-1 ring-inset transition ${
+                    className={`rounded-md px-2 py-0.5 text-xs transition ${
                       activeTags.includes(t.name)
-                        ? "bg-[var(--text)] text-[var(--bg)] ring-[var(--text)]"
-                        : "bg-subtle text-muted ring-default hover:text-default"
+                        ? "bg-[var(--text)] text-[var(--bg)]"
+                        : "bg-[var(--chip)] text-muted hover:bg-[var(--chip-hover)] hover:text-default"
                     }`}
                   >
                     {t.name}

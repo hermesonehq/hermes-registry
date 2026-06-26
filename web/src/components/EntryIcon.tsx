@@ -9,7 +9,6 @@ const SIZES = {
 
 export function EntryIcon({
   icon,
-  name,
   type,
   size = "md",
 }: {
@@ -21,11 +20,15 @@ export function EntryIcon({
   const url = iconUrl(icon);
   const cls = SIZES[size];
   const meta = typeMeta(type);
+  const TypeIcon = meta.icon;
 
   if (url) {
     return (
+      // Most registry logos are single-color (black) SVGs; a few are colored.
+      // A white tile in BOTH themes keeps every logo legible (black logos
+      // disappear on a dark tile).
       <span
-        className={`${cls} flex shrink-0 items-center justify-center overflow-hidden border border-default bg-app p-1.5`}
+        className={`${cls} flex shrink-0 items-center justify-center overflow-hidden border border-default bg-white p-1.5`}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -38,16 +41,16 @@ export function EntryIcon({
     );
   }
 
-  const letter = (name?.[0] ?? "?").toUpperCase();
+  // No logo: fall back to the type's lucide icon, on the same white tile so the
+  // whole grid of icons stays visually consistent regardless of type. The icon
+  // uses a fixed gray (the tile is white in both themes) to read as a
+  // placeholder distinct from the bolder real logos.
   return (
     <span
-      className={`${cls} relative flex shrink-0 items-center justify-center border border-default bg-subtle font-semibold text-muted`}
+      className={`${cls} flex shrink-0 items-center justify-center border border-default bg-white text-neutral-400`}
       aria-hidden="true"
     >
-      {letter}
-      <span
-        className={`absolute bottom-1 right-1 h-1.5 w-1.5 rounded-full ${meta.dot}`}
-      />
+      <TypeIcon className="h-1/2 w-1/2" />
     </span>
   );
 }
