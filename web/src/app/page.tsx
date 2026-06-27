@@ -35,7 +35,9 @@ export default async function HomePage() {
   const topTags = allTags.slice(0, 8);
   const featured = pickFeatured(allEntries);
 
-  const skillCats = (cats.types.find((t) => t.type === "skill")?.categories ?? [])
+  const skillCats = (
+    cats.types.find((t) => t.type === "skill")?.categories ?? []
+  )
     .slice()
     .sort((a, b) => b.count - a.count)
     .slice(0, 12);
@@ -45,21 +47,18 @@ export default async function HomePage() {
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-default bg-subtle">
         <div className="mx-auto max-w-7xl px-4 py-20 text-center sm:px-6 lg:px-8 lg:py-28">
-          <Link
-            href="https://github.com/hermesonehq/hermes-registry"
-            className="inline-flex items-center gap-2 rounded-full border border-default bg-elevated px-3 py-1 text-xs font-medium text-muted shadow-sm transition hover:text-default"
-          >
-            <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
-            Free & open · community registry
-          </Link>
-          <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-bold tracking-tight text-default sm:text-5xl lg:text-6xl">
-            The package registry for the{" "}
+          <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-semibold tracking-tight text-default sm:text-5xl lg:text-6xl">
+            The Package Manager for{" "}
             <span className="text-amber-500">Hermes</span> ecosystem
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-muted">
             Discover and inspect installable skills, MCP servers, agents, and
             workflows. One clean place to browse everything the Hermes agent and
             its desktop companion can run.
+          </p>
+          <p className="mx-auto mt-3 max-w-2xl text-sm text-faint">
+            An independent, community-maintained project — not affiliated with
+            Nous Research.
           </p>
 
           <div className="mt-9">
@@ -71,7 +70,10 @@ export default async function HomePage() {
               { label: "Total entries", value: stats.total },
               { label: "Skills", value: stats.byType.skill },
               { label: "MCP servers", value: stats.byType.mcp },
-              { label: "Agents + workflows", value: stats.byType.agent + stats.byType.workflow },
+              {
+                label: "Agents + workflows",
+                value: stats.byType.agent + stats.byType.workflow,
+              },
             ].map((s) => (
               <div key={s.label} className="bg-elevated px-4 py-5">
                 <dt className="text-xs text-faint">{s.label}</dt>
