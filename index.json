@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-26T20:05:54+05:30",
+  "generated": "2026-06-27T01:13:25.500653+00:00",
   "count": 237,
   "entries": [
     {
@@ -21,10 +21,10 @@
       "source": null,
       "path": "agents/accessibility-auditor",
       "icon": null,
-      "checksum": "sha256:ee678ee0cf1ee591e916d4cb552e4c99bc4b1947435aaf80d7fe96d07859660a",
+      "checksum": "sha256:7f7fe2eaca1d5012a7805ca9d0ed2ff68f4550dd87ad26e2d4c5821d3156b0c9",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -44,10 +44,10 @@
       "source": null,
       "path": "agents/api-designer",
       "icon": null,
-      "checksum": "sha256:5ce679374c438985c739a4c091c0a886687cda0b24905e73de6d36607ed63794",
+      "checksum": "sha256:93dc6de5352021af0fa5723113ac2d84e4afc523a895fc99b7a0f1aa74531575",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -68,10 +68,10 @@
       "source": null,
       "path": "agents/architect",
       "icon": null,
-      "checksum": "sha256:bd36c8825ee518d7bb3d1961eea31be2b7513697990817ada98535254ede9d39",
+      "checksum": "sha256:6fc006818d65d622925aba0833dd15ab09d90a5e2cef4341d0d2aed07f899736",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -93,10 +93,10 @@
       "source": null,
       "path": "agents/backend-engineer",
       "icon": null,
-      "checksum": "sha256:a2b3a2ffefa198297ca95c2d4f9fde8fc7053fc873433a588db88c535f72cc66",
+      "checksum": "sha256:2e68df1f790acee24218cf4b880d127fea837aec3420630cde0765b41fcfc5f3",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -117,10 +117,10 @@
       "source": null,
       "path": "agents/code-reviewer",
       "icon": null,
-      "checksum": "sha256:4b495d16d91047ad090e33f1563e1efcd6debdfff0ee89fe3946d1120d14df0a",
+      "checksum": "sha256:4e0e906e7a57b7cdcc681780224978c648bd18a4b2a731ed4f07e3ded140a388",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -140,10 +140,10 @@
       "source": null,
       "path": "agents/data-analyst",
       "icon": null,
-      "checksum": "sha256:0507b5ca5361f1971c0fd49556a6788526502f7825c77645a5e3d42e089e08eb",
+      "checksum": "sha256:6f58dd9a01a9cf5f11866164e21def9c1356cd3b7a7d6c0a33ae9b2f1f042e96",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -163,10 +163,10 @@
       "source": null,
       "path": "agents/debugger",
       "icon": null,
-      "checksum": "sha256:602d0696406afb1f0ce57fb783abab9bd5a0d3e65eb60568d20af815fc078cfd",
+      "checksum": "sha256:99237967f3cfaeb5ede73fad1554392f6ac50ab6e3c8f02ed6c18319efde931f",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -187,10 +187,10 @@
       "source": null,
       "path": "agents/devops-engineer",
       "icon": null,
-      "checksum": "sha256:80d9fa1cd4807b9868439ff7ab1a7a1c63b8a374fc745d5fa0c0664416354bbe",
+      "checksum": "sha256:cb707d42443ac27eb9e3593e4cfb558b4be2d8426189b05fa32b592d1b07a12a",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -210,10 +210,10 @@
       "source": null,
       "path": "agents/doc-writer",
       "icon": null,
-      "checksum": "sha256:86b123b42a8f1ca6686dafd18abad05e4a05b0c22ebff943fdc82fe248145e55",
+      "checksum": "sha256:d4fe243f626ff5d796b580ba297fa197ee1f8f5705043bd62621d3dbd51324e4",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -236,10 +236,10 @@
       "source": null,
       "path": "agents/frontend-engineer",
       "icon": null,
-      "checksum": "sha256:bd52159926768c8a8d19ffe9821de8b6d5599eaa5e4ed66c77f12987d5de21fc",
+      "checksum": "sha256:63ff538ff916400a93aa06cc40720d64ab1bf90425607a0b97c3080f729c78af",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -261,10 +261,10 @@
       "source": null,
       "path": "agents/incident-responder",
       "icon": null,
-      "checksum": "sha256:7b77ed90485b9a49af74a2eeec5538457c65d432807acc5f9526b14a67b2828f",
+      "checksum": "sha256:c274b8b8f72b9ae434f46fb48fcc8a3a5612085ce860fd1b42e052883734b42e",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -285,10 +285,10 @@
       "source": null,
       "path": "agents/performance-optimizer",
       "icon": null,
-      "checksum": "sha256:c980ed85901e020c990ebace4526907ca3fccf0f5678e7a3d570c8f9c65d6c70",
+      "checksum": "sha256:587a5a4f882f0c7d19a20d393ef6f26c39ec78496e0a7792b82a1afc8e29619b",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -308,10 +308,10 @@
       "source": null,
       "path": "agents/prompt-engineer",
       "icon": null,
-      "checksum": "sha256:9d65d1ddef538a2ae980538360998556a71deb8ce30f8fc373acd0f05d38d17b",
+      "checksum": "sha256:3243899bdae23a372138dfded85281c914a8f884cc9f6c3fa26c2b050d037c68",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -331,10 +331,10 @@
       "source": null,
       "path": "agents/refactorer",
       "icon": null,
-      "checksum": "sha256:9ebd4b13a2aee044f54f0789969a27c16b43837d741fc37914549d309293c107",
+      "checksum": "sha256:771940dfd2d9be3d55b943413a14b951791d5be5b573b0f64369ba2b2cc5332e",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -355,10 +355,10 @@
       "source": null,
       "path": "agents/security-auditor",
       "icon": null,
-      "checksum": "sha256:613103d56803295615e1dd4fc03aa0849b9e555e8046b032014a4d4db5473dfa",
+      "checksum": "sha256:a892a535adcd33f865be391fd7f07297e062184e15da1c8c22ecb2ae25814ba4",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -378,10 +378,10 @@
       "source": null,
       "path": "agents/sql-expert",
       "icon": null,
-      "checksum": "sha256:5154524d08bdb576bc80380886da2445470521d7767288186b8c6f83750dde42",
+      "checksum": "sha256:6b7791ac0ec94ce238227a5dfe2527361a9f05c800109c5b12a1f579e18051ae",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -401,10 +401,10 @@
       "source": null,
       "path": "agents/test-writer",
       "icon": null,
-      "checksum": "sha256:8fe93c1adfb38fb0074d4f2e88d44e5f21650e76a8392008639f3c4f23db62a6",
+      "checksum": "sha256:54a8e4193fe6ff8c98cb06c8fe573cdb868eb5176abf450a9eaabca50d2aeeb5",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -426,10 +426,10 @@
       "source": "https://github.com/ahujasid/ableton-mcp",
       "path": "mcp/ableton",
       "icon": "mcp/ableton/icon.svg",
-      "checksum": "sha256:bf660aac99f354d37e43bbf914f9ce32fff48aa4179873a01379da9e665f6a20",
+      "checksum": "sha256:29616d1aa03e1f7449d5cd6e25b4bfc163e18c36fdefbd2dbfda992c062768bd",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -451,10 +451,10 @@
       "source": "https://github.com/domdomegg/airtable-mcp-server",
       "path": "mcp/airtable",
       "icon": "mcp/airtable/icon.svg",
-      "checksum": "sha256:859fe7ea66f44ccb2b700a5e8255f9a92dbdf0ea13d3a485897933b673d8f7be",
+      "checksum": "sha256:2472fea49301481026f4fd9c739c29281bce7082abcae98069b2f1aff64e1162",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -476,10 +476,10 @@
       "source": "https://github.com/alpacahq/alpaca-mcp-server",
       "path": "mcp/alpaca",
       "icon": "mcp/alpaca/icon.svg",
-      "checksum": "sha256:7bee1b9e83b1c9f4240e9d02b6475765a100d8026db588935e416087f65ae937",
+      "checksum": "sha256:422afaf9ca0623a7b7d1cef8fb0abd0d38c06c58018e343a5d98937fc9416dde",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -501,10 +501,10 @@
       "source": "https://developers.asana.com/docs/using-asanas-mcp-server",
       "path": "mcp/asana",
       "icon": "mcp/asana/icon.svg",
-      "checksum": "sha256:03e11d80416771687ffc5d7c9a496abaae688ca3bfe9906e20bdf646206b6bf8",
+      "checksum": "sha256:a8dc07365a9e63f58f60a0bfa65e3f601e1d455f85083d082dedf6852736c8d2",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -526,10 +526,10 @@
       "source": "https://www.atlassian.com/platform/remote-mcp-server",
       "path": "mcp/atlassian",
       "icon": "mcp/atlassian/icon.svg",
-      "checksum": "sha256:10922554c8e307e4662de609888b75e1b95cdb4d847fdabdb3fec118cd5c912e",
+      "checksum": "sha256:140320e80e0f7182daf069af3ed04a3297799a98993db34921f11deb1d2462b2",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -550,10 +550,10 @@
       "source": "https://github.com/awslabs/mcp",
       "path": "mcp/aws",
       "icon": "mcp/aws/icon.svg",
-      "checksum": "sha256:044a90937fe4a2003e1b8270dca75fb46bace20ec9269712ebf28fa9e58af9f7",
+      "checksum": "sha256:ce1b0ee7e40fa206eb5c8e6bb2cbe5b74c314a8bffbe20a233a7805a822d3990",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -575,10 +575,10 @@
       "source": "https://github.com/base/base-mcp",
       "path": "mcp/base",
       "icon": "mcp/base/icon.svg",
-      "checksum": "sha256:ffddd4ad2902201e9170e0d8d96ce2ff0a00adc30dbbb4f0a32d2b10044ac1da",
+      "checksum": "sha256:57742b97326a5831380059f54461d510e0e5f8f55c678012193ed37afe3f8ba5",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -600,10 +600,10 @@
       "source": "https://github.com/ahujasid/blender-mcp",
       "path": "mcp/blender",
       "icon": "mcp/blender/icon.svg",
-      "checksum": "sha256:463920b43d0fb0fe7e0cecf631254159574dfe0dd4c7e3f2db686b9ed542a6a7",
+      "checksum": "sha256:59c31e4f4c57e09ac4d2043a000d6543fff4b152439c24a8f9b839ef8f11dca7",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -623,10 +623,10 @@
       "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
       "path": "mcp/brave-search",
       "icon": "mcp/brave-search/icon.svg",
-      "checksum": "sha256:d50261400182c5dbb5610ffa8aabbd0f30953a9692d4f4cda694a9af6db1ff1b",
+      "checksum": "sha256:f67332401823c382d4aa7ac2e2eaaef19d5d2b41c3db1a7e168e451272bca06c",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -648,10 +648,10 @@
       "source": "https://www.canva.dev/docs/apps/mcp-server/",
       "path": "mcp/canva",
       "icon": "mcp/canva/icon.svg",
-      "checksum": "sha256:a476d3f9fda5bbf4a6f7b5ad72299685d71ba20cc5987c3a428f9e60198d5c2b",
+      "checksum": "sha256:3dfdb7df07f25d493657704ae92b2467f11e5b536374a5347e9d3ca35b21eb0f",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -673,10 +673,10 @@
       "source": "https://github.com/lazy-dinosaur/ccxt-mcp",
       "path": "mcp/ccxt",
       "icon": "mcp/ccxt/icon.svg",
-      "checksum": "sha256:4a8a2238e609bdaeac6a7634d1d11adda2ee0631dec2c7896faeb7a7cc92cf6e",
+      "checksum": "sha256:95d74b54a586023ef7ba1e54bf707e835b276e2d933f2aef5d564f45da7a7216",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -698,10 +698,10 @@
       "source": "https://github.com/cloudflare/mcp",
       "path": "mcp/cloudflare",
       "icon": "mcp/cloudflare/icon.svg",
-      "checksum": "sha256:a692090c25019f3bfd928a3294ec919a09ad71f4ce89c4508a693c39fdec84d2",
+      "checksum": "sha256:b2d6a07b0681f1fc2dd254e1a1a875b967a7cb900767224bfbd336375920c130",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -723,10 +723,10 @@
       "source": "https://docs.coingecko.com",
       "path": "mcp/coingecko",
       "icon": "mcp/coingecko/icon.svg",
-      "checksum": "sha256:d866a7c3ec6d3450a55d59cb008c3a704251ad68492463c165edd509865d381d",
+      "checksum": "sha256:c9e4298f5dd8f1dfa8244c4eb91e9268e5ae7ac11e01f10ee56c219933c603bb",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -747,10 +747,10 @@
       "source": "https://github.com/upstash/context7",
       "path": "mcp/context7",
       "icon": "mcp/context7/icon.svg",
-      "checksum": "sha256:4b64ef22a5e98b7828fe31f8e6f1e06bdbd51c36cf0eb350d141884be58a6655",
+      "checksum": "sha256:04eb3bb803fb6b4c876d178c0551b056f833b421c81171db50313c1629304f9b",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -772,10 +772,10 @@
       "source": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "path": "mcp/davinci-resolve",
       "icon": "mcp/davinci-resolve/icon.svg",
-      "checksum": "sha256:92ee9d1f92e6b1ec1c63bbd3fecb15c10a45e35c3243c3e4e7d002efe7973804",
+      "checksum": "sha256:09bcc9b8f0566e8353d14f53f13b322f6a775ad07c44b46a75dc63cdb6eb3406",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -797,10 +797,10 @@
       "source": "https://github.com/ckreiling/mcp-server-docker",
       "path": "mcp/docker-hub",
       "icon": "mcp/docker-hub/icon.svg",
-      "checksum": "sha256:d7b24b26be772c0a6ae57f32535dd10eb986f41eae9eb4521952b117087e4ef7",
+      "checksum": "sha256:51c6bb12b975e20bb4864decae2b308582b3f91a9ea780dd960dbd599801adac",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -822,10 +822,10 @@
       "source": "https://dune.com/docs/api/",
       "path": "mcp/dune",
       "icon": "mcp/dune/icon.svg",
-      "checksum": "sha256:f0d8a85f030e25cbc815b5387c28f6042b063cfebeb1e38efb57db186ba903ae",
+      "checksum": "sha256:9848def351234bc930e56d498c52adb878218fc0d5378866faff0a9c339bba30",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -847,10 +847,10 @@
       "source": "https://github.com/elevenlabs/elevenlabs-mcp",
       "path": "mcp/elevenlabs",
       "icon": "mcp/elevenlabs/icon.svg",
-      "checksum": "sha256:e034717cbeb6a539386ba0fb7b21fb0bb5af54cb536b08f31d6719c633baf606",
+      "checksum": "sha256:1bd06a490df5deb9a3a1f944780a142ee07daaf72ba5358425cca23a9d902193",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -872,10 +872,10 @@
       "source": "https://docs.etherscan.io",
       "path": "mcp/etherscan",
       "icon": "mcp/etherscan/icon.svg",
-      "checksum": "sha256:c90c61367c8984e0a490b6f415a4a26a7d37704c1784bf15d19d2b1c19ae5e9a",
+      "checksum": "sha256:0d1b9abbdb497d59b8f444ab260dbde5085b76fece8dbba2b5f33d8afc7e80d4",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -896,10 +896,10 @@
       "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
       "path": "mcp/fetch",
       "icon": "mcp/fetch/icon.svg",
-      "checksum": "sha256:37227b22e20cd0c8f6b51b4384300e3ed88df875f6b8d13f898356fc7b179ccf",
+      "checksum": "sha256:68fac980c563184f6b4cef1d0ed9624fba967f46e07f99904bc1e20bfe50f3f2",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -921,10 +921,10 @@
       "source": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server",
       "path": "mcp/figma",
       "icon": "mcp/figma/icon.svg",
-      "checksum": "sha256:ee9070c80d5ae3b02f49b8bffb272965006379fc9a4fc2db90c96572d2952129",
+      "checksum": "sha256:717443d2b62392c111b0d81a117223333acbc1b9cd129a300167e5d825c38fde",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -945,10 +945,10 @@
       "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
       "path": "mcp/filesystem",
       "icon": "mcp/filesystem/icon.svg",
-      "checksum": "sha256:c83451556d739b6b567b86596d137026dc2e223fa4b9d6b9a9950cd5cdfdab0c",
+      "checksum": "sha256:0b95cfe03e727a0f6d67cbd684e34c65101722d2e72bd9a22070fb4aa198ed29",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -968,10 +968,10 @@
       "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
       "path": "mcp/git",
       "icon": "mcp/git/icon.svg",
-      "checksum": "sha256:e243fcaad379320d7d8659783a16158fd30eaf6bfea4ce6b64383fe143533fa5",
+      "checksum": "sha256:4b10e73a4314c0f2233035508b7f0479d0d6cbfaa68865feb6b268ae3e8aee59",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -993,10 +993,10 @@
       "source": "https://github.com/github/github-mcp-server",
       "path": "mcp/github",
       "icon": "mcp/github/icon.svg",
-      "checksum": "sha256:8c631bdc4f33266a212c0d25d1a84b9c0831efb5fe50bd4897c3d15a64ede3d6",
+      "checksum": "sha256:2f78731e6354777df33a7a61a9ab6588b1bf9db64a28ff672540203801b2549c",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1018,10 +1018,10 @@
       "source": "https://github.com/GongRzhe/Gmail-MCP-Server",
       "path": "mcp/gmail",
       "icon": "mcp/gmail/icon.svg",
-      "checksum": "sha256:e3c111c519b9af9bb27a58e459eaa354da37b6d80e933031d38a71bdd5298a3d",
+      "checksum": "sha256:5d645adfd5fac367fed5ae7ff79e20b1dd53a07664b92284a4a45b84f7474e45",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1043,10 +1043,10 @@
       "source": "https://github.com/nspady/google-calendar-mcp",
       "path": "mcp/google-calendar",
       "icon": "mcp/google-calendar/icon.svg",
-      "checksum": "sha256:c1cfb87de6cae803dcf84379e9ae0838f8ed7bc61bb24ee3d95440feec96b9fb",
+      "checksum": "sha256:b5fbd7ddf8b37bd1003509b9be932624fef5c2a00b5fe45ec9e3b8f977cfaba3",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1068,10 +1068,10 @@
       "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive",
       "path": "mcp/google-drive",
       "icon": "mcp/google-drive/icon.svg",
-      "checksum": "sha256:a2bb2ae6af47bb1d73f5fd6cc17dc5e4a9fddf3b6dbd34857c450032ce542979",
+      "checksum": "sha256:639484bb0ee16a91cc44c15e6e1ca44e28651d3871cce154b39e5428f4b84b02",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1093,10 +1093,10 @@
       "source": "https://higgsfield.ai",
       "path": "mcp/higgsfield",
       "icon": "mcp/higgsfield/icon.svg",
-      "checksum": "sha256:3c30ede036ab99885f1ae57e31a242089f32080b4a19df22b6ebcd07a36ad315",
+      "checksum": "sha256:1e907f4143b46df589f4bf474d001c69862435bcb38c567bc2bfbb30aba26203",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1117,10 +1117,10 @@
       "source": "https://github.com/Flux159/mcp-server-kubernetes",
       "path": "mcp/kubernetes",
       "icon": "mcp/kubernetes/icon.svg",
-      "checksum": "sha256:68f7186e4af0ac25869e4f5fcb446697fb7803928aacde34b1a690332b126628",
+      "checksum": "sha256:c93bce71926315ead61698b1987456acd1e0b1480dd5b81b5670c02246bd52c1",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1142,10 +1142,10 @@
       "source": "https://linear.app/docs/mcp",
       "path": "mcp/linear",
       "icon": "mcp/linear/icon.svg",
-      "checksum": "sha256:e9965b9cc15f80e509470bea6a675a27e27e24e530fe473b19fc013b28358e5a",
+      "checksum": "sha256:093d236c90581163f0dd73b6617eea21cf111101dddce05df31da458b43a97ce",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1172,10 +1172,10 @@
       "source": "https://github.com/jau123/MeiGen-AI-Design-MCP",
       "path": "mcp/meigen-ai-design",
       "icon": "mcp/meigen-ai-design/icon.svg",
-      "checksum": "sha256:aaddc4fdbd6c6e9c233514272daa34501bdbfcdd7aefb52428b4ec989d7e0a5d",
+      "checksum": "sha256:d7ace777ba05957644c58cf031bbf8873516f05a0ce551c7f3676ee90c5aacee",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1195,10 +1195,10 @@
       "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
       "path": "mcp/memory",
       "icon": "mcp/memory/icon.svg",
-      "checksum": "sha256:22e5a6ceee1f24d6f492cc6c5c583171caabe5d1bd9a1daacc6dd9b47befdea8",
+      "checksum": "sha256:5086512eb8da586d095c8c98998252a73a381bb6a73fb98f70a3e7c52b22230a",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1225,10 +1225,10 @@
       "source": "https://github.com/Swih/mistral-mcp",
       "path": "mcp/mistral",
       "icon": "mcp/mistral/icon.svg",
-      "checksum": "sha256:06f917ef3c2018988a3452d9a7c535b58af1a512c49efd1c628cce3817975117",
+      "checksum": "sha256:9b1c3a679fbd2a5abf0c6552026d6ce0203d3e3a215be023ebfe9b8e58a74e85",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1250,10 +1250,10 @@
       "source": "https://github.com/neondatabase/mcp-server-neon",
       "path": "mcp/neon",
       "icon": "mcp/neon/icon.svg",
-      "checksum": "sha256:bfe71ad8a2f28b6eabf4587c61d23e11dda69d50988cf1b2e509bb860ab0ce33",
+      "checksum": "sha256:cb9f0aa054641e0628c2e4dd2478f48d3ae0496a2e4a6e18ea484e65928adc9c",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1274,10 +1274,10 @@
       "source": "https://github.com/makenotion/notion-mcp-server",
       "path": "mcp/notion",
       "icon": "mcp/notion/icon.svg",
-      "checksum": "sha256:be67dec06a1311ab3b5677d1e4ce0f4e56c79a3e775bbd551d9cf94a6b2f17ae",
+      "checksum": "sha256:1cd152fbccdab65c7e67b7b3eef9634fd5128805e7f17a73c89963ab72581f9e",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1298,10 +1298,10 @@
       "source": "https://www.paypal.ai",
       "path": "mcp/paypal",
       "icon": "mcp/paypal/icon.svg",
-      "checksum": "sha256:947d0705d95468da7c30dace065603abdacce9cb2613e7d58d822b5dd6938a72",
+      "checksum": "sha256:d80ccdd9d62f34d56bc56ddec473b0b7d97b666a5f3755c26aaa905e6a1e2f56",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1322,10 +1322,10 @@
       "source": "https://plaid.com/docs/",
       "path": "mcp/plaid",
       "icon": "mcp/plaid/icon.svg",
-      "checksum": "sha256:cfb11c55b7d5ee74a447b31d033a0bae53d5b11841ff9cca23619b803426d140",
+      "checksum": "sha256:37b5ba091ee40350b78b0e3d66c1a91d95e54d57f61ebf58a63fae7ae18a7a4e",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1347,10 +1347,10 @@
       "source": "https://github.com/microsoft/playwright-mcp",
       "path": "mcp/playwright",
       "icon": "mcp/playwright/icon.svg",
-      "checksum": "sha256:1dcd0d9b58a5257d72eaa1032e59ee692122b5fa6b13bdb814c7e7d8c71554ca",
+      "checksum": "sha256:6252de2f50a738a57eeb12f37374ad91e87c21de294cf5184c7c88083608f4e7",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1372,10 +1372,10 @@
       "source": "https://polygon.io/docs",
       "path": "mcp/polygon-io",
       "icon": "mcp/polygon-io/icon.svg",
-      "checksum": "sha256:94cdc49112a05b96e8a86f35c001ceb77781e92f31c595383f318786d233a380",
+      "checksum": "sha256:b21933ea691dce48b41b3f09e279d9616e68b1265281f96c1f135db5124b025e",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1396,10 +1396,10 @@
       "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres",
       "path": "mcp/postgres",
       "icon": "mcp/postgres/icon.svg",
-      "checksum": "sha256:5042c51d2b9874705e5a6ec2d7cbf34fd959e0d96cafb4e265d5cd4bdeeee989",
+      "checksum": "sha256:3785186b1b8f4aa1355c480767ae69483b7385165035feb39bb33c1d750be09c",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1420,10 +1420,10 @@
       "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
       "path": "mcp/puppeteer",
       "icon": "mcp/puppeteer/icon.svg",
-      "checksum": "sha256:0a55e0128ca6d00a882f9d0abd4743708c2220086ea6bc05b2aae3e7894bee49",
+      "checksum": "sha256:9ddec64ca44a20ee0370cbbbb97d3bd39c383cb41677972fbab6b946648a19c8",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1444,10 +1444,10 @@
       "source": "https://developer.intuit.com",
       "path": "mcp/quickbooks",
       "icon": "mcp/quickbooks/icon.svg",
-      "checksum": "sha256:ecd4159f0221de3d7622b0040ddcde521ae8459bd9cc0dce504fbc3f023050b5",
+      "checksum": "sha256:806d7ef7a0ed4140d4541cd19ed6934902a5d18184ee23ab9fd3c54368da07c4",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1468,10 +1468,10 @@
       "source": "https://github.com/redis/mcp-redis",
       "path": "mcp/redis",
       "icon": "mcp/redis/icon.svg",
-      "checksum": "sha256:2699a7e99e1513508e70fa89c520313187c986405861bb9d9ae9d7c48e32b697",
+      "checksum": "sha256:be182da3854dafb7a16e38c6dd09ec55159a26456cc58fb127d6556113a28c3e",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1492,10 +1492,10 @@
       "source": "https://docs.sentry.io/product/sentry-mcp/",
       "path": "mcp/sentry",
       "icon": "mcp/sentry/icon.svg",
-      "checksum": "sha256:8ad407c1b6dc4d6dba6aaa2dab145dc921c81a05cb778d5e5088e9a2869dbd66",
+      "checksum": "sha256:e7c25f75c99e864ce412a767623a324f7fc78464556f2593b82a388a588edb14",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1515,10 +1515,10 @@
       "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
       "path": "mcp/sequential-thinking",
       "icon": "mcp/sequential-thinking/icon.svg",
-      "checksum": "sha256:7de8cc03d77bcbcd750454dddea11cb7285bc17e64975aaf61ae378adcb07519",
+      "checksum": "sha256:10784eef9c2338b49f259e06538880951e570bbeadd1227d9c1c29b45dce2539",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1539,10 +1539,10 @@
       "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
       "path": "mcp/slack",
       "icon": "mcp/slack/icon.svg",
-      "checksum": "sha256:a897b13bdb2139e506626d5f2b1cba9d74d9312d4f020e2483ffb0b2a8e1de49",
+      "checksum": "sha256:9e5e3e00e15c495dd8b3237d9df80be9411b7dec0091b84c1c6598d900f9089e",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1563,10 +1563,10 @@
       "source": "https://github.com/sendaifun/solana-agent-kit",
       "path": "mcp/solana-agent-kit",
       "icon": "mcp/solana-agent-kit/icon.svg",
-      "checksum": "sha256:ebe11acb2551f5c5c4f4181a422ea291ca45bc35e63f6a1bdf7549f3f6b4489f",
+      "checksum": "sha256:bfbc94ca4867c3699a212e000632500b73ac239148485b081a576d87353c7f7a",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1587,10 +1587,10 @@
       "source": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite",
       "path": "mcp/sqlite",
       "icon": "mcp/sqlite/icon.svg",
-      "checksum": "sha256:35c78350312a58d742af2f4f58506ef66a7834de84e8cb2de2367ccb8c54f692",
+      "checksum": "sha256:48f16de270032f0cfaf3cf30f2db7b51c27ca70dc71d99d1d2deb6554dcfb0a0",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1611,10 +1611,10 @@
       "source": "https://docs.stripe.com/mcp",
       "path": "mcp/stripe",
       "icon": "mcp/stripe/icon.svg",
-      "checksum": "sha256:739834f42dc262b58c8b6bbd3e63e5e565cc1a8b94a7213ba74947e861805461",
+      "checksum": "sha256:c9df3756f25874f0ae75aa218a702b8a1bf355aa085be010ad6728faa101d811",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1636,10 +1636,10 @@
       "source": "https://github.com/supabase-community/supabase-mcp",
       "path": "mcp/supabase",
       "icon": "mcp/supabase/icon.svg",
-      "checksum": "sha256:69bb0d45562b9372bb1a4cbb2b79f6a4d3193884201401a8255d85aa34f1c401",
+      "checksum": "sha256:2ebbc9881f5cef611baa817e271963d9bceb39185d3c5631e72fb89aa701e52b",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1661,10 +1661,10 @@
       "source": "https://thegraph.com/docs/",
       "path": "mcp/the-graph",
       "icon": "mcp/the-graph/icon.svg",
-      "checksum": "sha256:fc561cab41c0d47130d97c5bff985c383f600abe2531fe725c09692dec83ce6a",
+      "checksum": "sha256:68fa29164b94f00d880fb631606baec69ea61fac59e7bae997d733c9a0fcc0ff",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1686,10 +1686,10 @@
       "source": "https://portal.thirdweb.com",
       "path": "mcp/thirdweb",
       "icon": "mcp/thirdweb/icon.svg",
-      "checksum": "sha256:cca42bed9e995f5cac2b4ab5310f9113b6b3fd31925aac15d103c08b2987f6c0",
+      "checksum": "sha256:d3291b576f4604f550a0b049fe6d47e96ee809ed9cead0a5fe0a2988131ff956",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1711,10 +1711,10 @@
       "source": "https://www.tradingview.com",
       "path": "mcp/tradingview",
       "icon": "mcp/tradingview/icon.svg",
-      "checksum": "sha256:4fc125d9c20b81776533f7bd8dd6aacc1c4ea0af5016ac4ea50cca340ab55d2c",
+      "checksum": "sha256:d6c276c09d37264db2fd69306449af967bf08faf368fc14b8bb619b22ea68941",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1736,10 +1736,10 @@
       "source": "https://vercel.com/docs/mcp",
       "path": "mcp/vercel",
       "icon": "mcp/vercel/icon.svg",
-      "checksum": "sha256:acd82d613c1fdef1227ad922cf8dae692aabd0ad301bb3290a22936fecf3056f",
+      "checksum": "sha256:7a3516b37fc924ef1656ebe4792c94a36ebfaa286874730a68a7699af0c2539f",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -1761,10 +1761,10 @@
       "source": "https://github.com/anaisbetts/mcp-youtube",
       "path": "mcp/youtube",
       "icon": "mcp/youtube/icon.svg",
-      "checksum": "sha256:a2b8d500aa483d18083f3da2fac45cb738afa8350afd63e6c3f95260dbde69ad",
+      "checksum": "sha256:bb86f3b40e3bd7fb3b060027464711e39e46ae3bb791d32faa0b59b17ccc8dec",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6063,10 +6063,10 @@
       "source": null,
       "path": "workflows/bug-fix",
       "icon": null,
-      "checksum": "sha256:ee31af5b4f6a9252620d60c207ae0553602fca75376acbfcd2c11a4266a3adc6",
+      "checksum": "sha256:f192861a67367a4957cca36ba10ea8ea0ee8dacfa57048a806f3334def35a884",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6086,10 +6086,10 @@
       "source": null,
       "path": "workflows/changelog-update",
       "icon": null,
-      "checksum": "sha256:453436bfdd6c40c3fdb76e74eb614d04613b96bde8561baf968b8fe36ae483ef",
+      "checksum": "sha256:84a8de28654b523f3053b5da2f086b20801220571b7af47c4480e5f89da022a4",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6110,10 +6110,10 @@
       "source": null,
       "path": "workflows/deep-research-report",
       "icon": null,
-      "checksum": "sha256:9978a1804682c598aba55bc7ad45d93490c32b0a4d085ad2dca19a83d8186124",
+      "checksum": "sha256:aa083a4e4aae4424ce19d337e2375e297c0fb6d5840c9d5bc1188e58c65cb944",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6133,10 +6133,10 @@
       "source": null,
       "path": "workflows/dependency-upgrade",
       "icon": null,
-      "checksum": "sha256:95c712f51dad7ab95e83bedf1306e8ea07b4ec7eb1e82b86770a34442d1a430d",
+      "checksum": "sha256:02be4608d2f9424e0afc9b4adeba6273e0a39168e368df272cae366601c118cd",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6156,10 +6156,10 @@
       "source": null,
       "path": "workflows/feature-implementation",
       "icon": null,
-      "checksum": "sha256:51a2c6bae468177eb69e9d66dc33b0373c17c9a8909d781ffadefc320cd7ec3d",
+      "checksum": "sha256:cbffeea0ebbe5c36d3c333c20cf740e39d7202d42f1dc51370004795100025b0",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6180,10 +6180,10 @@
       "source": null,
       "path": "workflows/issue-triage",
       "icon": null,
-      "checksum": "sha256:0d0089b947ad3e1a3d14d3588f0e90326cb6f77f72d34f2806e6ab6f3c142e88",
+      "checksum": "sha256:b0b3315a0c096094f4a938dbf92d34ce9216c95148c8b169a8b8640b7b58ee73",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6204,10 +6204,10 @@
       "source": null,
       "path": "workflows/pr-triage",
       "icon": null,
-      "checksum": "sha256:54b660e3b8a11b03a2fdd6346a71259ef10a07bd447ed06c116477a8abe8a969",
+      "checksum": "sha256:93f0c11ffe9865bec605a44a02ac7f8d6b96ea1b35a1ea6e0c05f898feb04124",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6227,10 +6227,10 @@
       "source": null,
       "path": "workflows/refactor-module",
       "icon": null,
-      "checksum": "sha256:658b4cdc955fb19ca2e80e1f8b69eb8c8d08dda6b1fe8d0872ef6512d6a399dc",
+      "checksum": "sha256:4284112f965f329e399d8f252f92042069addf4dbfb8dc0934d962560dccdc10",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6251,10 +6251,10 @@
       "source": null,
       "path": "workflows/release-notes",
       "icon": null,
-      "checksum": "sha256:09dbc7348ac15144f2d6b28550bd99696f335a0bf621dddebeeca4a339c4d60b",
+      "checksum": "sha256:98f9a47cdf03110980f889b201c18170f9b15ba103fcd6a594e88ec1bd867545",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6274,10 +6274,10 @@
       "source": null,
       "path": "workflows/security-audit",
       "icon": null,
-      "checksum": "sha256:c9d136ac34caf56222b04715cd951fefbd37e85c8c48860cb302da5c8dd317cf",
+      "checksum": "sha256:54e00bf08122ed5f56c249e833280ca5f2bf693c8516daffa69b09c3c4a75d63",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     },
@@ -6297,10 +6297,10 @@
       "source": null,
       "path": "workflows/test-coverage-boost",
       "icon": null,
-      "checksum": "sha256:5b17b350689fd4d46081b448c146857563614bd4904afd0c537815bf1423cba4",
+      "checksum": "sha256:8c0ef28f1c91d47c5e318bacf0db3164be7bda33be0a6f19b975a5889c4402a9",
       "compatibility": {
         "hermes": ">=0.3.0",
-        "desktop": ">=1.2.0"
+        "desktop": ">=0.6.0"
       },
       "acceptsFunding": false
     }

@@ -9,7 +9,7 @@
   "source": "https://www.atlassian.com/platform/remote-mcp-server",
   "tags": ["jira", "confluence", "atlassian", "project-management"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "permissions": ["network"],
   "transport": "http",
   "url": "https://mcp.atlassian.com/v1/mcp/authv2"

@@ -26,7 +26,7 @@ workflows/<name>/
   "license": "MIT",
   "tags": ["github", "automation"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
 
   "entry": "workflow.json",
   "requires": ["agents/ziqx/code-reviewer", "mcp/ziqx/github"],

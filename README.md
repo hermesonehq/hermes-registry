@@ -100,7 +100,7 @@ user-supplied config injected at startup. See
       "path": "skills/software-development/plan",
       "icon": null,
       "checksum": "sha256:…",
-      "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+      "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
       "acceptsFunding": false
     }
   ]
@@ -135,7 +135,7 @@ fields. All manifests are validated in CI against the schemas in `schemas/`.
   "source": "https://github.com/…",
   "tags": ["web", "data"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "dependencies": [{ "id": "mcp/postgres", "version": "^1" }],
   "permissions": ["network", "filesystem:read"],
   "funding": { "address": "0x…", "token": "H1", "chain": "base" }
@@ -157,7 +157,7 @@ Each entry declares the versions it works with. Both fields are
 [semver](https://semver.org/) ranges (`>=`, `^`, `~`, `*`).
 
 ```json
-"compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" }
+"compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" }
 ```
 
 - The **Python agent** checks `hermes`.

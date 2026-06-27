@@ -37,7 +37,7 @@ mcp/<name>/
   "source": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
   "tags": ["database", "sql"],
   "icon": "icon.png",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "permissions": ["network"],
 
   "transport": "stdio",

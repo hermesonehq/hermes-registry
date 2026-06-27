@@ -26,7 +26,7 @@ agents/<name>/
   "license": "MIT",
   "tags": ["code", "review"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
 
   "entry": "AGENT.md",
   "model": "claude-opus-4-8",

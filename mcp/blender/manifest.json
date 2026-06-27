@@ -10,7 +10,7 @@
   "source": "https://github.com/ahujasid/blender-mcp",
   "tags": ["creator", "3d", "blender", "modeling"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "permissions": ["network"],
   "transport": "stdio",
   "command": "uvx",

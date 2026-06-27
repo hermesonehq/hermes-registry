@@ -10,7 +10,7 @@
   "source": "https://github.com/samuelgursky/davinci-resolve-mcp",
   "tags": ["creator", "video", "editing", "davinci-resolve"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "permissions": ["filesystem:read", "filesystem:write"],
   "transport": "stdio",
   "command": "npx",

@@ -10,7 +10,7 @@
   "source": "https://github.com/Flux159/mcp-server-kubernetes",
   "tags": ["kubernetes", "devops", "infra"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "permissions": ["network", "filesystem:read"],
   "transport": "stdio",
   "command": "npx",

@@ -9,7 +9,7 @@
   "source": "https://www.canva.dev/docs/apps/mcp-server/",
   "tags": ["creator", "design", "canva", "graphics"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "permissions": ["network"],
   "transport": "http",
   "url": "https://mcp.canva.com/mcp"

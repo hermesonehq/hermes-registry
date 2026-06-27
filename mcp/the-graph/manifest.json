@@ -9,7 +9,7 @@
   "source": "https://thegraph.com/docs/",
   "tags": ["web3", "blockchain", "data", "subgraph"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "permissions": ["network"],
   "transport": "http",
   "url": "https://token-api.mcp.thegraph.com/sse"

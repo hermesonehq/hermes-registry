@@ -9,7 +9,7 @@
   "source": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server",
   "tags": ["creator", "design", "figma", "ui"],
   "icon": "icon.svg",
-  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=1.2.0" },
+  "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "permissions": ["network"],
   "transport": "http",
   "url": "http://127.0.0.1:3845/mcp"
