@@ -14,6 +14,7 @@ const NAV = [
     label: TYPE_META[t].plural,
   })),
   { href: "/models", label: "Models" },
+  { href: "/docs", label: "Docs" },
 ];
 
 export function Header() {

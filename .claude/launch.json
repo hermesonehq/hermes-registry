@@ -6,6 +6,17 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["--prefix", "web", "run", "dev"],
       "autoPort": true
+    },
+    {
+      "name": "landing-preview",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "/Users/fathah/Desktop/opensource/hermes/hermes-landing-page",
+        "run",
+        "dev"
+      ],
+      "autoPort": true
     }
   ]
 }

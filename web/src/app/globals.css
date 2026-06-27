@@ -97,6 +97,21 @@
 .hljs-emphasis { font-style: italic; }
 .hljs-strong { font-weight: 700; }
 
+/* Code blocks must follow the app theme. The @tailwindcss/typography plugin
+   otherwise defaults `pre` to a dark slate background; combined with our themed
+   .hljs colors that renders black-on-dark in light mode. (The Markdown
+   component's prose-pre:/prose-code: modifiers reference custom utilities the
+   prose variant doesn't emit, so the plugin default was winning.) */
+.prose pre {
+  background-color: var(--bg-subtle);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.prose :not(pre) > code {
+  background-color: var(--bg-subtle);
+  color: var(--text);
+}
+
 /* thin scrollbars */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-track { background: transparent; }
