@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-28T09:33:23+05:30",
-  "count": 254,
+  "generated": "2026-06-28T04:18:46.697168+00:00",
+  "count": 285,
   "entries": [
     {
       "id": "accessibility-auditor",
@@ -2951,6 +2951,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "git-guardrails-claude-code",
+      "type": "skill",
+      "category": "devops",
+      "name": "git-guardrails-claude-code",
+      "version": "1.0.0",
+      "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.",
+      "tags": [
+        "Git",
+        "Guardrails",
+        "Safety"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/misc/git-guardrails-claude-code",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/git-guardrails-claude-code",
+      "icon": null,
+      "iconify": "lucide:shield-check",
+      "checksum": "sha256:1badcee9e4c711be43456156c52cacbed9764e0a92689da97ea9bbff5396953a",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "hermesone",
       "type": "skill",
       "category": "devops",
@@ -3037,6 +3064,33 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:fb1fd1d0a2bc13d8997c646005f5b49d5b20e03ca6963e785bb13208218ff04e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "setup-pre-commit",
+      "type": "skill",
+      "category": "devops",
+      "name": "setup-pre-commit",
+      "version": "1.0.0",
+      "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.",
+      "tags": [
+        "Pre-commit",
+        "Git Hooks",
+        "CI"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/misc/setup-pre-commit",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/setup-pre-commit",
+      "icon": null,
+      "iconify": "lucide:git-commit-horizontal",
+      "checksum": "sha256:71689155f4f8ce9d8d7ca1a85a8e33d13c68bee6eb2e3fc090c9497be1719639",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3917,6 +3971,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "obsidian-vault",
+      "type": "skill",
+      "category": "note-taking",
+      "name": "obsidian-vault",
+      "version": "1.0.0",
+      "description": "Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, create, or organize notes in Obsidian.",
+      "tags": [
+        "Obsidian",
+        "Notes",
+        "Wikilinks"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/personal/obsidian-vault",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/note-taking/obsidian-vault",
+      "icon": null,
+      "iconify": "lucide:notebook-pen",
+      "checksum": "sha256:69aedb9ace335e5a7675a53a7fbc967d88e36e34f3b570ca402d24766827c324",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "airtable",
       "type": "skill",
       "category": "productivity",
@@ -3941,6 +4022,33 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:2bc85c58df57bf109fe4406e91c0374926b0a639cd15e432c38825dfed87fbf6",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "decision-mapping",
+      "type": "skill",
+      "category": "productivity",
+      "name": "decision-mapping",
+      "version": "1.0.0",
+      "description": "Turn a loose idea into a sequenced map of investigation tickets, then drive them to resolution one at a time.",
+      "tags": [
+        "Decisions",
+        "Mapping",
+        "Planning"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/decision-mapping",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/decision-mapping",
+      "icon": null,
+      "iconify": "lucide:git-fork",
+      "checksum": "sha256:242c9a8eb776a1bfdf24d0d695ff04a4d4b86fdcb9748db1da4fb31e21fdadb3",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4000,6 +4108,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "edit-article",
+      "type": "skill",
+      "category": "productivity",
+      "name": "edit-article",
+      "version": "1.0.0",
+      "description": "Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edit, revise, or improve an article draft.",
+      "tags": [
+        "Writing",
+        "Editing",
+        "Articles"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/personal/edit-article",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/edit-article",
+      "icon": null,
+      "iconify": "lucide:square-pen",
+      "checksum": "sha256:cd785bb0ce6ec932f3566bc719bc0521fff6b10eb0db3b55907021e60c6babac",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "google-workspace",
       "type": "skill",
       "category": "productivity",
@@ -4029,6 +4164,87 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:f5a966487f2192ca6c78b8e3e3f077d302fb382f73dd1c24dfccc87e98d02e34",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "grill-me",
+      "type": "skill",
+      "category": "productivity",
+      "name": "grill-me",
+      "version": "1.0.0",
+      "description": "A relentless interview to sharpen a plan or design.",
+      "tags": [
+        "Grilling",
+        "Questions",
+        "Thinking"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/grill-me",
+      "icon": null,
+      "iconify": "lucide:flame",
+      "checksum": "sha256:64d88518974a501c65cbb4b8f94f5d366472dbaf8f348b01368a4adf7e321b8f",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "grilling",
+      "type": "skill",
+      "category": "productivity",
+      "name": "grilling",
+      "version": "1.0.0",
+      "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.",
+      "tags": [
+        "Grilling",
+        "Critique",
+        "Thinking"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/grilling",
+      "icon": null,
+      "iconify": "lucide:flame-kindling",
+      "checksum": "sha256:609cf1172fd3fa9e5a22e184d876ab53429138f574f955cffe906faff5ae8a29",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "handoff",
+      "type": "skill",
+      "category": "productivity",
+      "name": "handoff",
+      "version": "1.0.0",
+      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "tags": [
+        "Handoff",
+        "Context",
+        "Continuity"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/handoff",
+      "icon": null,
+      "iconify": "lucide:handshake",
+      "checksum": "sha256:20a0ff78a853bff982d04929609ed4a222f3bc828c0290f5489fb445eefdaa50",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4086,6 +4302,33 @@
       "icon": null,
       "iconify": "lucide:square-kanban",
       "checksum": "sha256:72a00d89be67a3e80fc9e957ff2a1c4cf37b9fb463304fc553afec653acb8427",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "loop-me",
+      "type": "skill",
+      "category": "productivity",
+      "name": "loop-me",
+      "version": "1.0.0",
+      "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+      "tags": [
+        "Loop",
+        "Automation",
+        "Workflow"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/loop-me",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/loop-me",
+      "icon": null,
+      "iconify": "lucide:repeat",
+      "checksum": "sha256:31f87a7411a5f5086362f3b4941218ca80a5df43c76fdb1514d678d8de687b03",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4294,6 +4537,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "teach",
+      "type": "skill",
+      "category": "productivity",
+      "name": "teach",
+      "version": "1.0.0",
+      "description": "Teach the user a new skill or concept, within this workspace.",
+      "tags": [
+        "Teaching",
+        "Learning",
+        "Concepts"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/productivity/teach",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/teach",
+      "icon": null,
+      "iconify": "lucide:graduation-cap",
+      "checksum": "sha256:a05862b73af1ac61d59847f6a053bb57b7e80696d2dbf86dfc06777489f94228",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "teams-meeting-pipeline",
       "type": "skill",
       "category": "productivity",
@@ -4315,6 +4585,87 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:6c8d86f2e8473e47dd3b03e17fca6041ce11ff651fee9104e6d432214d268443",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "writing-beats",
+      "type": "skill",
+      "category": "productivity",
+      "name": "writing-beats",
+      "version": "1.0.0",
+      "description": "Writing, exploit — assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+      "tags": [
+        "Writing",
+        "Structure",
+        "Drafting"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-beats",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/writing-beats",
+      "icon": null,
+      "iconify": "lucide:feather",
+      "checksum": "sha256:4302bd33df071072aa4c1ab40b35de54797af205b6914d13164fbc8b8b5eee09",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "writing-fragments",
+      "type": "skill",
+      "category": "productivity",
+      "name": "writing-fragments",
+      "version": "1.0.0",
+      "description": "Writing, explore — mine raw fragments, no structure yet.",
+      "tags": [
+        "Writing",
+        "Fragments",
+        "Drafting"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-fragments",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/writing-fragments",
+      "icon": null,
+      "iconify": "lucide:pencil-line",
+      "checksum": "sha256:10376f57e3c808d05970298ee95a20272489aeda98a117d045bfec77f409df15",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "writing-shape",
+      "type": "skill",
+      "category": "productivity",
+      "name": "writing-shape",
+      "version": "1.0.0",
+      "description": "Writing, exploit — shape raw material into an article, paragraph by paragraph.",
+      "tags": [
+        "Writing",
+        "Structure",
+        "Editing"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-shape",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/writing-shape",
+      "icon": null,
+      "iconify": "lucide:pen-tool",
+      "checksum": "sha256:cf5b6c7a705a2622a46d24ac48fdeb2826963cc9781c5f6b79395353dd29b345",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4617,6 +4968,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "ask-matt",
+      "type": "skill",
+      "category": "software-development",
+      "name": "ask-matt",
+      "version": "1.0.0",
+      "description": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.",
+      "tags": [
+        "Engineering",
+        "Advice",
+        "Claude Code"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/ask-matt",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/ask-matt",
+      "icon": null,
+      "iconify": "lucide:messages-square",
+      "checksum": "sha256:cf8ac3920cc396a3252104965f6f4fb0690a21dff3bb9e6a6141d85bff4116db",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "claude-api",
       "type": "skill",
       "category": "software-development",
@@ -4642,6 +5020,33 @@
       "icon": null,
       "iconify": "lucide:code-xml",
       "checksum": "sha256:ce2d5503d760a01b5ab3e31ba8a36b0c70f9ed90565c7bc3c3d9003293294726",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "codebase-design",
+      "type": "skill",
+      "category": "software-development",
+      "name": "codebase-design",
+      "version": "1.0.0",
+      "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+      "tags": [
+        "Architecture",
+        "Design",
+        "Codebase"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/codebase-design",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/codebase-design",
+      "icon": null,
+      "iconify": "lucide:pencil-ruler",
+      "checksum": "sha256:cac878f80247fe34a11b0bed10ee6e3d0f880aa793cd49e9a05b32c482f03097",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4672,6 +5077,87 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:2ba1e1b975f76ebebafff0e51447566bb0fabcd44852dc2a63161d1cde844567",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "diagnosing-bugs",
+      "type": "skill",
+      "category": "software-development",
+      "name": "diagnosing-bugs",
+      "version": "1.0.0",
+      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+      "tags": [
+        "Debugging",
+        "Bugs",
+        "Diagnosis"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/diagnosing-bugs",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/diagnosing-bugs",
+      "icon": null,
+      "iconify": "lucide:bug",
+      "checksum": "sha256:5c3a0d65ce0def9134fd5eee36ae2fe6a19116d16c6dace1fe647d64bbe9c65c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "domain-modeling",
+      "type": "skill",
+      "category": "software-development",
+      "name": "domain-modeling",
+      "version": "1.0.0",
+      "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+      "tags": [
+        "Domain Modeling",
+        "DDD",
+        "Architecture"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/domain-modeling",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/domain-modeling",
+      "icon": null,
+      "iconify": "lucide:boxes",
+      "checksum": "sha256:6c4b11d62f310b25092613c01a6780904b87f89bff5eef6327f559ebea6512a9",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "grill-with-docs",
+      "type": "skill",
+      "category": "software-development",
+      "name": "grill-with-docs",
+      "version": "1.0.0",
+      "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+      "tags": [
+        "Docs",
+        "Review",
+        "Verification"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/grill-with-docs",
+      "icon": null,
+      "iconify": "lucide:book-open-check",
+      "checksum": "sha256:62d385f423e594bc59b4c5f69d6f35626f5ecb0c7cb79977e644b092f9d87774",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4730,6 +5216,60 @@
       "acceptsFunding": false
     },
     {
+      "id": "implement",
+      "type": "skill",
+      "category": "software-development",
+      "name": "implement",
+      "version": "1.0.0",
+      "description": "Implement a piece of work based on a PRD or set of issues.",
+      "tags": [
+        "Implementation",
+        "Coding",
+        "Workflow"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/implement",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/implement",
+      "icon": null,
+      "iconify": "lucide:hammer",
+      "checksum": "sha256:80f271bf106d39d63161523191eab2f8a9de518319261a98db2ffebb2a42cb24",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "improve-codebase-architecture",
+      "type": "skill",
+      "category": "software-development",
+      "name": "improve-codebase-architecture",
+      "version": "1.0.0",
+      "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+      "tags": [
+        "Architecture",
+        "Refactoring",
+        "Codebase"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/improve-codebase-architecture",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/improve-codebase-architecture",
+      "icon": null,
+      "iconify": "lucide:building-2",
+      "checksum": "sha256:6d6ae3c28eec7c86f4c956b2e25f63db7167a786ea01eb6b556f3a56aef95f8b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "mcp-builder",
       "type": "skill",
       "category": "software-development",
@@ -4754,6 +5294,33 @@
       "icon": null,
       "iconify": "lucide:blocks",
       "checksum": "sha256:4f056e0e7eac744ead8161cb03ed7b10f61ba5094c9fabed51adf147a420156d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "migrate-to-shoehorn",
+      "type": "skill",
+      "category": "software-development",
+      "name": "migrate-to-shoehorn",
+      "version": "1.0.0",
+      "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+      "tags": [
+        "Migration",
+        "Shoehorn",
+        "Refactoring"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/misc/migrate-to-shoehorn",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/migrate-to-shoehorn",
+      "icon": null,
+      "iconify": "lucide:arrow-left-right",
+      "checksum": "sha256:93ad780da05b2ae362c61cc087c57e0dafbd4f7acece21d51f2546341e2c5748",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4816,6 +5383,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "prototype",
+      "type": "skill",
+      "category": "software-development",
+      "name": "prototype",
+      "version": "1.0.0",
+      "description": "Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.",
+      "tags": [
+        "Prototyping",
+        "UI",
+        "Logic"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/prototype",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/prototype",
+      "icon": null,
+      "iconify": "lucide:drafting-compass",
+      "checksum": "sha256:db96461dc336e53326136c9c12212c7f68cd9856734697f0de7cc54a5de8e059",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "python-debugpy",
       "type": "skill",
       "category": "software-development",
@@ -4872,6 +5466,114 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:92020a7d0364cf211152daf01f8c9aaae1fadfb8d033457729d7e7d606c30deb",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "resolving-merge-conflicts",
+      "type": "skill",
+      "category": "software-development",
+      "name": "resolving-merge-conflicts",
+      "version": "1.0.0",
+      "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+      "tags": [
+        "Git",
+        "Merge",
+        "Conflicts"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/resolving-merge-conflicts",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/resolving-merge-conflicts",
+      "icon": null,
+      "iconify": "lucide:git-merge",
+      "checksum": "sha256:9a47747c997e52a6b2318c2e785bb0cabdc9b0289cdc5b4c7a420472202642b2",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "review",
+      "type": "skill",
+      "category": "software-development",
+      "name": "review",
+      "version": "1.0.0",
+      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
+      "tags": [
+        "Code Review",
+        "Standards",
+        "Spec"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/review",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/review",
+      "icon": null,
+      "iconify": "lucide:scan-search",
+      "checksum": "sha256:422cb8cc3fe488e06b147517df13cedf1e7d27736a34f35156b0cdceaa5128e6",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "scaffold-exercises",
+      "type": "skill",
+      "category": "software-development",
+      "name": "scaffold-exercises",
+      "version": "1.0.0",
+      "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.",
+      "tags": [
+        "Scaffolding",
+        "Exercises",
+        "Learning"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/misc/scaffold-exercises",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/scaffold-exercises",
+      "icon": null,
+      "iconify": "lucide:layout-list",
+      "checksum": "sha256:3a5eb700b068a31a72e51cea6e3e0b4f4a6e744d7bfbbfe35a2399659ce9977e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "setup-matt-pocock-skills",
+      "type": "skill",
+      "category": "software-development",
+      "name": "setup-matt-pocock-skills",
+      "version": "1.0.0",
+      "description": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+      "tags": [
+        "Setup",
+        "Skills",
+        "Configuration"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/setup-matt-pocock-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/setup-matt-pocock-skills",
+      "icon": null,
+      "iconify": "lucide:settings",
+      "checksum": "sha256:3c67bbdfb8a4bdbae9803944187c8bfaf8b52bb3366bde749c7188c0a3abc61d",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4996,6 +5698,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "tdd",
+      "type": "skill",
+      "category": "software-development",
+      "name": "tdd",
+      "version": "1.0.0",
+      "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+      "tags": [
+        "TDD",
+        "Testing",
+        "Red-Green-Refactor"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/tdd",
+      "icon": null,
+      "iconify": "lucide:test-tube-diagonal",
+      "checksum": "sha256:a4c9944535f550e11b91a6f41a7d8342adfbeebbd3ee9c668eed2a14a320056c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "test-driven-development",
       "type": "skill",
       "category": "software-development",
@@ -5021,6 +5750,87 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:31bb5d94f6696de9645cd70f67990e7bd38ffe9f41935972f70319613acf900c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "to-issues",
+      "type": "skill",
+      "category": "software-development",
+      "name": "to-issues",
+      "version": "1.0.0",
+      "description": "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices.",
+      "tags": [
+        "Issues",
+        "Planning",
+        "GitHub"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/to-issues",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/to-issues",
+      "icon": null,
+      "iconify": "lucide:list-checks",
+      "checksum": "sha256:99e5feda51dbf2b6c10bb0fc31efe91a855322c98b70e97230d57a63ef179dcd",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "to-prd",
+      "type": "skill",
+      "category": "software-development",
+      "name": "to-prd",
+      "version": "1.0.0",
+      "description": "Turn the current conversation into a PRD and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.",
+      "tags": [
+        "PRD",
+        "Planning",
+        "Spec"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/to-prd",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/to-prd",
+      "icon": null,
+      "iconify": "lucide:clipboard-list",
+      "checksum": "sha256:7ef4571d5b6eddd4f966dffa119983cfaabfc62a9cf23858d86860c1a4af96c5",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "triage",
+      "type": "skill",
+      "category": "software-development",
+      "name": "triage",
+      "version": "1.0.0",
+      "description": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+      "tags": [
+        "Triage",
+        "Issues",
+        "PRs"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/engineering/triage",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/triage",
+      "icon": null,
+      "iconify": "lucide:list-filter",
+      "checksum": "sha256:a906ef073eb2af2fde2b725f54a5ca1e39c342175963e57fa82bef12fe1c8b9d",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -5077,6 +5887,33 @@
       "icon": null,
       "iconify": "lucide:flask-conical",
       "checksum": "sha256:fdcee188be9158f700434cd2a972d61606fb641481ac33043025896745eeb33a",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "writing-great-skills",
+      "type": "skill",
+      "category": "software-development",
+      "name": "writing-great-skills",
+      "version": "1.0.0",
+      "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.",
+      "tags": [
+        "Skills",
+        "Authoring",
+        "Best Practices"
+      ],
+      "author": "mattpocock",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-great-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/writing-great-skills",
+      "icon": null,
+      "iconify": "lucide:book-open",
+      "checksum": "sha256:fb64bc28dd97ebc12e98b9584726dd2f6041ecc8ed89c09784f3d304d552116f",
       "compatibility": null,
       "acceptsFunding": false
     },

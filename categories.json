@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-28T09:33:23+05:30",
+  "generated": "2026-06-28T04:18:46.697168+00:00",
   "types": [
     {
       "type": "agent",
@@ -14,7 +14,7 @@
     },
     {
       "type": "skill",
-      "count": 171,
+      "count": 202,
       "categories": [
         {
           "name": "apple",
@@ -42,7 +42,7 @@
         },
         {
           "name": "devops",
-          "count": 4
+          "count": 6
         },
         {
           "name": "diagramming",
@@ -82,11 +82,11 @@
         },
         {
           "name": "note-taking",
-          "count": 1
+          "count": 2
         },
         {
           "name": "productivity",
-          "count": 15
+          "count": 25
         },
         {
           "name": "red-teaming",
@@ -106,7 +106,7 @@
         },
         {
           "name": "software-development",
-          "count": 17
+          "count": 35
         },
         {
           "name": "trading",
