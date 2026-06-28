@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-28T02:50:09.336190+00:00",
+  "generated": "2026-06-28T03:13:19.802562+00:00",
   "types": [
     {
       "type": "agent",
@@ -14,7 +14,7 @@
     },
     {
       "type": "skill",
-      "count": 154,
+      "count": 171,
       "categories": [
         {
           "name": "apple",
@@ -30,7 +30,7 @@
         },
         {
           "name": "creative",
-          "count": 20
+          "count": 21
         },
         {
           "name": "data-science",
@@ -38,7 +38,7 @@
         },
         {
           "name": "design",
-          "count": 1
+          "count": 5
         },
         {
           "name": "devops",
@@ -59,6 +59,10 @@
         {
           "name": "gaming",
           "count": 2
+        },
+        {
+          "name": "gifs",
+          "count": 1
         },
         {
           "name": "github",
@@ -82,7 +86,7 @@
         },
         {
           "name": "productivity",
-          "count": 9
+          "count": 15
         },
         {
           "name": "red-teaming",
@@ -102,7 +106,7 @@
         },
         {
           "name": "software-development",
-          "count": 12
+          "count": 17
         },
         {
           "name": "trading",

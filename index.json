@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-28T02:50:09.336190+00:00",
-  "count": 237,
+  "generated": "2026-06-28T03:13:19.802562+00:00",
+  "count": 254,
   "entries": [
     {
       "id": "accessibility-auditor",
@@ -2146,6 +2146,34 @@
       "acceptsFunding": false
     },
     {
+      "id": "algorithmic-art",
+      "type": "skill",
+      "category": "creative",
+      "name": "algorithmic-art",
+      "version": "1.0.0",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "tags": [
+        "Art",
+        "Generative",
+        "p5.js",
+        "Creative Coding"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/creative/algorithmic-art",
+      "icon": null,
+      "iconify": "lucide:shapes",
+      "checksum": "sha256:fc2e10e08d47226ca7aef2736bade78b8cef74a5266a7e2fb6db3d393b9c8cec",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "architecture-diagram",
       "type": "skill",
       "category": "creative",
@@ -2777,6 +2805,90 @@
       "acceptsFunding": false
     },
     {
+      "id": "brand-guidelines",
+      "type": "skill",
+      "category": "design",
+      "name": "brand-guidelines",
+      "version": "1.0.0",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "tags": [
+        "Branding",
+        "Design",
+        "Guidelines",
+        "Identity"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/brand-guidelines",
+      "icon": null,
+      "iconify": "lucide:palette",
+      "checksum": "sha256:efc470cd3a5c78ea34878c7cf8bc9d0888619c6a2118dd11b3ad78c4cebe10e4",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "canvas-design",
+      "type": "skill",
+      "category": "design",
+      "name": "canvas-design",
+      "version": "1.0.0",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "tags": [
+        "Design",
+        "Canvas",
+        "Layout",
+        "Graphics"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/canvas-design",
+      "icon": null,
+      "iconify": "lucide:layout-template",
+      "checksum": "sha256:3d320de0caf4f0af3a50f78458d5b755612f10593831c4ccd35ca8b535d2689c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "frontend-design",
+      "type": "skill",
+      "category": "design",
+      "name": "frontend-design",
+      "version": "1.0.0",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "tags": [
+        "Frontend",
+        "UI",
+        "Design",
+        "Web"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/frontend-design",
+      "icon": null,
+      "iconify": "lucide:panels-top-left",
+      "checksum": "sha256:a5f377308468d1086942389f7c57fa68b966531e12896f681a6494500fba780b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "open-design",
       "type": "skill",
       "category": "design",
@@ -2808,6 +2920,33 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:0582e0fd591ac3a7e2290608389af3b61442214276be0e57253669489545bf70",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "theme-factory",
+      "type": "skill",
+      "category": "design",
+      "name": "theme-factory",
+      "version": "1.0.0",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "tags": [
+        "Themes",
+        "Styling",
+        "Design"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/theme-factory",
+      "icon": null,
+      "iconify": "lucide:swatch-book",
+      "checksum": "sha256:f8f80bce011d9051c43c00b953d0ead550b24da94cd6ddb02ecdfb8b8c6d2c05",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3065,6 +3204,33 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:8e611a65654769924da5a3bd8d7a1b4c1e58e857bf0d6ffaa1218386681033a1",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "slack-gif-creator",
+      "type": "skill",
+      "category": "gifs",
+      "name": "slack-gif-creator",
+      "version": "1.0.0",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "tags": [
+        "Slack",
+        "GIF",
+        "Animation"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/gifs/slack-gif-creator",
+      "icon": null,
+      "iconify": "lucide:clapperboard",
+      "checksum": "sha256:fd2d647b996671ed45031ef86a5e8fc3cfdd5263a04d9c0f650f9ef479ba350e",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3779,6 +3945,61 @@
       "acceptsFunding": false
     },
     {
+      "id": "doc-coauthoring",
+      "type": "skill",
+      "category": "productivity",
+      "name": "doc-coauthoring",
+      "version": "1.0.0",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "tags": [
+        "Documents",
+        "Writing",
+        "Collaboration"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/doc-coauthoring",
+      "icon": null,
+      "iconify": "lucide:file-pen",
+      "checksum": "sha256:51e05ae5eadb383bdc245e66ae43fa47c71ac8ad7be36f0309f694388acc02da",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "docx",
+      "type": "skill",
+      "category": "productivity",
+      "name": "docx",
+      "version": "1.0.0",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "tags": [
+        "Word",
+        "Documents",
+        "docx",
+        "Office"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/docx",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/docx",
+      "icon": null,
+      "iconify": "lucide:file-text",
+      "checksum": "sha256:89ef424f872fe2f210b1202b5160fce505d9b4325e2e04d8dc8722532979f222",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "google-workspace",
       "type": "skill",
       "category": "productivity",
@@ -3808,6 +4029,33 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:f5a966487f2192ca6c78b8e3e3f077d302fb382f73dd1c24dfccc87e98d02e34",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "internal-comms",
+      "type": "skill",
+      "category": "productivity",
+      "name": "internal-comms",
+      "version": "1.0.0",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "tags": [
+        "Communications",
+        "Writing",
+        "Internal"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/internal-comms",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:f9c362168ba4a9e38c47ac421cf566f09709ec42a64aa3398cca3a0825bfaeac",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3968,6 +4216,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "pdf",
+      "type": "skill",
+      "category": "productivity",
+      "name": "pdf",
+      "version": "1.0.0",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "tags": [
+        "PDF",
+        "Documents",
+        "Forms"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/pdf",
+      "icon": null,
+      "iconify": "lucide:file-type",
+      "checksum": "sha256:a50f131d9f5800e1655cca3310176ae7fd26db2858af42010d47c29f9b2db044",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "powerpoint",
       "type": "skill",
       "category": "productivity",
@@ -3987,6 +4262,34 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:84be81bf35b03ea8e9bdaa175ea3de6f91053953930864ce215aee414b1abc42",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "pptx",
+      "type": "skill",
+      "category": "productivity",
+      "name": "pptx",
+      "version": "1.0.0",
+      "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
+      "tags": [
+        "PowerPoint",
+        "Slides",
+        "Presentations",
+        "Office"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/pptx",
+      "icon": null,
+      "iconify": "lucide:presentation",
+      "checksum": "sha256:e29c1797c2e128a65ca333390087b70b4e55d0de1b21f2d2dce63a0bc2e36ec7",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4012,6 +4315,34 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:6c8d86f2e8473e47dd3b03e17fca6041ce11ff651fee9104e6d432214d268443",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "xlsx",
+      "type": "skill",
+      "category": "productivity",
+      "name": "xlsx",
+      "version": "1.0.0",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "tags": [
+        "Excel",
+        "Spreadsheets",
+        "xlsx",
+        "Office"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/xlsx",
+      "icon": null,
+      "iconify": "lucide:sheet",
+      "checksum": "sha256:833bd23e0c7ae43deabc5fd909782e9e468250f7e1d3843020f5750ef115e605",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4286,6 +4617,35 @@
       "acceptsFunding": false
     },
     {
+      "id": "claude-api",
+      "type": "skill",
+      "category": "software-development",
+      "name": "claude-api",
+      "version": "1.0.0",
+      "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse over NL; debugging refusals/cutoffs/streaming/tool-calls/tokens).\nSKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "API",
+        "SDK",
+        "LLM"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/claude-api",
+      "icon": null,
+      "iconify": "lucide:code-xml",
+      "checksum": "sha256:ce2d5503d760a01b5ab3e31ba8a36b0c70f9ed90565c7bc3c3d9003293294726",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "debugging-hermes-tui-commands",
       "type": "skill",
       "category": "software-development",
@@ -4366,6 +4726,34 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:d69b3c0c99d88e7e95f55caa0df467bd958e90678d73420f7d902070b9120534",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "mcp-builder",
+      "type": "skill",
+      "category": "software-development",
+      "name": "mcp-builder",
+      "version": "1.0.0",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "tags": [
+        "MCP",
+        "Server",
+        "Tools",
+        "Development"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/mcp-builder",
+      "icon": null,
+      "iconify": "lucide:blocks",
+      "checksum": "sha256:4f056e0e7eac744ead8161cb03ed7b10f61ba5094c9fabed51adf147a420156d",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4488,6 +4876,34 @@
       "acceptsFunding": false
     },
     {
+      "id": "skill-creator",
+      "type": "skill",
+      "category": "software-development",
+      "name": "skill-creator",
+      "version": "1.0.0",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "tags": [
+        "Skills",
+        "Authoring",
+        "Meta",
+        "Evals"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/skill-creator",
+      "icon": null,
+      "iconify": "lucide:wand-sparkles",
+      "checksum": "sha256:57e75e60b1cc438e3e858119a9a4a8ca373594e80a467b071c061e9a37fefce7",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "spike",
       "type": "skill",
       "category": "software-development",
@@ -4605,6 +5021,62 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:31bb5d94f6696de9645cd70f67990e7bd38ffe9f41935972f70319613acf900c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "web-artifacts-builder",
+      "type": "skill",
+      "category": "software-development",
+      "name": "web-artifacts-builder",
+      "version": "1.0.0",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "tags": [
+        "Web",
+        "Artifacts",
+        "React",
+        "Build"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/web-artifacts-builder",
+      "icon": null,
+      "iconify": "lucide:layout-dashboard",
+      "checksum": "sha256:df0612bb688681bf37e61abec05f8524cd80b6d113ed43a2d9c78ec075f36087",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "webapp-testing",
+      "type": "skill",
+      "category": "software-development",
+      "name": "webapp-testing",
+      "version": "1.0.0",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "tags": [
+        "Testing",
+        "Web",
+        "Automation",
+        "Playwright"
+      ],
+      "author": "anthropics",
+      "license": "Proprietary",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/webapp-testing",
+      "icon": null,
+      "iconify": "lucide:flask-conical",
+      "checksum": "sha256:fdcee188be9158f700434cd2a972d61606fb641481ac33043025896745eeb33a",
       "compatibility": null,
       "acceptsFunding": false
     },
