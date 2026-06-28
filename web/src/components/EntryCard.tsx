@@ -14,6 +14,7 @@ export interface EntryCardData {
   author: string;
   category: string | null;
   icon: string | null;
+  iconify?: string | null;
   version?: string;
   downloads?: number;
 }
@@ -33,6 +34,7 @@ export function EntryCard({
       <div className="flex items-start gap-3">
         <EntryIcon
           icon={entry.icon}
+          iconify={entry.iconify}
           name={entry.name}
           type={entry.type}
           size="sm"

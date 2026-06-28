@@ -119,6 +119,7 @@ export function DetailView({ detail }: { detail: EntryDetail }) {
           <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
             <EntryIcon
               icon={entry.icon}
+              iconify={entry.iconify}
               name={entry.name}
               type={entry.type}
               size="lg"

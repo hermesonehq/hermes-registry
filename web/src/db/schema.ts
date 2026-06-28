@@ -32,6 +32,7 @@ export const entries = pgTable(
     platforms: text("platforms").array(),
     path: text("path").notNull(),
     icon: text("icon"),
+    iconify: text("iconify"),
     checksum: text("checksum"),
     compatibility: jsonb("compatibility"),
     acceptsFunding: boolean("accepts_funding").notNull().default(false),

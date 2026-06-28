@@ -18,10 +18,18 @@ export interface TypeMeta {
   icon: LucideIcon;
 }
 
-// Monochrome by design: every type shares one neutral badge/dot treatment.
-// Types are distinguished by their label and icon, not by color.
-const MONO_BADGE = "bg-[var(--accent-soft)] text-muted ring-[var(--border)]";
-const MONO_DOT = "bg-[var(--text-faint)]";
+// Each entry type carries a soft color accent so the type is legible at a
+// glance — without it every card's chip reads identically and "Skill" vs "MCP"
+// is easy to miss. Kept low-chroma (10% tint + colored text/ring) so the UI
+// stays calm: amber=skill, sky=mcp, violet=agent, emerald=workflow.
+const skillBadge =
+  "bg-amber-500/10 text-amber-700 ring-amber-600/20 dark:text-amber-400 dark:ring-amber-400/25";
+const mcpBadge =
+  "bg-sky-500/10 text-sky-700 ring-sky-600/20 dark:text-sky-400 dark:ring-sky-400/25";
+const agentBadge =
+  "bg-violet-500/10 text-violet-700 ring-violet-600/20 dark:text-violet-400 dark:ring-violet-400/25";
+const workflowBadge =
+  "bg-emerald-500/10 text-emerald-700 ring-emerald-600/20 dark:text-emerald-400 dark:ring-emerald-400/25";
 
 export const TYPE_META: Record<EntryType, TypeMeta> = {
   skill: {
@@ -30,8 +38,8 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     plural: "Skills",
     slug: "skills",
     blurb: "Task procedures Hermes can follow.",
-    badge: MONO_BADGE,
-    dot: MONO_DOT,
+    badge: skillBadge,
+    dot: "bg-amber-500",
     icon: Sparkles,
   },
   mcp: {
@@ -40,8 +48,8 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     plural: "MCP Servers",
     slug: "mcp",
     blurb: "Model Context Protocol servers exposing tools and resources.",
-    badge: MONO_BADGE,
-    dot: MONO_DOT,
+    badge: mcpBadge,
+    dot: "bg-sky-500",
     icon: Plug,
   },
   agent: {
@@ -50,8 +58,8 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     plural: "Agents",
     slug: "agents",
     blurb: "Named subagent personas with their own prompt, tools, and model.",
-    badge: MONO_BADGE,
-    dot: MONO_DOT,
+    badge: agentBadge,
+    dot: "bg-violet-500",
     icon: Bot,
   },
   workflow: {
@@ -60,8 +68,8 @@ export const TYPE_META: Record<EntryType, TypeMeta> = {
     plural: "Workflows",
     slug: "workflows",
     blurb: "Multi-step recipes chaining skills, agents, and MCPs.",
-    badge: MONO_BADGE,
-    dot: MONO_DOT,
+    badge: workflowBadge,
+    dot: "bg-emerald-500",
     icon: Workflow,
   },
 };

@@ -4,8 +4,9 @@
   "private": true,
   "description": "Web registry view for the Hermes agent package registry — browse and search skills, MCP servers, agents, workflows, and models.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node scripts/gen-icons.mjs && next dev",
+    "build": "node scripts/gen-icons.mjs && next build",
+    "gen:icons": "node scripts/gen-icons.mjs",
     "start": "next start",
     "lint": "next lint",
     "db:migrate": "tsx scripts/migrate.ts",
@@ -13,6 +14,8 @@
     "db:setup": "tsx scripts/migrate.ts && tsx scripts/seed.ts"
   },
   "dependencies": {
+    "@iconify-json/lucide": "^1.2.114",
+    "@iconify/react": "^6.0.2",
     "drizzle-orm": "^0.38.3",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.469.0",
@@ -26,6 +29,7 @@
     "server-only": "^0.0.1"
   },
   "devDependencies": {
+    "@iconify/utils": "^3.1.3",
     "@tailwindcss/postcss": "^4.0.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",

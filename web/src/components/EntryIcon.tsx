@@ -1,5 +1,6 @@
 import { iconUrl, typeMeta } from "@/lib/ui";
 import type { EntryType } from "@/lib/types";
+import { IconifyGlyph } from "./IconifyGlyph";
 
 const SIZES = {
   sm: "h-9 w-9 text-sm rounded-lg",
@@ -9,10 +10,12 @@ const SIZES = {
 
 export function EntryIcon({
   icon,
+  iconify,
   type,
   size = "md",
 }: {
   icon: string | null;
+  iconify?: string | null;
   name: string;
   type: EntryType;
   size?: keyof typeof SIZES;
@@ -21,6 +24,19 @@ export function EntryIcon({
   const cls = SIZES[size];
   const meta = typeMeta(type);
   const TypeIcon = meta.icon;
+
+  // Named Iconify glyph (skills declaring metadata.hermes.icon). Rendered on the
+  // same white tile as brand logos for grid consistency; a dark color keeps the
+  // single-color glyph legible in both themes, matching the black logos.
+  if (!url && iconify) {
+    return (
+      <span
+        className={`${cls} flex shrink-0 items-center justify-center overflow-hidden border border-default bg-white p-2 text-neutral-800`}
+      >
+        <IconifyGlyph id={iconify} className="h-full w-full" />
+      </span>
+    );
+  }
 
   if (url) {
     return (

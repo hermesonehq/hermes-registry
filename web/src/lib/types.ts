@@ -20,6 +20,8 @@ export interface RegistryEntry {
   platforms?: string[];
   path: string;
   icon: string | null;
+  /** Iconify icon id (e.g. "lucide:square-kanban") when declared in metadata. */
+  iconify?: string | null;
   checksum?: string;
   compatibility: Compatibility | null;
   acceptsFunding?: boolean;

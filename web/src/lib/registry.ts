@@ -48,6 +48,7 @@ function toEntry(r: EntryRow): EntryWithDownloads {
     platforms: r.platforms ?? undefined,
     path: r.path,
     icon: r.icon,
+    iconify: r.iconify ?? null,
     checksum: r.checksum ?? undefined,
     compatibility: (r.compatibility as Compatibility | null) ?? null,
     acceptsFunding: r.acceptsFunding,
