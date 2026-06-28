@@ -3,7 +3,7 @@
   "type": "model-provider",
   "id": "deepseek",
   "name": "DeepSeek",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://www.deepseek.com",
   "description": "Open-weight chat and reasoning models from DeepSeek.",
   "docs": "https://api-docs.deepseek.com/",
@@ -50,6 +50,262 @@
         "streaming",
         "prompt_caching"
       ]
+    },
+    {
+      "name": "DeepSeek-V3-0324",
+      "label": "DeepSeek-V3-0324",
+      "description": "DeepSeek-V3-0324",
+      "context": 131072,
+      "maxOutput": 16384,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.216,
+        "output": 0.88,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "deepseek-r1-0528",
+      "label": "DeepSeek-R1-0528",
+      "description": "DeepSeek-R1-0528",
+      "context": 131072,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.55,
+        "output": 2.15,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "DeepSeek-V3.1",
+      "label": "DeepSeek-V3.1",
+      "description": "DeepSeek-V3.1",
+      "context": 131072,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.3,
+        "output": 0.95,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "DeepSeek-V3.1-Terminus",
+      "label": "DeepSeek V3.1 Terminus",
+      "description": "DeepSeek V3.1 Terminus",
+      "context": 131072,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.3,
+        "output": 0.95,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "DeepSeek-V3.2-Exp",
+      "label": "DeepSeek V3.2 Exp",
+      "description": "DeepSeek V3.2 Exp",
+      "context": 163840,
+      "maxOutput": 163840,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.27,
+        "output": 0.41,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "deepseek-v3.2",
+      "label": "DeepSeek V3.2",
+      "description": "DeepSeek V3.2",
+      "context": 163840,
+      "maxOutput": 163840,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.26,
+        "output": 0.38,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "deepseek-ocr",
+      "label": "DeepSeek OCR",
+      "description": "DeepSeek OCR",
+      "context": 8192,
+      "maxOutput": 8192,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.04,
+        "output": 0.08,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "deepseek-v4-flash",
+      "label": "DeepSeek V4 Flash",
+      "description": "DeepSeek V4 Flash",
+      "context": 1048576,
+      "maxOutput": 393216,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "structured_outputs",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.14,
+        "output": 0.28,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "label": "DeepSeek V4 Pro",
+      "description": "DeepSeek V4 Pro",
+      "context": 1048576,
+      "maxOutput": 393216,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "structured_outputs",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.68,
+        "output": 3.38,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
     }
   ]
 }

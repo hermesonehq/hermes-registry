@@ -3,7 +3,7 @@
   "type": "model-provider",
   "id": "xai",
   "name": "xAI",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://x.ai",
   "description": "The Grok family of models from xAI.",
   "docs": "https://docs.x.ai/docs/models",
@@ -87,6 +87,56 @@
         "vision",
         "streaming"
       ]
+    },
+    {
+      "name": "grok-4.3",
+      "label": "Grok 4.3",
+      "description": "Grok 4.3",
+      "context": 1000000,
+      "maxOutput": 1000000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.25,
+        "output": 2.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "grok-build-0.1",
+      "label": "Grok Build 0.1",
+      "description": "Grok Build 0.1",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.0,
+        "output": 2.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
     }
   ]
 }

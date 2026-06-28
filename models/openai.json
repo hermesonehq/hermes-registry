@@ -3,7 +3,7 @@
   "type": "model-provider",
   "id": "openai",
   "name": "OpenAI",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://openai.com",
   "description": "GPT and o-series reasoning models from OpenAI.",
   "docs": "https://platform.openai.com/docs/models",
@@ -166,6 +166,581 @@
         "vision",
         "structured_outputs"
       ]
+    },
+    {
+      "name": "gpt-5.1",
+      "label": "GPT 5.1",
+      "description": "GPT 5.1",
+      "context": 400000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.25,
+        "output": 10.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.1-chat",
+      "label": "GPT 5.1 Chat",
+      "description": "GPT 5.1 Chat",
+      "context": 128000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.25,
+        "output": 10.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.1-codex",
+      "label": "GPT 5.1 Codex",
+      "description": "GPT 5.1 Codex",
+      "context": 400000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.25,
+        "output": 10.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.1-codex-mini",
+      "label": "GPT 5.1 Codex mini",
+      "description": "GPT 5.1 Codex mini",
+      "context": 400000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.25,
+        "output": 2.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "o1",
+      "label": "GPT o1",
+      "description": "GPT o1",
+      "context": 200000,
+      "maxOutput": 100000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 15.0,
+        "output": 60.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "o3-mini",
+      "label": "GPT o3 mini",
+      "description": "GPT o3 mini",
+      "context": 200000,
+      "maxOutput": 100000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.1,
+        "output": 4.4,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "o3-pro",
+      "label": "GPT o3 pro",
+      "description": "GPT o3 pro",
+      "context": 200000,
+      "maxOutput": 100000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 20.0,
+        "output": 80.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5",
+      "label": "GPT 5",
+      "description": "GPT 5",
+      "context": 400000,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.25,
+        "output": 10.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5-chat",
+      "label": "GPT 5 Chat",
+      "description": "GPT 5 Chat",
+      "context": 128000,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.25,
+        "output": 10.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5-codex",
+      "label": "GPT 5 Codex",
+      "description": "GPT 5 Codex",
+      "context": 400000,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.25,
+        "output": 10.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5-mini",
+      "label": "GPT 5 mini",
+      "description": "GPT 5 mini",
+      "context": 400000,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.25,
+        "output": 2.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5-nano",
+      "label": "GPT 5 nano",
+      "description": "GPT 5 nano",
+      "context": 400000,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.05,
+        "output": 0.4,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5-pro",
+      "label": "GPT 5 pro",
+      "description": "GPT 5 pro",
+      "context": 400000,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 15.0,
+        "output": 120.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.1-codex-max",
+      "label": "GPT 5.1 Codex max",
+      "description": "GPT 5.1 Codex max",
+      "context": 400000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.25,
+        "output": 10.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.2",
+      "label": "GPT 5.2",
+      "description": "GPT 5.2",
+      "context": 400000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.75,
+        "output": 14.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.2-chat",
+      "label": "GPT 5.2 Chat",
+      "description": "GPT 5.2 Chat",
+      "context": 128000,
+      "maxOutput": 16400,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.75,
+        "output": 14.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.2-codex",
+      "label": "GPT 5.2 Codex",
+      "description": "GPT 5.2 Codex",
+      "context": 400000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.75,
+        "output": 14.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.3-codex",
+      "label": "GPT 5.3 Codex",
+      "description": "GPT 5.3 Codex",
+      "context": 400000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.75,
+        "output": 14.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.4",
+      "label": "GPT 5.4",
+      "description": "GPT 5.4",
+      "context": 400000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 2.5,
+        "output": 15.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-image-2",
+      "label": "GPT Image 2",
+      "description": "GPT Image 2",
+      "context": 1047576,
+      "maxOutput": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 0.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.5",
+      "label": "GPT 5.5",
+      "description": "GPT 5.5",
+      "context": 1050000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 30.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.4-mini",
+      "label": "GPT 5.4 mini",
+      "description": "GPT 5.4 mini",
+      "context": 400000,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.75,
+        "output": 4.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "gpt-5.4-nano",
+      "label": "GPT 5.4 nano",
+      "description": "GPT 5.4 nano",
+      "context": 400000,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.2,
+        "output": 1.25,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
     }
   ]
 }

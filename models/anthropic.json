@@ -3,7 +3,7 @@
   "type": "model-provider",
   "id": "anthropic",
   "name": "Anthropic",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://www.anthropic.com",
   "description": "The Claude family of models from Anthropic.",
   "docs": "https://docs.anthropic.com/en/docs/about-claude/models",
@@ -139,6 +139,456 @@
         "vision",
         "streaming"
       ]
+    },
+    {
+      "name": "claude-haiku-4.5-20251001",
+      "label": "Claude Haiku 4.5 20251001",
+      "description": "Claude Haiku 4.5 20251001",
+      "context": 200000,
+      "maxOutput": 64000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.0,
+        "output": 5.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-sonnet-4.5-20250929",
+      "label": "Claude Sonnet 4.5 20250929",
+      "description": "Claude Sonnet 4.5 20250929",
+      "context": 200000,
+      "maxOutput": 64000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 3.0,
+        "output": 15.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.1-20250805",
+      "label": "Claude Opus 4.1 20250805",
+      "description": "Claude Opus 4.1 20250805",
+      "context": 200000,
+      "maxOutput": 32000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 15.0,
+        "output": 75.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.5-20251101",
+      "label": "Claude Opus 4.5 20251101",
+      "description": "Claude Opus 4.5 20251101",
+      "context": 200000,
+      "maxOutput": 32000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 25.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.6",
+      "label": "Claude Opus 4.6",
+      "description": "Claude Opus 4.6",
+      "context": 1000000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 25.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-sonnet-4.6",
+      "label": "Claude Sonnet 4.6",
+      "description": "Claude Sonnet 4.6",
+      "context": 200000,
+      "maxOutput": 64000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 3.0,
+        "output": 15.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.7",
+      "label": "Claude Opus 4.7",
+      "description": "Claude Opus 4.7",
+      "context": 1000000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 25.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.8",
+      "label": "Claude Opus 4.8",
+      "description": "Claude Opus 4.8",
+      "context": 1000000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 25.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-sonnet-4-20250514-coding",
+      "label": "Claude Sonnet 4 20250514 Coding",
+      "description": "Claude Sonnet 4 20250514 Coding",
+      "context": 200000,
+      "maxOutput": 64000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 3.0,
+        "output": 15.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-haiku-4.5-20251001-coding",
+      "label": "Claude Haiku 4.5 20251001 Coding",
+      "description": "Claude Haiku 4.5 20251001 Coding",
+      "context": 200000,
+      "maxOutput": 64000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.0,
+        "output": 5.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-sonnet-4.5-20250929-coding",
+      "label": "Claude Sonnet 4.5 20250929 Coding",
+      "description": "Claude Sonnet 4.5 20250929 Coding",
+      "context": 200000,
+      "maxOutput": 64000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 3.0,
+        "output": 15.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.1-20250805-coding",
+      "label": "Claude Opus 4.1 20250805 Coding",
+      "description": "Claude Opus 4.1 20250805 Coding",
+      "context": 200000,
+      "maxOutput": 32000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 15.0,
+        "output": 75.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4-20250514-coding",
+      "label": "Claude Opus 4 20250514 Coding",
+      "description": "Claude Opus 4 20250514 Coding",
+      "context": 200000,
+      "maxOutput": 32000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 15.0,
+        "output": 75.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.5-20251101-coding",
+      "label": "Claude Opus 4.5 20251101 Coding",
+      "description": "Claude Opus 4.5 20251101 Coding",
+      "context": 200000,
+      "maxOutput": 32000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 25.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.6-coding",
+      "label": "Claude Opus 4.6 Coding",
+      "description": "Claude Opus 4.6 Coding",
+      "context": 1000000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 25.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-sonnet-4.6-coding",
+      "label": "Claude Sonnet 4.6 Coding",
+      "description": "Claude Sonnet 4.6 Coding",
+      "context": 200000,
+      "maxOutput": 64000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 3.0,
+        "output": 15.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.7-coding",
+      "label": "Claude Opus 4.7 Coding",
+      "description": "Claude Opus 4.7 Coding",
+      "context": 1000000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 25.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "claude-opus-4.8-coding",
+      "label": "Claude Opus 4.8 Coding",
+      "description": "Claude Opus 4.8 Coding",
+      "context": 1000000,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 5.0,
+        "output": 25.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
     }
   ]
 }

@@ -3,7 +3,7 @@
   "type": "model-provider",
   "id": "openrouter",
   "name": "OpenRouter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://openrouter.ai",
   "description": "A unified API that routes to hundreds of models from many providers behind a single OpenAI-compatible endpoint. Model ids are namespaced as 'vendor/model'.",
   "docs": "https://openrouter.ai/docs",
@@ -141,6 +141,1618 @@
         "tools",
         "streaming"
       ]
+    },
+    {
+      "name": "qwen/qwen3-32b",
+      "label": "Qwen3 32B",
+      "description": "Qwen3 32B",
+      "context": 40960,
+      "maxOutput": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.1,
+        "output": 1.2,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "moonshotai/Kimi-K2-Instruct",
+      "label": "Kimi K2 Instruct",
+      "description": "Kimi K2 Instruct",
+      "context": 131072,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.7,
+        "output": 2.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "Qwen/Qwen3-Coder",
+      "label": "Qwen3 Coder",
+      "description": "Qwen3 Coder",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.78,
+        "output": 3.8,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "label": "Qwen3-235B-A22B-Instruct-2507",
+      "description": "Qwen3-235B-A22B-Instruct-2507",
+      "context": 131072,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.2,
+        "output": 0.88,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "moonshotai/Kimi-K2-Instruct-0905",
+      "label": "Kimi K2 Instruct 0905",
+      "description": "Kimi K2 Instruct 0905",
+      "context": 262144,
+      "maxOutput": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.6,
+        "output": 2.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "label": "Qwen3 Next 80B A3B Instruct",
+      "description": "Qwen3 Next 80B A3B Instruct",
+      "context": 262144,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.15,
+        "output": 1.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+      "label": "Qwen3 Next 80B A3B Thinking",
+      "description": "Qwen3 Next 80B A3B Thinking",
+      "context": 262144,
+      "maxOutput": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.15,
+        "output": 1.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "label": "Qwen3 30B A3B Instruct 2507",
+      "description": "Qwen3 30B A3B Instruct 2507",
+      "context": 131072,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "zai-org/GLM-4.6",
+      "label": "GLM 4.6",
+      "description": "GLM 4.6",
+      "context": 202752,
+      "maxOutput": 202752,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.6,
+        "output": 2.2,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "MiniMaxAI/MiniMax-M2",
+      "label": "MiniMax M2",
+      "description": "MiniMax M2",
+      "context": 196608,
+      "maxOutput": 196608,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.255,
+        "output": 1.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+      "label": "Qwen3-VL-235B-A22B-Instruct",
+      "description": "Qwen3-VL-235B-A22B-Instruct",
+      "context": 131072,
+      "maxOutput": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.3,
+        "output": 1.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "moonshotai/Kimi-K2-Thinking",
+      "label": "Kimi K2 Thinking",
+      "description": "Kimi K2 Thinking",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.6,
+        "output": 2.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "zai-org/glm-4.7",
+      "label": "GLM 4.7",
+      "description": "GLM 4.7",
+      "context": 202752,
+      "maxOutput": 202752,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.52,
+        "output": 1.85,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "minimaxai/minimax-m2.1",
+      "label": "MiniMax M2.1",
+      "description": "MiniMax M2.1",
+      "context": 196608,
+      "maxOutput": 196608,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.29,
+        "output": 0.95,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-8b",
+      "label": "Qwen3 8B",
+      "description": "Qwen3 8B",
+      "context": 40960,
+      "maxOutput": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.05,
+        "output": 0.4,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-235b-a22b-thinking-2507",
+      "label": "Qwen3 235B A22B Thinking 2507",
+      "description": "Qwen3 235B A22B Thinking 2507",
+      "context": 128000,
+      "maxOutput": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.28,
+        "output": 2.3,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-vl-235b-a22b-thinking",
+      "label": "Qwen3 VL 235B A22B Thinking",
+      "description": "Qwen3 VL 235B A22B Thinking",
+      "context": 131072,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.5,
+        "output": 2.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-30b-a3b",
+      "label": "Qwen3 30B A3B",
+      "description": "Qwen3 30B A3B",
+      "context": 32768,
+      "maxOutput": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.08,
+        "output": 1.25,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-30b-a3b-thinking-2507",
+      "label": "Qwen3 30B A3B Thinking 2507",
+      "description": "Qwen3 30B A3B Thinking 2507",
+      "context": 131072,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.08,
+        "output": 0.4,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-max-2026-01-23",
+      "label": "Qwen3 Max 20260123",
+      "description": "Qwen3 Max 20260123",
+      "context": 252000,
+      "maxOutput": 32000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.2,
+        "output": 6.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "moonshotai/kimi-k2.5",
+      "label": "Kimi K2.5",
+      "description": "Kimi K2.5",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.49,
+        "output": 2.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "zai-org/glm-5",
+      "label": "GLM 5",
+      "description": "GLM 5",
+      "context": 202752,
+      "maxOutput": 202752,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "reasoning",
+        "structured_outputs",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.95,
+        "output": 3.15,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "minimaxai/minimax-m2.5",
+      "label": "MiniMax M2.5",
+      "description": "MiniMax M2.5",
+      "context": 196608,
+      "maxOutput": 196608,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.295,
+        "output": 1.2,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.5-397b-a17b",
+      "label": "Qwen3.5 397BA17B",
+      "description": "Qwen3.5 397BA17B",
+      "context": 262144,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.55,
+        "output": 3.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-coder-next",
+      "label": "Qwen3 Coder Next",
+      "description": "Qwen3 Coder Next",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.18,
+        "output": 1.35,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.5-122b-a10b",
+      "label": "Qwen3.5 122B A10B",
+      "description": "Qwen3.5 122B A10B",
+      "context": 262144,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.3,
+        "output": 2.4,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.5-35b-a3b",
+      "label": "Qwen3.5 35B A3B",
+      "description": "Qwen3.5 35B A3B",
+      "context": 262144,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.225,
+        "output": 1.8,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.5-27b",
+      "label": "Qwen3.5 27B",
+      "description": "Qwen3.5 27B",
+      "context": 262144,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.27,
+        "output": 2.16,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "minimaxai/minimax-m2.7",
+      "label": "MiniMax M2.7",
+      "description": "MiniMax M2.7",
+      "context": 196608,
+      "maxOutput": 196608,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "structured_outputs",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.3,
+        "output": 1.2,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "zai-org/glm-5-turbo",
+      "label": "GLM 5 Turbo",
+      "description": "GLM 5 Turbo",
+      "context": 262144,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "reasoning",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.2,
+        "output": 4.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-vl-8b-instruct",
+      "label": "Qwen3 VL 8B Instruct",
+      "description": "Qwen3 VL 8B Instruct",
+      "context": 128000,
+      "maxOutput": 32000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.08,
+        "output": 0.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-vl-30b-a3b-thinking",
+      "label": "Qwen3 VL 30B A3B Thinking",
+      "description": "Qwen3 VL 30B A3B Thinking",
+      "context": 128000,
+      "maxOutput": 32000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.15,
+        "output": 1.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3-vl-30b-a3b-instruct",
+      "label": "Qwen3 VL 30B A3B Instruct",
+      "description": "Qwen3 VL 30B A3B Instruct",
+      "context": 128000,
+      "maxOutput": 32000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "kwaipilot/kat-coder-pro-v2",
+      "label": "KAT Coder Pro V2",
+      "description": "KAT Coder Pro V2",
+      "context": 262144,
+      "maxOutput": 144000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.3,
+        "output": 1.2,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "zai-org/glm-5.1",
+      "label": "GLM 5.1",
+      "description": "GLM 5.1",
+      "context": 202752,
+      "maxOutput": 202752,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "reasoning",
+        "structured_outputs",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.26,
+        "output": 3.96,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.6-plus",
+      "label": "Qwen3.6 Plus",
+      "description": "Qwen3.6 Plus",
+      "context": 1000000,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "reasoning",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.325,
+        "output": 1.95,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "zai-org/glm-5v-turbo",
+      "label": "GLM 5v Turbo",
+      "description": "GLM 5v Turbo",
+      "context": 202752,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.2,
+        "output": 4.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "moonshotai/kimi-k2.6",
+      "label": "Kimi K2.6",
+      "description": "Kimi K2.6",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.95,
+        "output": 4.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.6-35b-a3b",
+      "label": "Qwen3.6 35B A3B",
+      "description": "Qwen3.6 35B A3B",
+      "context": 262144,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.1612,
+        "output": 0.96525,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "owl",
+      "label": "OWL",
+      "description": "OWL",
+      "context": 1048756,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "structured_outputs",
+        "reasoning",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.0,
+        "output": 0.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "minimaxai/minimax-m3",
+      "label": "MiniMax M3",
+      "description": "MiniMax M3",
+      "context": 524300,
+      "maxOutput": 524288,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.3,
+        "output": 1.2,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.7-max",
+      "label": "Qwen3.7 Max",
+      "description": "Qwen3.7 Max",
+      "context": 1000000,
+      "maxOutput": 67072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 2.5,
+        "output": 7.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.7-plus",
+      "label": "Qwen3.7 Plus",
+      "description": "Qwen3.7 Plus",
+      "context": 1000000,
+      "maxOutput": 67072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.4,
+        "output": 1.6,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.5-plus",
+      "label": "Qwen3.5 Plus",
+      "description": "Qwen3.5 Plus",
+      "context": 1000000,
+      "maxOutput": 67072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.4,
+        "output": 2.4,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "qwen/qwen3.5-flash",
+      "label": "Qwen3.5 Flash",
+      "description": "Qwen3.5 Flash",
+      "context": 1000000,
+      "maxOutput": 67072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.1,
+        "output": 0.4,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "moonshotai/kimi-k2.7-code",
+      "label": "Kimi K2.7 Code",
+      "description": "Kimi K2.7 Code",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "structured_outputs",
+        "tools",
+        "reasoning",
+        "vision",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.95,
+        "output": 4.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-2.0-pro-260215",
+      "label": "Doubao Seed 2.0 Pro",
+      "description": "Doubao Seed 2.0 Pro",
+      "context": 262144,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.5,
+        "output": 3.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-2.0-code-preview-260215",
+      "label": "Doubao Seed 2.0 Code Preview",
+      "description": "Doubao Seed 2.0 Code Preview",
+      "context": 262144,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.5,
+        "output": 3.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-2.0-lite-260428",
+      "label": "Doubao Seed 2.0 Lite",
+      "description": "Doubao Seed 2.0 Lite",
+      "context": 262144,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.25,
+        "output": 2.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-2.0-mini-260428",
+      "label": "Doubao Seed 2.0 Mini",
+      "description": "Doubao Seed 2.0 Mini",
+      "context": 262144,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.1,
+        "output": 0.4,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-1.8-251228",
+      "label": "Doubao Seed 1.8",
+      "description": "Doubao Seed 1.8",
+      "context": 262144,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.25,
+        "output": 2.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-1.6-flash-250828",
+      "label": "Doubao Seed 1.6 Flash",
+      "description": "Doubao Seed 1.6 Flash",
+      "context": 262144,
+      "maxOutput": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.075,
+        "output": 0.3,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-1.6-251015",
+      "label": "Doubao Seed 1.6",
+      "description": "Doubao Seed 1.6",
+      "context": 262144,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.25,
+        "output": 2.0,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "zai-org/glm-5.2",
+      "label": "GLM 5.2",
+      "description": "GLM 5.2",
+      "context": 1048576,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "json_mode",
+        "tools",
+        "reasoning",
+        "structured_outputs",
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 1.4,
+        "output": 4.4,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-evolving",
+      "label": "Doubao Seed Evolving",
+      "description": "Doubao Seed Evolving",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.9,
+        "output": 4.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-2.1-turbo-260628",
+      "label": "Doubao Seed 2.1 Turbo",
+      "description": "Doubao Seed 2.1 Turbo",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.45,
+        "output": 2.25,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    {
+      "name": "bytedance/doubao-seed-2.1-pro-260628",
+      "label": "Doubao Seed 2.1 Pro",
+      "description": "Doubao Seed 2.1 Pro",
+      "context": 262144,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": [
+        "prompt_caching",
+        "streaming"
+      ],
+      "pricing": {
+        "input": 0.9,
+        "output": 4.5,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
     }
   ]
 }
