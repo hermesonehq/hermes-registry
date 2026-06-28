@@ -3,6 +3,7 @@
   "type": "model-provider",
   "id": "groq",
   "name": "Groq",
+  "icon": "icons/groq.svg",
   "version": "1.0.0",
   "homepage": "https://groq.com",
   "description": "Ultra-low-latency inference for open models on Groq's LPU hardware (OpenAI-compatible API).",

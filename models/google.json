@@ -3,6 +3,7 @@
   "type": "model-provider",
   "id": "google",
   "name": "Google",
+  "icon": "icons/google.svg",
   "version": "1.1.0",
   "homepage": "https://ai.google.dev",
   "description": "The Gemini family of multimodal models from Google.",

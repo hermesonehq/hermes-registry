@@ -3,6 +3,7 @@
   "type": "model-provider",
   "id": "openrouter",
   "name": "OpenRouter",
+  "icon": "icons/openrouter.svg",
   "version": "1.1.0",
   "homepage": "https://openrouter.ai",
   "description": "A unified API that routes to hundreds of models from many providers behind a single OpenAI-compatible endpoint. Model ids are namespaced as 'vendor/model'.",

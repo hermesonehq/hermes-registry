@@ -3,6 +3,7 @@
   "type": "model-provider",
   "id": "deepseek",
   "name": "DeepSeek",
+  "icon": "icons/deepseek.svg",
   "version": "1.1.0",
   "homepage": "https://www.deepseek.com",
   "description": "Open-weight chat and reasoning models from DeepSeek.",

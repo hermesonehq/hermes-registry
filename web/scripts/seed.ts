@@ -202,17 +202,33 @@ async function main() {
       });
 
     // --- providers (models catalog) ---
-    const providerRows = (models.providers ?? []).map((p, i) => ({
-      id: p.id,
-      name: p.name,
-      homepage: p.homepage ?? null,
-      description: p.description ?? null,
-      docs: p.docs ?? null,
-      apiBase: p.apiBase ?? null,
-      envKey: p.envKey ?? null,
-      models: p.models ?? [],
-      sortOrder: i,
-    }));
+    const providerRows = (models.providers ?? []).map((p, i) => {
+      let iconB64: string | null = null;
+      let iconMime: string | null = null;
+      if (p.icon) {
+        try {
+          const buf = fs.readFileSync(path.join(ROOT, p.icon));
+          iconB64 = buf.toString("base64");
+          iconMime = MIME[path.extname(p.icon).toLowerCase()] ?? "application/octet-stream";
+        } catch {
+          /* missing icon file — leave null */
+        }
+      }
+      return {
+        id: p.id,
+        name: p.name,
+        homepage: p.homepage ?? null,
+        description: p.description ?? null,
+        docs: p.docs ?? null,
+        apiBase: p.apiBase ?? null,
+        envKey: p.envKey ?? null,
+        icon: p.icon ?? null,
+        iconB64,
+        iconMime,
+        models: p.models ?? [],
+        sortOrder: i,
+      };
+    });
     if (providerRows.length) {
       await db
         .insert(providers)
@@ -226,6 +242,9 @@ async function main() {
             docs: sql`excluded.docs`,
             apiBase: sql`excluded.api_base`,
             envKey: sql`excluded.env_key`,
+            icon: sql`excluded.icon`,
+            iconB64: sql`excluded.icon_b64`,
+            iconMime: sql`excluded.icon_mime`,
             models: sql`excluded.models`,
             sortOrder: sql`excluded.sort_order`,
           },

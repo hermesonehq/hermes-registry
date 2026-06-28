@@ -72,6 +72,9 @@ export const providers = pgTable("providers", {
   docs: text("docs"),
   apiBase: text("api_base"),
   envKey: text("env_key"),
+  icon: text("icon"),
+  iconB64: text("icon_b64"),
+  iconMime: text("icon_mime"),
   models: jsonb("models").notNull().default([]),
   sortOrder: integer("sort_order").notNull().default(0),
 });

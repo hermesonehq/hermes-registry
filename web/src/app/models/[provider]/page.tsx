@@ -4,7 +4,7 @@ import { ChevronRight, ExternalLink } from "lucide-react";
 import { Pill } from "@/components/Badges";
 import { CopyButton } from "@/components/CopyButton";
 import { getProvider } from "@/lib/registry";
-import { formatNumber } from "@/lib/ui";
+import { formatNumber, iconUrl } from "@/lib/ui";
 import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
@@ -65,6 +65,17 @@ export default async function ProviderPage({ params }: Params) {
       <div className="border-b border-default bg-subtle">
         <div className="mx-auto max-w-7xl px-4 pb-8 pt-6 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center gap-3">
+            {p.icon && (
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-default bg-white p-2">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={iconUrl(p.icon) ?? ""}
+                  alt=""
+                  className="h-full w-full object-contain"
+                  loading="lazy"
+                />
+              </span>
+            )}
             <h1 className="text-3xl font-bold tracking-tight text-default">
               {p.name}
             </h1>

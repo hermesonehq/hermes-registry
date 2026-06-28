@@ -3,6 +3,7 @@
   "type": "model-provider",
   "id": "mistral",
   "name": "Mistral AI",
+  "icon": "icons/mistral.svg",
   "version": "1.0.0",
   "homepage": "https://mistral.ai",
   "description": "Open and commercial models from Mistral AI.",

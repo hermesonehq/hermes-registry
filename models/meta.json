@@ -3,6 +3,7 @@
   "type": "model-provider",
   "id": "meta",
   "name": "Meta Llama",
+  "icon": "icons/meta.svg",
   "version": "1.0.0",
   "homepage": "https://www.llama.com",
   "description": "Meta's open-weight Llama models, served by many inference providers.",

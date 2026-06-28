@@ -3,6 +3,7 @@
   "type": "model-provider",
   "id": "openai",
   "name": "OpenAI",
+  "icon": "icons/openai.svg",
   "version": "1.1.0",
   "homepage": "https://openai.com",
   "description": "GPT and o-series reasoning models from OpenAI.",

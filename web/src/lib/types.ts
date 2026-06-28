@@ -145,6 +145,8 @@ export interface ModelProvider {
   docs?: string;
   apiBase?: string;
   envKey?: string;
+  /** Catalog-relative path to the provider logo (e.g. models/openai.svg). */
+  icon?: string | null;
   models: ModelEntry[];
 }
 

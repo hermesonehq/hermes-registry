@@ -321,6 +321,7 @@ export const getModelsCatalog = cache(async (): Promise<ModelsCatalog> => {
     docs: p.docs ?? undefined,
     apiBase: p.apiBase ?? undefined,
     envKey: p.envKey ?? undefined,
+    icon: p.icon ?? null,
     models: (p.models as ModelEntry[]) ?? [],
   }));
   return {
@@ -352,7 +353,16 @@ export const getIcon = cache(
       )
       .where(eq(entries.icon, iconPath))
       .limit(1);
-    const r = rows[0];
+    let r = rows[0];
+    // Fall back to model-provider logos (providers.icon), served the same way.
+    if (!r?.b64) {
+      const prov = await db
+        .select({ b64: providers.iconB64, mime: providers.iconMime })
+        .from(providers)
+        .where(eq(providers.icon, iconPath))
+        .limit(1);
+      r = prov[0];
+    }
     if (!r?.b64) return null;
     return {
       data: Buffer.from(r.b64, "base64"),

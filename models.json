@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-28T03:45:09.836934+00:00",
+  "generated": "2026-06-28T03:56:46.941362+00:00",
   "providerCount": 9,
   "modelCount": 165,
   "providers": [
@@ -9,6 +9,7 @@
       "type": "model-provider",
       "id": "anthropic",
       "name": "Anthropic",
+      "icon": "models/icons/anthropic.svg",
       "version": "1.1.0",
       "homepage": "https://www.anthropic.com",
       "description": "The Claude family of models from Anthropic.",
@@ -597,15 +598,15 @@
           }
         }
       ],
-      "icon": null,
       "path": "models/anthropic.json",
-      "checksum": "sha256:7c128e318d38916578e5d60e1e266774f893b51fca751fd6a05f74d22908bb8c"
+      "checksum": "sha256:b9222dfa381667dedd5184050183a4b74f7d4576fdfb7476ee3f734e5a71adcb"
     },
     {
       "schemaVersion": "1",
       "type": "model-provider",
       "id": "deepseek",
       "name": "DeepSeek",
+      "icon": "models/icons/deepseek.svg",
       "version": "1.1.0",
       "homepage": "https://www.deepseek.com",
       "description": "Open-weight chat and reasoning models from DeepSeek.",
@@ -911,15 +912,15 @@
           }
         }
       ],
-      "icon": null,
       "path": "models/deepseek.json",
-      "checksum": "sha256:fe8099934939cf7871e9a89069adfa6a020e5e69007f8e40c995f59574163f2d"
+      "checksum": "sha256:69f66b1325c362de4467d983117ef190dec4c57f1d90ec6557398b4c2d01a81e"
     },
     {
       "schemaVersion": "1",
       "type": "model-provider",
       "id": "google",
       "name": "Google",
+      "icon": "models/icons/google.svg",
       "version": "1.1.0",
       "homepage": "https://ai.google.dev",
       "description": "The Gemini family of multimodal models from Google.",
@@ -1301,15 +1302,15 @@
           }
         }
       ],
-      "icon": null,
       "path": "models/google.json",
-      "checksum": "sha256:c8370758c4f217d5525fb63a45bbeca83d6de8d51fe9b12029ab53ea70fa88ec"
+      "checksum": "sha256:d3125feb57c9a857f4f77301a402eab6845cf539710a9a17f2e6e1f5950f50ff"
     },
     {
       "schemaVersion": "1",
       "type": "model-provider",
       "id": "groq",
       "name": "Groq",
+      "icon": "models/icons/groq.svg",
       "version": "1.0.0",
       "homepage": "https://groq.com",
       "description": "Ultra-low-latency inference for open models on Groq's LPU hardware (OpenAI-compatible API).",
@@ -1391,15 +1392,15 @@
           ]
         }
       ],
-      "icon": null,
       "path": "models/groq.json",
-      "checksum": "sha256:d3fd9aed548e8a2d8d500fe7dae9ad2fe3bf606fb5d41c86302a4383cb8464c2"
+      "checksum": "sha256:4051393ecf4c91fc13a0060e21605947220ac295dcb0997ea536c3ec62060859"
     },
     {
       "schemaVersion": "1",
       "type": "model-provider",
       "id": "meta",
       "name": "Meta Llama",
+      "icon": "models/icons/meta.svg",
       "version": "1.0.0",
       "homepage": "https://www.llama.com",
       "description": "Meta's open-weight Llama models, served by many inference providers.",
@@ -1513,15 +1514,15 @@
           ]
         }
       ],
-      "icon": null,
       "path": "models/meta.json",
-      "checksum": "sha256:5f299091e80aff95d7bd6c9ddba8e56bf27795fe66bc4ee4b828e81fe6f03b54"
+      "checksum": "sha256:f5f427aa19b50b6d528aee6380f49a100f6a2e2d9bab9cce20f9cb8fe8d52b0e"
     },
     {
       "schemaVersion": "1",
       "type": "model-provider",
       "id": "mistral",
       "name": "Mistral AI",
+      "icon": "models/icons/mistral.svg",
       "version": "1.0.0",
       "homepage": "https://mistral.ai",
       "description": "Open and commercial models from Mistral AI.",
@@ -1623,15 +1624,15 @@
           ]
         }
       ],
-      "icon": null,
       "path": "models/mistral.json",
-      "checksum": "sha256:31d805f5c0a4a1110e6664e1fd4db488699b150e4b05407d317ec949b4467c99"
+      "checksum": "sha256:d39621909531ee20eac3ae238e316a5914c58b01b62162667f087129dee73dbe"
     },
     {
       "schemaVersion": "1",
       "type": "model-provider",
       "id": "openai",
       "name": "OpenAI",
+      "icon": "models/icons/openai.svg",
       "version": "1.1.0",
       "homepage": "https://openai.com",
       "description": "GPT and o-series reasoning models from OpenAI.",
@@ -2372,15 +2373,15 @@
           }
         }
       ],
-      "icon": null,
       "path": "models/openai.json",
-      "checksum": "sha256:6cc72d2e67c73d1e7eed0a7014cd1d5410c8e9938d261d970fee181cfb8183e3"
+      "checksum": "sha256:14525829025f1f0194050b96028ae3d8dacdac08ff128dd2bdf9a7a199377b78"
     },
     {
       "schemaVersion": "1",
       "type": "model-provider",
       "id": "openrouter",
       "name": "OpenRouter",
+      "icon": "models/icons/openrouter.svg",
       "version": "1.1.0",
       "homepage": "https://openrouter.ai",
       "description": "A unified API that routes to hundreds of models from many providers behind a single OpenAI-compatible endpoint. Model ids are namespaced as 'vendor/model'.",
@@ -4133,15 +4134,15 @@
           }
         }
       ],
-      "icon": null,
       "path": "models/openrouter.json",
-      "checksum": "sha256:e48f5fa17b1b8d638cfae7cbb5fcee123f9f83394bf02835a1285b76a439cd31"
+      "checksum": "sha256:c237d5ab480fc4dab4b8a62bac856f103da56421ff7037f5754b413573654728"
     },
     {
       "schemaVersion": "1",
       "type": "model-provider",
       "id": "xai",
       "name": "xAI",
+      "icon": "models/icons/xai.svg",
       "version": "1.1.0",
       "homepage": "https://x.ai",
       "description": "The Grok family of models from xAI.",
@@ -4278,9 +4279,8 @@
           }
         }
       ],
-      "icon": null,
       "path": "models/xai.json",
-      "checksum": "sha256:7c18190aef94ec6b93166be372e4acc4e5e02788af76595d464378dfdc4ad3c9"
+      "checksum": "sha256:8c8084e63e8e7cb07648b3d6a2089a53e4664bcfabee88e981f2ae3ce1ec0baf"
     }
   ]
 }

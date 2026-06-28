@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight, Cpu, ExternalLink } from "lucide-react";
 import { PageHeader } from "@/components/PageHeader";
 import { getModelsCatalog } from "@/lib/registry";
-import { formatNumber } from "@/lib/ui";
+import { formatNumber, iconUrl } from "@/lib/ui";
 import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
@@ -41,14 +41,27 @@ export default async function ModelsPage() {
               key={p.id}
               className="flex flex-col rounded-xl border border-default bg-elevated p-5 transition hover:border-strong hover:shadow-md"
             >
-              <div className="flex items-center justify-between">
-                <Link
-                  href={`/models/${p.id}`}
-                  className="text-lg font-semibold text-default hover:text-accent"
-                >
-                  {p.name}
-                </Link>
-                <span className="rounded-full bg-subtle px-2 py-0.5 text-xs font-medium text-muted">
+              <div className="flex items-center justify-between gap-3">
+                <div className="flex min-w-0 items-center gap-2.5">
+                  {p.icon && (
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-default bg-white p-1.5">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={iconUrl(p.icon) ?? ""}
+                        alt=""
+                        className="h-full w-full object-contain"
+                        loading="lazy"
+                      />
+                    </span>
+                  )}
+                  <Link
+                    href={`/models/${p.id}`}
+                    className="truncate text-lg font-semibold text-default hover:text-accent"
+                  >
+                    {p.name}
+                  </Link>
+                </div>
+                <span className="shrink-0 rounded-full bg-subtle px-2 py-0.5 text-xs font-medium text-muted">
                   {p.models.length} models
                 </span>
               </div>
