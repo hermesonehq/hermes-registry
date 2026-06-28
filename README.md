@@ -138,7 +138,7 @@ fields. All manifests are validated in CI against the schemas in `schemas/`.
   "compatibility": { "hermes": ">=0.3.0", "desktop": ">=0.6.0" },
   "dependencies": [{ "id": "mcp/postgres", "version": "^1" }],
   "permissions": ["network", "filesystem:read"],
-  "funding": { "address": "0x…", "token": "H1", "chain": "base" }
+  "funding": { "address": "0x…", "token": "HD", "chain": "base" }
 }
 ```
 
@@ -182,12 +182,13 @@ resolves it to a full path in `index.json` for the gallery.
 ## Funding (optional)
 
 Everything in the registry is free. Authors may **optionally** add a wallet
-address so users and agents can send a tip in the H1 (Hermes One) token on Base.
+address so users and agents can send a tip in the HD token on Base.
 
 ```json
 "funding": {
   "address": "0x…",     // required if `funding` is present
-  "token": "H1",        // H1 (Hermes One) token (Base network)
+  "token": "HD",        // HD token (Base network)
+  "ca": "0xfda75f77a22b4f4b783bbbb21915ef64d149bba3",  // token contract address
   "chain": "base"
 }
 ```

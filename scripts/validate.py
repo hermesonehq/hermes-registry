@@ -18,6 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _common import (  # noqa: E402
     ICON_MAX_BYTES,
+    ICONIFY_RE,
     SCHEMA_DIR,
     find_icon,
     folder_checksum,  # noqa: F401  (kept for symmetry / future use)
@@ -124,6 +125,12 @@ def validate_skills() -> int:
         if compat is not None:
             if not isinstance(compat, dict) or "hermes" not in compat or "desktop" not in compat:
                 err(where, "metadata.hermes.compatibility must include 'hermes' and 'desktop'")
+        icon_id = meta.get("icon")
+        if icon_id is not None and not (
+            isinstance(icon_id, str) and ICONIFY_RE.match(icon_id)
+        ):
+            err(where, f"metadata.hermes.icon '{icon_id}' is not a valid Iconify id "
+                       "(expected 'prefix:name', e.g. 'lucide:git-branch')")
 
         icon_name = None
         for cand in ("icon.svg", "icon.png"):

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-27T09:22:53+05:30",
+  "generated": "2026-06-28T02:50:09.336190+00:00",
   "count": 237,
   "entries": [
     {
@@ -1789,6 +1789,7 @@
       ],
       "path": "skills/apple/apple-notes",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:73a81df608c79d2b70d1f43d35a4bce66eca6edd2ce22d0b69d44264035122b3",
       "compatibility": null,
       "acceptsFunding": false
@@ -1815,6 +1816,7 @@
       ],
       "path": "skills/apple/apple-reminders",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:53a861ecb691ff6c5501b7cba75754e77104fc6bef6d5429ab269a729a4ac305",
       "compatibility": null,
       "acceptsFunding": false
@@ -1842,6 +1844,7 @@
       ],
       "path": "skills/apple/findmy",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:ddff964d35ee5d3f15e3e16e7cef4aac6eb7edac14e10e443efc4839d21f2692",
       "compatibility": null,
       "acceptsFunding": false
@@ -1868,6 +1871,7 @@
       ],
       "path": "skills/apple/imessage",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:a743d84ac70247f59d5b62518a5f3da847667f73219702a27f3b6860cd83f45a",
       "compatibility": null,
       "acceptsFunding": false
@@ -1894,6 +1898,7 @@
       ],
       "path": "skills/apple/macos-computer-use",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:8dc4279396fa021906dabeb60c24e021b59d0d6c4e2afcaafc2f61442a942359",
       "compatibility": null,
       "acceptsFunding": false
@@ -1924,6 +1929,7 @@
       ],
       "path": "skills/autonomous-ai-agents/claude-code",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:fef18b4b16b66839f3929e15616a60cbc3ecbf4faed111585ebcb51d3e10fc17",
       "compatibility": null,
       "acceptsFunding": false
@@ -1952,6 +1958,7 @@
       ],
       "path": "skills/autonomous-ai-agents/codex",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5cd8c4cbf27f22f48498ae177a79aecc91085630b208d86aec06f006c7faaa08",
       "compatibility": null,
       "acceptsFunding": false
@@ -1983,6 +1990,7 @@
       ],
       "path": "skills/autonomous-ai-agents/hermes-agent",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:20ba93e66964349d80ceb65c42acb6bbbb650fd4bcfd4532eeba693c1fa0fff6",
       "compatibility": null,
       "acceptsFunding": false
@@ -2012,6 +2020,7 @@
       ],
       "path": "skills/autonomous-ai-agents/hermes-skill-factory",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:201592b0c4d6df69efb0db7facbc99bf3595c4aece66a04e4219c4abb27c483f",
       "compatibility": null,
       "acceptsFunding": false
@@ -2036,6 +2045,7 @@
       "platforms": [],
       "path": "skills/autonomous-ai-agents/kanban-codex-lane",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:bc029017ade22cf9eb634ed755f4120d1820d153f3c9185ba5671ba66fd54e35",
       "compatibility": null,
       "acceptsFunding": false
@@ -2068,6 +2078,7 @@
       ],
       "path": "skills/autonomous-ai-agents/oh-my-hermes",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:1867e73f5efd3e62bcf14a9a24e5566d84f39c2b6d234f4a2037c5c52ddcfd7d",
       "compatibility": null,
       "acceptsFunding": false
@@ -2096,6 +2107,7 @@
       ],
       "path": "skills/autonomous-ai-agents/opencode",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:843019fd291c0bdb52f718537bfd84272da6252ac6bb06bd89703f2fc15fd67a",
       "compatibility": null,
       "acceptsFunding": false
@@ -2128,6 +2140,7 @@
       ],
       "path": "skills/blockchain/chainlink-agent-skills",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:e7725e41f075778c3a2a9733e4e9ed5b50a17d4004c1bdf4c1f22b7d4aeb960e",
       "compatibility": null,
       "acceptsFunding": false
@@ -2158,6 +2171,7 @@
       ],
       "path": "skills/creative/architecture-diagram",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:7fb9288cd31a8d419ab858368f16a2eb5ef166fac7e499524a31dd8daea13c00",
       "compatibility": null,
       "acceptsFunding": false
@@ -2191,6 +2205,7 @@
       ],
       "path": "skills/creative/ascii-art",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:0622bc01c1494f13a2ae06fcb0bc19bfc42e13eabca858d27637e2fb174153c4",
       "compatibility": null,
       "acceptsFunding": false
@@ -2213,6 +2228,7 @@
       ],
       "path": "skills/creative/ascii-video",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:abece008606e656cedaba3de432f2c5f312f694d671d208553b3561938b69f86",
       "compatibility": null,
       "acceptsFunding": false
@@ -2239,6 +2255,7 @@
       ],
       "path": "skills/creative/baoyu-article-illustrator",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:32f12d4389447100abbb5991a42fcff2f43db767540caea1737354f8a489085f",
       "compatibility": null,
       "acceptsFunding": false
@@ -2266,6 +2283,7 @@
       ],
       "path": "skills/creative/baoyu-comic",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5a9f0fb07eafeeacbcd46d4c2d836f11e4fb797ed59b0222d9d614dd5c24eecd",
       "compatibility": null,
       "acceptsFunding": false
@@ -2293,6 +2311,7 @@
       ],
       "path": "skills/creative/baoyu-infographic",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:834108fb249a0a1f41de6ac215828e67f534f4940eb13b6e977b4a5d5382a76a",
       "compatibility": null,
       "acceptsFunding": false
@@ -2326,6 +2345,7 @@
       ],
       "path": "skills/creative/claude-design",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:713b9688b14e7fffea8038c77792500b458fdb7f8512c200020d21be0b1c7366",
       "compatibility": null,
       "acceptsFunding": false
@@ -2363,6 +2383,7 @@
       ],
       "path": "skills/creative/comfyui",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:21704728b76643daaecb3ea4ce209f26f0ea432434e5f368c2169f62d485ad33",
       "compatibility": null,
       "acceptsFunding": false
@@ -2395,6 +2416,7 @@
       ],
       "path": "skills/creative/design-md",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:8688793e50fe5415e2017589f0a4063c7934b07448bf891cba2ec7cdfc3b6ec1",
       "compatibility": null,
       "acceptsFunding": false
@@ -2424,6 +2446,7 @@
       ],
       "path": "skills/creative/excalidraw",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:a203ff6d8802cc2391d1ea7cc7b72e419faf9e78d65f3c78ce3475b29c2a5fd5",
       "compatibility": null,
       "acceptsFunding": false
@@ -2454,6 +2477,7 @@
       ],
       "path": "skills/creative/humanizer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:ca486109824c4620de52a8f3830e56df443aa48fd0e0ae0bf317275d81c3aefb",
       "compatibility": null,
       "acceptsFunding": false
@@ -2482,6 +2506,7 @@
       ],
       "path": "skills/creative/creative-ideation",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:ac853cd491c8624f5a7db234822240707785e2f1f8b4d1c03070bd45681edd79",
       "compatibility": null,
       "acceptsFunding": false
@@ -2504,6 +2529,7 @@
       ],
       "path": "skills/creative/manim-video",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:861b209946f4696f01b45bcf96463734f108676f9ed7ffe8d5e8d63da13d39dc",
       "compatibility": null,
       "acceptsFunding": false
@@ -2536,6 +2562,7 @@
       ],
       "path": "skills/creative/p5js",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:a44157a17340c441260c1442801212ec4416d7dad9ee4609845512179a823e38",
       "compatibility": null,
       "acceptsFunding": false
@@ -2568,6 +2595,7 @@
       ],
       "path": "skills/creative/pixel-art",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:06ef8938adeb9ce005edaf026397a6851f5f15d9765a6af29316538ce10ae086",
       "compatibility": null,
       "acceptsFunding": false
@@ -2590,6 +2618,7 @@
       ],
       "path": "skills/creative/popular-web-designs",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:0ff333a9c1c8f400632a2299c396c2e46a9382654035106853f6e0fe87065b03",
       "compatibility": null,
       "acceptsFunding": false
@@ -2621,6 +2650,7 @@
       ],
       "path": "skills/creative/pretext",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:ad01a9e0ad49dcfb131c3fb773a7ba4ae02b4cce1efa3f7c7b0494453793cebe",
       "compatibility": null,
       "acceptsFunding": false
@@ -2654,6 +2684,7 @@
       ],
       "path": "skills/creative/sketch",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:46f0bf6edc0a5d77ebbc5152ea07db4b37087025842264a12bc9597064ceff01",
       "compatibility": null,
       "acceptsFunding": false
@@ -2676,6 +2707,7 @@
       ],
       "path": "skills/creative/songwriting-and-ai-music",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:c9d9fb17a6d9299dbf2615117c65039bd68151b4525c8ec402c449acadb31fc6",
       "compatibility": null,
       "acceptsFunding": false
@@ -2709,6 +2741,7 @@
       ],
       "path": "skills/creative/touchdesigner-mcp",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:40040b02e28620385e4ffa6cda14732968a243e06169d2ce4f7ff1eea4172835",
       "compatibility": null,
       "acceptsFunding": false
@@ -2738,6 +2771,7 @@
       ],
       "path": "skills/data-science/jupyter-live-kernel",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5eb40567439d0504900866aeafa547a6085f50ffa68be07d3277f0b1c16fe2ae",
       "compatibility": null,
       "acceptsFunding": false
@@ -2772,6 +2806,7 @@
       ],
       "path": "skills/design/open-design",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:0582e0fd591ac3a7e2290608389af3b61442214276be0e57253669489545bf70",
       "compatibility": null,
       "acceptsFunding": false
@@ -2804,6 +2839,7 @@
       ],
       "path": "skills/devops/hermesone",
       "icon": "skills/devops/hermesone/icon.svg",
+      "iconify": null,
       "checksum": "sha256:5a536df53aaf73677c68a21db24ce538a28ff9d78401fd35033065d590ee8de3",
       "compatibility": null,
       "acceptsFunding": false
@@ -2831,6 +2867,7 @@
       ],
       "path": "skills/devops/kanban-orchestrator",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:1b4c5909023b3dc83aff12c19e5bcf2952978d48711485ad2b9fdbecd3805211",
       "compatibility": null,
       "acceptsFunding": false
@@ -2859,6 +2896,7 @@
       ],
       "path": "skills/devops/kanban-worker",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:fb1fd1d0a2bc13d8997c646005f5b49d5b20e03ca6963e785bb13208218ff04e",
       "compatibility": null,
       "acceptsFunding": false
@@ -2888,6 +2926,7 @@
       ],
       "path": "skills/devops/webhook-subscriptions",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:7ef378b1c093a2ac4f66b0e9d08d5f2e3881f4e7b750d65771ab2bb4b9a2b5af",
       "compatibility": null,
       "acceptsFunding": false
@@ -2921,6 +2960,7 @@
       ],
       "path": "skills/diagramming/drawio",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:c6282718f6e357f0d0b9c457d776f1d9f9bb868507713ce34c02d3ddd37c75ad",
       "compatibility": null,
       "acceptsFunding": false
@@ -2949,6 +2989,7 @@
       ],
       "path": "skills/dogfood",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:0134d8b398fc708f58a208326d01f2dc680dfae8671a8b32519aa1f3a0b6acb5",
       "compatibility": null,
       "acceptsFunding": false
@@ -2977,6 +3018,7 @@
       ],
       "path": "skills/email/himalaya",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:d042f8f8bd1153f77a38053309204fa4209c0ce1e5c62b7d67993ec0abe2ef71",
       "compatibility": null,
       "acceptsFunding": false
@@ -2998,6 +3040,7 @@
       ],
       "path": "skills/gaming/minecraft-modpack-server",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:7b280be63bf365e98ee8c32b574d323101d63ead46e7934e8a17d9daf89742e2",
       "compatibility": null,
       "acceptsFunding": false
@@ -3020,6 +3063,7 @@
       ],
       "path": "skills/gaming/pokemon-player",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:8e611a65654769924da5a3bd8d7a1b4c1e58e857bf0d6ffaa1218386681033a1",
       "compatibility": null,
       "acceptsFunding": false
@@ -3049,6 +3093,7 @@
       ],
       "path": "skills/github/codebase-inspection",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5aed240eba9845706b4234425593212b05ca47eee1c60e90797779751789693a",
       "compatibility": null,
       "acceptsFunding": false
@@ -3078,6 +3123,7 @@
       ],
       "path": "skills/github/github-auth",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:02e2cc4f5ae260c5d53d74c2c242e1c2bd01af83f42d45932363dfefe1702807",
       "compatibility": null,
       "acceptsFunding": false
@@ -3106,6 +3152,7 @@
       ],
       "path": "skills/github/github-code-review",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:605642c1fc3bc5ab08f81dede75ced293c5fa2592d79596b21c69fd258f3e69d",
       "compatibility": null,
       "acceptsFunding": false
@@ -3134,6 +3181,7 @@
       ],
       "path": "skills/github/github-issues",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:fb80b6180ebf52a0ce9f7b6b5a145f72d6a15d241c1ec4d7d141ee6829fb9953",
       "compatibility": null,
       "acceptsFunding": false
@@ -3163,6 +3211,7 @@
       ],
       "path": "skills/github/github-pr-workflow",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:a52945c020b927b14798344355b8629704b7b07de317ee2c425520e8382dd36e",
       "compatibility": null,
       "acceptsFunding": false
@@ -3192,6 +3241,7 @@
       ],
       "path": "skills/github/github-repo-management",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:ea4688738a4e0cda492f2bccf744fa287abf0974dac5285845d0089b251fb65d",
       "compatibility": null,
       "acceptsFunding": false
@@ -3218,6 +3268,7 @@
       ],
       "path": "skills/mcp/native-mcp",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:f57d524186e2f6dbbd2af97bbe8d953bf54c254decda8a7c4b9fc03c19920124",
       "compatibility": null,
       "acceptsFunding": false
@@ -3248,6 +3299,7 @@
       ],
       "path": "skills/media/black-forest-labs-flux",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:58af2b8670df757e8e09e5c8a11d2a620d83194033588a4923b3fdade587ec9b",
       "compatibility": null,
       "acceptsFunding": false
@@ -3276,6 +3328,7 @@
       ],
       "path": "skills/media/gif-search",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:00dbf59debec177b9655e5126ee8e340494186315578d191cad87841db0690ae",
       "compatibility": null,
       "acceptsFunding": false
@@ -3307,6 +3360,7 @@
       ],
       "path": "skills/media/heartmula",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:e9b8c1248da9c2c20053459a9060ac95d53ecef1b5bdddca8edc23c04b2b35ef",
       "compatibility": null,
       "acceptsFunding": false
@@ -3335,6 +3389,7 @@
       ],
       "path": "skills/media/songsee",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:84b2eec93a6e5b978e39275a4a0f9df108d6004b03f1284377ce699fda3efc09",
       "compatibility": null,
       "acceptsFunding": false
@@ -3363,6 +3418,7 @@
       ],
       "path": "skills/media/spotify",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:c72fc64f946601d40cb10295cd9a95fa823075155c968f104aa2e837db4c80bb",
       "compatibility": null,
       "acceptsFunding": false
@@ -3385,6 +3441,7 @@
       ],
       "path": "skills/media/youtube-content",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:c2b310ab578da57b5e7f9c48c491b546b6c23877339eaa843aa03f55300ac659",
       "compatibility": null,
       "acceptsFunding": false
@@ -3412,6 +3469,7 @@
       ],
       "path": "skills/mlops/models/audiocraft",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:84df7e9a79f71696003d81728777f11c5c4068a0abdd0f9c904f8ab20a772f8c",
       "compatibility": null,
       "acceptsFunding": false
@@ -3445,6 +3503,7 @@
       ],
       "path": "skills/mlops/research/dspy",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:eed8df1d7735fa5ed5f6fb6a08485945266a4eea2de9816a0d6b8423f0e53e6e",
       "compatibility": null,
       "acceptsFunding": false
@@ -3477,6 +3536,7 @@
       ],
       "path": "skills/mlops/evaluation/lm-evaluation-harness",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5ad064e25bdb85d402595c6a408afa0eac21a65ab7c2a228fc7a324dae3b78bf",
       "compatibility": null,
       "acceptsFunding": false
@@ -3499,6 +3559,7 @@
       ],
       "path": "skills/mlops/huggingface-hub",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:fa94317d8233c0e0c01f5ef5e0d6e44657afc8a2bd9d821dce037fd970e98f6a",
       "compatibility": null,
       "acceptsFunding": false
@@ -3533,6 +3594,7 @@
       ],
       "path": "skills/mlops/inference/llama-cpp",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:d09d4f8f2774ddd6c28c80900e2b1a4ec78322f8b6512c21c6dedb9231202df7",
       "compatibility": null,
       "acceptsFunding": false
@@ -3564,6 +3626,7 @@
       ],
       "path": "skills/mlops/inference/obliteratus",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:499c64f75c35522fa0f13359a6a4e357286379715b4dee25bd317ce0166270e1",
       "compatibility": null,
       "acceptsFunding": false
@@ -3592,6 +3655,7 @@
       ],
       "path": "skills/mlops/models/segment-anything",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:bbb91c890ddf6feb6741db6416ab329a31302fc5d8a3b8831a06f04de231e668",
       "compatibility": null,
       "acceptsFunding": false
@@ -3623,6 +3687,7 @@
       ],
       "path": "skills/mlops/inference/vllm",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:c8a279f44d9b38306a38b575436540ffcc02c5d8f2a7b03d670770d52968f78d",
       "compatibility": null,
       "acceptsFunding": false
@@ -3657,6 +3722,7 @@
       ],
       "path": "skills/mlops/evaluation/weights-and-biases",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:49346f3085e4959e74fba812f4c0873ed0e538c730ec81bdbb26145e79b46670",
       "compatibility": null,
       "acceptsFunding": false
@@ -3679,6 +3745,7 @@
       ],
       "path": "skills/note-taking/obsidian",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:757b5f08836aaa346ad7db597b1d57d221a3d7229ac856d848eb99a454527042",
       "compatibility": null,
       "acceptsFunding": false
@@ -3706,6 +3773,7 @@
       ],
       "path": "skills/productivity/airtable",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:2bc85c58df57bf109fe4406e91c0374926b0a639cd15e432c38825dfed87fbf6",
       "compatibility": null,
       "acceptsFunding": false
@@ -3738,6 +3806,7 @@
       ],
       "path": "skills/productivity/google-workspace",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:f5a966487f2192ca6c78b8e3e3f077d302fb382f73dd1c24dfccc87e98d02e34",
       "compatibility": null,
       "acceptsFunding": false
@@ -3767,7 +3836,8 @@
       ],
       "path": "skills/productivity/linear",
       "icon": null,
-      "checksum": "sha256:bc2c40cb03304a797e254ed9a28d7ca5ee8f3ba076391930547d8d1d055c0a8a",
+      "iconify": "lucide:square-kanban",
+      "checksum": "sha256:72a00d89be67a3e80fc9e957ff2a1c4cf37b9fb463304fc553afec653acb8427",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3802,6 +3872,7 @@
       ],
       "path": "skills/productivity/maps",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:32746d159f9d78302ce4b962a5467a8931254a9b129ab665892addc6e349aec4",
       "compatibility": null,
       "acceptsFunding": false
@@ -3830,6 +3901,7 @@
       ],
       "path": "skills/productivity/nano-pdf",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:2abe830f0ef935e60a4bdb138161bd4534e4b393481e361ed31f084e7b818c7b",
       "compatibility": null,
       "acceptsFunding": false
@@ -3860,6 +3932,7 @@
       ],
       "path": "skills/productivity/notion",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:98bfccaef84ba1d9dbeb7328a30232cef57d96e761ee4739819637876df164b2",
       "compatibility": null,
       "acceptsFunding": false
@@ -3889,6 +3962,7 @@
       ],
       "path": "skills/productivity/ocr-and-documents",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:933217152560be20a15b8392e8b66c3bb5b46499e405e795b4a1c3865c198437",
       "compatibility": null,
       "acceptsFunding": false
@@ -3911,6 +3985,7 @@
       ],
       "path": "skills/productivity/powerpoint",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:84be81bf35b03ea8e9bdaa175ea3de6f91053953930864ce215aee414b1abc42",
       "compatibility": null,
       "acceptsFunding": false
@@ -3935,6 +4010,7 @@
       "platforms": [],
       "path": "skills/productivity/teams-meeting-pipeline",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:6c8d86f2e8473e47dd3b03e17fca6041ce11ff651fee9104e6d432214d268443",
       "compatibility": null,
       "acceptsFunding": false
@@ -3966,6 +4042,7 @@
       ],
       "path": "skills/red-teaming/cybersecurity-mitre",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:fcde6173e20fc3943042a3069aca1832fafc90edcfb255feae5951a1e40f516f",
       "compatibility": null,
       "acceptsFunding": false
@@ -3998,6 +4075,7 @@
       ],
       "path": "skills/red-teaming/godmode",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:0b9eead85b8cf1bafac41f4c175daad903fa72592097e87fb289fa799080cd6d",
       "compatibility": null,
       "acceptsFunding": false
@@ -4027,6 +4105,7 @@
       ],
       "path": "skills/research/arxiv",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:e96411bf1a846d7d769aca34143e45b1bf88f3d32c16f8279c380420227c991e",
       "compatibility": null,
       "acceptsFunding": false
@@ -4054,6 +4133,7 @@
       ],
       "path": "skills/research/blogwatcher",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:23adfd9effa30fbb23bd7b6c2fd59b0e51244f9b89d937628575a5d02d5c997c",
       "compatibility": null,
       "acceptsFunding": false
@@ -4083,6 +4163,7 @@
       ],
       "path": "skills/research/llm-wiki",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:567154ae818247eade9ef07347384820fdb5a92743df8de57e5d472a9075bbd6",
       "compatibility": null,
       "acceptsFunding": false
@@ -4105,6 +4186,7 @@
       ],
       "path": "skills/research/polymarket",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:3d091185188db2e1e022d5d97fa527fb937d30bec107b9a082347276f1676449",
       "compatibility": null,
       "acceptsFunding": false
@@ -4141,6 +4223,7 @@
       ],
       "path": "skills/research/research-paper-writing",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:cb92cf154527cb5e0bc4893e16acb8099a6784bcf4ba858dc92a4e06a4f53f79",
       "compatibility": null,
       "acceptsFunding": false
@@ -4169,6 +4252,7 @@
       ],
       "path": "skills/smart-home/openhue",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:9d78ad339fc1a8112fba5e1d5cb264410b9c7cc694c25da6e69ddded6168ab3f",
       "compatibility": null,
       "acceptsFunding": false
@@ -4196,6 +4280,7 @@
       ],
       "path": "skills/social-media/xurl",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:ce1b3e4af9bd53d748783ff7497cfb3dee137503854511975e1b375e61f7923f",
       "compatibility": null,
       "acceptsFunding": false
@@ -4225,6 +4310,7 @@
       ],
       "path": "skills/software-development/debugging-hermes-tui-commands",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:2ba1e1b975f76ebebafff0e51447566bb0fabcd44852dc2a63161d1cde844567",
       "compatibility": null,
       "acceptsFunding": false
@@ -4253,6 +4339,7 @@
       ],
       "path": "skills/software-development/hermes-agent-skill-authoring",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5a2a4f1ab5e1bcc488002d0ffdbde82b58c09863595fab8d5c57dd59cfe4712e",
       "compatibility": null,
       "acceptsFunding": false
@@ -4277,6 +4364,7 @@
       "platforms": [],
       "path": "skills/software-development/hermes-s6-container-supervision",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:d69b3c0c99d88e7e95f55caa0df467bd958e90678d73420f7d902070b9120534",
       "compatibility": null,
       "acceptsFunding": false
@@ -4306,6 +4394,7 @@
       ],
       "path": "skills/software-development/node-inspect-debugger",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:0e25db08b20925cc864a5b91e1dcfcebf1ec5fa31d4845edd9d6a6044a71fe18",
       "compatibility": null,
       "acceptsFunding": false
@@ -4333,6 +4422,7 @@
       ],
       "path": "skills/software-development/plan",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:3e6d77f86b917a452fdd6d14ac43e38c646e7986385f037d7eb20cc73359e338",
       "compatibility": null,
       "acceptsFunding": false
@@ -4362,6 +4452,7 @@
       ],
       "path": "skills/software-development/python-debugpy",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:9dd995f21508de9bbecc2caf21e244a56e0b36a34e6b103926ce1414c0fa59a5",
       "compatibility": null,
       "acceptsFunding": false
@@ -4391,6 +4482,7 @@
       ],
       "path": "skills/software-development/requesting-code-review",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:92020a7d0364cf211152daf01f8c9aaae1fadfb8d033457729d7e7d606c30deb",
       "compatibility": null,
       "acceptsFunding": false
@@ -4424,6 +4516,7 @@
       ],
       "path": "skills/software-development/spike",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:8d6547a45a6b9275bbe21924d07b80d66bc690389f810da7cc25c85d406aabd0",
       "compatibility": null,
       "acceptsFunding": false
@@ -4452,6 +4545,7 @@
       ],
       "path": "skills/software-development/subagent-driven-development",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:94f298aea3533b9102f904f066aadca199d39bed49ef3e3459a83498e4fa3e0b",
       "compatibility": null,
       "acceptsFunding": false
@@ -4480,6 +4574,7 @@
       ],
       "path": "skills/software-development/systematic-debugging",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5cb5f1f255d9dff6f7984042759d00caaac8a25802b543cdb67d686118dbfbb7",
       "compatibility": null,
       "acceptsFunding": false
@@ -4508,6 +4603,7 @@
       ],
       "path": "skills/software-development/test-driven-development",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:31bb5d94f6696de9645cd70f67990e7bd38ffe9f41935972f70319613acf900c",
       "compatibility": null,
       "acceptsFunding": false
@@ -4536,6 +4632,7 @@
       ],
       "path": "skills/software-development/writing-plans",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:10f90617ee2ab1a78f157a48b9006d15a82761e2316bf6b360857c14a748a0d5",
       "compatibility": null,
       "acceptsFunding": false
@@ -4563,6 +4660,7 @@
       ],
       "path": "skills/trading/strategy/backtest-expert",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5284f6ca129a52c1cffb535c3982f17db3786bfb1ecd3ea2a06aca954e0c7b7f",
       "compatibility": null,
       "acceptsFunding": false
@@ -4589,6 +4687,7 @@
       ],
       "path": "skills/trading/market-analysis/breadth-chart-analyst",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:2f0f63d5df888a93fa37e9a77902b3b19fcfd949481036d77535391d6d02cbea",
       "compatibility": null,
       "acceptsFunding": false
@@ -4615,6 +4714,7 @@
       ],
       "path": "skills/trading/trade-planning/breakout-trade-planner",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:305313f868c31bd8fe164b85f01e9cd5074cbf3a92142b27ceab8666b487d3f0",
       "compatibility": null,
       "acceptsFunding": false
@@ -4641,6 +4741,7 @@
       ],
       "path": "skills/trading/screeners/canslim-screener",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:006b31755fc514aaf1ce61d93ecfadd5cbe0ba9d7da35cd66c7adc574eb56513",
       "compatibility": null,
       "acceptsFunding": false
@@ -4668,6 +4769,7 @@
       ],
       "path": "skills/trading/data/data-quality-checker",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:8cd4acac1eb626ec9ecac59fb7c4a1b0a52f5fb7360502d7026dfec7ed7ed113",
       "compatibility": null,
       "acceptsFunding": false
@@ -4694,6 +4796,7 @@
       ],
       "path": "skills/trading/screeners/dividend-growth-pullback-screener",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:b4a1c147dae5164230be7be1014ea6c2afcca3ac5c553f561244f8a0860d7e85",
       "compatibility": null,
       "acceptsFunding": false
@@ -4720,6 +4823,7 @@
       ],
       "path": "skills/trading/market-analysis/downtrend-duration-analyzer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:78a85fbe34ec7db1bcc44ad40990930579593da8f6c830c902669859e5b479ea",
       "compatibility": null,
       "acceptsFunding": false
@@ -4746,6 +4850,7 @@
       ],
       "path": "skills/trading/meta/dual-axis-skill-reviewer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:b61b48e67729bbdb92a3260c9e1a81c897c4d2068c844335bb85c0552a461638",
       "compatibility": null,
       "acceptsFunding": false
@@ -4773,6 +4878,7 @@
       ],
       "path": "skills/trading/data/earnings-calendar",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:4c831e40e0018c443fb0182f7f19db98fa314b7ab93957b06a43b882a1360029",
       "compatibility": null,
       "acceptsFunding": false
@@ -4799,6 +4905,7 @@
       ],
       "path": "skills/trading/trade-planning/earnings-trade-analyzer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:13d111e55a1fc925944da486143d881751e86777a8dcbb519a6896574f7d70b3",
       "compatibility": null,
       "acceptsFunding": false
@@ -4826,6 +4933,7 @@
       ],
       "path": "skills/trading/data/economic-calendar-fetcher",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:057b1aea0281d119b7fd91b009711036968f6cae64315aabffe5f622a55155e1",
       "compatibility": null,
       "acceptsFunding": false
@@ -4853,6 +4961,7 @@
       ],
       "path": "skills/trading/strategy/edge-candidate-agent",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:2e170bc4c9b572b8052ae6c66f775945c3a8fa2003eecf0a8754990a351d514b",
       "compatibility": null,
       "acceptsFunding": false
@@ -4880,6 +4989,7 @@
       ],
       "path": "skills/trading/strategy/edge-concept-synthesizer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:7b9cf24d17eb9f877af1e47d3af8a9e981a45b8493ab200b32e3aa60030f4214",
       "compatibility": null,
       "acceptsFunding": false
@@ -4907,6 +5017,7 @@
       ],
       "path": "skills/trading/strategy/edge-hint-extractor",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:fc7975a88f8a448f1803e8559edeed7fba59169aeac90314e5dc7fe6a64ed5a2",
       "compatibility": null,
       "acceptsFunding": false
@@ -4934,6 +5045,7 @@
       ],
       "path": "skills/trading/strategy/edge-pipeline-orchestrator",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:60a931871fcf6b4cfc0c0f995531ff2642bbd9fe713c1ec0fc4c0c9fe53ae5ba",
       "compatibility": null,
       "acceptsFunding": false
@@ -4961,6 +5073,7 @@
       ],
       "path": "skills/trading/strategy/edge-signal-aggregator",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:70a4d35fb69684fb9ff8cda1d41fc6225c3cfde8dfa6fd56fa313d78ad4740fd",
       "compatibility": null,
       "acceptsFunding": false
@@ -4988,6 +5101,7 @@
       ],
       "path": "skills/trading/strategy/edge-strategy-designer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:87d49dd41a18d763e8982484593482682efb2640487363658d9366ac0a924a54",
       "compatibility": null,
       "acceptsFunding": false
@@ -5015,6 +5129,7 @@
       ],
       "path": "skills/trading/strategy/edge-strategy-reviewer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:4de001cb59e4662dec3ba56575e2a896087cceaaa3886b0099247f6387df8a81",
       "compatibility": null,
       "acceptsFunding": false
@@ -5042,6 +5157,7 @@
       ],
       "path": "skills/trading/portfolio/exposure-coach",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:56192aae554a402f39f85998c00c8361a244ba205a9a6c55e55d2538ac120d1b",
       "compatibility": null,
       "acceptsFunding": false
@@ -5068,6 +5184,7 @@
       ],
       "path": "skills/trading/screeners/finviz-screener",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:4b43c613843eb704047378404ef9892b16a8f6dae78ad97f7adfe50ccd51d0da",
       "compatibility": null,
       "acceptsFunding": false
@@ -5094,6 +5211,7 @@
       ],
       "path": "skills/trading/market-analysis/ftd-detector",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:bc892d974274894484c4ca2eba2eceea86021c7f1e466d230e39eddee533bf50",
       "compatibility": null,
       "acceptsFunding": false
@@ -5120,6 +5238,7 @@
       ],
       "path": "skills/trading/market-analysis/ibd-distribution-day-monitor",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:7c666af1f39947e9364a12efae971f12917298f761b7a6f6b3abe9c5d50c7d66",
       "compatibility": null,
       "acceptsFunding": false
@@ -5147,6 +5266,7 @@
       ],
       "path": "skills/trading/data/institutional-flow-tracker",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:80094f13564d67e9c890870d2d8f8b26cffd0926f594384c490034be82caa91e",
       "compatibility": null,
       "acceptsFunding": false
@@ -5173,6 +5293,7 @@
       ],
       "path": "skills/trading/kanchi/kanchi-dividend-review-monitor",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:a1761dff180505b8adcdc2a731dfdcb3c1203d0d3820881842d01727321b0399",
       "compatibility": null,
       "acceptsFunding": false
@@ -5199,6 +5320,7 @@
       ],
       "path": "skills/trading/kanchi/kanchi-dividend-sop",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:56cf457e73c22b2ecf4fd4eb3568b096e91fa02e40e29a068538f20e8a16989c",
       "compatibility": null,
       "acceptsFunding": false
@@ -5225,6 +5347,7 @@
       ],
       "path": "skills/trading/kanchi/kanchi-dividend-us-tax-accounting",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:2a6303ec079ce7713822faa539b44ee784850fa6d141d7e123ec79fd16b65d4d",
       "compatibility": null,
       "acceptsFunding": false
@@ -5251,6 +5374,7 @@
       ],
       "path": "skills/trading/market-analysis/macro-regime-detector",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:616b1a7a7af293939fca07469133c829d2ad1003aa057b0bb7cfeb8e7fc10b08",
       "compatibility": null,
       "acceptsFunding": false
@@ -5277,6 +5401,7 @@
       ],
       "path": "skills/trading/market-analysis/market-breadth-analyzer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5c9a7fa5cf050417bbcfe9e8f918cfd7b5569688a9050c93767da3941161273d",
       "compatibility": null,
       "acceptsFunding": false
@@ -5303,6 +5428,7 @@
       ],
       "path": "skills/trading/market-analysis/market-environment-analysis",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:96553a4de579f309aa4a79ae2efc78a1ecdffb0653d2594f92423d8b3dd44b63",
       "compatibility": null,
       "acceptsFunding": false
@@ -5329,6 +5455,7 @@
       ],
       "path": "skills/trading/market-analysis/market-news-analyst",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:8cded4ab5f691b9064c47141e97ce6487dbfe9bfab52d93c17e6d1c60a30c52c",
       "compatibility": null,
       "acceptsFunding": false
@@ -5355,6 +5482,7 @@
       ],
       "path": "skills/trading/market-analysis/market-top-detector",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:70bf77d3e506807c288f76615a7698d83409aae79084b627010dadca6890f2a6",
       "compatibility": null,
       "acceptsFunding": false
@@ -5381,6 +5509,7 @@
       ],
       "path": "skills/trading/trade-planning/options-strategy-advisor",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:7d6f910c551d729d749b4c1ddcfbbfc8d1fb092be035f450a0a89a7332f7cf67",
       "compatibility": null,
       "acceptsFunding": false
@@ -5407,6 +5536,7 @@
       ],
       "path": "skills/trading/screeners/pair-trade-screener",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:d2961d3af64963bacd8156d0b4434ed1f77ad606f7db597fa571e9843d78a644",
       "compatibility": null,
       "acceptsFunding": false
@@ -5433,6 +5563,7 @@
       ],
       "path": "skills/trading/trade-planning/parabolic-short-trade-planner",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:e6ad328d21f16d0cb4b933c0977d3707b88c58e5ec56c4367e6c1a0044e5af86",
       "compatibility": null,
       "acceptsFunding": false
@@ -5459,6 +5590,7 @@
       ],
       "path": "skills/trading/screeners/pead-screener",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:8d6979f936a0ec9f4b0183b3544d97b6c831f2b083bd7ae1bb8560d2cbc6109e",
       "compatibility": null,
       "acceptsFunding": false
@@ -5486,6 +5618,7 @@
       ],
       "path": "skills/trading/portfolio/portfolio-manager",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:df99581683e5fdbdad366c91645adffc5b81135bccacda2fbaf52a2ba7dc7777",
       "compatibility": null,
       "acceptsFunding": false
@@ -5513,6 +5646,7 @@
       ],
       "path": "skills/trading/portfolio/position-sizer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:aa9e356306b74cd123a89b653080e732000deb120587f86dc36fc03ef20d07e5",
       "compatibility": null,
       "acceptsFunding": false
@@ -5539,6 +5673,7 @@
       ],
       "path": "skills/trading/trade-planning/scenario-analyzer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:58ef4fd4b56b32f94d4c48254af894ecb42c64c529ae30071772c83f88daa742",
       "compatibility": null,
       "acceptsFunding": false
@@ -5565,6 +5700,7 @@
       ],
       "path": "skills/trading/market-analysis/sector-analyst",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:0f04f573922a0341315ec4717e55ecb7cdbfef8c3027916a9f430ed17163fb00",
       "compatibility": null,
       "acceptsFunding": false
@@ -5592,6 +5728,7 @@
       ],
       "path": "skills/trading/performance/signal-postmortem",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:b3833645dba6f7fc1a390554724f09790cbfaf84222cfe79cc27ae669a0f9205",
       "compatibility": null,
       "acceptsFunding": false
@@ -5618,6 +5755,7 @@
       ],
       "path": "skills/trading/meta/skill-designer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:9f5cd60e2ae6898c0835f043c3b83fec6f70fd2aafc3f8c0df81ce90229c7c3c",
       "compatibility": null,
       "acceptsFunding": false
@@ -5644,6 +5782,7 @@
       ],
       "path": "skills/trading/meta/skill-idea-miner",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:f070f3f4d8b913000eca088e123c2b46c6d1d9e2b0e34affacae1eff22b76fee",
       "compatibility": null,
       "acceptsFunding": false
@@ -5670,6 +5809,7 @@
       ],
       "path": "skills/trading/meta/skill-integration-tester",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:28bceeee100405d0f9aa12945f20faef202c051bce6c91aac8f6e6f0db5b0269",
       "compatibility": null,
       "acceptsFunding": false
@@ -5696,6 +5836,7 @@
       ],
       "path": "skills/trading/investor/stanley-druckenmiller-investment",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:41489ed7cbf4b99e25bc0513a40a814c741bd3f47374df4f336ecd4181757f46",
       "compatibility": null,
       "acceptsFunding": false
@@ -5723,6 +5864,7 @@
       ],
       "path": "skills/trading/strategy/strategy-pivot-designer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:319c85e9a64833b3d479b502880b8d138ee68076c60e69e333e4b6f036e7585c",
       "compatibility": null,
       "acceptsFunding": false
@@ -5749,6 +5891,7 @@
       ],
       "path": "skills/trading/trade-planning/technical-analyst",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:2cbfa5470c77934a6312dd433f8d73df892db2fb2d5bd4ab3fd5a4915e6c0106",
       "compatibility": null,
       "acceptsFunding": false
@@ -5775,6 +5918,7 @@
       ],
       "path": "skills/trading/market-analysis/theme-detector",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:5fb95d0187db1e5afc1cf85759194acb94b0b9deecfd9de70887e322cd907489",
       "compatibility": null,
       "acceptsFunding": false
@@ -5802,6 +5946,7 @@
       ],
       "path": "skills/trading/strategy/trade-hypothesis-ideator",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:e334bec9e895451c181d0096716c7b7b316aca91b164a69a49637239c022fdfa",
       "compatibility": null,
       "acceptsFunding": false
@@ -5829,6 +5974,7 @@
       ],
       "path": "skills/trading/performance/trade-performance-coach",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:a8c5c2a95cf6c75b25f686645d2949a43a39936162232efd9c507c30e07b8437",
       "compatibility": null,
       "acceptsFunding": false
@@ -5856,6 +6002,7 @@
       ],
       "path": "skills/trading/performance/trader-memory-core",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:af5407eb6fdf0dc892aad7d878eeee5a0a2bd9eb67b3aa503af6cbcc4ab2eca6",
       "compatibility": null,
       "acceptsFunding": false
@@ -5882,6 +6029,7 @@
       ],
       "path": "skills/trading/meta/trading-skills-navigator",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:a356fbb993f4b54ef4f863e77906d8e12cf7d30608f0f765f21566a433bda2d8",
       "compatibility": null,
       "acceptsFunding": false
@@ -5908,6 +6056,7 @@
       ],
       "path": "skills/trading/market-analysis/uptrend-analyzer",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:37f4bf5b3442f4f706fbe1c18bad9d7a802d806e9d4a3c47727d94342a54f3f1",
       "compatibility": null,
       "acceptsFunding": false
@@ -5934,6 +6083,7 @@
       ],
       "path": "skills/trading/market-analysis/us-market-bubble-detector",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:18a7559dd951d830535e2432f382f934d4e8c4239fd189b3aac528544822a748",
       "compatibility": null,
       "acceptsFunding": false
@@ -5960,6 +6110,7 @@
       ],
       "path": "skills/trading/market-analysis/us-stock-analysis",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:6f5aeb2b269a400dff55842eae9ab34a18fb4ec730d391410b425d63f8b15504",
       "compatibility": null,
       "acceptsFunding": false
@@ -5986,6 +6137,7 @@
       ],
       "path": "skills/trading/screeners/value-dividend-screener",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:799f4a3dfaebabfe8202976b5f2318c9e6a8a159de16ca2d564fc9b4361a2618",
       "compatibility": null,
       "acceptsFunding": false
@@ -6012,6 +6164,7 @@
       ],
       "path": "skills/trading/screeners/vcp-screener",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:1e06453a7677a891cdb09383ffc2c501c1be50af546c9a8dd02c0d4afc0a43fc",
       "compatibility": null,
       "acceptsFunding": false
@@ -6043,6 +6196,7 @@
       ],
       "path": "skills/yuanbao",
       "icon": null,
+      "iconify": null,
       "checksum": "sha256:c37225ede6d75a92f2536f5779516eb811ce48a0cdd1b0b1888bd48225908225",
       "compatibility": null,
       "acceptsFunding": false

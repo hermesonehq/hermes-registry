@@ -31,7 +31,7 @@ workflows/<name>/
   "entry": "workflow.json",
   "requires": ["agents/ziqx/code-reviewer", "mcp/ziqx/github"],
 
-  "funding": { "address": "0x…", "token": "H1", "chain": "base" }
+  "funding": { "address": "0x…", "token": "HD", "chain": "base" }
 }
 ```
 

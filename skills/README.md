@@ -44,7 +44,7 @@ metadata:
     related_skills: [writing-plans]
     # --- registry extensions (optional) ---
     compatibility: { hermes: ">=0.3.0", desktop: ">=0.6.0" }
-    funding: { address: "0x…", token: "H1", chain: "base" }
+    funding: { address: "0x…", token: "HD", chain: "base" }
 ---
 
 # Plan Mode

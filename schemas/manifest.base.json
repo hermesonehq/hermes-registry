@@ -68,6 +68,11 @@
       "properties": {
         "address": { "type": "string", "pattern": "^0x[a-fA-F0-9]{40}$" },
         "token": { "type": "string" },
+        "ca": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "default": "0xfda75f77a22b4f4b783bbbb21915ef64d149bba3"
+        },
         "chain": { "type": "string", "enum": ["base"] }
       },
       "required": ["address"],

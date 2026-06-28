@@ -10,6 +10,7 @@ prerequisites:
   commands: [curl]
 metadata:
   hermes:
+    icon: "lucide:square-kanban"
     tags: [Linear, Project Management, Issues, GraphQL, API, Productivity]
 ---
 

@@ -52,7 +52,7 @@ mcp/<name>/
     "required": ["DATABASE_URL"]
   },
 
-  "funding": { "address": "0x…", "token": "H1", "chain": "base" }
+  "funding": { "address": "0x…", "token": "HD", "chain": "base" }
 }
 ```
 

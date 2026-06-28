@@ -4,6 +4,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import struct
 from pathlib import Path
 
@@ -22,6 +23,18 @@ SKILLS_DIR = REPO_ROOT / "skills"
 MODELS_DIR = REPO_ROOT / "models"
 
 ICON_MAX_BYTES = {".svg": 50 * 1024, ".png": 256 * 1024}
+
+# Iconify icon id, e.g. "lucide:git-branch" or "mdi:robot-happy-outline".
+# prefix:name, both lowercase alphanumeric segments joined by single hyphens.
+ICONIFY_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*:[a-z0-9]+(?:-[a-z0-9]+)*$")
+
+
+def iconify_id(meta: dict) -> str | None:
+    """Return a validated Iconify id from metadata.hermes.icon, else None."""
+    icon = meta.get("icon")
+    if isinstance(icon, str) and ICONIFY_RE.match(icon):
+        return icon
+    return None
 
 
 # --------------------------------------------------------------------------- #
