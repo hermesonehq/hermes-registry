@@ -1,0 +1,3 @@
+google-cloud-monitoring
+google-cloud-aiplatform
+google-auth

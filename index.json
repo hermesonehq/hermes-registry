@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-28T09:51:01+05:30",
-  "count": 285,
+  "generated": "2026-06-28T04:51:55.274550+00:00",
+  "count": 432,
   "entries": [
     {
       "id": "accessibility-auditor",
@@ -2775,6 +2775,199 @@
       "acceptsFunding": false
     },
     {
+      "id": "alloydb-basics",
+      "type": "skill",
+      "category": "data-science",
+      "name": "alloydb-basics",
+      "version": "1.0.0",
+      "description": "Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB model context protocol (MCP) tools for automated database operations.",
+      "tags": [
+        "Google Cloud",
+        "Alloydb",
+        "Basics"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/alloydb-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/data-science/alloydb-basics",
+      "icon": null,
+      "iconify": "lucide:database",
+      "checksum": "sha256:a4bee37ee49add59529c6df129cba79dc55944960110632b4d5be22df4789229",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "bigquery-ai-ml",
+      "type": "skill",
+      "category": "data-science",
+      "name": "bigquery-ai-ml",
+      "version": "1.0.0",
+      "description": "Leverages BigQuery's built-in machine learning and GenAI capabilities for advanced data analytics. Use when you need to write SQL queries that perform time-series forecasting, detect outliers, find key drivers, or leverage generative AI capabilities in BigQuery.",
+      "tags": [
+        "Google Cloud",
+        "Bigquery",
+        "Ai",
+        "Ml"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/bigquery-ai-ml",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/data-science/bigquery-ai-ml",
+      "icon": null,
+      "iconify": "lucide:database",
+      "checksum": "sha256:322c018bf05a57b22bb51a8d3229cab8b46bf31385198c2009111f47e3e8ab1a",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "bigquery-basics",
+      "type": "skill",
+      "category": "data-science",
+      "name": "bigquery-basics",
+      "version": "1.0.0",
+      "description": "Manages datasets, tables, and jobs in BigQuery. Use when you need to interact with BigQuery, run SQL queries, manage BigQuery resources (datasets, tables, views), or perform basic data ingestion and analysis.",
+      "tags": [
+        "Google Cloud",
+        "Bigquery",
+        "Basics"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/bigquery-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/data-science/bigquery-basics",
+      "icon": null,
+      "iconify": "lucide:database",
+      "checksum": "sha256:403c26f96533be80280731a5dd5091796b2092dec4055b97d604e040f307e14c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "bigtable-basics",
+      "type": "skill",
+      "category": "data-science",
+      "name": "bigtable-basics",
+      "version": "1.0.0",
+      "description": "Assists in provisioning instances/tables, designing performant schemas, and querying data in Bigtable. Use when designing Bigtable row keys, configuring column families, writing SQL queries or client library code (Java, Go, Python) for Bigtable, or diagnosing performance/hotspotting issues. Also use when provisioning Bigtable clusters using gcloud or cbt CLIs. Don't use for generic Cloud SQL administration.",
+      "tags": [
+        "Google Cloud",
+        "Bigtable",
+        "Basics"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/bigtable-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/data-science/bigtable-basics",
+      "icon": null,
+      "iconify": "lucide:database",
+      "checksum": "sha256:cf1a64e1eea6d77bd7307bfc44fd5f96bc5b56ba27667e3e6690dbe167c34467",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "cloud-sql-basics",
+      "type": "skill",
+      "category": "data-science",
+      "name": "cloud-sql-basics",
+      "version": "1.0.0",
+      "description": "This file generates or explains Cloud SQL resources. Use this file when the user asks to create a Cloud SQL instance or database for MySQL, PostgreSQL, or SQL Server.\nCloud SQL manages third-party MySQL, PostgreSQL, and SQL Server instances as resources in Cloud SQL. For example, when Cloud SQL creates an open-source MySQL instance, the resulting resource is a Cloud SQL for MySQL instance that Google Cloud manages.\nCloud SQL handles backups, high availability, and secure connectivity for relational database workloads.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Sql",
+        "Basics"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/cloud-sql-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/data-science/cloud-sql-basics",
+      "icon": null,
+      "iconify": "lucide:database",
+      "checksum": "sha256:02383ec05b53f66c7c9adb6a3c2bd9e1a60f830912d42727de0153d9eeb6c2f6",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-analytics-admin-api-basics",
+      "type": "skill",
+      "category": "data-science",
+      "name": "google-analytics-admin-api-basics",
+      "version": "1.0.0",
+      "description": "Manages Google Analytics account and property settings, enables the Analytics Admin API via the Cloud CLI, lists accounts and properties, and manages data streams, custom dimensions, conversion events, and integrations. Use when you need to programmatically configure Google Analytics accounts, provision properties, manage data retention, configure Measurement Protocol secrets, or manage Firebase and Google Ads links.",
+      "tags": [
+        "Google Analytics",
+        "Analytics",
+        "Admin",
+        "Api"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/analytics/google-analytics-admin-api-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/data-science/google-analytics-admin-api-basics",
+      "icon": null,
+      "iconify": "lucide:line-chart",
+      "checksum": "sha256:8d5634bd8da71eb8853381e16e35084e97f30e83e5560a476312d5e39b27ac66",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-analytics-data-api-basics",
+      "type": "skill",
+      "category": "data-science",
+      "name": "google-analytics-data-api-basics",
+      "version": "1.0.0",
+      "description": "Manages Google Analytics reporting data, enables the Analytics Data API via the Cloud CLI, and creates reports using the Google Analytics Data API (v1beta). Use when you need to interact with Google Analytics properties, run customized analytics reports, query metrics (like activeUsers, screenPageViews) and dimensions (like city, date), check metrics and dimensions compatibility, or verify API enablement.",
+      "tags": [
+        "Google Analytics",
+        "Analytics",
+        "Data",
+        "Api"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/analytics/google-analytics-data-api-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/data-science/google-analytics-data-api-basics",
+      "icon": null,
+      "iconify": "lucide:line-chart",
+      "checksum": "sha256:fa481b5fb01b53c26846cc1969b59a8c2beb610a13cb5d694235150544aa431b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "jupyter-live-kernel",
       "type": "skill",
       "category": "data-science",
@@ -2801,6 +2994,33 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:5eb40567439d0504900866aeafa547a6085f50ffa68be07d3277f0b1c16fe2ae",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "jupyter-notebook",
+      "type": "skill",
+      "category": "data-science",
+      "name": "jupyter-notebook",
+      "version": "1.0.0",
+      "description": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.",
+      "tags": [
+        "Jupyter",
+        "Notebook",
+        "Data Science"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/data-science/jupyter-notebook",
+      "icon": null,
+      "iconify": "lucide:notebook-text",
+      "checksum": "sha256:03e0692b3fb993303128acabc25173b4cc36ec7f068e8190cb2501ac19a917f6",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -2861,6 +3081,222 @@
       "acceptsFunding": false
     },
     {
+      "id": "figma",
+      "type": "skill",
+      "category": "design",
+      "name": "figma",
+      "version": "1.0.0",
+      "description": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and troubleshooting.",
+      "tags": [
+        "Figma",
+        "Design",
+        "MCP"
+      ],
+      "author": "openai",
+      "license": "Figma Developer Terms",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/figma",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/figma",
+      "icon": null,
+      "iconify": "lucide:figma",
+      "checksum": "sha256:9ac8c707742305a0cc63822051ab288881717d40586ecf86a29d1170797bc5fd",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "figma-code-connect-components",
+      "type": "skill",
+      "category": "design",
+      "name": "figma-code-connect-components",
+      "version": "1.0.0",
+      "description": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wants to establish mappings between Figma designs and code implementations. For canvas writes via `use_figma`, use `figma-use`.",
+      "tags": [
+        "Figma",
+        "Code Connect",
+        "Components"
+      ],
+      "author": "openai",
+      "license": "Figma Developer Terms",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/figma-code-connect-components",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/figma-code-connect-components",
+      "icon": null,
+      "iconify": "lucide:component",
+      "checksum": "sha256:cf17f873b00802cf37cfa48d274d517fd7fa0c09996999f0fa416c912dc798ef",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "figma-create-design-system-rules",
+      "type": "skill",
+      "category": "design",
+      "name": "figma-create-design-system-rules",
+      "version": "1.0.0",
+      "description": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma MCP server connection.",
+      "tags": [
+        "Figma",
+        "Design System",
+        "Rules"
+      ],
+      "author": "openai",
+      "license": "Figma Developer Terms",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-design-system-rules",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/figma-create-design-system-rules",
+      "icon": null,
+      "iconify": "lucide:ruler",
+      "checksum": "sha256:24602903228d6d0e755cc8b1519210a43a61be69596ea1b9bd4032c9a5d0c15e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "figma-create-new-file",
+      "type": "skill",
+      "category": "design",
+      "name": "figma-create-new-file",
+      "version": "1.0.0",
+      "description": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorType] [fileName] (e.g. /figma-create-new-file figjam My Whiteboard)",
+      "tags": [
+        "Figma",
+        "Design",
+        "Files"
+      ],
+      "author": "openai",
+      "license": "Figma Developer Terms",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-new-file",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/figma-create-new-file",
+      "icon": null,
+      "iconify": "lucide:file-plus",
+      "checksum": "sha256:acc85836ddca221f0ed70c9a518fe1e6eae08d4e4742bb6292c7c56232be22e1",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "figma-generate-design",
+      "type": "skill",
+      "category": "design",
+      "name": "figma-generate-design",
+      "version": "1.0.0",
+      "description": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code'. This is the preferred workflow skill whenever the user wants to build or update a full page, screen, or view in Figma from code or a description. Discovers design system components, variables, and styles via search_design_system, imports them, and assembles screens incrementally section-by-section using design system tokens instead of hardcoded values.",
+      "tags": [
+        "Figma",
+        "Design",
+        "Generation"
+      ],
+      "author": "openai",
+      "license": "Figma Developer Terms",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-design",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/figma-generate-design",
+      "icon": null,
+      "iconify": "lucide:wand-2",
+      "checksum": "sha256:55a9db572d9f6390858897ccae9d30764509caec890b7094d781187f541ef80f",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "figma-generate-library",
+      "type": "skill",
+      "category": "design",
+      "name": "figma-generate-library",
+      "version": "1.0.0",
+      "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma. This skill teaches WHAT to build and in WHAT ORDER — it complements the `figma-use` skill which teaches HOW to call the Plugin API. Both skills should be loaded together.",
+      "tags": [
+        "Figma",
+        "Component Library",
+        "Design System"
+      ],
+      "author": "openai",
+      "license": "Figma Developer Terms",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-library",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/figma-generate-library",
+      "icon": null,
+      "iconify": "lucide:library",
+      "checksum": "sha256:e4e3f75b31faedb3a25e83f34aaafd4c2c130ba6233514563971b1546bfd2470",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "figma-implement-design",
+      "type": "skill",
+      "category": "design",
+      "name": "figma-implement-design",
+      "version": "1.0.0",
+      "description": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides Figma URLs, or asks to build components matching Figma specs. For Figma canvas writes via `use_figma`, use `figma-use`.",
+      "tags": [
+        "Figma",
+        "Design-to-Code",
+        "Implementation"
+      ],
+      "author": "openai",
+      "license": "Figma Developer Terms",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/figma-implement-design",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/figma-implement-design",
+      "icon": null,
+      "iconify": "lucide:braces",
+      "checksum": "sha256:eb5aa7fea9b8a2707a50f43b9b14524759c680c04e87d72648e7f4593973ff8e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "figma-use",
+      "type": "skill",
+      "category": "design",
+      "name": "figma-use",
+      "version": "1.0.0",
+      "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user wants to perform a write action or a unique read action that requires JavaScript execution in the Figma file context — e.g. create/edit/delete nodes, set up variables or tokens, build components and variants, modify auto-layout or fills, bind variables to properties, or inspect file structure programmatically.",
+      "tags": [
+        "Figma",
+        "Plugin API",
+        "Design"
+      ],
+      "author": "openai",
+      "license": "Figma Developer Terms",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/figma-use",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/figma-use",
+      "icon": null,
+      "iconify": "lucide:frame",
+      "checksum": "sha256:3a78743b80adca808beff98028e5cd58fbfa1848792c7c5e155e08a25f519174",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "frontend-design",
       "type": "skill",
       "category": "design",
@@ -2885,6 +3321,33 @@
       "icon": null,
       "iconify": "lucide:panels-top-left",
       "checksum": "sha256:a5f377308468d1086942389f7c57fa68b966531e12896f681a6494500fba780b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "frontend-ui-engineering",
+      "type": "skill",
+      "category": "design",
+      "name": "frontend-ui-engineering",
+      "version": "1.0.0",
+      "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+      "tags": [
+        "Frontend",
+        "UI",
+        "Engineering"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/frontend-ui-engineering",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/design/frontend-ui-engineering",
+      "icon": null,
+      "iconify": "lucide:monitor-smartphone",
+      "checksum": "sha256:0e3c220234600c0f9d715af07433d4a3bfd9255ddf66f319a1a68095a7497d65",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -2951,6 +3414,141 @@
       "acceptsFunding": false
     },
     {
+      "id": "ci-cd-and-automation",
+      "type": "skill",
+      "category": "devops",
+      "name": "ci-cd-and-automation",
+      "version": "1.0.0",
+      "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+      "tags": [
+        "CI/CD",
+        "Automation",
+        "Pipelines"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/ci-cd-and-automation",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/ci-cd-and-automation",
+      "icon": null,
+      "iconify": "lucide:infinity",
+      "checksum": "sha256:b2c59330b9bdffab615c543accdc65000e20e16d176590c61dd62ade3919a786",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "cloud-run-basics",
+      "type": "skill",
+      "category": "devops",
+      "name": "cloud-run-basics",
+      "version": "1.0.0",
+      "description": "Manages Cloud Run services, jobs, and worker pools. Use when you need to deploy applications responding to HTTP requests (services), run event-triggered or scheduled tasks (jobs), or handle always-on pull-based background processing (worker pools).",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Run",
+        "Basics"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/cloud-run-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/cloud-run-basics",
+      "icon": null,
+      "iconify": "lucide:cloud-upload",
+      "checksum": "sha256:356084bd6f3461a93a502fd42dabb546d0b914d133d928f2ddb191e4783ac73e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "cloudflare-deploy",
+      "type": "skill",
+      "category": "devops",
+      "name": "cloudflare-deploy",
+      "version": "1.0.0",
+      "description": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.",
+      "tags": [
+        "Cloudflare",
+        "Workers",
+        "Deploy"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/cloudflare-deploy",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/cloudflare-deploy",
+      "icon": null,
+      "iconify": "lucide:cloud",
+      "checksum": "sha256:ffd3b3a6cc895208e51b1a89c6933f1e98dedadd50aaa21f0a9435a8fb2c5540",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "firebase-basics",
+      "type": "skill",
+      "category": "devops",
+      "name": "firebase-basics",
+      "version": "1.0.0",
+      "description": "Use this skill whenever you are working on a project that uses Firebase products or services, especially for mobile or web apps.",
+      "tags": [
+        "Google Cloud",
+        "Firebase",
+        "Basics"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/firebase-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/firebase-basics",
+      "icon": null,
+      "iconify": "lucide:flame",
+      "checksum": "sha256:608807793a9cf93a79f1a75ec16472cbe973f746f701fa2d0501f3f4a97e7b4f",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gcloud",
+      "type": "skill",
+      "category": "devops",
+      "name": "gcloud",
+      "version": "1.0.0",
+      "description": "Interacts with Google Cloud services using the gcloud CLI safely and efficiently. Covers command validation, data reduction, safety guardrails with a denylist, and workflows for discovery and investigation. You MUST read this skill before invoking any gcloud command. Use when managing cloud resources, querying configurations, or troubleshooting issues via gcloud. Don't use when writing or debugging Google Cloud client library code or raw REST/gRPC API interactions.",
+      "tags": [
+        "Google Cloud",
+        "Gcloud"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gcloud",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gcloud",
+      "icon": null,
+      "iconify": "lucide:terminal",
+      "checksum": "sha256:6fc3f90f8d1ed0e2e58cae95e8c4588272e85853b8aa1be809d6c524b28c4cac",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "git-guardrails-claude-code",
       "type": "skill",
       "category": "devops",
@@ -2974,6 +3572,502 @@
       "icon": null,
       "iconify": "lucide:shield-check",
       "checksum": "sha256:1badcee9e4c711be43456156c52cacbed9764e0a92689da97ea9bbff5396953a",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-app-onboarding",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-app-onboarding",
+      "version": "1.0.0",
+      "description": "Manages GKE application onboarding, covering containerization, deployment manifests, and migration. Use when onboarding or deploying an application to GKE for the first time, or containerizing an app for GKE. Don't use for general GKE cluster administration or upgrades (use gke-basics or gke-upgrades instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "App",
+        "Onboarding"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-app-onboarding",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-app-onboarding",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:e60d89aa9d16840962951c09d0c38bed01b50da0dc42d7d93a253ce06a47dd2a",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-backup-dr",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-backup-dr",
+      "version": "1.0.0",
+      "description": "Configures GKE Backup Plans and restore workflows. Use for backup policies, disaster recovery, or GKE cluster restores. Don't use for database backups.",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Backup",
+        "Dr"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-backup-dr",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-backup-dr",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:d086882793d38a01e55a9553e73cae5bc7f463436139b3e0f4d5b50e372f8f67",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-basics",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-basics",
+      "version": "1.0.0",
+      "description": "Core GKE cluster discovery and hub. Use to route to specialized GKE skills. Do not use for specialized tasks (networking, security, etc.) directly.",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Basics"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-basics",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:819ae963a09095e0603387c53ff76a8796b2de8cf8f45c388122acb03f194729",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-batch-hpc",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-batch-hpc",
+      "version": "1.0.0",
+      "description": "Runs batch and HPC workloads on GKE, utilizing job queues and parallel processing. Use when running GKE batch jobs, configuring GKE HPC, or setting up GKE job queues. Don't use for standard web application deployments (use gke-app-onboarding instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Batch",
+        "Hpc"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-batch-hpc",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-batch-hpc",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:0d5fb6c1fb8231ad4a3f75866fc8a79e1b55c37c0ee508de117b5d9653ef0b77",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-cluster-creation",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-cluster-creation",
+      "version": "1.0.0",
+      "description": "Plans and executes GKE cluster creation, provisioning, and production readiness audits. Use when creating GKE clusters, provisioning GKE environments, or auditing GKE clusters. Don't use for application onboarding or deployment configuration (use gke-app-onboarding instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Cluster",
+        "Creation"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-cluster-creation",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-cluster-creation",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:6b81958323f2b6ff2bc16122e5123d675e9cd29a58255ef52b871887fa71fcd0",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-compute-classes",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-compute-classes",
+      "version": "1.0.0",
+      "description": "Configures, optimizes, and troubleshoots GKE ComputeClasses. Use when configuring Spot VMs with on-demand fallback, targeting specific accelerators (GPUs/TPUs) or machine families, restricting ComputeClass access, or debugging pending pods related to node pool auto-creation. Do not use for cluster-level Node Auto Provisioning configuration or general GKE cluster creation.",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Compute",
+        "Classes"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-compute-classes",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-compute-classes",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:99ec8d2acd3ae8912e9548cc3d61c8b247673aaca7e37342030ce607b3e03d43",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-cost",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-cost",
+      "version": "1.0.0",
+      "description": "Optimizes GKE costs, rightsizes workloads, and configures Spot VMs and CUDs. Use when optimizing GKE costs, rightsizing GKE workloads, or configuring GKE Spot VMs. Don't use for general compute class provisioning or GPU Selection (use gke-compute-classes instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Cost"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-cost",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-cost",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:21d29026e153ce537c3dfe5a4b543c1edba6006e64df31ed6c7bc0a9bef3ae71",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-golden-path",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-golden-path",
+      "version": "1.0.0",
+      "description": "Provides GKE golden path configuration defaults, production readiness checklists, and cluster default patterns. Use when designing GKE clusters, verifying GKE production readiness, or checking configurations against GKE defaults. Don't use for setting up node autoscaling specifically (use gke-scaling instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Golden",
+        "Path"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-golden-path",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-golden-path",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:5849560546021794470c3e16d23f4cfd2915c76b6eb3159a55aae7f33abbaa11",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-multitenancy",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-multitenancy",
+      "version": "1.0.0",
+      "description": "Plans and configures multi-tenancy on GKE. Covers namespace isolation, RBAC planning for teams, resource quotas, LimitRanges, network isolation, and cost allocation. Use when designing GKE multi-tenancy, configuring GKE namespaces, setting up resource quotas, or isolating GKE teams. Don't use for single-tenant cluster configuration or general deployment instructions (use gke-basics or gke-app-onboarding instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Multitenancy"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-multitenancy",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-multitenancy",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:4b01028f1902cf52d4246c350be9ebc3ad41e8d8c7b3da6732d618336b338b8b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-networking",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-networking",
+      "version": "1.0.0",
+      "description": "Plans, configures, and manages GKE networking. Covers private clusters, VPC- native configurations, Gateway API, DNS, ingress/egress, Dataplane V2, and IP planning. Use when designing GKE networking layouts, configuring private clusters, setting up Gateway API, planning GKE IP ranges, or configuring GKE ingress/egress. Don't use for basic application routing that does not require dedicated network configuration.",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Networking"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-networking",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-networking",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:d9ea2f2c379d8e4cf16f01ddc9536ccd9925280c1610a5864bf1442f39e2b422",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-observability",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-observability",
+      "version": "1.0.0",
+      "description": "Configures GKE observability, including Cloud Logging, Cloud Monitoring, and managed Prometheus. Use when configuring GKE monitoring, setting up GKE logging, or configuring Prometheus metrics collection. Don't use to configure local application logging frameworks or external APMs outside GKE.",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Observability"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-observability",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-observability",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:767a7b4032cd545a2631d84e07b3b5fca005cfd3fd511bc73b75f5cd1a251626",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-reliability",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-reliability",
+      "version": "1.0.0",
+      "description": "Improves GKE workload reliability, using PDBs, health probes, and topology spread constraints. Use when configuring GKE workload reliability, setting up PDBs, or configuring GKE health probes (liveness, readiness, startup). Don't use for disaster recovery setup or full cluster backups (use gke-backup-dr instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Reliability"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-reliability",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-reliability",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:3368c367c935494eee9289474b49ab3e6fefac1783780860937278c06d2bb8da",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-scaling",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-scaling",
+      "version": "1.0.0",
+      "description": "Configures GKE autoscaling, including HPA, VPA, and Node Auto-Provisioning (NAP). Use when configuring GKE autoscaling, setting up GKE HPA, setting up GKE VPA, or configuring GKE NAP. Don't use for configuring static cluster sizes or setting node-level machine styles directly (use gke-compute-classes instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Scaling"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-scaling",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-scaling",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:9332c202817174c7a59861416eda35f1332329a26cd07ca727434c494c9961fd",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-upgrades",
+      "type": "skill",
+      "category": "devops",
+      "name": "gke-upgrades",
+      "version": "1.0.0",
+      "description": "Plans, executes, and validates Google Kubernetes Engine (GKE) cluster upgrades and maintenance operations for both Standard and Autopilot clusters. Produces upgrade plans, pre/post-upgrade checklists, maintenance runbooks with gcloud commands, release channel strategy, and troubleshooting guides. Handles node pool upgrade strategies (surge, blue-green), version compatibility, PDB management, and workload-specific concerns (stateful, GPU, operators). Use this skill whenever the user mentions GKE upgrades, Kubernetes version bumps, node pool maintenance, GKE patching, cluster version management, release channel selection, maintenance windows, surge upgrades, stuck upgrades, or any GKE lifecycle management task — even casual mentions like \"we need to upgrade our clusters\" or \"plan our next GKE maintenance\" or \"our upgrade is stuck.\" Don't use for GKE cluster creation, application onboarding, general networking/routing setup, or security policy configurations (use gke-basics or relevant GKE skills instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Upgrades"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-upgrades",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/gke-upgrades",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:9c0c688ad40c5aaae889c2b7a359046e4a37bf2540eaa3b14c01d35481bc922a",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-agents-cli-onboarding",
+      "type": "skill",
+      "category": "devops",
+      "name": "google-agents-cli-onboarding",
+      "version": "1.0.0",
+      "description": "Onboarding entrypoint for agents-cli in Agent Platform. It should be used when the user wants to \"create a new agent\", \"develop an agent\", \"build an agent using ADK\", \"run the agent locally\", \"debug agent code\", \"test an agent\", \"evaluate an agent\", \"deploy an agent\", \"publish an agent\", \"monitor an agent\", or needs the ADK (Agent Development Kit) development lifecycle.",
+      "tags": [
+        "Google Cloud",
+        "Agents",
+        "Cli",
+        "Onboarding"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-agents-cli-onboarding",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/google-agents-cli-onboarding",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:9ad970c7b8c547efd89823a772e96d87d7091ed4a9af033ab51f7eb4da6a5656",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-cloud-networking-observability",
+      "type": "skill",
+      "category": "devops",
+      "name": "google-cloud-networking-observability",
+      "version": "1.0.0",
+      "description": "Investigates Google Cloud networking issues by analyzing logs, metrics, and diagnostics. Use when investigating VPC Flow Logs (including cost estimation), NAT, firewall, or threat logs, querying latency and throughput metrics, or running Connectivity Tests for path diagnostics. Don't use for generic VM management or non-observability tasks.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Networking",
+        "Observability"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-networking-observability",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/google-cloud-networking-observability",
+      "icon": null,
+      "iconify": "lucide:network",
+      "checksum": "sha256:0bc65c6759fbf66a2a231f714e6ae80a152f08bd50b526b8e0c4d3e7c8e5c083",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-cloud-recipe-auth",
+      "type": "skill",
+      "category": "devops",
+      "name": "google-cloud-recipe-auth",
+      "version": "1.0.0",
+      "description": "Provides expert guidance on authenticating and authorizing to Google Cloud services and APIs, covering human users, service identities, Application Default Credentials (ADC), and best practices for secure access.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Recipe",
+        "Auth"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-recipe-auth",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/google-cloud-recipe-auth",
+      "icon": null,
+      "iconify": "lucide:terminal",
+      "checksum": "sha256:4fe06f75c558990304145bc8f7ba62576bf8d4661cbcfdfa4a8f235a247cff1e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-cloud-recipe-onboarding",
+      "type": "skill",
+      "category": "devops",
+      "name": "google-cloud-recipe-onboarding",
+      "version": "1.0.0",
+      "description": "Guides a developer's first steps on Google Cloud, covering account creation, billing setup, project management, and deploying a first resource. Use when a new developer wants to initialize their first Google Cloud project, configure billing, and verify deployment. Don't use for enterprise organization setup (use Google Cloud Setup guided flow for that instead). Don't use for complex multi-project architectures.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Recipe",
+        "Onboarding"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-recipe-onboarding",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/google-cloud-recipe-onboarding",
+      "icon": null,
+      "iconify": "lucide:cloud",
+      "checksum": "sha256:0f5e0423d2cc2f579dbd30d6ea0f6e1f56779a6ec560be33b25df7e03ac4bac0",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3007,6 +4101,34 @@
       "icon": "skills/devops/hermesone/icon.svg",
       "iconify": null,
       "checksum": "sha256:5a536df53aaf73677c68a21db24ce538a28ff9d78401fd35033065d590ee8de3",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "iam-recommendations-fetcher",
+      "type": "skill",
+      "category": "devops",
+      "name": "iam-recommendations-fetcher",
+      "version": "1.0.0",
+      "description": "Fetches raw IAM recommendations and associated security insights from Google Cloud for a specified target scope (Organization, Folder, or Project). Use when you need to retrieve security recommendations before analyzing or applying them. Don't use for applying/acting on recommendations (use the recommendation applier skill) or for general allow policy querying (use the allow policy viewer skill).",
+      "tags": [
+        "Google Cloud",
+        "Iam",
+        "Recommendations",
+        "Fetcher"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/iam-recommendations-fetcher",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/iam-recommendations-fetcher",
+      "icon": null,
+      "iconify": "lucide:cloud",
+      "checksum": "sha256:bd44f76a1b8e262d1a2075c13549d50c3d70f6d8304a47b64051a57e097a745b",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3068,6 +4190,114 @@
       "acceptsFunding": false
     },
     {
+      "id": "netlify-deploy",
+      "type": "skill",
+      "category": "devops",
+      "name": "netlify-deploy",
+      "version": "1.0.0",
+      "description": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
+      "tags": [
+        "Netlify",
+        "Deploy",
+        "Hosting"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/netlify-deploy",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/netlify-deploy",
+      "icon": null,
+      "iconify": "lucide:cloud-upload",
+      "checksum": "sha256:bbd89ab24a9c98816522e19c236bda4d2e89ab3f9e735aa9e253e742c00e6e75",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "observability-and-instrumentation",
+      "type": "skill",
+      "category": "devops",
+      "name": "observability-and-instrumentation",
+      "version": "1.0.0",
+      "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.",
+      "tags": [
+        "Observability",
+        "Instrumentation",
+        "Monitoring"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/observability-and-instrumentation",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/observability-and-instrumentation",
+      "icon": null,
+      "iconify": "lucide:activity",
+      "checksum": "sha256:881cbc2b7d6282a31160e84b3a6d72194cb529547fedc09381e258011558e801",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "render-deploy",
+      "type": "skill",
+      "category": "devops",
+      "name": "render-deploy",
+      "version": "1.0.0",
+      "description": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.",
+      "tags": [
+        "Render",
+        "Deploy",
+        "Hosting"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/render-deploy",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/render-deploy",
+      "icon": null,
+      "iconify": "lucide:server",
+      "checksum": "sha256:59bedf0d2d8d10e57f4e78f7347c1ad916185b939ab847b174503de1a40c7700",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "sentry",
+      "type": "skill",
+      "category": "devops",
+      "name": "sentry",
+      "version": "1.0.0",
+      "description": "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command.",
+      "tags": [
+        "Sentry",
+        "Errors",
+        "Monitoring"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/sentry",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/sentry",
+      "icon": null,
+      "iconify": "lucide:siren",
+      "checksum": "sha256:94c0328fb796fd5d9d92899d0a869d5c9aa40b1e8cb53c3ab5bdcd37abc51289",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "setup-pre-commit",
       "type": "skill",
       "category": "devops",
@@ -3091,6 +4321,33 @@
       "icon": null,
       "iconify": "lucide:git-commit-horizontal",
       "checksum": "sha256:71689155f4f8ce9d8d7ca1a85a8e33d13c68bee6eb2e3fc090c9497be1719639",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "vercel-deploy",
+      "type": "skill",
+      "category": "devops",
+      "name": "vercel-deploy",
+      "version": "1.0.0",
+      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+      "tags": [
+        "Vercel",
+        "Deploy",
+        "Hosting"
+      ],
+      "author": "openai",
+      "license": "MIT",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/vercel-deploy",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/vercel-deploy",
+      "icon": null,
+      "iconify": "lucide:triangle",
+      "checksum": "sha256:1b38174922e2bd3ebdd491fefdca78b6cada9bfd42d3629b773a75d6195fbbc9",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3121,6 +4378,34 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:7ef378b1c093a2ac4f66b0e9d08d5f2e3881f4e7b750d65771ab2bb4b9a2b5af",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "workload-manager-basics",
+      "type": "skill",
+      "category": "devops",
+      "name": "workload-manager-basics",
+      "version": "1.0.0",
+      "description": "Use this skill to manage Google Cloud Workload Manager evaluations, rules, scanned resources, and validation results by using public client libraries and the REST API. Use when you need to inspect workload best-practice rules, create and run evaluations for Google Cloud general best practices, SAP, SQL Server, or custom organizational rules, review violations, export results to BigQuery, or automate Workload Manager through client libraries because no service-specific public CLI or MCP server is available. Don't use for general Google Compute Engine instance management, VPC configuration, or standard IAM auditing.",
+      "tags": [
+        "Google Cloud",
+        "Workload",
+        "Manager",
+        "Basics"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/workload-manager-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/devops/workload-manager-basics",
+      "icon": null,
+      "iconify": "lucide:cloud",
+      "checksum": "sha256:20d3b45f8b50bdfe9b5f7b05fd2e02408497509ff9eae266a88103646d6abc83",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3188,6 +4473,556 @@
       "acceptsFunding": false
     },
     {
+      "id": "company-values",
+      "type": "skill",
+      "category": "domain",
+      "name": "company-values",
+      "version": "1.0.0",
+      "description": "Help define company values and culture for a minimalist business. Use when someone is setting up their company culture, preparing to hire, or wanting to codify what their company stands for.",
+      "tags": [
+        "Values",
+        "Culture",
+        "Startup"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/company-values",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/company-values",
+      "icon": null,
+      "iconify": "lucide:heart-handshake",
+      "checksum": "sha256:861de3218d81932d01b544d50599cf4d57c66589610a0590df099c0b06b716ac",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "data-manager-api-audience-ingestion",
+      "type": "skill",
+      "category": "domain",
+      "name": "data-manager-api-audience-ingestion",
+      "version": "1.0.0",
+      "description": "Guides developers through uploading audience members to Google products using the Data Manager API /v1/audienceMembers/ingest endpoint and its associated client libraries. Use this skill when the user wants to upload audience members for Customer Match, mobile device ID audiences, or any other audience use case supported by the Data Manager API. Don't use for uploading events or conversions (use the data-manager-api-event-ingestion skill).",
+      "tags": [
+        "Google Ads",
+        "Data",
+        "Manager",
+        "Api"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/data-manager-api/data-manager-api-audience-ingestion",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/data-manager-api-audience-ingestion",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:32b13b95556df103a4900aa37175cfa6c4310fda957d728562d271610339e612",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "data-manager-api-event-ingestion",
+      "type": "skill",
+      "category": "domain",
+      "name": "data-manager-api-event-ingestion",
+      "version": "1.0.0",
+      "description": "Guides developers through implementing event and conversion ingestion to Google products using the Data Manager API /v1/events/ingest endpoint and its associated client libraries. Use this skill when the user wants to upload offline conversions, enhanced conversions for leads, click conversions, Google Analytics web or app events, or any other event ingestion use case supported by the Data Manager API. Don't use for uploading audience members (use the data-manager-api-audience-ingestion skill).",
+      "tags": [
+        "Google Ads",
+        "Data",
+        "Manager",
+        "Api"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/data-manager-api/data-manager-api-event-ingestion",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/data-manager-api-event-ingestion",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:b0e875d87bb00d4a0f2c6395ca88691523a3826370e5829a85c5235795255d8f",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "find-community",
+      "type": "skill",
+      "category": "domain",
+      "name": "find-community",
+      "version": "1.0.0",
+      "description": "Help identify and evaluate communities to build a minimalist business around. Use when someone is looking for a business idea, trying to find their community, or wondering where to start as an entrepreneur.",
+      "tags": [
+        "Community",
+        "Audience",
+        "Startup"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/find-community",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/find-community",
+      "icon": null,
+      "iconify": "lucide:users",
+      "checksum": "sha256:dc1ae4f7b0b38167a3e9f04f51c4fff8490b39e0c574bd3290bea6f865fec344",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "first-customers",
+      "type": "skill",
+      "category": "domain",
+      "name": "first-customers",
+      "version": "1.0.0",
+      "description": "Create a strategy for selling to your first 100 customers using the minimalist entrepreneur playbook. Use when someone has a product and needs to find customers, or is struggling with early sales.",
+      "tags": [
+        "Customers",
+        "Sales",
+        "Startup"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/first-customers",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/first-customers",
+      "icon": null,
+      "iconify": "lucide:user-plus",
+      "checksum": "sha256:9d3ac0eb42ee40bb31b09071cdcee7c825fb898557f09e8a14ef8eae0330f019",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-ads-api-mcp-setup",
+      "type": "skill",
+      "category": "domain",
+      "name": "google-ads-api-mcp-setup",
+      "version": "1.0.0",
+      "description": "Guides developers through downloading, configuring, and installing the official open-source Google Ads MCP Server. Use this skill when a user wants to connect their AI assistant (such as Gemini, Claude Code, or Cursor) to their Google Ads account to query campaigns or retrieve reporting metrics using natural language.",
+      "tags": [
+        "Google Ads",
+        "Ads",
+        "Api",
+        "Mcp"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/google-ads-api/google-ads-api-mcp-setup",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/google-ads-api-mcp-setup",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:884dcca751d65e40aad7b5e1f43cfbf7aa63c41f0010c98b9cc7a3670545c84a",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-ads-api-quickstart",
+      "type": "skill",
+      "category": "domain",
+      "name": "google-ads-api-quickstart",
+      "version": "1.0.0",
+      "description": "Guides developers through Google Ads API quickstart: credential setup, choosing from 6 client libraries/REST, configuring environments, and running a \"retrieve campaigns\" script. Troubleshoots common setup errors: USER_PERMISSION_DENIED, login_customer_id issues, and DEVELOPER_TOKEN_NOT_APPROVED.\n\nUse this skill when:\n- The user asks how to get started with the Google Ads API.\n- The user needs to set up Google Ads credentials or developer tokens.\n- The user wants to write a quickstart/example script for Google Ads.\n- The user encounters errors like USER_PERMISSION_DENIED or DEVELOPER_TOKEN_NOT_APPROVED.\n",
+      "tags": [
+        "Google Ads",
+        "Ads",
+        "Api",
+        "Quickstart"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/google-ads-api/google-ads-api-quickstart",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/google-ads-api-quickstart",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:6a20a7ac0e62256d89e8328b41e2ffacae7c29776527096141b6ec7929c7b040",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-mobile-ads-android-migrate-to-next-gen",
+      "type": "skill",
+      "category": "domain",
+      "name": "google-mobile-ads-android-migrate-to-next-gen",
+      "version": "1.0.0",
+      "description": "Migrates Android applications from the old, legacy Google Mobile Ads (GMA) SDK (com.google.android.gms:play-services-ads) to the new GMA Next-Gen SDK (com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk). Provides comprehensive mapping tables for imports, classes, and method signatures to help determine migration steps. Use when migrating an existing Android codebase from the old, legacy GMA SDK to GMA Next-Gen SDK.",
+      "tags": [
+        "Google Ads",
+        "Mobile",
+        "Ads",
+        "Android"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/google-mobile-ads/google-mobile-ads-android-migrate-to-next-gen",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/google-mobile-ads-android-migrate-to-next-gen",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:545b0ad394e04a944c83bbc4bd8981e7fc04ec3c3edcb123e863df4b1e9c9490",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-mobile-ads-banner",
+      "type": "skill",
+      "category": "domain",
+      "name": "google-mobile-ads-banner",
+      "version": "1.0.0",
+      "description": "Provides instructions to implement, integrate, or configure Google Mobile Ads (GMA) banner ads in Android and iOS mobile applications. Use when the task involves setting up banner ads in a mobile application.",
+      "tags": [
+        "Google Ads",
+        "Mobile",
+        "Ads",
+        "Banner"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/google-mobile-ads/google-mobile-ads-banner",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/google-mobile-ads-banner",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:29e73901c61917252882746e81900a15c47084f99610173d63c1ed43f9459351",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-mobile-ads-get-started",
+      "type": "skill",
+      "category": "domain",
+      "name": "google-mobile-ads-get-started",
+      "version": "1.0.0",
+      "description": "Provides instructions for integrating the Google Mobile Ads (GMA) SDK. Use this skill when the user wants to get started with, install, integrate, set up, or configure the SDK for AdMob or Ad Manager, GMA Next-Gen SDK or mobile ads framework in an Android, iOS, or Unity application.",
+      "tags": [
+        "Google Ads",
+        "Mobile",
+        "Ads",
+        "Get"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/google-mobile-ads/google-mobile-ads-get-started",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/google-mobile-ads-get-started",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:cb45b926f0555fabcce98f0e15d1bf46e3460b967b0dd5abb23f00941b3efcaf",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-mobile-ads-interstitial",
+      "type": "skill",
+      "category": "domain",
+      "name": "google-mobile-ads-interstitial",
+      "version": "1.0.0",
+      "description": "Provides instructions for implementing, integrating, or configuring Google Mobile Ads (GMA) SDK interstitial ads in Android and iOS mobile applications. Use this skill when the task involves setting up interstitial ads. Don't use for \"rewarded interstitial\" ads.",
+      "tags": [
+        "Google Ads",
+        "Mobile",
+        "Ads",
+        "Interstitial"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/google-mobile-ads/google-mobile-ads-interstitial",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/google-mobile-ads-interstitial",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:24d5dacea911a4b1bf610a9b1c440a8b7e39ac3f07846ee98f489690ae060f98",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-mobile-ads-rewarded",
+      "type": "skill",
+      "category": "domain",
+      "name": "google-mobile-ads-rewarded",
+      "version": "1.0.0",
+      "description": "Provides instructions for implementing, integrating, or configuring Google Mobile Ads (GMA) SDK rewarded ads in Android or iOS mobile applications. Use this skill when the task involves setting up rewarded ads. Don't use for \"rewarded interstitial\" ads.",
+      "tags": [
+        "Google Ads",
+        "Mobile",
+        "Ads",
+        "Rewarded"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/google-mobile-ads/google-mobile-ads-rewarded",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/google-mobile-ads-rewarded",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:5db24083abcf9efda906b25d3aff9b4a08bab599f274dd6146a558472449ce2d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "grow-sustainably",
+      "type": "skill",
+      "category": "domain",
+      "name": "grow-sustainably",
+      "version": "1.0.0",
+      "description": "Evaluate business decisions through the lens of sustainable, profitable growth. Use when someone is making decisions about spending, hiring, fundraising, or scaling their business.",
+      "tags": [
+        "Growth",
+        "Sustainability",
+        "Business"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/grow-sustainably",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/grow-sustainably",
+      "icon": null,
+      "iconify": "lucide:trending-up",
+      "checksum": "sha256:dbd36e256b760887b6650052b481b0503dc8a4c2c5bca01a0e58ecf828ddb5cb",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "ima-sdk-basics",
+      "type": "skill",
+      "category": "domain",
+      "name": "ima-sdk-basics",
+      "version": "1.0.0",
+      "description": "Use this skill for Interactive Media Ads (IMA) SDK client-side ad insertion when you are requesting video ads client-side into websites, apps, TVs or other platforms with VAST or VMAP. Do not use for Dynamic Ad Insertion (DAI), SSAI, or SGAI (use the `ima-sdk-dai-basics` skill instead).",
+      "tags": [
+        "Google Ads",
+        "Ima",
+        "Sdk",
+        "Basics"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/ads/interactive-media-ads/ima-sdk-basics",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/ima-sdk-basics",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:3209e7dd88c1ac139345a2a0d9d5703ad4d9a2b4d5c59a644b629c5cf761e645",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "marketing-plan",
+      "type": "skill",
+      "category": "domain",
+      "name": "marketing-plan",
+      "version": "1.0.0",
+      "description": "Create a minimalist marketing plan focused on building an audience through content, not ads. Use when someone has product-market fit (~100 customers) and wants to scale with marketing, or needs a content strategy.",
+      "tags": [
+        "Marketing",
+        "Plan",
+        "Business"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/marketing-plan",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/marketing-plan",
+      "icon": null,
+      "iconify": "lucide:megaphone",
+      "checksum": "sha256:80a4aeee05a417c81130d5f7df62f8148867850831222fa8b9ce7fbe74df5dd9",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "minimalist-review",
+      "type": "skill",
+      "category": "domain",
+      "name": "minimalist-review",
+      "version": "1.0.0",
+      "description": "Review any business decision, plan, or strategy through the minimalist entrepreneur lens. Use when someone wants a gut-check on a business decision, wants to simplify their approach, or needs to decide between options.",
+      "tags": [
+        "Review",
+        "Minimalism",
+        "Feedback"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/minimalist-review",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/minimalist-review",
+      "icon": null,
+      "iconify": "lucide:eye",
+      "checksum": "sha256:4d7743ace39f4818aa92e24edc4d7f5786c6dd4d809b68a2616a16e313085dc1",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "mvp",
+      "type": "skill",
+      "category": "domain",
+      "name": "mvp",
+      "version": "1.0.0",
+      "description": "Guide building a minimum viable product the minimalist entrepreneur way — manual first, then processized, then productized. Use when someone is ready to build their first product or struggling with scope.",
+      "tags": [
+        "MVP",
+        "Product",
+        "Startup"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/mvp",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/mvp",
+      "icon": null,
+      "iconify": "lucide:package",
+      "checksum": "sha256:472d3347a6425ec1e0f3368d1abeaac134281665e181ed62e9d60ec3b85a65ee",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "pricing",
+      "type": "skill",
+      "category": "domain",
+      "name": "pricing",
+      "version": "1.0.0",
+      "description": "Help figure out pricing for a product or service using minimalist entrepreneur principles. Use when someone is setting prices, considering price changes, or struggling with what to charge.",
+      "tags": [
+        "Pricing",
+        "Revenue",
+        "Business"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/pricing",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/pricing",
+      "icon": null,
+      "iconify": "lucide:tag",
+      "checksum": "sha256:011902db225421be2d5b84e8b3abaf12090ad8bd148de1047b99c5d7abcb12f3",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "processize",
+      "type": "skill",
+      "category": "domain",
+      "name": "processize",
+      "version": "1.0.0",
+      "description": "Turn a product idea into a manual-first process you can start delivering today. Use when you have an idea and want to figure out how to deliver value by hand before writing any code.",
+      "tags": [
+        "Process",
+        "Systems",
+        "Operations"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/processize",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/processize",
+      "icon": null,
+      "iconify": "lucide:workflow",
+      "checksum": "sha256:0f0a4b579a9c5a195a097629c2e130611f73eb9266a353851d296cf5bcac26a2",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "validate-idea",
+      "type": "skill",
+      "category": "domain",
+      "name": "validate-idea",
+      "version": "1.0.0",
+      "description": "Validate a business idea using the minimalist entrepreneur framework. Use when someone has a business idea and wants to test if it's worth pursuing before building anything.",
+      "tags": [
+        "Validation",
+        "Ideas",
+        "Startup"
+      ],
+      "author": "slavingia",
+      "license": "Unspecified",
+      "source": "https://github.com/slavingia/skills/tree/main/skills/validate-idea",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/domain/validate-idea",
+      "icon": null,
+      "iconify": "lucide:circle-check",
+      "checksum": "sha256:50300bda69eb9e94bf68cd0cd812d583385353a094389a9b3b7f26b279e8f9d7",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "himalaya",
       "type": "skill",
       "category": "email",
@@ -3213,6 +5048,33 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:d042f8f8bd1153f77a38053309204fa4209c0ce1e5c62b7d67993ec0abe2ef71",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "hatch-pet",
+      "type": "skill",
+      "category": "gaming",
+      "name": "hatch-pet",
+      "version": "1.0.0",
+      "description": "Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. Use when a user wants a lightweight-worker Codex pet workflow, a non-pixel custom pet style, a prospect or company mascot pet, or a full 8x9 animated pet atlas with transparent unused cells, QA contact sheets, and pet.json packaging. This skill composes the installed $imagegen system skill for visual generation and uses bundled scripts for deterministic spritesheet assembly.",
+      "tags": [
+        "Pet",
+        "Animation",
+        "Fun"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/hatch-pet",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/gaming/hatch-pet",
+      "icon": null,
+      "iconify": "lucide:egg",
+      "checksum": "sha256:f65e9789eca476731a7bcb12578367cd5af1302dc627390662c8b7870de7bde7",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3315,6 +5177,60 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:5aed240eba9845706b4234425593212b05ca47eee1c60e90797779751789693a",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gh-address-comments",
+      "type": "skill",
+      "category": "github",
+      "name": "gh-address-comments",
+      "version": "1.0.0",
+      "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+      "tags": [
+        "GitHub",
+        "PR Review",
+        "Comments"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/github/gh-address-comments",
+      "icon": null,
+      "iconify": "lucide:message-square-reply",
+      "checksum": "sha256:e51cb333978c8fa50dbd1056e8db26bedc9bafb16bdcdb68aad74059aca924ec",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gh-fix-ci",
+      "type": "skill",
+      "category": "github",
+      "name": "gh-fix-ci",
+      "version": "1.0.0",
+      "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
+      "tags": [
+        "GitHub",
+        "CI",
+        "Fixes"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/github/gh-fix-ci",
+      "icon": null,
+      "iconify": "lucide:wrench",
+      "checksum": "sha256:c6762891476aaf26d91298ab27519237b605c3c5eba0ee0624144bfd6d3aeae9",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3615,6 +5531,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "speech",
+      "type": "skill",
+      "category": "media",
+      "name": "speech",
+      "version": "1.0.0",
+      "description": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `OPENAI_API_KEY` for live calls. Custom voice creation is out of scope.",
+      "tags": [
+        "Speech",
+        "TTS",
+        "Audio"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/speech",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/media/speech",
+      "icon": null,
+      "iconify": "lucide:audio-lines",
+      "checksum": "sha256:24f16065f19821c052aa7aa93db7276809ac059f1abd8f11c1f01833181fd538",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "spotify",
       "type": "skill",
       "category": "media",
@@ -3644,6 +5587,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "transcribe",
+      "type": "skill",
+      "category": "media",
+      "name": "transcribe",
+      "version": "1.0.0",
+      "description": "Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.",
+      "tags": [
+        "Transcription",
+        "STT",
+        "Audio"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/transcribe",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/media/transcribe",
+      "icon": null,
+      "iconify": "lucide:mic",
+      "checksum": "sha256:f645aa66c630da6534d2b64d7f5f9379e3aa4caca6d0186b4f1695fbefbb2d65",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "youtube-content",
       "type": "skill",
       "category": "media",
@@ -3663,6 +5633,342 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:c2b310ab578da57b5e7f9c48c491b546b6c23877339eaa843aa03f55300ac659",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-alert-configuration",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-alert-configuration",
+      "version": "1.0.0",
+      "description": "Configures best-practice alerting policies for Google Cloud Vertex AI / Agent Platform agents on Agent Runtime. Use when analyzing, writing, or deploying alerting policies to monitor agent latency, error rates, and quality metrics (response quality, tool use, hallucination). Also use when provisioning online monitors for quality evaluation, or analyzing live metrics traffic footprints. NOTE: This skill currently only works for the Agent Runtime. Don't use for configuring general GCP alert policies or non-agent GCP alerting policies.",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Alert"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-alert-configuration",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-alert-configuration",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:39ecfa43ecdc9217d48ebda3a3b2c39d47d7f074d16bab8ded4bba6e862c3d49",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-deploy",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-deploy",
+      "version": "1.0.0",
+      "description": "Deploy open models or custom weights from Model Garden to Agent Platform endpoints, check deployment status, verify serving endpoints, or clean up resources by undeploying models and deleting endpoints. Use when asked to deploy models on Agent Platform, list available Model Garden models, check if a model is deployable, query deployment cost, troubleshoot deployment errors (like quota limits), or undeploy/clean up endpoints. Also use when copying and deploying a 1P Tuned Model. Don't use for public Vertex AI deployments (use the `vertex-deploy` skill) or for running model evaluations (use the `agent-platform-eval` skill).",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Deploy"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-deploy",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-deploy",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:c72677e2a811b8a5fb14e14c9eec16282df4bd3aa6ddbe3e5399888fcdcf1de5",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-endpoint-management",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-endpoint-management",
+      "version": "1.0.0",
+      "description": "Manages Agent Platform serving endpoints. Use when you need to create, list, describe, update, or delete serving endpoints for model deployment on Agent Platform. Also use when troubleshooting endpoint permission, quota, or resource busy errors. Don't use for deploying models to endpoints or for running model evaluations.",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Endpoint"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-endpoint-management",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-endpoint-management",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:e9590ac08ed22e290c7d1bd2b2923f8dbaa3b130b4b14850f6097086116281b6",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-eval-flywheel",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-eval-flywheel",
+      "version": "1.0.0",
+      "description": "Measures and improves the quality of AI models and agents on Google Cloud using the Eval Quality Flywheel methodology. Use when evaluating an agent or model, building an eval dataset, picking or writing evaluation metrics, analyzing failures, comparing results before and after a fix, or when guidance is needed on Agent Platform eval methodology — including dataset schema, LLM-as-judge scoring, and common failure causes. For fine-tuning, use agent-platform-tuning. For general production deployment, use agent-platform-deploy.",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Eval"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-eval-flywheel",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-eval-flywheel",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:5b4c00fad8f6b2a00fc2414318cf72346f3c28c94af8a6f0b749bc19617935da",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-inference",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-inference",
+      "version": "1.0.0",
+      "description": "Connects to and performs inference with Google Cloud Agent Platform GenAI models, including First-Party Gemini models and Third-Party OpenMaaS models (Llama, DeepSeek, Qwen, etc.). Use when you need to generate code for calling Gemini or OpenMaaS models, authenticate with GenAI SDK, OpenAI SDK, or legacy Agent Platform SDK, configure base URLs and global/regional endpoints, or troubleshoot 429 Resource Exhausted (DSQ), 400 User Validation, or 404 Not Found errors. Don't use for deploying models to endpoints or for running model evaluations.",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Inference"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-inference",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-inference",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:57e38a29b1310988713dffe1bd313d47994c77d758d5556e461ca9b95edba908",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-migrate-from-ai-studio",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-migrate-from-ai-studio",
+      "version": "1.0.0",
+      "description": "Guides agents and users through migrating from Gemini API in Google AI Studio to Gemini Enterprise Agent Platform (formerly Vertex AI). Use this skill when moving applications to Google Cloud, to leverage Cloud credits, or to unify inferencing with other Cloud infrastructure (IAM, billing, telemetry).",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Migrate"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-migrate-from-ai-studio",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-migrate-from-ai-studio",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:c55fc0d20581f776360ea2fe1dcc705e15d039882423e043fa5b77c03c27d0cd",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-model-registry",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-model-registry",
+      "version": "1.0.0",
+      "description": "Agent Platform Model Registry Management. Use when you need to upload, list, describe, update, or delete machine learning models (and their versions) in the Agent Platform Model Registry. Don't use for model training, model deployment to endpoints, or managing non-Agent Platform models.",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Model"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-model-registry",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-model-registry",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:e16a32a45515e6c6e685e052d25e70ae16d3a046ab79cfc0f72e24f49352de3d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-prompt-management",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-prompt-management",
+      "version": "1.0.0",
+      "description": "Manages and orchestrates prompts in Agent Platform. Use when you need to create, list, retrieve, version, or delete managed prompts in Agent Platform. Don't use for model training, model deployment to endpoints, or managing non-Agent Platform prompts.",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Prompt"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-prompt-management",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-prompt-management",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:7e043d5b0a090f555ea2b0b6f8661014675d525befe05613f75a6ac7c3e56bca",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-rag-engine-management",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-rag-engine-management",
+      "version": "1.0.0",
+      "description": "Manage and query Agent Platform RAG Engine Corpora and retrieve grounded contexts using the Google GenAI SDK. Use when listing RAG corpora or files, inspecting a corpus, retrieving contexts, or generating content grounded in a RAG corpus. Do not use for standard database queries (use SQL/Spanner skills), Google Workspace RAG, or other RAG products like gRAG.",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Rag"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-rag-engine-management",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-rag-engine-management",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:d4b65eb1cf4d2fba94081adef0135c07e59be3c7523bb4721199991caf828d4d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-skill-registry",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-skill-registry",
+      "version": "1.0.0",
+      "description": "Interact with the Gemini Enterprise Agent Platform Skill Registry to create and search for available skills. Use this skill to enable agents to register functionality or discover new capabilities.\n",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Skill"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-skill-registry",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-skill-registry",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:dca580db36c84376c597422f12de59c20ae9bbee7bd08babc30462eb288c6fd8",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-tuning",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-tuning",
+      "version": "1.0.0",
+      "description": "Agent Platform Model Tuning. Use when you need to fine-tune open models or Gemini models using Agent Platform infrastructure. Don't use for model training outside Agent Platform, model deployment to endpoints (use `agent-platform-deploy`), or managing serving endpoints (use `agent-platform-endpoint-management`).",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Tuning"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-tuning",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-tuning",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:9d4218c9969b9185ed4dfea971edeb32105a636f51752f039c772dfade5e9fb3",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "agent-platform-tuning-management",
+      "type": "skill",
+      "category": "mlops",
+      "name": "agent-platform-tuning-management",
+      "version": "1.0.0",
+      "description": "Manages GenAI tuning jobs in Agent Platform. Use this to list, get, or cancel ongoing model tuning jobs. Don't use for fine-tuning models (use `agent-platform-tuning`), deploying models to endpoints (use `agent-platform-deploy`), or managing serving endpoints (use `agent-platform-endpoint-management`).",
+      "tags": [
+        "Google Cloud",
+        "Agent",
+        "Platform",
+        "Tuning"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-tuning-management",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/agent-platform-tuning-management",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:765fd7bed72fcc3ab8a056f8f46aa26dae124568faeea54e9f1dd8cf8daebb0f",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3691,6 +5997,34 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:84df7e9a79f71696003d81728777f11c5c4068a0abdd0f9c904f8ab20a772f8c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "detection-engineering-coverage-evaluation",
+      "type": "skill",
+      "category": "mlops",
+      "name": "detection-engineering-coverage-evaluation",
+      "version": "1.0.0",
+      "description": "Automates the end-to-end detection engineering workflow in Google SecOps using MCP tools. Use when fetching threat intelligence from blogs, generating Threat Detection Opportunities (TDOs), simulating attacker behavior with synthetic UDM events, evaluating rule coverage, and generating new YARA-L 2.0 rules to close coverage gaps. Don't use when asked to perform threat hunting actions, and SOC investigative actions.",
+      "tags": [
+        "Google Cloud",
+        "Detection",
+        "Engineering",
+        "Coverage"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/detection_engineering_coverage_evaluation",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/detection-engineering-coverage-evaluation",
+      "icon": null,
+      "iconify": "lucide:shield",
+      "checksum": "sha256:c033fb9227c86b7e4cb72e5dfa4949cbf49ad65892d256cca083fe5783e27532",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -3758,6 +6092,143 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:5ad064e25bdb85d402595c6a408afa0eac21a65ab7c2a228fc7a324dae3b78bf",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gemini-agents-api",
+      "type": "skill",
+      "category": "mlops",
+      "name": "gemini-agents-api",
+      "version": "1.0.0",
+      "description": "Manages custom Agent resources on Gemini Enterprise Agent Platform. Use when the user wants to programmatically create, configure, list, update, or delete stateful, server-managed Agent resources (including mounting files, skills, and tools) before executing conversations.",
+      "tags": [
+        "Google Cloud",
+        "Gemini",
+        "Agents",
+        "Api"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gemini-agents-api",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/gemini-agents-api",
+      "icon": null,
+      "iconify": "lucide:sparkles",
+      "checksum": "sha256:8e5694bf38040367383b5597b7d4b9fd84b876146d52100d3b16f6523b9a3e6b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gemini-api",
+      "type": "skill",
+      "category": "mlops",
+      "name": "gemini-api",
+      "version": "1.0.0",
+      "description": "Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI, Google Cloud, or Agent Platform. Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like multimodal inputs, tools, media generation, caching, batch prediction, and Live API.",
+      "tags": [
+        "Google Cloud",
+        "Gemini",
+        "Api"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gemini-api",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/gemini-api",
+      "icon": null,
+      "iconify": "lucide:sparkles",
+      "checksum": "sha256:ab162a8b876f15ccf9ad6773e29c30ead1ec1f5fd01886cbbc7f2d176e4e6ee5",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gemini-interactions-api",
+      "type": "skill",
+      "category": "mlops",
+      "name": "gemini-interactions-api",
+      "version": "1.0.0",
+      "description": "Guides the usage of Gemini Interactions API on Gemini Enterprise Agent Platform. Use when the user wants to use the stateful, server-managed Interactions API for multi-turn conversations, background execution, streaming, structured output, and function calling on the Agent Platform.",
+      "tags": [
+        "Google Cloud",
+        "Gemini",
+        "Interactions",
+        "Api"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gemini-interactions-api",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/gemini-interactions-api",
+      "icon": null,
+      "iconify": "lucide:sparkles",
+      "checksum": "sha256:97523d3ad5e61177c3b2e96e7018dae19edcae1b6033105ae63ec797a41ff1b5",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-inference",
+      "type": "skill",
+      "category": "mlops",
+      "name": "gke-inference",
+      "version": "1.0.0",
+      "description": "Deploys and optimizes AI/ML inference workloads on GKE, using GPUs, TPUs, and model servers. Use when deploying GKE inference servers, configuring GKE GPU resources for inference, or deploying LLMs on GKE. Don't use for generic batch jobs or HPC task queues (use gke-batch-hpc instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Inference"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-inference",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/gke-inference",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:2d0a1a25bedfbdac38687c5a3f97b1aa34ed633c6d07a4f72749f348d3943712",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "gke-storage",
+      "type": "skill",
+      "category": "mlops",
+      "name": "gke-storage",
+      "version": "1.0.0",
+      "description": "Manages GKE storage, including PVCs, PersistentVolumes, Filestore, and GCS FUSE. Use when configuring GKE storage, creating PVCs, or setting up GCS FUSE on GKE. Don't use for database administration or replication strategies outside volume provisioning context.",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Storage"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-storage",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/mlops/gke-storage",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:9a5f3d37435a30fb5f4a63881caebf15383bfd2965e7ed856e7f88e3590db09b",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4053,6 +6524,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "define-goal",
+      "type": "skill",
+      "category": "productivity",
+      "name": "define-goal",
+      "version": "1.0.0",
+      "description": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this skill for goal creation and goal refinement only; it does not manage durable snapshots, decision logs, or long-running execution artifacts.",
+      "tags": [
+        "Goals",
+        "Planning",
+        "Scoping"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/define-goal",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/define-goal",
+      "icon": null,
+      "iconify": "lucide:target",
+      "checksum": "sha256:3ef72379d3b03d8fbbaf16541723c47f5a0d0a658ac26f655c13eafd31ffcb2a",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "doc-coauthoring",
       "type": "skill",
       "category": "productivity",
@@ -4249,6 +6747,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "idea-refine",
+      "type": "skill",
+      "category": "productivity",
+      "name": "idea-refine",
+      "version": "1.0.0",
+      "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine this idea\", or \"stress-test my plan\".",
+      "tags": [
+        "Ideas",
+        "Refinement",
+        "Planning"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/idea-refine",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/idea-refine",
+      "icon": null,
+      "iconify": "lucide:lightbulb",
+      "checksum": "sha256:4fb9fa04e8011ef84f755debc239539ad0113feac44e93692ae027121a7e1044",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "internal-comms",
       "type": "skill",
       "category": "productivity",
@@ -4272,6 +6797,33 @@
       "icon": null,
       "iconify": "lucide:megaphone",
       "checksum": "sha256:f9c362168ba4a9e38c47ac421cf566f09709ec42a64aa3398cca3a0825bfaeac",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "interview-me",
+      "type": "skill",
+      "category": "productivity",
+      "name": "interview-me",
+      "version": "1.0.0",
+      "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.",
+      "tags": [
+        "Interview",
+        "Requirements",
+        "Discovery"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/interview-me",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/interview-me",
+      "icon": null,
+      "iconify": "lucide:message-circle",
+      "checksum": "sha256:d00efa33b7a38e84e70a953d51670a2f3f2ba001c271dfa04b4dcfd85c0d1409",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4429,6 +6981,87 @@
       "acceptsFunding": false
     },
     {
+      "id": "notion-knowledge-capture",
+      "type": "skill",
+      "category": "productivity",
+      "name": "notion-knowledge-capture",
+      "version": "1.0.0",
+      "description": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
+      "tags": [
+        "Notion",
+        "Knowledge",
+        "Documentation"
+      ],
+      "author": "openai",
+      "license": "See LICENSE.txt",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/notion-knowledge-capture",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/notion-knowledge-capture",
+      "icon": null,
+      "iconify": "lucide:brain",
+      "checksum": "sha256:c72de548327c250217c950ba6efb411056b2f1dbd82356760ec5ad569bcc5a88",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "notion-meeting-intelligence",
+      "type": "skill",
+      "category": "productivity",
+      "name": "notion-meeting-intelligence",
+      "version": "1.0.0",
+      "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
+      "tags": [
+        "Notion",
+        "Meetings",
+        "Agendas"
+      ],
+      "author": "openai",
+      "license": "See LICENSE.txt",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/notion-meeting-intelligence",
+      "icon": null,
+      "iconify": "lucide:calendar-clock",
+      "checksum": "sha256:b75c6b967a689f05d439ef1baa7af6d2cfa3c236e01db3e589dd6678ea474140",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "notion-spec-to-implementation",
+      "type": "skill",
+      "category": "productivity",
+      "name": "notion-spec-to-implementation",
+      "version": "1.0.0",
+      "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+      "tags": [
+        "Notion",
+        "Specs",
+        "Implementation"
+      ],
+      "author": "openai",
+      "license": "See LICENSE.txt",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/notion-spec-to-implementation",
+      "icon": null,
+      "iconify": "lucide:file-cog",
+      "checksum": "sha256:aa508d410691efbf05a0c5cb8d2c2488cd3841b3b707daedbcdda4ae5490f65f",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "ocr-and-documents",
       "type": "skill",
       "category": "productivity",
@@ -4459,6 +7092,60 @@
       "acceptsFunding": false
     },
     {
+      "id": "openai-linear",
+      "type": "skill",
+      "category": "productivity",
+      "name": "openai-linear",
+      "version": "1.0.0",
+      "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
+      "tags": [
+        "Linear",
+        "Issues",
+        "Project Management"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/linear",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/openai-linear",
+      "icon": null,
+      "iconify": "lucide:list-todo",
+      "checksum": "sha256:b99327eb6008837eabc3d73bf5eca59d5c1520d66f43a13b89069dba1eda4593",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "openai-pdf",
+      "type": "skill",
+      "category": "productivity",
+      "name": "openai-pdf",
+      "version": "1.0.0",
+      "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.",
+      "tags": [
+        "PDF",
+        "Documents",
+        "Rendering"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/pdf",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/openai-pdf",
+      "icon": null,
+      "iconify": "lucide:file-down",
+      "checksum": "sha256:cbef5142a400e014a260a77da09d000636c78c8efa574c6bb59e61c090c93964",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "pdf",
       "type": "skill",
       "category": "productivity",
@@ -4482,6 +7169,33 @@
       "icon": null,
       "iconify": "lucide:file-type",
       "checksum": "sha256:a50f131d9f5800e1655cca3310176ae7fd26db2858af42010d47c29f9b2db044",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "planning-and-task-breakdown",
+      "type": "skill",
+      "category": "productivity",
+      "name": "planning-and-task-breakdown",
+      "version": "1.0.0",
+      "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+      "tags": [
+        "Planning",
+        "Tasks",
+        "Breakdown"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/planning-and-task-breakdown",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/productivity/planning-and-task-breakdown",
+      "icon": null,
+      "iconify": "lucide:list-tree",
+      "checksum": "sha256:0555f4472a66156c1a12680bfeffa728c18f9bb103dc7ed295a5abcf21c1e9ef",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4730,6 +7444,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "gke-security",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "gke-security",
+      "version": "1.0.0",
+      "description": "Plans, configures, and hardens Google Kubernetes Engine (GKE) security. Covers Workload Identity Federation, Secret Manager integration, RBAC hardening, Binary Authorization, Network Policies (Dataplane V2), Pod Security Standards, and IAM roles. Use when securing GKE clusters, setting up Workload Identity, hardening RBAC configurations, or configuring GKE secrets. Don't use for general network routing configuration (use gke-networking instead).",
+      "tags": [
+        "Google Cloud",
+        "Gke",
+        "Security"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/gke-security",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/gke-security",
+      "icon": null,
+      "iconify": "lucide:container",
+      "checksum": "sha256:5d99f42806cd500a46d0d808facd0dbbd737aaa7d7857f3f03221eae2419f2af",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "godmode",
       "type": "skill",
       "category": "red-teaming",
@@ -4759,6 +7500,282 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:0b9eead85b8cf1bafac41f4c175daad903fa72592097e87fb289fa799080cd6d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-cloud-waf-cost-optimization",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "google-cloud-waf-cost-optimization",
+      "version": "1.0.0",
+      "description": "Generates cost optimization guidance for Google Cloud workloads based on the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify cost requirements and constraints, and provide actionable recommendations for build, deploy, and manage the workload cost-efficiently in Google Cloud.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Waf",
+        "Cost"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-cost-optimization",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/google-cloud-waf-cost-optimization",
+      "icon": null,
+      "iconify": "lucide:shield",
+      "checksum": "sha256:82e5d296520512d49a07c1f15b392d0e661a6e87b5d2a3b636a78f74e6e782a3",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-cloud-waf-operational-excellence",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "google-cloud-waf-operational-excellence",
+      "version": "1.0.0",
+      "description": "Generates operations-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Operational Excellence pillar of the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify operational requirements, and provide actionable recommendations for deployment, monitoring, and incident management.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Waf",
+        "Operational"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-operational-excellence",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/google-cloud-waf-operational-excellence",
+      "icon": null,
+      "iconify": "lucide:shield",
+      "checksum": "sha256:01dcd862fad84e9f7e093a2d3c0a8802b2d51d011a7c2f2769def47d2a1f7f89",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-cloud-waf-performance-optimization",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "google-cloud-waf-performance-optimization",
+      "version": "1.0.0",
+      "description": "Generates performance-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Performance Optimization pillar of the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify performance requirements, and provide actionable recommendations for resource allocation, modular design, and elasticity.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Waf",
+        "Performance"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-performance-optimization",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/google-cloud-waf-performance-optimization",
+      "icon": null,
+      "iconify": "lucide:shield",
+      "checksum": "sha256:7892f0621de20e4d17f37f2938a7220b2f9f3d3d3c2c0d077163df5146127c74",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-cloud-waf-reliability",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "google-cloud-waf-reliability",
+      "version": "1.0.0",
+      "description": "Generates reliability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework. Use this skill to evaluate a workload, identify reliability requirements, and provide actionable recommendations for build, deploy, and manage the workload reliably in Google Cloud.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Waf",
+        "Reliability"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-reliability",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/google-cloud-waf-reliability",
+      "icon": null,
+      "iconify": "lucide:shield",
+      "checksum": "sha256:b94f7a5f76df0554fc962c08d01d10ac5282a0f0b7494f06a7ad98e75e2cbe31",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-cloud-waf-security",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "google-cloud-waf-security",
+      "version": "1.0.0",
+      "description": "Generates security-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify security requirements, and provide actionable recommendations for IAM, network security, data protection, and operational security.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Waf",
+        "Security"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-security",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/google-cloud-waf-security",
+      "icon": null,
+      "iconify": "lucide:shield",
+      "checksum": "sha256:d599f966fbb2a993085263ae48065b2985c5698df301afa1d6d219324e528c39",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "google-cloud-waf-sustainability",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "google-cloud-waf-sustainability",
+      "version": "1.0.0",
+      "description": "Generates sustainability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify environmental impact requirements, and provide actionable recommendations to build, deploy, and manage the workload sustainably in Google Cloud.",
+      "tags": [
+        "Google Cloud",
+        "Cloud",
+        "Waf",
+        "Sustainability"
+      ],
+      "author": "google",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-sustainability",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/google-cloud-waf-sustainability",
+      "icon": null,
+      "iconify": "lucide:shield",
+      "checksum": "sha256:b722b3dbbbb493ee44acba7176aba7e0759525361adc924a5125b02bed6c630c",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "security-and-hardening",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "security-and-hardening",
+      "version": "1.0.0",
+      "description": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.",
+      "tags": [
+        "Security",
+        "Hardening",
+        "Defense"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/security-and-hardening",
+      "icon": null,
+      "iconify": "lucide:lock",
+      "checksum": "sha256:9811fc2ac98bbd7c8e75a4fe472695b0a85d396f7d5daf37d3ed05a34b876488",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "security-best-practices",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "security-best-practices",
+      "version": "1.0.0",
+      "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
+      "tags": [
+        "Security",
+        "Best Practices",
+        "Web"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/security-best-practices",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/security-best-practices",
+      "icon": null,
+      "iconify": "lucide:shield-check",
+      "checksum": "sha256:9ccac1a7ae112b7274dad39caaf2fb42d8162ea29a5a4474d1e4cab1260b42c2",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "security-ownership-map",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "security-ownership-map",
+      "version": "1.0.0",
+      "description": "Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded in git history (for example: orphaned sensitive code, security maintainers, CODEOWNERS reality checks for risk, sensitive hotspots, or ownership clusters). Do not trigger for general maintainer lists or non-security ownership questions.",
+      "tags": [
+        "Security",
+        "Ownership",
+        "Codebase"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/security-ownership-map",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/security-ownership-map",
+      "icon": null,
+      "iconify": "lucide:map",
+      "checksum": "sha256:96838e3447e97a47256c99efd0875c9055913e79f8a886d521b1c30ac137d2fc",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "security-threat-model",
+      "type": "skill",
+      "category": "red-teaming",
+      "name": "security-threat-model",
+      "version": "1.0.0",
+      "description": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
+      "tags": [
+        "Security",
+        "Threat Model",
+        "Analysis"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/security-threat-model",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/red-teaming/security-threat-model",
+      "icon": null,
+      "iconify": "lucide:shield-alert",
+      "checksum": "sha256:ef0738e18123ceb1d46eaacb2bf9fa46ed9ba57034771772207950263472b152",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4847,6 +7864,33 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:567154ae818247eade9ef07347384820fdb5a92743df8de57e5d472a9075bbd6",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "notion-research-documentation",
+      "type": "skill",
+      "category": "research",
+      "name": "notion-research-documentation",
+      "version": "1.0.0",
+      "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
+      "tags": [
+        "Notion",
+        "Research",
+        "Briefs"
+      ],
+      "author": "openai",
+      "license": "See LICENSE.txt",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/notion-research-documentation",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/research/notion-research-documentation",
+      "icon": null,
+      "iconify": "lucide:book-marked",
+      "checksum": "sha256:6da8ef80f4fa4a966f4d41057451ada7483abc11e048118865cfc10022e9e326",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -4968,6 +8012,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "api-and-interface-design",
+      "type": "skill",
+      "category": "software-development",
+      "name": "api-and-interface-design",
+      "version": "1.0.0",
+      "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+      "tags": [
+        "API",
+        "Interface Design",
+        "Architecture"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/api-and-interface-design",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/api-and-interface-design",
+      "icon": null,
+      "iconify": "lucide:blocks",
+      "checksum": "sha256:94ba9773488c7c9a7400b4a66eb1b645d396b1bf32aced67add88fc7b9bfe0fc",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "ask-matt",
       "type": "skill",
       "category": "software-development",
@@ -4991,6 +8062,115 @@
       "icon": null,
       "iconify": "lucide:messages-square",
       "checksum": "sha256:cf8ac3920cc396a3252104965f6f4fb0690a21dff3bb9e6a6141d85bff4116db",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "aspnet-core",
+      "type": "skill",
+      "category": "software-development",
+      "name": "aspnet-core",
+      "version": "1.0.0",
+      "description": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, middleware, dependency injection, configuration, authentication, authorization, testing, performance, deployment, or ASP.NET Core upgrades.",
+      "tags": [
+        "ASP.NET",
+        ".NET",
+        "Backend",
+        "C#"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/aspnet-core",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/aspnet-core",
+      "icon": null,
+      "iconify": "lucide:code",
+      "checksum": "sha256:d42caa0027f1a465dd31e1cf12c199fb5c7dd33b2b8ea792b5bd4b4f31572b66",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "brainstorming",
+      "type": "skill",
+      "category": "software-development",
+      "name": "brainstorming",
+      "version": "1.0.0",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "tags": [
+        "Brainstorming",
+        "Ideation",
+        "Planning"
+      ],
+      "author": "obra",
+      "license": "MIT",
+      "source": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/brainstorming",
+      "icon": null,
+      "iconify": "lucide:lightbulb",
+      "checksum": "sha256:b36603298f0f0c0e1920e965161b1fb66cacb8274aa4223a9caf49f34ef4eeb9",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "browser-testing-with-devtools",
+      "type": "skill",
+      "category": "software-development",
+      "name": "browser-testing-with-devtools",
+      "version": "1.0.0",
+      "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+      "tags": [
+        "Browser",
+        "Testing",
+        "DevTools"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/browser-testing-with-devtools",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/browser-testing-with-devtools",
+      "icon": null,
+      "iconify": "lucide:monitor",
+      "checksum": "sha256:80c154914df47f0fd46e73c9f4d857412f89be0ddf4d670def1a717751ad4b4b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "chatgpt-apps",
+      "type": "skill",
+      "category": "software-development",
+      "name": "chatgpt-apps",
+      "version": "1.0.0",
+      "description": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compatibility APIs, apply Apps SDK metadata or CSP or domain settings, or produce a docs-aligned project scaffold. Prefer a docs-first workflow by invoking the openai-docs skill or OpenAI developer docs MCP tools before generating code.",
+      "tags": [
+        "ChatGPT",
+        "Apps SDK",
+        "OpenAI"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/chatgpt-apps",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/chatgpt-apps",
+      "icon": null,
+      "iconify": "lucide:bot",
+      "checksum": "sha256:e2a664e04565ddd67da0f5bc760f1103df037997502c0c4ac7ba9cc002086a37",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -5024,6 +8204,87 @@
       "acceptsFunding": false
     },
     {
+      "id": "cli-creator",
+      "type": "skill",
+      "category": "software-development",
+      "name": "cli-creator",
+      "version": "1.0.0",
+      "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
+      "tags": [
+        "CLI",
+        "Tooling",
+        "Scaffolding"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/cli-creator",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/cli-creator",
+      "icon": null,
+      "iconify": "lucide:terminal",
+      "checksum": "sha256:627b8d66fc4b674f9b9a5de76c86b7c16a08d6d3181ec387ae3258563b8dbff2",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "code-review-and-quality",
+      "type": "skill",
+      "category": "software-development",
+      "name": "code-review-and-quality",
+      "version": "1.0.0",
+      "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
+      "tags": [
+        "Code Review",
+        "Quality",
+        "Standards"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/code-review-and-quality",
+      "icon": null,
+      "iconify": "lucide:file-check",
+      "checksum": "sha256:a4fbf610ef7f5e70566a408d3911e3b813b4a8ca1030a92a690ee59344fbaec4",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "code-simplification",
+      "type": "skill",
+      "category": "software-development",
+      "name": "code-simplification",
+      "version": "1.0.0",
+      "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
+      "tags": [
+        "Refactoring",
+        "Simplification",
+        "Cleanup"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/code-simplification",
+      "icon": null,
+      "iconify": "lucide:scissors",
+      "checksum": "sha256:11639096c448aa69b5da3ef1c0ba7bf9d1e5891982f023473bfb1fd92cf38cf3",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "codebase-design",
       "type": "skill",
       "category": "software-development",
@@ -5047,6 +8308,60 @@
       "icon": null,
       "iconify": "lucide:pencil-ruler",
       "checksum": "sha256:cac878f80247fe34a11b0bed10ee6e3d0f880aa793cd49e9a05b32c482f03097",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "context-engineering",
+      "type": "skill",
+      "category": "software-development",
+      "name": "context-engineering",
+      "version": "1.0.0",
+      "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+      "tags": [
+        "Context",
+        "Prompting",
+        "Agents"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/context-engineering",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/context-engineering",
+      "icon": null,
+      "iconify": "lucide:brackets",
+      "checksum": "sha256:fa3d1775a11df2e4a36363edd3d44451c1995522d760a017e1f054d433929f68",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "debugging-and-error-recovery",
+      "type": "skill",
+      "category": "software-development",
+      "name": "debugging-and-error-recovery",
+      "version": "1.0.0",
+      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing.",
+      "tags": [
+        "Debugging",
+        "Errors",
+        "Recovery"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/debugging-and-error-recovery",
+      "icon": null,
+      "iconify": "lucide:bug-off",
+      "checksum": "sha256:2b0012ebf5da65ebd362fd3cc7c6624b40adc940d6a600f0acf9cc7e06c595df",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -5081,6 +8396,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "deprecation-and-migration",
+      "type": "skill",
+      "category": "software-development",
+      "name": "deprecation-and-migration",
+      "version": "1.0.0",
+      "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.",
+      "tags": [
+        "Deprecation",
+        "Migration",
+        "Refactoring"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/deprecation-and-migration",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/deprecation-and-migration",
+      "icon": null,
+      "iconify": "lucide:archive",
+      "checksum": "sha256:b26aa1a21b8d2e41d051f0a3c8178adc29d388506b04b3fdea6a3af0acfad206",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "diagnosing-bugs",
       "type": "skill",
       "category": "software-development",
@@ -5108,6 +8450,60 @@
       "acceptsFunding": false
     },
     {
+      "id": "dispatching-parallel-agents",
+      "type": "skill",
+      "category": "software-development",
+      "name": "dispatching-parallel-agents",
+      "version": "1.0.0",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "tags": [
+        "Agents",
+        "Parallel",
+        "Orchestration"
+      ],
+      "author": "obra",
+      "license": "MIT",
+      "source": "https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/dispatching-parallel-agents",
+      "icon": null,
+      "iconify": "lucide:split",
+      "checksum": "sha256:821ae040ea1cb8a79a2e3f1a2bd5981e34d51e3e7df7c03d794639fa04b5c686",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "documentation-and-adrs",
+      "type": "skill",
+      "category": "software-development",
+      "name": "documentation-and-adrs",
+      "version": "1.0.0",
+      "description": "Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+      "tags": [
+        "Documentation",
+        "ADRs",
+        "Decisions"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/documentation-and-adrs",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/documentation-and-adrs",
+      "icon": null,
+      "iconify": "lucide:book-text",
+      "checksum": "sha256:ded313949c8bb340d2065414cda9d665997dc7c8546bfb3268f05092ec3c599e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "domain-modeling",
       "type": "skill",
       "category": "software-development",
@@ -5131,6 +8527,114 @@
       "icon": null,
       "iconify": "lucide:boxes",
       "checksum": "sha256:6c4b11d62f310b25092613c01a6780904b87f89bff5eef6327f559ebea6512a9",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "doubt-driven-development",
+      "type": "skill",
+      "category": "software-development",
+      "name": "doubt-driven-development",
+      "version": "1.0.0",
+      "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production, security-sensitive logic, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
+      "tags": [
+        "Methodology",
+        "Assumptions",
+        "Verification"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/doubt-driven-development",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/doubt-driven-development",
+      "icon": null,
+      "iconify": "lucide:circle-help",
+      "checksum": "sha256:1632df69923a9a90efac98fecd25bbbd648f0335eb958c85089e6afa73bcd9e5",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "executing-plans",
+      "type": "skill",
+      "category": "software-development",
+      "name": "executing-plans",
+      "version": "1.0.0",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "tags": [
+        "Plans",
+        "Execution",
+        "Workflow"
+      ],
+      "author": "obra",
+      "license": "MIT",
+      "source": "https://github.com/obra/superpowers/tree/main/skills/executing-plans",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/executing-plans",
+      "icon": null,
+      "iconify": "lucide:circle-play",
+      "checksum": "sha256:406416e3bd826150f91f11ff7b0bd4a77407f1f918068172d825a556a426e011",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "finishing-a-development-branch",
+      "type": "skill",
+      "category": "software-development",
+      "name": "finishing-a-development-branch",
+      "version": "1.0.0",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "tags": [
+        "Git",
+        "Branch",
+        "Workflow"
+      ],
+      "author": "obra",
+      "license": "MIT",
+      "source": "https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/finishing-a-development-branch",
+      "icon": null,
+      "iconify": "lucide:git-branch",
+      "checksum": "sha256:b1933e191fca3469a283c0b6e933f2541d7baeb69f935f622230724dbb90adb6",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "git-workflow-and-versioning",
+      "type": "skill",
+      "category": "software-development",
+      "name": "git-workflow-and-versioning",
+      "version": "1.0.0",
+      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams.",
+      "tags": [
+        "Git",
+        "Workflow",
+        "Versioning"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/git-workflow-and-versioning",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/git-workflow-and-versioning",
+      "icon": null,
+      "iconify": "lucide:git-graph",
+      "checksum": "sha256:56ba3bd224e11dd15a314c7b932812b881dc2191e70b7c172c66f0652dd97380",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -5270,6 +8774,62 @@
       "acceptsFunding": false
     },
     {
+      "id": "incremental-implementation",
+      "type": "skill",
+      "category": "software-development",
+      "name": "incremental-implementation",
+      "version": "1.0.0",
+      "description": "Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.",
+      "tags": [
+        "Implementation",
+        "Incremental",
+        "Workflow"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/incremental-implementation",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/incremental-implementation",
+      "icon": null,
+      "iconify": "lucide:list-plus",
+      "checksum": "sha256:89785c435af9a8f8bfa26b87f6600e30b5969458dbb5456bb77348f0c812da9d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "karpathy-guidelines",
+      "type": "skill",
+      "category": "software-development",
+      "name": "karpathy-guidelines",
+      "version": "1.0.0",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+      "tags": [
+        "Karpathy",
+        "Guidelines",
+        "Coding",
+        "LLM",
+        "Best Practices"
+      ],
+      "author": "multica-ai",
+      "license": "MIT",
+      "source": "https://github.com/multica-ai/andrej-karpathy-skills/tree/main/skills/karpathy-guidelines",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/karpathy-guidelines",
+      "icon": null,
+      "iconify": "lucide:scroll-text",
+      "checksum": "sha256:8be8af73228cc9be72ac1da834eb3ac451327f14ecf57ed8ec7c33f553e683f2",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "mcp-builder",
       "type": "skill",
       "category": "software-development",
@@ -5294,6 +8854,33 @@
       "icon": null,
       "iconify": "lucide:blocks",
       "checksum": "sha256:4f056e0e7eac744ead8161cb03ed7b10f61ba5094c9fabed51adf147a420156d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "migrate-to-codex",
+      "type": "skill",
+      "category": "software-development",
+      "name": "migrate-to-codex",
+      "version": "1.0.0",
+      "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
+      "tags": [
+        "Codex",
+        "Migration",
+        "Tooling"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/migrate-to-codex",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/migrate-to-codex",
+      "icon": null,
+      "iconify": "lucide:import",
+      "checksum": "sha256:fd119d3ebfea6ddf05b61a88126fc93637d7e3253dcdcf5f6f27580b2ecb92f6",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -5355,6 +8942,60 @@
       "acceptsFunding": false
     },
     {
+      "id": "openai-docs",
+      "type": "skill",
+      "category": "software-development",
+      "name": "openai-docs",
+      "version": "1.0.0",
+      "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
+      "tags": [
+        "OpenAI",
+        "Docs",
+        "Reference"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/openai-docs",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/openai-docs",
+      "icon": null,
+      "iconify": "lucide:book-open-text",
+      "checksum": "sha256:e26058d85d2b11ed8db73ba9581b60e7ba9e5a54453682e9ee80ffab8427b03e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "performance-optimization",
+      "type": "skill",
+      "category": "software-development",
+      "name": "performance-optimization",
+      "version": "1.0.0",
+      "description": "Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing.",
+      "tags": [
+        "Performance",
+        "Optimization",
+        "Profiling"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/performance-optimization",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/performance-optimization",
+      "icon": null,
+      "iconify": "lucide:gauge",
+      "checksum": "sha256:e2c3ef63ce7aedd57af32085b73dcd4983622d9565afbfc87ecdaac97e910e30",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "plan",
       "type": "skill",
       "category": "software-development",
@@ -5379,6 +9020,60 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:3e6d77f86b917a452fdd6d14ac43e38c646e7986385f037d7eb20cc73359e338",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "playwright",
+      "type": "skill",
+      "category": "software-development",
+      "name": "playwright",
+      "version": "1.0.0",
+      "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
+      "tags": [
+        "Playwright",
+        "Browser",
+        "Automation"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/playwright",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/playwright",
+      "icon": null,
+      "iconify": "lucide:drama",
+      "checksum": "sha256:64c30d74b5f15458844396ca51e68c93efde662a2bf1cc78a294f79d10b9d954",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "playwright-interactive",
+      "type": "skill",
+      "category": "software-development",
+      "name": "playwright-interactive",
+      "version": "1.0.0",
+      "description": "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
+      "tags": [
+        "Playwright",
+        "Interactive",
+        "Testing"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/playwright-interactive",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/playwright-interactive",
+      "icon": null,
+      "iconify": "lucide:mouse-pointer-click",
+      "checksum": "sha256:64bada1ff40faf675f264b8cb84e989908e1faeb38fee578f11682ef6cfacca8",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -5436,6 +9131,32 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:9dd995f21508de9bbecc2caf21e244a56e0b36a34e6b103926ce1414c0fa59a5",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "receiving-code-review",
+      "type": "skill",
+      "category": "software-development",
+      "name": "receiving-code-review",
+      "version": "1.0.0",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "tags": [
+        "Code Review",
+        "Feedback"
+      ],
+      "author": "obra",
+      "license": "MIT",
+      "source": "https://github.com/obra/superpowers/tree/main/skills/receiving-code-review",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/receiving-code-review",
+      "icon": null,
+      "iconify": "lucide:inbox",
+      "checksum": "sha256:b462fdd2d9f3da8a79596db3cad6b3db55ace7d918316ac1941cce06ca903b2d",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -5551,6 +9272,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "screenshot",
+      "type": "skill",
+      "category": "software-development",
+      "name": "screenshot",
+      "version": "1.0.0",
+      "description": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
+      "tags": [
+        "Screenshot",
+        "Capture",
+        "macOS"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/screenshot",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/screenshot",
+      "icon": null,
+      "iconify": "lucide:camera",
+      "checksum": "sha256:b947a7cb82384dc06fd99c0cb8c64fb53ef403261b00f33c148dcdd1b899bc2b",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "setup-matt-pocock-skills",
       "type": "skill",
       "category": "software-development",
@@ -5574,6 +9322,33 @@
       "icon": null,
       "iconify": "lucide:settings",
       "checksum": "sha256:3c67bbdfb8a4bdbae9803944187c8bfaf8b52bb3366bde749c7188c0a3abc61d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "shipping-and-launch",
+      "type": "skill",
+      "category": "software-development",
+      "name": "shipping-and-launch",
+      "version": "1.0.0",
+      "description": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+      "tags": [
+        "Shipping",
+        "Launch",
+        "Release"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/shipping-and-launch",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/shipping-and-launch",
+      "icon": null,
+      "iconify": "lucide:ship",
+      "checksum": "sha256:08c6d973298dd90753a43641d0ee9e7f966773e306346e38051e84a7c872cf92",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -5602,6 +9377,60 @@
       "icon": null,
       "iconify": "lucide:wand-sparkles",
       "checksum": "sha256:57e75e60b1cc438e3e858119a9a4a8ca373594e80a467b071c061e9a37fefce7",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "source-driven-development",
+      "type": "skill",
+      "category": "software-development",
+      "name": "source-driven-development",
+      "version": "1.0.0",
+      "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+      "tags": [
+        "Methodology",
+        "Source",
+        "Development"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/source-driven-development",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/source-driven-development",
+      "icon": null,
+      "iconify": "lucide:folder-git-2",
+      "checksum": "sha256:ed3c32c0157d24ec732514c51398143c1892bd52175840c0bdf87333f04c5241",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "spec-driven-development",
+      "type": "skill",
+      "category": "software-development",
+      "name": "spec-driven-development",
+      "version": "1.0.0",
+      "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.",
+      "tags": [
+        "Spec",
+        "Methodology",
+        "Development"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/spec-driven-development",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/spec-driven-development",
+      "icon": null,
+      "iconify": "lucide:clipboard-check",
+      "checksum": "sha256:d76f7d7aade3c9a44eb06409aac9f01898deea02a2b2b80f1583319d06df8962",
       "compatibility": null,
       "acceptsFunding": false
     },
@@ -5835,6 +9664,113 @@
       "acceptsFunding": false
     },
     {
+      "id": "using-agent-skills",
+      "type": "skill",
+      "category": "software-development",
+      "name": "using-agent-skills",
+      "version": "1.0.0",
+      "description": "Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are discovered and invoked.",
+      "tags": [
+        "Skills",
+        "Agents",
+        "Meta"
+      ],
+      "author": "addyosmani",
+      "license": "MIT",
+      "source": "https://github.com/addyosmani/agent-skills/tree/main/skills/using-agent-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/using-agent-skills",
+      "icon": null,
+      "iconify": "lucide:puzzle",
+      "checksum": "sha256:c04f9729645d9cd0be6f86245637556753bc4a753642f1d0aa1463070582a756",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "using-git-worktrees",
+      "type": "skill",
+      "category": "software-development",
+      "name": "using-git-worktrees",
+      "version": "1.0.0",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "tags": [
+        "Git",
+        "Worktrees"
+      ],
+      "author": "obra",
+      "license": "MIT",
+      "source": "https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/using-git-worktrees",
+      "icon": null,
+      "iconify": "lucide:git-fork",
+      "checksum": "sha256:00437f830cfac6ff670fe5a43298019adb2d7ed2a7f5b3b1ca0a73e0ece7e813",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "using-superpowers",
+      "type": "skill",
+      "category": "software-development",
+      "name": "using-superpowers",
+      "version": "1.0.0",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "tags": [
+        "Superpowers",
+        "Skills",
+        "Meta"
+      ],
+      "author": "obra",
+      "license": "MIT",
+      "source": "https://github.com/obra/superpowers/tree/main/skills/using-superpowers",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/using-superpowers",
+      "icon": null,
+      "iconify": "lucide:zap",
+      "checksum": "sha256:bb9dce2b744ec77766b4524ae36b2b9a4c829c4a5d58130445af3673be9e994e",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "verification-before-completion",
+      "type": "skill",
+      "category": "software-development",
+      "name": "verification-before-completion",
+      "version": "1.0.0",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "tags": [
+        "Verification",
+        "QA",
+        "Completion"
+      ],
+      "author": "obra",
+      "license": "MIT",
+      "source": "https://github.com/obra/superpowers/tree/main/skills/verification-before-completion",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/verification-before-completion",
+      "icon": null,
+      "iconify": "lucide:badge-check",
+      "checksum": "sha256:aac28ec199ac06c3e3b3afbe83741e1d19d345959d1f4fa0c7f85a6a6a67ce3d",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "web-artifacts-builder",
       "type": "skill",
       "category": "software-development",
@@ -5891,6 +9827,33 @@
       "acceptsFunding": false
     },
     {
+      "id": "winui-app",
+      "type": "skill",
+      "category": "software-development",
+      "name": "winui-app",
+      "version": "1.0.0",
+      "description": "Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components. Use when creating a brand new app, preparing a machine for WinUI, reviewing, refactoring, planning, troubleshooting, environment-checking, or setting up WinUI 3 XAML, controls, navigation, windowing, theming, accessibility, responsiveness, performance, deployment, or related Windows app design and development work.",
+      "tags": [
+        "WinUI",
+        "Windows",
+        "Desktop"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/winui-app",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/winui-app",
+      "icon": null,
+      "iconify": "lucide:app-window",
+      "checksum": "sha256:ba6d5794bce331fac0ffed2105824b3bf4c8efe8c35a1f6321c77874dd628a25",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
       "id": "writing-great-skills",
       "type": "skill",
       "category": "software-development",
@@ -5943,6 +9906,60 @@
       "icon": null,
       "iconify": null,
       "checksum": "sha256:10f90617ee2ab1a78f157a48b9006d15a82761e2316bf6b360857c14a748a0d5",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "writing-skills",
+      "type": "skill",
+      "category": "software-development",
+      "name": "writing-skills",
+      "version": "1.0.0",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "tags": [
+        "Skills",
+        "Authoring",
+        "Writing"
+      ],
+      "author": "obra",
+      "license": "MIT",
+      "source": "https://github.com/obra/superpowers/tree/main/skills/writing-skills",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/writing-skills",
+      "icon": null,
+      "iconify": "lucide:file-code",
+      "checksum": "sha256:2d8596d3a6f1d7fa1c5e57798d49aa5baa05e2a6728666bbdfe7d9ce35ddd765",
+      "compatibility": null,
+      "acceptsFunding": false
+    },
+    {
+      "id": "yeet",
+      "type": "skill",
+      "category": "software-development",
+      "name": "yeet",
+      "version": "1.0.0",
+      "description": "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).",
+      "tags": [
+        "Git",
+        "Ship",
+        "Commit"
+      ],
+      "author": "openai",
+      "license": "Apache-2.0",
+      "source": "https://github.com/openai/skills/tree/main/skills/.curated/yeet",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "path": "skills/software-development/yeet",
+      "icon": null,
+      "iconify": "lucide:rocket",
+      "checksum": "sha256:890a88c5915c6f44739b7af7f87bf25dbd4351ff42d3ef2f8c71a25e552f4b99",
       "compatibility": null,
       "acceptsFunding": false
     },

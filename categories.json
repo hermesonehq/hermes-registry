@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-06-28T09:51:01+05:30",
+  "generated": "2026-06-28T04:51:55.274550+00:00",
   "types": [
     {
       "type": "agent",
@@ -14,7 +14,7 @@
     },
     {
       "type": "skill",
-      "count": 202,
+      "count": 349,
       "categories": [
         {
           "name": "apple",
@@ -34,15 +34,15 @@
         },
         {
           "name": "data-science",
-          "count": 1
+          "count": 9
         },
         {
           "name": "design",
-          "count": 5
+          "count": 14
         },
         {
           "name": "devops",
-          "count": 6
+          "count": 36
         },
         {
           "name": "diagramming",
@@ -53,12 +53,16 @@
           "count": 1
         },
         {
+          "name": "domain",
+          "count": 20
+        },
+        {
           "name": "email",
           "count": 1
         },
         {
           "name": "gaming",
-          "count": 2
+          "count": 3
         },
         {
           "name": "gifs",
@@ -66,7 +70,7 @@
         },
         {
           "name": "github",
-          "count": 6
+          "count": 8
         },
         {
           "name": "mcp",
@@ -74,11 +78,11 @@
         },
         {
           "name": "media",
-          "count": 6
+          "count": 8
         },
         {
           "name": "mlops",
-          "count": 9
+          "count": 27
         },
         {
           "name": "note-taking",
@@ -86,15 +90,15 @@
         },
         {
           "name": "productivity",
-          "count": 25
+          "count": 34
         },
         {
           "name": "red-teaming",
-          "count": 2
+          "count": 13
         },
         {
           "name": "research",
-          "count": 5
+          "count": 6
         },
         {
           "name": "smart-home",
@@ -106,7 +110,7 @@
         },
         {
           "name": "software-development",
-          "count": 35
+          "count": 71
         },
         {
           "name": "trading",
