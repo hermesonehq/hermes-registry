@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1",
+  "type": "mcp",
+  "id": "haunt",
+  "name": "Haunt",
+  "version": "1.2.0",
+  "description": "Turn permitted public pages into clean JSON or Markdown, with explicit errors when a page cannot be read.",
+  "author": {
+    "name": "Haunt API",
+    "url": "https://hauntapi.com"
+  },
+  "license": "MIT",
+  "source": "https://github.com/Darko893/haunt-mcp-server",
+  "tags": [
+    "web",
+    "extraction",
+    "markdown",
+    "structured-data",
+    "crawl"
+  ],
+  "icon": "icon.png",
+  "compatibility": {
+    "hermes": ">=0.3.0",
+    "desktop": ">=0.6.0"
+  },
+  "permissions": [
+    "network"
+  ],
+  "transport": "stdio",
+  "command": "npx",
+  "args": [
+    "-y",
+    "@hauntapi/mcp-server@1.2.0"
+  ],
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "HAUNT_API_KEY": {
+        "type": "string",
+        "description": "Haunt API key. Passed to the server as an environment variable. The no-key demo tool works without it."
+      }
+    }
+  }
+}
