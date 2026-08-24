@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1",
+  "type": "mcp",
+  "id": "worklittle/jobs",
+  "name": "Worklittle Jobs",
+  "version": "1.0.1",
+  "description": "Swipe to apply for jobs in your AI app, and search over 4 million jobs with filters like visa status, distance, and salary, and connect your Worklittle account to save jobs you love.",
+  "author": {
+    "name": "Worklittle",
+    "url": "https://worklittle.com"
+  },
+  "license": "MIT",
+  "source": "https://github.com/worklittle/jobs-mcp",
+  "tags": [
+    "jobs",
+    "careers",
+    "search",
+    "oauth"
+  ],
+  "icon": "icon.png",
+  "compatibility": {
+    "hermes": ">=0.3.0",
+    "desktop": ">=0.6.0"
+  },
+  "permissions": [
+    "network"
+  ],
+  "transport": "http",
+  "url": "https://mcp.worklittle.com/"
+}
