@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1",
+  "type": "mcp",
+  "id": "shashank-yadav/myworld",
+  "name": "myworld",
+  "version": "0.2.1",
+  "description": "Safe multi-tool practice worlds for real agent work.",
+  "author": {
+    "name": "Shashank Yadav",
+    "url": "https://github.com/shashank-yadav"
+  },
+  "license": "MIT",
+  "source": "https://github.com/shashank-yadav/myworld",
+  "tags": [
+    "mcp",
+    "agents",
+    "evaluation",
+    "practice-world",
+    "gmail",
+    "slack",
+    "drive"
+  ],
+  "icon": "icon.svg",
+  "compatibility": {
+    "hermes": ">=0.3.0",
+    "desktop": ">=0.6.0"
+  },
+  "permissions": [
+    "network"
+  ],
+  "transport": "stdio",
+  "command": "uvx",
+  "args": [
+    "myworld==0.2.1",
+    "world",
+    "invoice-review"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
