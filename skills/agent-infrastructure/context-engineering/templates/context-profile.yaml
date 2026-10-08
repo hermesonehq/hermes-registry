@@ -1,0 +1,166 @@
+# context-profile.yaml
+#
+# Declares the context architecture for a project.
+#
+# Copy this file into your project root, rename it to
+# `context-profile.yaml`, and edit the values to match your project.
+#
+# The agent reads this file at session start. It tells the agent:
+#   - What content lives in which tier
+#   - What the token budget is for each tier
+#   - What rules apply when content competes for space
+#   - What to do when degradation is detected
+#
+# See references/token-budget-framework.md for the reasoning behind
+# the default budgets. See references/progressive-disclosure-patterns.md
+# for the six patterns this file implements.
+
+version: 1
+
+# ---------------------------------------------------------------------
+# Project identity
+# ---------------------------------------------------------------------
+# Short description used by the agent to orient itself at session start.
+# Keep both fields to one line each.
+
+project:
+  name: "my-project"
+  description: "One-line description of what this project is."
+
+# ---------------------------------------------------------------------
+# Context tiers
+# ---------------------------------------------------------------------
+# Every piece of content belongs in exactly one tier. The tier
+# determines when the content is loaded and how much space it may
+# occupy.
+#
+# Three tiers are standard:
+#   - always_on  : loaded every turn
+#   - on_demand  : loaded only when the task needs it
+#   - ephemeral  : transient; filled at runtime, not declared here
+#
+# Budgets are in tokens. They are not hard limits enforced by the
+# runtime, but they are enforced by the degradation_triggers below.
+
+tiers:
+  always_on:
+    description: >
+      Content loaded into every turn. Keep this tier lean — identity,
+      active task, and hard constraints only. If it grows beyond 15%
+      of the window, reference material has leaked into it.
+    files:
+      - AGENTS.md
+      - context/task.md
+      - context/resume-brief.md
+    budget_tokens: 6000
+
+  on_demand:
+    description: >
+      Reference material loaded only when the task touches its domain.
+      This tier can be large because it is not all loaded at once —
+      only the relevant portion is pulled in per task.
+    files:
+      - references/architecture.md
+      - references/api-conventions.md
+      - references/decision-log.md
+      - references/glossary.md
+      - references/onboarding.md
+    budget_tokens: 40000
+    load_rule: >
+      Load a file from this tier when the user's request mentions its
+      topic keyword, or when the active sub-task depends on the
+      knowledge it contains. Load only the sections needed — start
+      with the Quick Reference section.
+
+  ephemeral:
+    description: >
+      Transient content: current tool output, recent conversation,
+      scratchpad. Filled at runtime, not declared. Cap the total to
+      prevent unbounded growth during long sessions.
+    budget_tokens: 20000
+
+# ---------------------------------------------------------------------
+# Rules
+# ---------------------------------------------------------------------
+# Rules express precedence and policy. They resolve conflicts between
+# tiers and prevent common architectural mistakes.
+#
+# Write rules as imperative sentences. Each rule should be testable —
+# a reviewer should be able to say "yes, this session followed that
+# rule" or "no, it did not."
+
+rules:
+  - "Never duplicate content that lives in an on_demand file inside AGENTS.md or the system prompt."
+  - "Compress conversation history to a resume brief after 20 turns."
+  - "Summarize any tool output larger than 2000 tokens before it enters context."
+  - "Load a skill only if its description matches the active task."
+  - "Load a reference file only if the request mentions its topic keyword."
+  - "Precedence, highest first: user instruction, then AGENTS.md, then loaded skill, then reference file."
+  - "The first action of every session is to read context/resume-brief.md."
+  - "The final action of every session is to write context/resume-brief.md."
+
+# ---------------------------------------------------------------------
+# Degradation triggers
+# ---------------------------------------------------------------------
+# Each trigger pairs a measurable signal with an action. When the
+# signal fires, the agent stops and applies the action before
+# continuing.
+#
+# The signals correspond to the metrics reported by the audit script:
+#   - instruction_survival_rate
+#   - stale_content_ratio
+#   - repetition_ratio
+#   - utilization
+#
+# Thresholds are conservative. Tighten them for quality-critical
+# sessions; loosen them for exploratory work.
+
+degradation_triggers:
+  - signal: "instruction_survival_rate < 0.7"
+    action: "Compress conversation history to a resume brief. Re-state all constraints explicitly in the brief."
+
+  - signal: "stale_content_ratio > 0.4"
+    action: "Drop tool outputs older than 10 turns unless they are referenced by the active sub-task. Mark completed sub-tasks."
+
+  - signal: "repetition_ratio > 0.3"
+    action: "Deduplicate overlapping reference files. Reconcile contradictory sources."
+
+  - signal: "utilization > 0.8"
+    action: "Stop. Compress before continuing. Move at least 30% of context into on_demand references."
+
+  - signal: "total_tokens > 100000"
+    action: "Emergency compression. Cache all tool outputs to disk. Replace conversation history with a resume brief."
+
+# ---------------------------------------------------------------------
+# Audit
+# ---------------------------------------------------------------------
+# Controls how often the audit script runs and where reports are
+# stored. Reports accumulate over time; the compare mode of the audit
+# script uses the two most recent reports.
+
+audit:
+  auto_run: true
+  run_every_n_turns: 10
+  report_dir: "~/.hermes/context-audit/"
+  compare_against_previous: true
+
+# ---------------------------------------------------------------------
+# Notes for editors
+# ---------------------------------------------------------------------
+# This template is intentionally small. It is meant to be copied and
+# edited, not used as-is. The values above are defaults calibrated for
+# a 128k-token window on a mid-sized project.
+#
+# When editing:
+#   - Add files to always_on only if they are truly needed every turn.
+#   - Prefer adding to on_demand. The agent can always load a file;
+#     it cannot always unload one.
+#   - Keep rules short and testable.
+#   - Add degradation triggers for any failure mode you have observed.
+#   - Bump the `version` field when you make structural changes, so
+#     collaborators can tell when the architecture changed.
+#
+# See also:
+#   - references/token-budget-framework.md
+#   - references/progressive-disclosure-patterns.md
+#   - references/degradation-signals.md
